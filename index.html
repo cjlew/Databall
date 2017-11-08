@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="./stylesheets/index.scss">
     <meta charset="utf-8">
     <title>Databall</title>
   </head>
   <body>
-    <div class='top'></div>
-    <div class='main'>
-      <div class='left'></div>
-      <div class='right'></div>
+    <div class='index'>
+      <div class='top'>
+        <h1>Databall</h1>
+        <h3>An interactive data visualizer for NBA stats</h3>
+      </div>
+      <div class='main'>
+        <div class='left'>
+          <div class='dropdowns'>
+            <label> X-axis
+              <select class='x-axis-selector'>
+                <option value="PPG">PPG</option>
+                <option value="APG">APG</option>
+                <option value="RPG">RPG</option>
+                <option value="FG%">FG%</option>
+                <option value="FT%">FT%</option>
+              </select>
+            </label>
+            <label> Y-axis
+              <select class='y-axis-selector'>
+                <option value="PPG">PPG</option>
+                <option value="APG">APG</option>
+                <option value="RPG">RPG</option>
+                <option value="FG%">FG%</option>
+                <option value="FT%">FT%</option>
+              </select>
+            </label>
+          </div>
+          <input type='text'
+                 placeholder="Pick a Player"/>
+        </div>
+        <div class='right'>
+        </div>
+      </div>
+      <div class='bottom'>
+        <a href='https://www.linkedin.com/in/cjlew'>
+          <img src='./assets/images/linkedin-66-logo.png' alt='linkedin-profile'/>
+        </a>
+        <a href='https://www.github.com/cjlew'>
+          <img src='./assets/images/GitHub-Mark-64px.png' alt='github-repo'>
+        </a>
+
+      </div>
     </div>
-    <div class='bottom'></div>
   </body>
 </html>
