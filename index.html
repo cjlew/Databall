@@ -13,22 +13,27 @@
       </div>
       <div class='main'>
         <div class='left'>
+          <form>
+            <input type='radio' name='type' value='PG'>Per Game</input>
+            <input type='radio' name='type' value='TOT'>Total</input>
+
+          </form>
           <div class='dropdowns'>
             <label> X-axis
               <select class='x-axis-selector'>
-                <option value="PPG">PPG</option>
-                <option value="APG">APG</option>
-                <option value="RPG">RPG</option>
-                <option value="FG%">FG%</option>
+                <option value="PTS">PTS</option>
+                <option value="AST">AST</option>
+                <option value="TRB">TRB</option>
+                <option value="STL">STL</option>
                 <option value="FT%">FT%</option>
               </select>
             </label>
             <label> Y-axis
               <select class='y-axis-selector'>
-                <option value="PPG">PPG</option>
-                <option value="APG">APG</option>
-                <option value="RPG">RPG</option>
-                <option value="FG%">FG%</option>
+                <option value="PTS">PTS</option>
+                <option value="AST">AST</option>
+                <option value="TRB">TRB</option>
+                <option value="STL">STL</option>
                 <option value="FT%">FT%</option>
               </select>
             </label>
@@ -37,6 +42,7 @@
                  placeholder="Pick a Player"/>
         </div>
         <div class='right'>
+          <div class='plot'></div>
         </div>
       </div>
       <div class='bottom'>
