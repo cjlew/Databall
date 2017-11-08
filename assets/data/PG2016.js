@@ -88,3 +88,5 @@ const PG2016 = [
     "TRB": 8.8
   },
 ];
+
+export default PG2016;
