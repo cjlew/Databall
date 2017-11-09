@@ -9299,38 +9299,126 @@ function transform(node) {
 
 /***/ }),
 /* 171 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_data_PG2016_json__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_data_PG2016_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_data_PG2016_json__);
 const d3 = __webpack_require__(172);
 const $ = __webpack_require__(463);
 
+
 // Data for dropdowns
-const years = [];
+const YEARS = [];
 for (let i = 2000; i <= 2016; i++){
-  years.push(i);
+  YEARS.push(i);
 }
 
-const stats = ['PTS', 'TRB', 'STL', 'AST'];
+const STATS = ['PTS', 'TRB', 'STL', 'AST'];
 
-const teams = ['CLE', 'NYK', 'HOU', 'OKC', 'GSW', 'NOP', 'WAS', 'MIL'];
+const TEAMS = ['All', 'CLE', 'NYK', 'HOU', 'OKC', 'GSW', 'NOP', 'WAS', 'MIL'];
 
+const POSITIONS = ['All','PG', 'SG', 'SF', 'PF', 'C'];
 
-// Populate dropwdowns
+// Populate dropdowns
 
-const populateYearsDropdowns = (yearsData) => {
-  let selects = d3.selectAll('.year-select');
-  selects.forEach((select) => {
-  let options = selects
+const populateYearsDropdowns = (data) => {
+  let selects = d3.selectAll('.year-select')
     .selectAll('option')
-    .data(yearsData).enter()
+    .data(data).enter()
     .append('option')
       .text(function(d) {return d;});
-    });
 };
 
-document.addEventListener("DOMContentLoaded", (e) => {
-  populateYearsDropdowns(years);
+const populateStatsDropdowns = (data) => {
+  let selects = d3.selectAll('.stats-selector')
+    .selectAll('option')
+    .data(data).enter()
+    .append('option')
+      .text(function(d) {return d;});
+};
 
+const populateTeamDropdowns = (data) => {
+  let selects = d3.selectAll('.team-select')
+    .selectAll('option')
+    .data(data).enter()
+    .append('option')
+      .text(function(d) {return d;});
+};
+
+const populatePositionDropdowns = (data) => {
+  let selects = d3.selectAll('.position-select')
+    .selectAll('option')
+    .data(data).enter()
+    .append('option')
+      .text(function(d) {return d;});
+};
+
+const makePlot = (type, xSelect, ySelect, startYear, endYear, team, position) => {
+
+  let margin = {top: 20, right: 20, bottom: 30, left: 40},
+      width = 960 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+  let x = d3.scaleLinear().range([0, width]);
+  let y = d3.scaleLinear().range([height, 0]);
+
+  let svg = d3.select('.plot').append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+
+  d3.json(`../assets/data/PG2016.json`, function(error, data) {
+    if (error) throw error;
+
+
+    data.forEach(function(d){
+      d.PTS = Number(d.PTS);
+      d.TRB = Number(d.TRB);
+    });
+
+    x.domain(d3.extent(data, function(d) { return d.PTS; }));
+    y.domain([0, d3.max(data, function(d) { return d.TRB; })]);
+
+    svg.selectAll("dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("r", 5)
+      .attr("cx", function(d) { return x(d.PTS); })
+      .attr("cy", function(d) { return y(d.TRB); });
+
+    svg.append("g")
+       .attr("transform", "translate(0," + height + ")")
+       .call(d3.axisBottom(x));
+
+   svg.append("g")
+       .call(d3.axisLeft(y));
+
+
+  });
+};
+
+
+
+document.addEventListener("DOMContentLoaded", (e) => {
+  populateYearsDropdowns(YEARS);
+  populateStatsDropdowns(STATS);
+  populateTeamDropdowns(TEAMS);
+  populatePositionDropdowns(POSITIONS);
+
+  // Check selectors
+  let type = d3.select('input[name="data-type"]:checked').property('value');
+  let xSelect = d3.select('#x-axis-selector').property('value');
+  let ySelect = d3.select('#y-axis-selector').property('value');
+  let startYear = d3.select('#start-year').property('value');
+  let endYear = d3.select('#end-year').property('value');
+  let team = d3.select('#team').property('value');
+  let position = d3.select('#position').property('value');
+  //
+  makePlot(type, xSelect, ySelect, startYear, endYear, team, position);
 });
 
 
@@ -33124,6 +33212,14 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
+
+/***/ }),
+/* 464 */,
+/* 465 */,
+/* 466 */
+/***/ (function(module, exports) {
+
+module.exports = [{"name":"Lebron James","team":"CLE","PTS":26.4,"AST":8.7,"STL":1.2,"TRB":8.6},{"name":"Kristaps Porzingis","team":"NYK","PTS":18.1,"AST":1.5,"STL":0.7,"TRB":7.2},{"name":"Russel Westbrook","team":"OKC","PTS":31.6,"AST":10.4,"STL":1.6,"TRB":10.7},{"name":"James Harden","team":"HOU","PTS":29.1,"AST":11.2,"STL":1.5,"TRB":8.1},{"name":"Stephen Currey","team":"GSW","PTS":25.3,"AST":6.6,"STL":1.8,"TRB":4.5},{"name":"Anthony Davis","team":"NOP","PTS":28,"AST":2.1,"STL":1.3,"TRB":11.8},{"name":"Kevin Durant","team":"GSW","PTS":25.1,"AST":4.8,"STL":1.1,"TRB":8.3},{"name":"John Wall","team":"WAS","PTS":23.1,"AST":10.7,"STL":2,"TRB":4.2},{"name":"Isaiah Thomas","team":"BOS","PTS":28.9,"AST":5.9,"STL":0.9,"TRB":2.7},{"name":"Carmelo Anthony","team":"NYK","PTS":22.4,"AST":2.9,"STL":0.8,"TRB":5.9},{"name":"Giannis Antetokounmpo","team":"MIL","PTS":22.9,"AST":5.4,"STL":1.6,"TRB":8.8}]
 
 /***/ })
 /******/ ]);

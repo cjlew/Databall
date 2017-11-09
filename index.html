@@ -14,28 +14,18 @@
       </div>
       <div class='main'>
         <div class='left'>
-          <form>
-            <input type='radio' name='type' value='PG'>Per Game</input>
-            <input type='radio' name='type' value='TOT'>Total</input>
+          <form class='data-type'>
+            <input type='radio' name='data-type' value='PG' checked="checked">Per Game</input>
+            <input type='radio' name='data-type' value='TOT'>Total</input>
 
           </form>
           <div class='axis-dropdowns'>
             <label> X-axis
-              <select class='x-axis-selector'>
-                <option value="PTS">PTS</option>
-                <option value="AST">AST</option>
-                <option value="TRB">TRB</option>
-                <option value="STL">STL</option>
-                <option value="FT%">FT%</option>
+              <select id='x-axis-selector' class='stats-selector'>
               </select>
             </label>
             <label> Y-axis
-              <select class='y-axis-selector'>
-                <option value="PTS">PTS</option>
-                <option value="AST">AST</option>
-                <option value="TRB">TRB</option>
-                <option value="STL">STL</option>
-                <option value="FT%">FT%</option>
+              <select id='y-axis-selector' class='stats-selector'>
               </select>
             </label>
           </div>
@@ -46,6 +36,18 @@
             </label>
             <label>End Year
               <select id='end-year' class='year-select'>
+              </select>
+            </label>
+          </div>
+          <div class='team-dropdowns'>
+            <label>Team
+              <select id='team' class='team-select'>
+              </select>
+            </label>
+          </div>
+          <div class='postion-drowndowns'>
+            <label>Position
+              <select id='position' class='position-select'>
               </select>
             </label>
           </div>

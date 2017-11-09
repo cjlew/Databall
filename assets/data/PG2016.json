@@ -1,5 +1,4 @@
-const PG2016 = [
-  {
+[{
     "name": "Lebron James",
     "team": "CLE",
     "PTS": 26.4,
@@ -12,7 +11,7 @@ const PG2016 = [
     "team": "NYK",
     "PTS": 18.1,
     "AST": 1.5,
-    "STL": .7,
+    "STL": 0.7,
     "TRB": 7.2
   },
   {
@@ -68,7 +67,7 @@ const PG2016 = [
     "team": "BOS",
     "PTS": 28.9,
     "AST": 5.9,
-    "STL": .9,
+    "STL": 0.9,
     "TRB": 2.7
   },
   {
@@ -76,7 +75,7 @@ const PG2016 = [
     "team": "NYK",
     "PTS": 22.4,
     "AST": 2.9,
-    "STL": .8,
+    "STL": 0.8,
     "TRB": 5.9
   },
   {
@@ -86,7 +85,5 @@ const PG2016 = [
     "AST": 5.4,
     "STL": 1.6,
     "TRB": 8.8
-  },
-];
-
-export default PG2016;
+  }
+]
