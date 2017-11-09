@@ -18,7 +18,13 @@ body, html {
   align-items: center;
 }
 
-.dropdowns{
+.axis-dropdowns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.year-dropdowns{
   display: flex;
   justify-content: center;
   align-items: center;

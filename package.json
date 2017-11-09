@@ -1,7 +1,7 @@
 {
   "name": "databall",
   "version": "1.0.0",
-  "description": "",
+  "description": "An NBA data visualization application",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "d3": "^4.11.0",
+    "jquery": "^3.2.1",
     "webpack": "^3.8.1"
   }
 }

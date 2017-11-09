@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./stylesheets/index.scss">
+    <link rel="stylesheet" href="./stylesheets/index.css">
     <meta charset="utf-8">
-    <script type="text/javascript" src='./lib/bundle.js'></script>
+    <script type="text/javascript" src='./bundle.js'></script>
     <title>Databall</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
             <input type='radio' name='type' value='TOT'>Total</input>
 
           </form>
-          <div class='dropdowns'>
+          <div class='axis-dropdowns'>
             <label> X-axis
               <select class='x-axis-selector'>
                 <option value="PTS">PTS</option>
@@ -36,6 +36,16 @@
                 <option value="TRB">TRB</option>
                 <option value="STL">STL</option>
                 <option value="FT%">FT%</option>
+              </select>
+            </label>
+          </div>
+          <div class='year-dropdowns'>
+            <label>Start Year
+              <select id='start-year' class='year-select'>
+              </select>
+            </label>
+            <label>End Year
+              <select id='end-year' class='year-select'>
               </select>
             </label>
           </div>
