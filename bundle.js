@@ -9303,8 +9303,7 @@ function transform(node) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_data_PG2016_json__ = __webpack_require__(464);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_data_PG2016_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_data_PG2016_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__make_plot_js__ = __webpack_require__(465);
 const d3 = __webpack_require__(172);
 
 
@@ -9374,13 +9373,13 @@ const handleSelectChange = (e) => {
   let property = e.target.id;
   let value = e.target.value;
   Parameters[property] = value;
-  makePlot(Parameters);
+  Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 };
 
 const handlePlayerSearch = (e) => {
   e.preventDefault(e);
   Parameters.player = e.target.value;
-  makePlot(Parameters);
+  Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 
 };
 
@@ -9405,53 +9404,11 @@ const addEventListeners = () => {
 
   let playerSelector = document.getElementById("player");
   playerSelector.addEventListener("change", handlePlayerSearch);
+
+  let positionSelector = document.getElementById("position");
+  positionSelector.addEventListener("change", handleSelectChange);
+
 };
-
-
-const makePlot = (Params) => {
-
-  d3.selectAll("svg").remove();
-
-  let margin = {top: 50, right: 20, bottom: 30, left: 40},
-      width = 960 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
-
-  let x = d3.scaleLinear().range([0, width]);
-  let y = d3.scaleLinear().range([height, 0]);
-
-  let svg = d3.select('.plot').append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-        .attr("transform","translate(" + margin.left + "," + margin.top + ")");
-
-  d3.json(`../assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
-    if (error) throw error;
-    data.forEach((d) => {
-      d[Params.xSelect] = Number(d[Params.xSelect]);
-      d[Params.ySelect] = Number(d[Params.ySelect]);
-    });
-    x.domain(d3.extent(data,(d) => d[Params.xSelect]));
-    y.domain([0, d3.max(data,(d) => d[Params.ySelect])]);
-
-    svg.selectAll("dot")
-      .data(data)
-    .enter().append("circle")
-      .attr("r", 5)
-      .attr("cx", (d) =>  x(d[Params.xSelect]) )
-      .attr("cy", (d) => y(d[Params.ySelect]) );
-
-    svg.append("g")
-       .attr("transform", "translate(0," + height + ")")
-       .call(d3.axisBottom(x));
-
-   svg.append("g")
-       .call(d3.axisLeft(y));
-
-
-  });
-};
-
 
 
 document.addEventListener("DOMContentLoaded", (e) => {
@@ -9460,7 +9417,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   populateTeamDropdowns(TEAMS);
   populatePositionDropdowns(POSITIONS);
   addEventListeners();
-  makePlot(Parameters);
+  Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 });
 
 
@@ -22997,10 +22954,103 @@ function nopropagation() {
 
 /***/ }),
 /* 463 */,
-/* 464 */
-/***/ (function(module, exports) {
+/* 464 */,
+/* 465 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = [{"name":"Lebron James","team":"CLE","PTS":26.4,"AST":8.7,"STL":1.2,"TRB":8.6},{"name":"Kristaps Porzingis","team":"NYK","PTS":18.1,"AST":1.5,"STL":0.7,"TRB":7.2},{"name":"Russel Westbrook","team":"OKC","PTS":31.6,"AST":10.4,"STL":1.6,"TRB":10.7},{"name":"James Harden","team":"HOU","PTS":29.1,"AST":11.2,"STL":1.5,"TRB":8.1},{"name":"Stephen Currey","team":"GSW","PTS":25.3,"AST":6.6,"STL":1.8,"TRB":4.5},{"name":"Anthony Davis","team":"NOP","PTS":28,"AST":2.1,"STL":1.3,"TRB":11.8},{"name":"Kevin Durant","team":"GSW","PTS":25.1,"AST":4.8,"STL":1.1,"TRB":8.3},{"name":"John Wall","team":"WAS","PTS":23.1,"AST":10.7,"STL":2,"TRB":4.2},{"name":"Isaiah Thomas","team":"BOS","PTS":28.9,"AST":5.9,"STL":0.9,"TRB":2.7},{"name":"Carmelo Anthony","team":"NYK","PTS":22.4,"AST":2.9,"STL":0.8,"TRB":5.9},{"name":"Giannis Antetokounmpo","team":"MIL","PTS":22.9,"AST":5.4,"STL":1.6,"TRB":8.8}]
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__parametrize_js__ = __webpack_require__(466);
+const d3 = __webpack_require__(172);
+
+
+const makePlot = (Params) => {
+
+  d3.selectAll("svg").remove();
+
+  let margin = {top: 50, right: 20, bottom: 30, left: 40},
+      width = 960 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+  let x = d3.scaleLinear().range([0, width]);
+  let y = d3.scaleLinear().range([height, 0]);
+
+  let svg = d3.select('.plot').append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+  d3.json(`../assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
+    if (error) throw error;
+
+    const refinedData = Object(__WEBPACK_IMPORTED_MODULE_0__parametrize_js__["a" /* parametrize */])(data, Params);
+    refinedData.forEach((d) => {
+
+      d[Params.xSelect] = Number(d[Params.xSelect]);
+      d[Params.ySelect] = Number(d[Params.ySelect]);
+    });
+    x.domain(d3.extent(refinedData,(d) => d[Params.xSelect]));
+    y.domain([0, d3.max(refinedData,(d) => d[Params.ySelect])]);
+
+    svg.selectAll("dot")
+      .data(refinedData)
+    .enter().append("circle")
+      .attr("r", 5)
+      .attr("cx", (d) =>  x(d[Params.xSelect]) )
+      .attr("cy", (d) => y(d[Params.ySelect]) );
+
+    svg.append("g")
+       .attr("transform", "translate(0," + height + ")")
+       .call(d3.axisBottom(x));
+
+   svg.append("g")
+       .call(d3.axisLeft(y));
+
+
+  });
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = makePlot;
+
+
+
+/***/ }),
+/* 466 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+const d3 = __webpack_require__(172);
+
+const parametrize = (data, params) => {
+  let refinedData = [];
+
+  if (params.position !== 'All' && params.team !== 'All') {
+    data.forEach((player) => {
+      if (params.position === player.position && params.team === player.team) {
+        refinedData.push(player);
+      }
+    });
+  } else if (params.position !== 'All') {
+    data.forEach((player) => {
+      if (params.position === player.position) {
+        refinedData.push(player);
+      }
+    });
+  } else if (params.team !== 'All') {
+    data.forEach((player) => {
+      if (params.team === player.team) {
+        refinedData.push(player);
+      }
+    });
+  } else {
+    refinedData = data;
+  }
+
+
+  return refinedData;
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = parametrize;
+
+
 
 /***/ })
 /******/ ]);

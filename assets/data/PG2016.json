@@ -1,6 +1,7 @@
 [{
     "name": "Lebron James",
     "team": "CLE",
+    "position": "SF",
     "PTS": 26.4,
     "AST": 8.7,
     "STL": 1.2,
@@ -8,6 +9,7 @@
   },
   {
     "name": "Kristaps Porzingis",
+    "position": "PF",
     "team": "NYK",
     "PTS": 18.1,
     "AST": 1.5,
@@ -16,6 +18,7 @@
   },
   {
     "name": "Russel Westbrook",
+    "position": "PG",
     "team": "OKC",
     "PTS": 31.6,
     "AST": 10.4,
@@ -24,6 +27,7 @@
   },
   {
     "name": "James Harden",
+    "position": "SG",
     "team": "HOU",
     "PTS": 29.1,
     "AST": 11.2,
@@ -31,7 +35,8 @@
     "TRB": 8.1
   },
   {
-    "name": "Stephen Currey",
+    "name": "Stephen Curry",
+    "position": "PG",
     "team": "GSW",
     "PTS": 25.3,
     "AST": 6.6,
@@ -40,6 +45,7 @@
   },
   {
     "name": "Anthony Davis",
+    "position": "C",
     "team": "NOP",
     "PTS": 28.0,
     "AST": 2.1,
@@ -48,6 +54,7 @@
   },
   {
     "name": "Kevin Durant",
+    "position": "SF",
     "team": "GSW",
     "PTS": 25.1,
     "AST": 4.8,
@@ -56,6 +63,7 @@
   },
   {
     "name": "John Wall",
+    "position": "PG",
     "team": "WAS",
     "PTS": 23.1,
     "AST": 10.7,
@@ -64,6 +72,7 @@
   },
   {
     "name": "Isaiah Thomas",
+    "position": "PG",
     "team": "BOS",
     "PTS": 28.9,
     "AST": 5.9,
@@ -72,6 +81,7 @@
   },
   {
     "name": "Carmelo Anthony",
+    "position": "SF",
     "team": "NYK",
     "PTS": 22.4,
     "AST": 2.9,
@@ -80,6 +90,7 @@
   },
   {
     "name": "Giannis Antetokounmpo",
+    "position": "SF",
     "team": "MIL",
     "PTS": 22.9,
     "AST": 5.4,
