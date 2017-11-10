@@ -23019,10 +23019,9 @@ const makePlot = (Params) => {
         tooltip.transition()
           .style("display", "inline-block")
           .style("left", (d3.event.pageX - 70) + "px")
-          .style("top", (d3.event.pageY - 120) + "px");
-        tooltip.html(d.name + "<br/>" + "<span>PTS: " + d.PTS + "</span><br/>"
-                      + "<span>TRB: " + d.TRB + "</span><br/>" + "<span>AST: "
-                      + d.AST + "</span>")
+          .style("top", (d3.event.pageY - 75) + "px");
+        tooltip.html(d.name + "<br/>" + `<span>${Params.xSelect}: `  + d[Params.xSelect] + "</span><br/>"
+                      + (Params.xSelect === Params.ySelect ? '' : `<span>${Params.ySelect}: ` + d[Params.ySelect] + "</span><br/>"))
                       .style("background-color", `${NBACOLORS[d.team]}`);
 
       })
