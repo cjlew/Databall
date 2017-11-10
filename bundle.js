@@ -9323,7 +9323,7 @@ const POSITIONS = ['All','PG', 'SG', 'SF', 'PF', 'C'];
 const Parameters = {
   type: 'PG',
   xSelect: 'PTS',
-  ySelect: 'AST',
+  ySelect: 'PTS',
   startYear: 2016,
   endYear: 2016,
   team: 'All',
@@ -22963,6 +22963,16 @@ function nopropagation() {
 const d3 = __webpack_require__(172);
 
 
+const NBACOLORS = {ATL: '#C8102E', BOS: '#007A33', WAS: '#0C2340', BKN: '#010101',
+                  CHA: '#201747', CHI: '#BA0C2F',
+                  "CLE": '#6F263D', DAL: '#0050B5', DEN: '#418FDE',
+                  DET: '#003DA5', GSW: '#003DA5', HOU: '#BA0C2F',
+                  IND: '#041E42', LAC: '#D50032', LAL:'#702F8A', MEM:"#23375B;",
+                  MIA:'#862633', MIL:'#2C5234', MIN:'#002B5C', NOP:'#002B5C',
+                  NYK:'#003DA5', OKC:'#007DC3', ORL:'#007DC5',
+                  PHI:'#006BB6', PHO:'#E56020', POR:'#F0163A;',
+                  SAC:'#724C9F', SA:'#B6BFBF', TOR:'#CE1141', UTA:'#002B5C'};
+
 const makePlot = (Params) => {
 
   d3.selectAll("svg").remove();
@@ -22973,6 +22983,10 @@ const makePlot = (Params) => {
 
   let x = d3.scaleLinear().range([0, width]);
   let y = d3.scaleLinear().range([height, 0]);
+
+  let tooltip = d3.select("body").append("div")
+        .attr("class", "toolTip")
+        .style("display", "none");
 
   let svg = d3.select('.plot').append("svg")
       .attr("width", width + margin.left + margin.right)
@@ -22989,7 +23003,10 @@ const makePlot = (Params) => {
       d[Params.xSelect] = Number(d[Params.xSelect]);
       d[Params.ySelect] = Number(d[Params.ySelect]);
     });
-    x.domain(d3.extent(refinedData,(d) => d[Params.xSelect]));
+
+    let min = d3.min(refinedData,(d) => d[Params.xSelect]);
+    x.domain([(min - 2 <= 0 ? 0 : min - 2),
+              d3.max(refinedData,(d) => d[Params.xSelect])]);
     y.domain([0, d3.max(refinedData,(d) => d[Params.ySelect])]);
 
     svg.selectAll("dot")
@@ -22997,15 +23014,52 @@ const makePlot = (Params) => {
     .enter().append("circle")
       .attr("r", 5)
       .attr("cx", (d) =>  x(d[Params.xSelect]) )
-      .attr("cy", (d) => y(d[Params.ySelect]) );
+      .attr("cy", (d) => y(d[Params.ySelect]) )
+      .on("mouseover", (d) => {
+        tooltip.transition()
+          .style("display", "inline-block")
+          .style("left", (d3.event.pageX - 70) + "px")
+          .style("top", (d3.event.pageY - 120) + "px");
+        tooltip.html(d.name + "<br/>" + "<span>PTS: " + d.PTS + "</span><br/>"
+                      + "<span>TRB: " + d.TRB + "</span><br/>" + "<span>AST: "
+                      + d.AST + "</span>")
+                      .style("background-color", `${NBACOLORS[d.team]}`);
+
+      })
+      .on("mouseout", function(d) {
+       tooltip.transition()
+         .duration(400)
+         .style("display", 'none');
+       });
 
     svg.append("g")
+       .attr("class", "x-axis")
        .attr("transform", "translate(0," + height + ")")
        .call(d3.axisBottom(x));
 
+
    svg.append("g")
+       .attr("class", "y-axis")
        .call(d3.axisLeft(y));
 
+
+    svg.append('text')
+    .attr("class", "label")
+    .attr("transform","translate(" + (width - 20) + " ," + (height-5) + ")")
+    .style("fill", "white")
+    .style("text-anchor", "middle")
+    .text(`${Params.xSelect}`);
+
+    svg.append('text')
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 1)
+      .attr("x", (height/2 - 250))
+      .attr("dy", "1em")
+      .style("font-family", "sans-serif")
+      .style("fill", "white")
+      .style("text-anchor", "middle")
+      .text(`${Params.ySelect}`);
 
   });
 };
