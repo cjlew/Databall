@@ -14,11 +14,12 @@
       </div>
       <div class='main'>
         <div class='left'>
-          <form class='type'>
-            <input type='radio' name='type' value='PG' checked="checked">Per Game</input>
-            <input type='radio' name='type' value='TOT'>Total</input>
-
-          </form>
+          <label>Stat Type
+            <select id='type' class='type-selector'>
+              <option value='PG'>Per Game</option>
+              <option value='TOT'>Total</option>
+            </select>
+          </labeL>
           <div class='axis-dropdowns'>
             <label> X-axis
               <select id='xSelect' class='stats-selector'>

@@ -9310,7 +9310,7 @@ const d3 = __webpack_require__(172);
 
 // Data for dropdowns
 const YEARS = [];
-for (let i = 2000; i <= 2016; i++){
+for (let i = 2016; i >= 2000; i--){
   YEARS.push(i);
 }
 
@@ -9374,21 +9374,19 @@ const handleSelectChange = (e) => {
   let property = e.target.id;
   let value = e.target.value;
   Parameters[property] = value;
-};
-
-const handleRadioChange = (e) => {
-  e.preventDefault();
-  Parameters.type = e.target.value;
+  makePlot(Parameters);
 };
 
 const handlePlayerSearch = (e) => {
   e.preventDefault(e);
   Parameters.player = e.target.value;
+  makePlot(Parameters);
+
 };
 
 const addEventListeners = () => {
-  let radios = document.getElementsByName('type');
-  radios.forEach(radio => addEventListener("change", handleRadioChange));
+  let statType = document.getElementById('type');
+  statType.addEventListener("change", handleSelectChange);
 
   let xAxisSelector = document.getElementById("xSelect");
   xAxisSelector.addEventListener("change", handleSelectChange);
@@ -9410,12 +9408,11 @@ const addEventListeners = () => {
 };
 
 
-
-
-
 const makePlot = (Params) => {
-  this.Params = Params;
-  let margin = {top: 20, right: 20, bottom: 30, left: 40},
+
+  d3.selectAll("svg").remove();
+
+  let margin = {top: 50, right: 20, bottom: 30, left: 40},
       width = 960 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
 
@@ -9428,23 +9425,21 @@ const makePlot = (Params) => {
       .append("g")
         .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json(`../assets/data/PG2016.json`, (error, data) => {
+  d3.json(`../assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
     if (error) throw error;
-    debugger
     data.forEach((d) => {
-      d.Params.xSelect = Number(d.Params.xSelect);
-      d.Params.ySelect = Number(d.Params.ySelect);
+      d[Params.xSelect] = Number(d[Params.xSelect]);
+      d[Params.ySelect] = Number(d[Params.ySelect]);
     });
-
-    x.domain(d3.extent(data,(d) => d.Params.xSelect));
-    y.domain([0, d3.max(data,(d) => d.Params.ySelect)]);
+    x.domain(d3.extent(data,(d) => d[Params.xSelect]));
+    y.domain([0, d3.max(data,(d) => d[Params.ySelect])]);
 
     svg.selectAll("dot")
       .data(data)
     .enter().append("circle")
       .attr("r", 5)
-      .attr("cx", (d) =>  x(d.xSelect) )
-      .attr("cy", (d) => y(d.ySelect) );
+      .attr("cx", (d) =>  x(d[Params.xSelect]) )
+      .attr("cy", (d) => y(d[Params.ySelect]) );
 
     svg.append("g")
        .attr("transform", "translate(0," + height + ")")
@@ -9465,7 +9460,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   populateTeamDropdowns(TEAMS);
   populatePositionDropdowns(POSITIONS);
   addEventListeners();
-
   makePlot(Parameters);
 });
 
