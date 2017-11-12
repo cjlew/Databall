@@ -9776,7 +9776,9 @@ function transform(node) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__make_plot_js__ = __webpack_require__(463);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__glossary_js__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_js__ = __webpack_require__(466);
 const d3 = __webpack_require__(33);
+
 
 
 
@@ -9892,6 +9894,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
   addEventListeners();
   Object(__WEBPACK_IMPORTED_MODULE_1__glossary_js__["a" /* setupGlossary */])();
+  Object(__WEBPACK_IMPORTED_MODULE_2__player_js__["a" /* setupPlayer */])();
 
   Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 });
@@ -22976,6 +22979,25 @@ const NBACOLORS = {ATL: '#C8102E', BOS: '#007A33', WAS: '#0C2340', BKN: '#010101
                   PHI:'#006BB6', PHO:'#E56020', POR:'#F0163A;',
                   SAC:'#724C9F', SA:'#B6BFBF', TOR:'#CE1141', UTA:'#002B5C'};
 
+const handleOpen = (e) => {
+  let modal = d3.select('#player-modal')
+                .classed("close", false)
+                .classed("open", true);
+  let playerModalStats = d3.select('#player-modal-stats').append("h1")
+                              .attr("class", "player-modal-name")
+                              .html(e.name);
+  let stats = playerModalStats.append("ul")
+                .attr('class', 'stats-ul');
+  Object.keys(e).forEach((stat) => {
+    if (stat !== 'name') {
+    stats.append("li")
+      .html(`${stat}: ` + `${e[stat]}`);
+    }
+  });
+
+
+};
+
 const makePlot = (Params) => {
 
   d3.selectAll("svg").remove();
@@ -23018,6 +23040,7 @@ const makePlot = (Params) => {
       .attr("r", 5)
       .attr("cx", (d) =>  x(d[Params.xSelect]) )
       .attr("cy", (d) => y(d[Params.ySelect]) )
+      .on("click", handleOpen)
       .on("mouseover", (d) => {
         tooltip.transition()
           .style("display", "inline-block")
@@ -23138,6 +23161,33 @@ const setupGlossary = () => {
 
 };
 /* harmony export (immutable) */ __webpack_exports__["a"] = setupGlossary;
+
+
+
+/***/ }),
+/* 466 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+const d3 = __webpack_require__(33);
+
+const handleExit = (e) => {
+  e.preventDefault();
+  let modal = d3.select('#player-modal')
+                .classed("open", false)
+                .classed("close", true);
+
+  d3.select('.player-modal-name').remove();
+  d3.select('.stats-ul').remove();
+};
+
+
+const setupPlayer = () => {
+  let exitButton = document.getElementById('player-close')
+                    .addEventListener('click', handleExit);
+
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = setupPlayer;
 
 
 

@@ -1,0 +1,33 @@
+#player-modal{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+
+}
+
+#player-close{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 60px;
+  height: 40px;
+}
+
+#player-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#player-header-empty {
+  width: 60px;
+}
+
+#player-open {
+  width: 60px;
+  height: 30px;
+  margin-bottom: 40px;
+}

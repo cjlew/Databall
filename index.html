@@ -6,22 +6,29 @@
     <link rel="stylesheet" href="./stylesheets/plot.css">
     <link rel="stylesheet" href="./stylesheets/glossary.css">
     <link rel="stylesheet" href="./stylesheets/grid.css">
+    <link rel="stylesheet" href="./stylesheets/player.css">
     <meta charset="utf-8">
     <script type="text/javascript" src='./bundle.js'></script>
     <title>Databall</title>
   </head>
   <body>
     <div class='background'></div>
-    <div class='player-modal-container close'>
-      <button class='player-close'></button>
-
-    </div>
     <div class='index'>
+      <div id='player-modal' class='player-modal-container close'>
+        <div id='player-top'>
+          <button id='player-close' class='player-close'>Close</button>
+          <h2 id='Player Statistics'></h2>
+          <div id='player-header-empty'></div>
+        </div>
+        <div id='player-modal-stats'>
+
+        </div>
+      </div>
       <div id='glossary-modal' class='glossary-modal-container close'>
         <div id='glossary-top'>
-        <button id='glossary-close'>Close</button>
-        <h2> Glossary </h2>
-        <div id='glos-header-empty'></div>
+          <button id='glossary-close'>Close</button>
+          <h2> Glossary </h2>
+          <div id='glos-header-empty'></div>
         </div>
           <ul class=glossary-terms>
             <li>2P: 2-Point Field Goals</li>
