@@ -22,9 +22,20 @@
 }
 
 #glossary-close{
-  margin:auto;
+  margin-top: 20px;
+  margin-left: 20px;
   width: 60px;
-  height: 30px;
+  height: 40px;
+}
+
+#glossary-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#glos-header-empty {
+  width: 60px;
 }
 
 #glossary-open {

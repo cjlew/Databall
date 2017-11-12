@@ -1,0 +1,8 @@
+.index {
+  display: grid;
+  grid-template-rows: 15% auto 15%;
+  grid-template-areas:
+  "top"
+  "main"
+  "bottom";
+}
