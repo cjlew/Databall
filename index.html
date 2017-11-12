@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Arimo|Spectral+SC" rel="stylesheet">    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Spectral+SC" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/index.css">
     <link rel="stylesheet" href="./stylesheets/plot.css">
+    <link rel="stylesheet" href="./stylesheets/modals.css">
+
     <meta charset="utf-8">
     <script type="text/javascript" src='./bundle.js'></script>
     <title>Databall</title>
   </head>
   <body>
     <div class='background'></div>
+    <div class='player-modal-container close'>
+      <button class='player-close'></button>
+
+    </div>
     <div class='index'>
+      <div id='glossary-modal' class='glossary-modal-container close'>
+        <button id='glossary-close'>Close</button>
+
+          <ul class=glossary-terms>
+            <li>2P: 2-Point Field Goals</li>
+            <li>2P%: 2-Point Field Goal Percentage; the formula  is 2P / 2PA.</li>
+            <li>2PA: 2-Point Field Goal Attempts</li>
+            <li>3P: 3-Point Field Goals</li>
+            <li>3P%: 3-Point Field Goal Percentage; the formula is 3P / 3PA.</li>
+            <li>3PA: 3-Point Field Goal Attempts</li>
+            <li>Age: player age on February 1 of the given season.</li>
+            <li>AST: Assists</li>
+            <li>BLK: Blocks</li>
+            <li>DRB: Defensive Rebounds</li>
+            <li>eFG%: Effective Field Goal Percentage; the formula is (FG + 0.5 * 3P) / FGA. This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal. For example, suppose Player A goes 4 for 10 with 2 threes, while Player B goes 5 for 10 with 0 threes. Each player would have 10 points from field goals, and thus would have the same effective field goal percentage (50%).</li>
+            <li>FG: Field Goals (includes both 2-point field goals and 3-point field goals)</li>
+            <li>FG%: Field Goal Percentage; the formula is FG / FGA.</li>
+            <li>FGA: Field Goal Attempts (includes both 2-point field goal attempts and 3-point field goal attempts)</li>
+            <li>FT: Free Throws</li>
+            <li>FT%: Free Throw Percentage; the formula is FT / FTA.</li>
+            <li>FTA: Free Throw Attempts</li>
+            <li>G: Games</li>
+            <li>GS: Games Started</li>
+            <li>Lg: League</li>
+            <li>MP: Minutes Played</li>
+            <li>ORB: Offensive Rebounds</li>
+            <li>Per Game: A statistic (e.g., assists) divided by games.</li>
+            <li>PF: Personal Fouls</li>
+            <li>PTS: Points</li>
+            <li>STL: Steals</li>
+            <li>Tm: Team</li>
+            <li>TOV: Turnovers</li>
+            <li>TRB: Total Rebounds</li>
+              <li>Year: Year that the season occurred. Since the NBA season is split over two calendar years, the year given is the last year for that season. For example, the year for the 1999-00 season would be 2000.</li>
+          </ul>
+
+      </div>
       <div class='top'>
         <h1>Databall</h1>
         <h3>An interactive data visualizer for NBA stats</h3>
       </div>
       <div class='main'>
         <div class='left'>
-          <label>Stat Type
-            <select id='type' class='type-selector'>
-              <option value='PG'>Per Game</option>
-              <option value='TOT'>Total</option>
-            </select>
-          </labeL>
-          <div class='axis-dropdowns'>
+          <div id='options-div'>
+            <button id='glossary-open'>Glossary</button>
+            <label>Stat Type</label>
+              <select id='type' class='type-selector'>
+                <option value='PG'>Per Game</option>
+                <option value='TOT'>Total</option>
+              </select>
             <label> X-axis
               <select id='xSelect' class='stats-selector'>
               </select>
@@ -31,33 +75,27 @@
               <select id='ySelect' class='stats-selector'>
               </select>
             </label>
+              <label>Start Year
+                <select id='startYear' class='year-select'>
+                </select>
+              </label>
+              <label>End Year
+                <select id='endYear' class='year-select'>
+                </select>
+              </label>
+              <label>Team
+                <select id='team' class='team-select'>
+                </select>
+              </label>
+              <label>Position
+                <select id='position' class='position-select'>
+                </select>
+              </label>
+            <input
+              id='player'
+              class='player' type='text'
+                   placeholder="Pick a Player"/>
           </div>
-          <div class='year-dropdowns'>
-            <label>Start Year
-              <select id='startYear' class='year-select'>
-              </select>
-            </label>
-            <label>End Year
-              <select id='endYear' class='year-select'>
-              </select>
-            </label>
-          </div>
-          <div class='team-dropdowns'>
-            <label>Team
-              <select id='team' class='team-select'>
-              </select>
-            </label>
-          </div>
-          <div class='postion-drowndowns'>
-            <label>Position
-              <select id='position' class='position-select'>
-              </select>
-            </label>
-          </div>
-          <input
-            id='player'
-            class='player' type='text'
-                 placeholder="Pick a Player"/>
         </div>
         <div class='right'>
           <div class='plot'></div>

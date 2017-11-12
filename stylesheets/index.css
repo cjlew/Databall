@@ -1,10 +1,28 @@
+
+
 body, html {
   margin: 0;
   height: 100%;
   width: 100%;
   color: #ffffff;
   font-style: 'Spectral SC', sans-serif;
+  overflow: auto;
+}
 
+select, option {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+input {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+input, select {
+  outline: none;
 }
 
 label, h1, h3, h2{
@@ -15,7 +33,7 @@ label, h1, h3, h2{
   text-align: center;
 }
 .invis {
-  width: 260px;
+  width: 100px;
 }
 .background {
   width: 100%;
@@ -31,6 +49,7 @@ label, h1, h3, h2{
 }
 
 .index{
+  overflow: auto;
   position: absolute;
   top:0;
   left:0;
@@ -41,19 +60,22 @@ label, h1, h3, h2{
   align-items: center;
 }
 
-.axis-dropdowns{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.year-dropdowns{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .left{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+#options-div > * {
+  margin-bottom: 10px;
+}
+
+
+#options-div{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -65,6 +87,8 @@ label, h1, h3, h2{
       rgba(255, 255, 255, 0.4),
       rgba(255, 255, 255, 0.4));
   border-radius: 4px;
+  height: 500px;
+  width: 960px;
 }
 
 
@@ -73,7 +97,10 @@ label, h1, h3, h2{
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 500px;
+  margin-left: 30px;
+  margin-top: 30px;
+
 }
 
 .bottom{
@@ -81,4 +108,18 @@ label, h1, h3, h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1140px) {
+    .main {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    #options-div{
+      flex-direction: row;
+      margin
+    }
+
 }
