@@ -9784,7 +9784,7 @@ const d3 = __webpack_require__(21);
 
 // Data for dropdowns
 const YEARS = [];
-for (let i = 2016; i >= 2000; i--){
+for (let i = 2018; i >= 2010; i--){
   YEARS.push(i);
 }
 
@@ -9853,9 +9853,9 @@ const handleSelectChange = (e) => {
 
 const handlePlayerSearch = (e) => {
   e.preventDefault(e);
+
   Parameters.player = e.target.value;
   Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
-
 };
 
 const addEventListeners = () => {
@@ -23035,8 +23035,8 @@ const makePlot = (Params) => {
       .data(refinedData)
     .enter().append("circle")
       .attr("r", 5)
-      .attr("cx", (d) =>  x(parseInt(d[Params.xSelect])) )
-      .attr("cy", (d) => y(parseInt(d[Params.ySelect])) )
+      .attr("cx", (d) =>  x((d[Params.xSelect])) )
+      .attr("cy", (d) => y((d[Params.ySelect])) )
       .on("click", handleOpen)
       .on("mouseover", (d) => {
         tooltip.transition()
@@ -23097,22 +23097,34 @@ const d3 = __webpack_require__(21);
 
 const parametrize = (data, params) => {
   let refinedData = [];
-
-  if (params.position !== 'All' && params.team !== 'All') {
+  if (params.position !== 'All' && params.team !== 'All' && params.player !== null) {
     data.forEach((player) => {
-      if (params.position === player.position && params.team === player.Tm) {
+      if (params.position === player.Pos && params.team === player.Tm && player.Player.match(params.player)) {
+        refinedData.push(player);
+      }
+    });
+  } else if (params.position !== 'All' && params.team !== 'All') {
+    data.forEach((player) => {
+      if (params.position === player.Pos && params.team === player.Tm) {
         refinedData.push(player);
       }
     });
   } else if (params.position !== 'All') {
     data.forEach((player) => {
-      if (params.position === player.position) {
+      if (params.position === player.Pos) {
         refinedData.push(player);
       }
     });
   } else if (params.team !== 'All') {
     data.forEach((player) => {
       if (params.team === player.Tm) {
+        refinedData.push(player);
+      }
+    });
+  } else if (params.player !== null){
+    debugger
+    data.forEach((player) => {
+      if (player.Player.match(params.player)) {
         refinedData.push(player);
       }
     });
