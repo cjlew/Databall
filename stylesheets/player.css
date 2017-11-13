@@ -6,7 +6,26 @@
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.9);
+}
 
+#player-modal-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.player-modal-name {
+}
+
+.stats-ul > *{
+  text-align: left;
 }
 
 #player-close{
