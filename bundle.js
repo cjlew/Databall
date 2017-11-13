@@ -60,13 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 441);
+/******/ 	return __webpack_require__(__webpack_require__.s = 172);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */,
-/* 1 */,
-/* 2 */
+/* 0 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -132,48 +130,41 @@ function haversin(x) {
 
 
 /***/ }),
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_creator__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_creator__ = __webpack_require__(51);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_creator__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_local__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_local__ = __webpack_require__(198);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__src_local__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_matcher__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_matcher__ = __webpack_require__(103);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__src_matcher__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_mouse__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_mouse__ = __webpack_require__(199);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__src_mouse__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_namespace__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_namespace__ = __webpack_require__(52);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_namespace__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_namespaces__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_namespaces__ = __webpack_require__(53);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__src_namespaces__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_select__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_select__ = __webpack_require__(200);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__src_select__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_selectAll__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_selectAll__ = __webpack_require__(228);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__src_selectAll__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_selection_index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_selection_index__ = __webpack_require__(4);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_8__src_selection_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_selector__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_selector__ = __webpack_require__(57);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_9__src_selector__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_selectorAll__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_selectorAll__ = __webpack_require__(104);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__src_selectorAll__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_selection_style__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_selection_style__ = __webpack_require__(107);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_11__src_selection_style__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_touch__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_touch__ = __webpack_require__(229);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_12__src_touch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_touches__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_touches__ = __webpack_require__(230);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_13__src_touches__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_window__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_window__ = __webpack_require__(58);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_14__src_window__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_selection_on__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_selection_on__ = __webpack_require__(55);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_15__src_selection_on__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_15__src_selection_on__["a"]; });
 
@@ -195,10 +186,7 @@ function haversin(x) {
 
 
 /***/ }),
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -273,70 +261,67 @@ function newInterval(floori, offseti, count, field) {
 
 
 /***/ }),
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */
+/* 3 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_bisect__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_bisect__ = __webpack_require__(91);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_bisect__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_bisect__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_bisect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ascending__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ascending__ = __webpack_require__(17);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ascending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(92);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__src_bisector__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(443);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(174);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__src_cross__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(444);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(175);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_descending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(94);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__src_deviation__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(96);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__src_extent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(176);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__src_histogram__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(179);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(449);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(180);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(100);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(181);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_11__src_max__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(182);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_12__src_mean__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(183);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_13__src_median__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(453);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(184);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_14__src_merge__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(101);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_15__src_min__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(93);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_16__src_pairs__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(185);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_17__src_permute__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(49);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_18__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(98);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_19__src_range__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(186);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_20__src_scan__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(187);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_21__src_shuffle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(188);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sum__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(99);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_transpose__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_transpose__ = __webpack_require__(102);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_24__src_transpose__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(95);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_25__src_variance__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(189);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_26__src_zip__["a"]; });
 
 
@@ -368,45 +353,41 @@ function newInterval(floori, offseti, count, field) {
 
 
 /***/ }),
-/* 19 */,
-/* 20 */,
-/* 21 */,
-/* 22 */,
-/* 23 */
+/* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return root; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = Selection;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__select__ = __webpack_require__(470);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selectAll__ = __webpack_require__(471);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filter__ = __webpack_require__(472);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data__ = __webpack_require__(473);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__enter__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__exit__ = __webpack_require__(475);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__merge__ = __webpack_require__(476);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__order__ = __webpack_require__(477);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__sort__ = __webpack_require__(478);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__call__ = __webpack_require__(479);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nodes__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node__ = __webpack_require__(481);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__size__ = __webpack_require__(482);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__empty__ = __webpack_require__(483);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__each__ = __webpack_require__(484);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__attr__ = __webpack_require__(485);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__style__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__property__ = __webpack_require__(486);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__classed__ = __webpack_require__(487);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__text__ = __webpack_require__(488);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__html__ = __webpack_require__(489);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__raise__ = __webpack_require__(490);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__lower__ = __webpack_require__(491);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__append__ = __webpack_require__(492);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__insert__ = __webpack_require__(493);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__remove__ = __webpack_require__(494);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__datum__ = __webpack_require__(495);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__on__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__dispatch__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__select__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selectAll__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filter__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__enter__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__exit__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__merge__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__order__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__sort__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__call__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nodes__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__size__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__empty__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__each__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__attr__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__style__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__property__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__classed__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__text__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__html__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__raise__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__lower__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__append__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__insert__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__remove__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__datum__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__on__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__dispatch__ = __webpack_require__(227);
 
 
 
@@ -485,49 +466,49 @@ Selection.prototype = selection.prototype = {
 
 
 /***/ }),
-/* 24 */
+/* 5 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(59);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_value__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(114);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_array__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(62);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_basis__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(112);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(115);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_date__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(34);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_5__src_number__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(116);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__src_object__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(235);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_7__src_round__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(117);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_8__src_string__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(236);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_9__src_transform_index__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_9__src_transform_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(239);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_10__src_zoom__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(111);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(509);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(240);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_12__src_hsl__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_12__src_hsl__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(241);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__src_lab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(242);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_14__src_hcl__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_14__src_hcl__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(243);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(244);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_16__src_quantize__["a"]; });
 
 
@@ -549,7 +530,7 @@ Selection.prototype = selection.prototype = {
 
 
 /***/ }),
-/* 25 */
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -563,8 +544,8 @@ Selection.prototype = selection.prototype = {
 /* harmony export (immutable) */ __webpack_exports__["g"] = init;
 /* harmony export (immutable) */ __webpack_exports__["h"] = set;
 /* harmony export (immutable) */ __webpack_exports__["f"] = get;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_timer__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_timer__ = __webpack_require__(35);
 
 
 
@@ -723,19 +704,18 @@ function create(node, id, self) {
 
 
 /***/ }),
-/* 26 */,
-/* 27 */
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(60);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(233);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(234);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__["a"]; });
 
 
@@ -743,22 +723,22 @@ function create(node, id, self) {
 
 
 /***/ }),
-/* 28 */
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = projection;
 /* harmony export (immutable) */ __webpack_exports__["b"] = projectionMutator;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__ = __webpack_require__(280);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clip_circle__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clip_rectangle__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__compose__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rotation__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__fit__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__resample__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clip_circle__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clip_rectangle__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__compose__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rotation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__fit__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__resample__ = __webpack_require__(338);
 
 
 
@@ -885,9 +865,7 @@ function projectionMutator(projectAt) {
 
 
 /***/ }),
-/* 29 */,
-/* 30 */,
-/* 31 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -904,34 +882,31 @@ var durationWeek = 6048e5;
 
 
 /***/ }),
-/* 32 */,
-/* 33 */,
-/* 34 */,
-/* 35 */
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = Transition;
 /* harmony export (immutable) */ __webpack_exports__["b"] = transition;
 /* harmony export (immutable) */ __webpack_exports__["c"] = newId;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attr__ = __webpack_require__(519);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attrTween__ = __webpack_require__(520);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__delay__ = __webpack_require__(521);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__duration__ = __webpack_require__(522);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ease__ = __webpack_require__(523);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter__ = __webpack_require__(524);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__merge__ = __webpack_require__(525);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__on__ = __webpack_require__(526);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__remove__ = __webpack_require__(527);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__select__ = __webpack_require__(528);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__selectAll__ = __webpack_require__(529);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selection__ = __webpack_require__(530);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__style__ = __webpack_require__(531);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__styleTween__ = __webpack_require__(532);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__text__ = __webpack_require__(533);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transition__ = __webpack_require__(534);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__tween__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attr__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attrTween__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__delay__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__duration__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ease__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__merge__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__on__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__remove__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__select__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__selectAll__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selection__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__style__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__styleTween__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__text__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transition__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__tween__ = __webpack_require__(36);
 
 
 
@@ -999,7 +974,7 @@ Transition.prototype = transition.prototype = {
 
 
 /***/ }),
-/* 36 */
+/* 11 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1008,31 +983,27 @@ function noop() {}
 
 
 /***/ }),
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatch__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dispatch__ = __webpack_require__(196);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dispatch__["a"]; });
 
 
 
 /***/ }),
-/* 42 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_path__ = __webpack_require__(554);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_path__ = __webpack_require__(285);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_path__["a"]; });
 
 
 
 /***/ }),
-/* 43 */
+/* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1108,7 +1079,7 @@ function streamPolygon(coordinates, stream) {
 
 
 /***/ }),
-/* 44 */
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1121,7 +1092,7 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 45 */
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1133,14 +1104,7 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1150,7 +1114,7 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 54 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1162,7 +1126,7 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 55 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1209,7 +1173,7 @@ function add(adder, a, b) {
 
 
 /***/ }),
-/* 56 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1219,24 +1183,14 @@ function add(adder, a, b) {
 
 
 /***/ }),
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__build_package__ = __webpack_require__(442);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__build_package__ = __webpack_require__(173);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "version", function() { return __WEBPACK_IMPORTED_MODULE_0__build_package__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_array__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_array__ = __webpack_require__(3);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "bisect", function() { return __WEBPACK_IMPORTED_MODULE_1_d3_array__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "bisectRight", function() { return __WEBPACK_IMPORTED_MODULE_1_d3_array__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "bisectLeft", function() { return __WEBPACK_IMPORTED_MODULE_1_d3_array__["c"]; });
@@ -1268,40 +1222,40 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "transpose", function() { return __WEBPACK_IMPORTED_MODULE_1_d3_array__["C"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "variance", function() { return __WEBPACK_IMPORTED_MODULE_1_d3_array__["D"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zip", function() { return __WEBPACK_IMPORTED_MODULE_1_d3_array__["E"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_axis__ = __webpack_require__(459);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_axis__ = __webpack_require__(190);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "axisTop", function() { return __WEBPACK_IMPORTED_MODULE_2_d3_axis__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "axisRight", function() { return __WEBPACK_IMPORTED_MODULE_2_d3_axis__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "axisBottom", function() { return __WEBPACK_IMPORTED_MODULE_2_d3_axis__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "axisLeft", function() { return __WEBPACK_IMPORTED_MODULE_2_d3_axis__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_brush__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_brush__ = __webpack_require__(194);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brush", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brushX", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brushY", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brushSelection", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_chord__ = __webpack_require__(549);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_chord__ = __webpack_require__(280);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "chord", function() { return __WEBPACK_IMPORTED_MODULE_4_d3_chord__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ribbon", function() { return __WEBPACK_IMPORTED_MODULE_4_d3_chord__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_d3_collection__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_d3_collection__ = __webpack_require__(24);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "nest", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "set", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "map", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "keys", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "values", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "entries", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_d3_color__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_d3_color__ = __webpack_require__(7);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "color", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "rgb", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hsl", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "lab", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hcl", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "cubehelix", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_d3_dispatch__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_d3_dispatch__ = __webpack_require__(12);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dispatch", function() { return __WEBPACK_IMPORTED_MODULE_7_d3_dispatch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_d3_drag__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_d3_drag__ = __webpack_require__(50);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "drag", function() { return __WEBPACK_IMPORTED_MODULE_8_d3_drag__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dragDisable", function() { return __WEBPACK_IMPORTED_MODULE_8_d3_drag__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dragEnable", function() { return __WEBPACK_IMPORTED_MODULE_8_d3_drag__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_d3_dsv__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_d3_dsv__ = __webpack_require__(66);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dsvFormat", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_dsv__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "csvParse", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_dsv__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "csvParseRows", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_dsv__["d"]; });
@@ -1311,7 +1265,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsvParseRows", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_dsv__["i"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsvFormat", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_dsv__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsvFormatRows", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_dsv__["g"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_d3_ease__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_d3_ease__ = __webpack_require__(120);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeLinear", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_ease__["y"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeQuad", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_ease__["D"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeQuadIn", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_ease__["E"]; });
@@ -1349,7 +1303,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeElasticIn", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_ease__["r"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeElasticOut", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_ease__["t"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeElasticInOut", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_ease__["s"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_force__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_force__ = __webpack_require__(293);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceCenter", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_force__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceCollide", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_force__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceLink", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_force__["c"]; });
@@ -1358,7 +1312,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceSimulation", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_force__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceX", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_force__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceY", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_force__["h"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_d3_format__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_d3_format__ = __webpack_require__(71);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "formatDefaultLocale", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_format__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "format", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_format__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "formatPrefix", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_format__["d"]; });
@@ -1367,7 +1321,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "precisionFixed", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_format__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "precisionPrefix", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_format__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "precisionRound", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_format__["h"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_d3_geo__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_d3_geo__ = __webpack_require__(323);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoArea", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_geo__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoBounds", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_geo__["h"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoCentroid", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_geo__["i"]; });
@@ -1415,7 +1369,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoRotation", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_geo__["O"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoStream", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_geo__["R"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoTransform", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_geo__["S"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__ = __webpack_require__(620);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__ = __webpack_require__(351);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "cluster", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hierarchy", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "pack", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__["c"]; });
@@ -1431,7 +1385,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "treemapSliceDice", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__["n"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "treemapSquarify", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__["o"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "treemapResquarify", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_hierarchy__["l"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__ = __webpack_require__(5);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolate", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateArray", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateBasis", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__["c"]; });
@@ -1455,26 +1409,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelix", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelixLong", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "quantize", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_interpolate__["w"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_d3_path__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_d3_path__ = __webpack_require__(13);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "path", function() { return __WEBPACK_IMPORTED_MODULE_16_d3_path__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_d3_polygon__ = __webpack_require__(642);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_d3_polygon__ = __webpack_require__(373);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonArea", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_polygon__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonCentroid", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_polygon__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonHull", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_polygon__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonContains", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_polygon__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonLength", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_polygon__["e"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_d3_quadtree__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_d3_quadtree__ = __webpack_require__(69);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "quadtree", function() { return __WEBPACK_IMPORTED_MODULE_18_d3_quadtree__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_d3_queue__ = __webpack_require__(649);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_d3_queue__ = __webpack_require__(380);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "queue", function() { return __WEBPACK_IMPORTED_MODULE_19_d3_queue__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_d3_random__ = __webpack_require__(652);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_d3_random__ = __webpack_require__(383);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomUniform", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_random__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomNormal", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_random__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomLogNormal", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_random__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomBates", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_random__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomIrwinHall", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_random__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomExponential", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_random__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_d3_request__ = __webpack_require__(657);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_d3_request__ = __webpack_require__(388);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "request", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_request__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "html", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_request__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "json", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_request__["c"]; });
@@ -1482,7 +1436,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "xml", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_request__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "csv", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_request__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsv", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_request__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_d3_scale__ = __webpack_require__(664);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_d3_scale__ = __webpack_require__(395);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleBand", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["i"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scalePoint", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["o"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleIdentity", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["j"]; });
@@ -1510,7 +1464,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateInferno", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolatePlasma", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleSequential", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["s"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_d3_selection__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_d3_selection__ = __webpack_require__(1);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "creator", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_selection__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "local", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_selection__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "matcher", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_selection__["e"]; });
@@ -1528,7 +1482,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "window", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_selection__["q"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "event", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_selection__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "customEvent", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_selection__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_d3_shape__ = __webpack_require__(697);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_d3_shape__ = __webpack_require__(428);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "arc", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_shape__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "area", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_shape__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "line", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_shape__["v"]; });
@@ -1579,7 +1533,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stackOrderInsideOut", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_shape__["M"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stackOrderNone", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_shape__["N"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stackOrderReverse", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_shape__["O"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_d3_time__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_d3_time__ = __webpack_require__(44);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeInterval", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_time__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeMillisecond", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_time__["h"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeMilliseconds", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_time__["i"]; });
@@ -1641,7 +1595,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "utcMonths", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_time__["S"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "utcYear", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_time__["_7"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "utcYears", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_time__["_8"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_d3_time_format__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_d3_time_format__ = __webpack_require__(83);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeFormatDefaultLocale", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time_format__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeFormat", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time_format__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeParse", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time_format__["f"]; });
@@ -1650,19 +1604,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeFormatLocale", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time_format__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isoFormat", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time_format__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isoParse", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time_format__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_d3_timer__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_d3_timer__ = __webpack_require__(35);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "now", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_timer__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timer", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_timer__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timerFlush", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_timer__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeout", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_timer__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interval", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_timer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_d3_transition__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_d3_transition__ = __webpack_require__(63);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "transition", function() { return __WEBPACK_IMPORTED_MODULE_28_d3_transition__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "active", function() { return __WEBPACK_IMPORTED_MODULE_28_d3_transition__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interrupt", function() { return __WEBPACK_IMPORTED_MODULE_28_d3_transition__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_d3_voronoi__ = __webpack_require__(722);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_d3_voronoi__ = __webpack_require__(453);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "voronoi", function() { return __WEBPACK_IMPORTED_MODULE_29_d3_voronoi__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_d3_zoom__ = __webpack_require__(727);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_d3_zoom__ = __webpack_require__(458);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zoom", function() { return __WEBPACK_IMPORTED_MODULE_30_d3_zoom__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zoomTransform", function() { return __WEBPACK_IMPORTED_MODULE_30_d3_zoom__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zoomIdentity", function() { return __WEBPACK_IMPORTED_MODULE_30_d3_zoom__["b"]; });
@@ -1700,7 +1654,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 68 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1710,14 +1664,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 69 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["c"] = hue;
 /* harmony export (immutable) */ __webpack_exports__["b"] = gamma;
 /* harmony export (immutable) */ __webpack_exports__["a"] = nogamma;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(113);
 
 
 function linear(a, d) {
@@ -1750,21 +1704,21 @@ function nogamma(a, b) {
 
 
 /***/ }),
-/* 70 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(286);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_nest__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(556);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(287);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_set__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(65);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_map__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(557);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(288);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__src_keys__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(558);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(289);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__src_values__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(559);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(290);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_entries__["a"]; });
 
 
@@ -1775,7 +1729,7 @@ function nogamma(a, b) {
 
 
 /***/ }),
-/* 71 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1786,7 +1740,7 @@ function nogamma(a, b) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = cartesianAddInPlace;
 /* harmony export (immutable) */ __webpack_exports__["f"] = cartesianScale;
 /* harmony export (immutable) */ __webpack_exports__["e"] = cartesianNormalizeInPlace;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 
 
 function spherical(cartesian) {
@@ -1823,13 +1777,13 @@ function cartesianNormalizeInPlace(d) {
 
 
 /***/ }),
-/* 72 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = azimuthalRaw;
 /* harmony export (immutable) */ __webpack_exports__["a"] = azimuthalInvert;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 
 
 function azimuthalRaw(scale) {
@@ -1859,7 +1813,7 @@ function azimuthalInvert(angle) {
 
 
 /***/ }),
-/* 73 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1878,16 +1832,16 @@ function azimuthalInvert(angle) {
 
 
 /***/ }),
-/* 74 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = linearish;
 /* harmony export (immutable) */ __webpack_exports__["a"] = linear;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(667);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(398);
 
 
 
@@ -1960,7 +1914,7 @@ function linear() {
 
 
 /***/ }),
-/* 75 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1972,7 +1926,7 @@ function linear() {
 
 
 /***/ }),
-/* 76 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2012,7 +1966,7 @@ function asin(x) {
 
 
 /***/ }),
-/* 77 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2028,7 +1982,7 @@ function asin(x) {
 
 
 /***/ }),
-/* 78 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2040,7 +1994,7 @@ function asin(x) {
 
 
 /***/ }),
-/* 79 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2051,11 +2005,11 @@ function asin(x) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return circles; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return edges; });
 /* harmony export (immutable) */ __webpack_exports__["d"] = Diagram;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Beach__ = __webpack_require__(726);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Cell__ = __webpack_require__(319);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Circle__ = __webpack_require__(320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Edge__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RedBlackTree__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Beach__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Cell__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Circle__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Edge__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RedBlackTree__ = __webpack_require__(89);
 
 
 
@@ -2201,32 +2155,7 @@ Diagram.prototype = {
 
 
 /***/ }),
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */,
-/* 91 */,
-/* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2238,17 +2167,17 @@ Diagram.prototype = {
 
 
 /***/ }),
-/* 106 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_timer__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_timer__ = __webpack_require__(64);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_timer__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_timer__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_timer__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_timeout__ = __webpack_require__(516);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_timeout__ = __webpack_require__(247);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_timeout__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_interval__ = __webpack_require__(517);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_interval__ = __webpack_require__(248);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_interval__["a"]; });
 
 
@@ -2258,12 +2187,12 @@ Diagram.prototype = {
 
 
 /***/ }),
-/* 107 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = tweenValue;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(6);
 
 
 function tweenRemove(id, name) {
@@ -2348,11 +2277,11 @@ function tweenValue(transition, name, value) {
 
 
 /***/ }),
-/* 108 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(72);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x) {
@@ -2361,13 +2290,13 @@ function tweenValue(transition, name, value) {
 
 
 /***/ }),
-/* 109 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = rotateRadians;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__compose__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__compose__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
 
 
 
@@ -2447,16 +2376,16 @@ function rotationPhiGamma(deltaPhi, deltaGamma) {
 
 
 /***/ }),
-/* 110 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = clipRectangle;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffer__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__line__ = __webpack_require__(597);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rejoin__ = __webpack_require__(283);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffer__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__line__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rejoin__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(3);
 
 
 
@@ -2628,7 +2557,7 @@ function clipRectangle(x0, y0, x1, y1) {
 
 
 /***/ }),
-/* 111 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2662,7 +2591,7 @@ TransformStream.prototype = {
 
 
 /***/ }),
-/* 112 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2681,11 +2610,11 @@ TransformStream.prototype = {
 
 
 /***/ }),
-/* 113 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(81);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(defaultMimeType, response) {
@@ -2701,18 +2630,18 @@ TransformStream.prototype = {
 
 
 /***/ }),
-/* 114 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["c"] = deinterpolateLinear;
 /* harmony export (immutable) */ __webpack_exports__["a"] = copy;
 /* harmony export (immutable) */ __webpack_exports__["b"] = continuous;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(150);
 
 
 
@@ -2829,32 +2758,32 @@ function continuous(deinterpolate, reinterpolate) {
 
 
 /***/ }),
-/* 115 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_interval__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_interval__ = __webpack_require__(2);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__src_interval__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(673);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(404);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(674);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(405);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(675);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(406);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(676);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(407);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(677);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(408);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(678);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(409);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["g"]; });
@@ -2871,22 +2800,22 @@ function continuous(deinterpolate, reinterpolate) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(679);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(410);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(411);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(412);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(413);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(414);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(415);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["g"]; });
@@ -2903,10 +2832,10 @@ function continuous(deinterpolate, reinterpolate) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(416);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(686);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(417);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["b"]; });
 
@@ -2941,7 +2870,7 @@ function continuous(deinterpolate, reinterpolate) {
 
 
 /***/ }),
-/* 116 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2979,7 +2908,7 @@ Linear.prototype = {
 
 
 /***/ }),
-/* 117 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2987,7 +2916,7 @@ Linear.prototype = {
 
 
 /***/ }),
-/* 118 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3047,7 +2976,7 @@ Basis.prototype = {
 
 
 /***/ }),
-/* 119 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3117,41 +3046,11 @@ Cardinal.prototype = {
 
 
 /***/ }),
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */,
-/* 128 */,
-/* 129 */,
-/* 130 */,
-/* 131 */,
-/* 132 */,
-/* 133 */,
-/* 134 */,
-/* 135 */,
-/* 136 */,
-/* 137 */,
-/* 138 */,
-/* 139 */,
-/* 140 */,
-/* 141 */,
-/* 142 */,
-/* 143 */,
-/* 144 */,
-/* 145 */,
-/* 146 */,
-/* 147 */,
-/* 148 */,
-/* 149 */,
-/* 150 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(22);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, p, valueof) {
@@ -3169,13 +3068,13 @@ Cardinal.prototype = {
 
 
 /***/ }),
-/* 151 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_drag__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_drag__ = __webpack_require__(197);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_drag__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_nodrag__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_nodrag__ = __webpack_require__(108);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_nodrag__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_nodrag__["b"]; });
 
@@ -3183,12 +3082,12 @@ Cardinal.prototype = {
 
 
 /***/ }),
-/* 152 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespace__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__namespaces__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespace__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__namespaces__ = __webpack_require__(53);
 
 
 
@@ -3217,11 +3116,11 @@ function creatorFixed(fullname) {
 
 
 /***/ }),
-/* 153 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespaces__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespaces__ = __webpack_require__(53);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(name) {
@@ -3232,7 +3131,7 @@ function creatorFixed(fullname) {
 
 
 /***/ }),
-/* 154 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3249,11 +3148,11 @@ var xhtml = "http://www.w3.org/1999/xhtml";
 
 
 /***/ }),
-/* 155 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_on__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_on__ = __webpack_require__(55);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -3264,7 +3163,7 @@ var xhtml = "http://www.w3.org/1999/xhtml";
 
 
 /***/ }),
-/* 156 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3380,7 +3279,7 @@ function customEvent(event1, listener, that, args) {
 
 
 /***/ }),
-/* 157 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3400,7 +3299,7 @@ function customEvent(event1, listener, that, args) {
 
 
 /***/ }),
-/* 158 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3414,7 +3313,7 @@ function none() {}
 
 
 /***/ }),
-/* 159 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3426,18 +3325,18 @@ function none() {}
 
 
 /***/ }),
-/* 160 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(261);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(113);
 
 
 
@@ -3461,7 +3360,7 @@ function none() {}
 
 
 /***/ }),
-/* 161 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3474,7 +3373,7 @@ function none() {}
 /* harmony export (immutable) */ __webpack_exports__["b"] = Rgb;
 /* unused harmony export hslConvert */
 /* harmony export (immutable) */ __webpack_exports__["f"] = hsl;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(61);
 
 
 function Color() {}
@@ -3808,7 +3707,7 @@ function hsl2rgb(h, m1, m2) {
 
 
 /***/ }),
-/* 162 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3826,7 +3725,7 @@ function extend(parent, definition) {
 
 
 /***/ }),
-/* 163 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3853,16 +3752,16 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 164 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_selection_index__ = __webpack_require__(514);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_transition_index__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_selection_index__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_transition_index__ = __webpack_require__(10);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_transition_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_active__ = __webpack_require__(545);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_active__ = __webpack_require__(276);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_active__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_interrupt__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_interrupt__ = __webpack_require__(118);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__src_interrupt__["a"]; });
 
 
@@ -3871,7 +3770,7 @@ function basis(t1, v0, v1, v2, v3) {
 
 
 /***/ }),
-/* 165 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3992,7 +3891,7 @@ function sleep(time) {
 
 
 /***/ }),
-/* 166 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4075,18 +3974,18 @@ function map(object, f) {
 
 
 /***/ }),
-/* 167 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dsv__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dsv__ = __webpack_require__(67);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dsv__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_csv__ = __webpack_require__(560);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_csv__ = __webpack_require__(291);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_tsv__ = __webpack_require__(561);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_tsv__ = __webpack_require__(292);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["a"]; });
@@ -4097,7 +3996,7 @@ function map(object, f) {
 
 
 /***/ }),
-/* 168 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4231,7 +4130,7 @@ function inferColumns(rows) {
 
 
 /***/ }),
-/* 169 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4241,17 +4140,17 @@ function inferColumns(rows) {
 
 
 /***/ }),
-/* 170 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_quadtree__ = __webpack_require__(565);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_quadtree__ = __webpack_require__(296);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_quadtree__["a"]; });
 
 
 
 /***/ }),
-/* 171 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4265,23 +4164,23 @@ function inferColumns(rows) {
 
 
 /***/ }),
-/* 172 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(583);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(314);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(123);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_locale__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(124);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(320);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(590);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(321);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(591);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(322);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__["a"]; });
 
 
@@ -4292,7 +4191,7 @@ function inferColumns(rows) {
 
 
 /***/ }),
-/* 173 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4313,7 +4212,7 @@ function inferColumns(rows) {
 
 
 /***/ }),
-/* 174 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4323,14 +4222,14 @@ function inferColumns(rows) {
 
 
 /***/ }),
-/* 175 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = conicEqualAreaRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cylindricalEqualArea__ = __webpack_require__(608);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cylindricalEqualArea__ = __webpack_require__(339);
 
 
 
@@ -4364,13 +4263,13 @@ function conicEqualAreaRaw(y0, y1) {
 
 
 /***/ }),
-/* 176 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = conicProjection;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(8);
 
 
 
@@ -4389,14 +4288,14 @@ function conicProjection(projectAt) {
 
 
 /***/ }),
-/* 177 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = fitExtent;
 /* harmony export (immutable) */ __webpack_exports__["b"] = fitSize;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stream__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__path_bounds__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stream__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__path_bounds__ = __webpack_require__(139);
 
 
 
@@ -4431,15 +4330,15 @@ function fitSize(projection, size, object) {
 
 
 /***/ }),
-/* 178 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["c"] = mercatorRaw;
 /* harmony export (immutable) */ __webpack_exports__["b"] = mercatorProjection;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rotation__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rotation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(8);
 
 
 
@@ -4495,24 +4394,24 @@ function mercatorProjection(project) {
 
 
 /***/ }),
-/* 179 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["c"] = hierarchy;
 /* harmony export (immutable) */ __webpack_exports__["b"] = computeHeight;
 /* harmony export (immutable) */ __webpack_exports__["a"] = Node;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__count__ = __webpack_require__(622);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__each__ = __webpack_require__(623);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__eachBefore__ = __webpack_require__(624);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eachAfter__ = __webpack_require__(625);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sum__ = __webpack_require__(626);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sort__ = __webpack_require__(627);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__path__ = __webpack_require__(628);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ancestors__ = __webpack_require__(629);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__descendants__ = __webpack_require__(630);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__leaves__ = __webpack_require__(631);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__links__ = __webpack_require__(632);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__count__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__each__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__eachBefore__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eachAfter__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sum__ = __webpack_require__(357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sort__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__path__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ancestors__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__descendants__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__leaves__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__links__ = __webpack_require__(363);
 
 
 
@@ -4595,7 +4494,7 @@ Node.prototype = hierarchy.prototype = {
 
 
 /***/ }),
-/* 180 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4612,14 +4511,14 @@ function required(f) {
 
 
 /***/ }),
-/* 181 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return phi; });
 /* harmony export (immutable) */ __webpack_exports__["c"] = squarifyRatio;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(41);
 
 
 
@@ -4689,12 +4588,12 @@ function squarifyRatio(ratio, parent, x0, y0, x1, y1) {
 
 
 /***/ }),
-/* 182 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_dispatch__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_dispatch__ = __webpack_require__(12);
 
 
 
@@ -4849,7 +4748,7 @@ function hasResponse(xhr) {
 
 
 /***/ }),
-/* 183 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4861,21 +4760,21 @@ function hasResponse(xhr) {
 
 
 /***/ }),
-/* 184 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(84);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["e"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(153);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_locale__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(154);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(418);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__src_isoParse__["a"]; });
 
 
@@ -4884,7 +4783,7 @@ function hasResponse(xhr) {
 
 
 /***/ }),
-/* 185 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4893,7 +4792,7 @@ function hasResponse(xhr) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return utcFormat; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return utcParse; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = defaultLocale;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(153);
 
 
 var locale;
@@ -4924,14 +4823,14 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 186 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(86);
 
 
 
@@ -4990,7 +4889,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 187 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5006,13 +4905,13 @@ function y(p) {
 
 
 /***/ }),
-/* 188 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = point;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(48);
 
 
 
@@ -5104,12 +5003,12 @@ CatmullRom.prototype = {
 
 
 /***/ }),
-/* 189 */
+/* 88 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = sum;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(32);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(series) {
@@ -5125,7 +5024,7 @@ function sum(series) {
 
 
 /***/ }),
-/* 190 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5370,7 +5269,7 @@ function RedBlackFirst(node) {
 
 
 /***/ }),
-/* 191 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5378,7 +5277,7 @@ function RedBlackFirst(node) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = createBorderEdge;
 /* harmony export (immutable) */ __webpack_exports__["d"] = setEdgeEnd;
 /* harmony export (immutable) */ __webpack_exports__["a"] = clipEdges;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Diagram__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Diagram__ = __webpack_require__(33);
 
 
 function createEdge(left, right, v0, v1) {
@@ -5550,63 +5449,14 @@ function clipEdges(x0, y0, x1, y1) {
 
 
 /***/ }),
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */,
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return bisectRight; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return bisectLeft; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisector__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisector__ = __webpack_require__(92);
 
 
 
@@ -5617,11 +5467,11 @@ var bisectLeft = ascendingBisect.left;
 
 
 /***/ }),
-/* 242 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(17);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(compare) {
@@ -5658,7 +5508,7 @@ function ascendingComparator(f) {
 
 
 /***/ }),
-/* 243 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5676,11 +5526,11 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 244 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__variance__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__variance__ = __webpack_require__(95);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(array, f) {
@@ -5690,11 +5540,11 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 245 */
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(22);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, valueof) {
@@ -5731,7 +5581,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 246 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5775,7 +5625,7 @@ function pair(a, b) {
 
 
 /***/ }),
-/* 247 */
+/* 97 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5788,7 +5638,7 @@ var map = array.map;
 
 
 /***/ }),
-/* 248 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5808,7 +5658,7 @@ var map = array.map;
 
 
 /***/ }),
-/* 249 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5868,7 +5718,7 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 250 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5878,7 +5728,7 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 251 */
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5919,11 +5769,11 @@ function tickStep(start, stop, count) {
 
 
 /***/ }),
-/* 252 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__min__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__min__ = __webpack_require__(101);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(matrix) {
@@ -5942,7 +5792,7 @@ function length(d) {
 
 
 /***/ }),
-/* 253 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5971,7 +5821,7 @@ if (typeof document !== "undefined") {
 
 
 /***/ }),
-/* 254 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5987,13 +5837,13 @@ function empty() {
 
 
 /***/ }),
-/* 255 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = EnterNode;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(256);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(4);
 
 
 
@@ -6019,7 +5869,7 @@ EnterNode.prototype = {
 
 
 /***/ }),
-/* 256 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6029,12 +5879,12 @@ EnterNode.prototype = {
 
 
 /***/ }),
-/* 257 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = styleValue;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(58);
 
 
 function styleRemove(name) {
@@ -6073,13 +5923,13 @@ function styleValue(node, name) {
 
 
 /***/ }),
-/* 258 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = yesdrag;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noevent__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noevent__ = __webpack_require__(109);
 
 
 
@@ -6111,12 +5961,12 @@ function yesdrag(view, noclick) {
 
 
 /***/ }),
-/* 259 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = nopropagation;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
 
 
 function nopropagation() {
@@ -6130,7 +5980,7 @@ function nopropagation() {
 
 
 /***/ }),
-/* 260 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6141,16 +5991,16 @@ var rad2deg = 180 / Math.PI;
 
 
 /***/ }),
-/* 261 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return rgbBasis; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return rgbBasisClosed; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(262);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__color__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__color__ = __webpack_require__(23);
 
 
 
@@ -6209,11 +6059,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 262 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(62);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values) {
@@ -6230,7 +6080,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 263 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6242,11 +6092,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 264 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(59);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -6267,7 +6117,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 265 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6280,11 +6130,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 266 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__value__ = __webpack_require__(59);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -6311,11 +6161,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 267 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(34);
 
 
 var reA = /[-+]?(?:\d+\.?\d*|\.?\d+)(?:[eE][-+]?\d+)?/g,
@@ -6383,11 +6233,11 @@ function one(b) {
 
 
 /***/ }),
-/* 268 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_schedule__ = __webpack_require__(6);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(node, name) {
@@ -6415,12 +6265,12 @@ function one(b) {
 
 
 /***/ }),
-/* 269 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(5);
 
 
 
@@ -6434,53 +6284,53 @@ function one(b) {
 
 
 /***/ }),
-/* 270 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_linear__ = __webpack_require__(535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_linear__ = __webpack_require__(266);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_0__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_quad__ = __webpack_require__(536);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_quad__ = __webpack_require__(267);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubic__ = __webpack_require__(537);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubic__ = __webpack_require__(268);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_poly__ = __webpack_require__(538);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_poly__ = __webpack_require__(269);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_sin__ = __webpack_require__(539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_sin__ = __webpack_require__(270);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exp__ = __webpack_require__(540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exp__ = __webpack_require__(271);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_circle__ = __webpack_require__(541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_circle__ = __webpack_require__(272);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_bounce__ = __webpack_require__(542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_bounce__ = __webpack_require__(273);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_back__ = __webpack_require__(543);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_back__ = __webpack_require__(274);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_elastic__ = __webpack_require__(544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_elastic__ = __webpack_require__(275);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_9__src_elastic__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_9__src_elastic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_9__src_elastic__["c"]; });
@@ -6507,7 +6357,7 @@ function one(b) {
 
 
 /***/ }),
-/* 271 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6526,15 +6376,15 @@ var max = Math.max;
 
 
 /***/ }),
-/* 272 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = x;
 /* harmony export (immutable) */ __webpack_exports__["c"] = y;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_collection__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_timer__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_collection__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_timer__ = __webpack_require__(35);
 
 
 
@@ -6681,17 +6531,17 @@ var initialRadius = 10,
 
 
 /***/ }),
-/* 273 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(584);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(585);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(316);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(319);
 
 
 
@@ -6823,12 +6673,12 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 274 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatSpecifier;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(125);
 
 
 // [[fill]align][sign][symbol][0][width][,][.precision][type]
@@ -6888,13 +6738,13 @@ FormatSpecifier.prototype.toString = function() {
 
 
 /***/ }),
-/* 275 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(586);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(587);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(318);
 
 
 
@@ -6918,12 +6768,12 @@ FormatSpecifier.prototype.toString = function() {
 
 
 /***/ }),
-/* 276 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return prefixExponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(72);
 
 
 var prefixExponent;
@@ -6943,16 +6793,16 @@ var prefixExponent;
 
 
 /***/ }),
-/* 277 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return areaRingSum; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return areaStream; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stream__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stream__ = __webpack_require__(14);
 
 
 
@@ -7030,15 +6880,15 @@ function areaPoint(lambda, phi) {
 
 
 /***/ }),
-/* 278 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = circleStream;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(595);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rotation__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(326);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rotation__ = __webpack_require__(38);
 
 
 
@@ -7114,7 +6964,7 @@ function circleRadius(cosRadius, point) {
 
 
 /***/ }),
-/* 279 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7133,12 +6983,12 @@ function circleRadius(cosRadius, point) {
 
 
 /***/ }),
-/* 280 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
 
 
 
@@ -7234,15 +7084,15 @@ function clipAntimeridianInterpolate(from, to, direction, stream) {
 
 
 /***/ }),
-/* 281 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__buffer__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rejoin__ = __webpack_require__(283);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__polygonContains__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__buffer__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rejoin__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__polygonContains__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(3);
 
 
 
@@ -7377,11 +7227,11 @@ function compareIntersection(a, b) {
 
 
 /***/ }),
-/* 282 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(11);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -7409,11 +7259,11 @@ function compareIntersection(a, b) {
 
 
 /***/ }),
-/* 283 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pointEqual__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pointEqual__ = __webpack_require__(134);
 
 
 function Intersection(point, points, other, entry) {
@@ -7518,11 +7368,11 @@ function link(array) {
 
 
 /***/ }),
-/* 284 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -7531,13 +7381,13 @@ function link(array) {
 
 
 /***/ }),
-/* 285 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cartesian__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cartesian__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
 
 
 
@@ -7609,15 +7459,15 @@ var sum = Object(__WEBPACK_IMPORTED_MODULE_0__adder__["a" /* default */])();
 
 
 /***/ }),
-/* 286 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__circle__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pointEqual__ = __webpack_require__(284);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__circle__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pointEqual__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index__ = __webpack_require__(131);
 
 
 
@@ -7803,11 +7653,11 @@ var sum = Object(__WEBPACK_IMPORTED_MODULE_0__adder__["a" /* default */])();
 
 
 /***/ }),
-/* 287 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__length__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__length__ = __webpack_require__(138);
 
 
 var coordinates = [null, null],
@@ -7821,14 +7671,14 @@ var coordinates = [null, null],
 
 
 /***/ }),
-/* 288 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stream__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stream__ = __webpack_require__(14);
 
 
 
@@ -7885,11 +7735,11 @@ function lengthPoint(lambda, phi) {
 
 
 /***/ }),
-/* 289 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(11);
 
 
 var x0 = Infinity,
@@ -7921,11 +7771,11 @@ function boundsPoint(x, y) {
 
 
 /***/ }),
-/* 290 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__conicEqualArea__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__conicEqualArea__ = __webpack_require__(74);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -7939,12 +7789,12 @@ function boundsPoint(x, y) {
 
 
 /***/ }),
-/* 291 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = equirectangularRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(8);
 
 
 function equirectangularRaw(lambda, phi) {
@@ -7960,12 +7810,12 @@ equirectangularRaw.invert = equirectangularRaw;
 
 
 /***/ }),
-/* 292 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = packEnclose;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__enclose__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__enclose__ = __webpack_require__(143);
 
 
 function place(a, b, c) {
@@ -8084,11 +7934,11 @@ function packEnclose(circles) {
 
 
 /***/ }),
-/* 293 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(634);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(365);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(circles) {
@@ -8210,7 +8060,7 @@ function encloseBasis3(a, b, c) {
 
 
 /***/ }),
-/* 294 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8227,7 +8077,7 @@ function constantZero() {
 
 
 /***/ }),
-/* 295 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8240,11 +8090,11 @@ function constantZero() {
 
 
 /***/ }),
-/* 296 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(20);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ((function sourceRandomNormal(source) {
@@ -8276,11 +8126,11 @@ function constantZero() {
 
 
 /***/ }),
-/* 297 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(20);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ((function sourceRandomIrwinHall(source) {
@@ -8298,11 +8148,11 @@ function constantZero() {
 
 
 /***/ }),
-/* 298 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__request__ = __webpack_require__(81);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(defaultMimeType, parse) {
@@ -8323,14 +8173,14 @@ function responseOf(parse, row) {
 
 
 /***/ }),
-/* 299 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return implicit; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = ordinal;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(15);
 
 
 
@@ -8380,7 +8230,7 @@ function ordinal(range) {
 
 
 /***/ }),
-/* 300 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8390,7 +8240,7 @@ function ordinal(range) {
 
 
 /***/ }),
-/* 301 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8415,18 +8265,18 @@ function ordinal(range) {
 
 
 /***/ }),
-/* 302 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = calendar;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__array__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__array__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(151);
 
 
 
@@ -8565,12 +8415,12 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 
 
 /***/ }),
-/* 303 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatLocale;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time__ = __webpack_require__(44);
 
 
 function localDate(d) {
@@ -9103,12 +8953,12 @@ function formatLiteralPercent() {
 
 
 /***/ }),
-/* 304 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return isoSpecifier; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultLocale__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultLocale__ = __webpack_require__(84);
 
 
 var isoSpecifier = "%Y-%m-%dT%H:%M:%S.%LZ";
@@ -9125,15 +8975,15 @@ var formatIso = Date.prototype.toISOString
 
 
 /***/ }),
-/* 305 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__line__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__point__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__line__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__point__ = __webpack_require__(86);
 
 
 
@@ -9246,13 +9096,13 @@ var formatIso = Date.prototype.toISOString
 
 
 /***/ }),
-/* 306 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return curveRadialLinear; });
 /* harmony export (immutable) */ __webpack_exports__["b"] = curveRadial;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(45);
 
 
 var curveRadialLinear = curveRadial(__WEBPACK_IMPORTED_MODULE_0__linear__["a" /* default */]);
@@ -9292,13 +9142,13 @@ function curveRadial(curve) {
 
 
 /***/ }),
-/* 307 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = lineRadial;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__line__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__line__ = __webpack_require__(85);
 
 
 
@@ -9321,7 +9171,7 @@ function lineRadial(l) {
 
 
 /***/ }),
-/* 308 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9331,7 +9181,7 @@ function lineRadial(l) {
 
 
 /***/ }),
-/* 309 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9340,11 +9190,11 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 310 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(30);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ({
@@ -9357,7 +9207,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 311 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9382,7 +9232,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 312 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9403,11 +9253,11 @@ var tan30 = Math.sqrt(1 / 3),
 
 
 /***/ }),
-/* 313 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(30);
 
 
 var ka = 0.89081309152928522810,
@@ -9435,7 +9285,7 @@ var ka = 0.89081309152928522810,
 
 
 /***/ }),
-/* 314 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9449,7 +9299,7 @@ var ka = 0.89081309152928522810,
 
 
 /***/ }),
-/* 315 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9467,7 +9317,7 @@ var sqrt3 = Math.sqrt(3);
 
 
 /***/ }),
-/* 316 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9500,13 +9350,13 @@ var c = -0.5,
 
 
 /***/ }),
-/* 317 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = CardinalClosed;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(48);
 
 
 
@@ -9571,12 +9421,12 @@ CardinalClosed.prototype = {
 
 
 /***/ }),
-/* 318 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = CardinalOpen;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinal__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinal__ = __webpack_require__(48);
 
 
 function CardinalOpen(context, tension) {
@@ -9629,7 +9479,7 @@ CardinalOpen.prototype = {
 
 
 /***/ }),
-/* 319 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9638,8 +9488,8 @@ CardinalOpen.prototype = {
 /* unused harmony export cellHalfedgeEnd */
 /* harmony export (immutable) */ __webpack_exports__["d"] = sortCellHalfedges;
 /* harmony export (immutable) */ __webpack_exports__["b"] = clipCells;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Edge__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Diagram__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Edge__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Diagram__ = __webpack_require__(33);
 
 
 
@@ -9769,15 +9619,15 @@ function clipCells(x0, y0, x1, y1) {
 
 
 /***/ }),
-/* 320 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return firstCircle; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = attachCircle;
 /* harmony export (immutable) */ __webpack_exports__["b"] = detachCircle;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__RedBlackTree__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Diagram__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__RedBlackTree__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Diagram__ = __webpack_require__(33);
 
 
 
@@ -9859,7 +9709,7 @@ function detachCircle(arc) {
 
 
 /***/ }),
-/* 321 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9919,137 +9769,15 @@ function transform(node) {
 
 
 /***/ }),
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
-/* 384 */,
-/* 385 */,
-/* 386 */,
-/* 387 */,
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */,
-/* 396 */,
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */,
-/* 404 */,
-/* 405 */,
-/* 406 */,
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */,
-/* 412 */,
-/* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */,
-/* 420 */,
-/* 421 */,
-/* 422 */,
-/* 423 */,
-/* 424 */,
-/* 425 */,
-/* 426 */,
-/* 427 */,
-/* 428 */,
-/* 429 */,
-/* 430 */,
-/* 431 */,
-/* 432 */,
-/* 433 */,
-/* 434 */,
-/* 435 */,
-/* 436 */,
-/* 437 */,
-/* 438 */,
-/* 439 */,
-/* 440 */,
-/* 441 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__make_plot_js__ = __webpack_require__(732);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__glossary_js__ = __webpack_require__(735);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_js__ = __webpack_require__(736);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scrape_js__ = __webpack_require__(737);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scrape_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__scrape_js__);
-const d3 = __webpack_require__(67);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__make_plot_js__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__glossary_js__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__player_js__ = __webpack_require__(467);
+const d3 = __webpack_require__(21);
 
 
 
@@ -10159,7 +9887,6 @@ const addEventListeners = () => {
 
 
 document.addEventListener("DOMContentLoaded", (e) => {
-  Object(__WEBPACK_IMPORTED_MODULE_3__scrape_js__["fetchData"])();
   populateYearsDropdowns(YEARS);
   populateStatsDropdowns(STATS);
   populateTeamDropdowns(TEAMS);
@@ -10174,7 +9901,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 
 /***/ }),
-/* 442 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10211,11 +9938,11 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 443 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pairs__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pairs__ = __webpack_require__(93);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values0, values1, reduce) {
@@ -10240,7 +9967,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 444 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10250,18 +9977,18 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 445 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(446);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(447);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(100);
 
 
 
@@ -10340,7 +10067,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 446 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10352,7 +10079,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 447 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10362,14 +10089,14 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 448 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(49);
 
 
 
@@ -10382,11 +10109,11 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 449 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deviation__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deviation__ = __webpack_require__(94);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, min, max) {
@@ -10395,7 +10122,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 450 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10436,11 +10163,11 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 451 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(22);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, valueof) {
@@ -10469,13 +10196,13 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 452 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__number__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__number__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(49);
 
 
 
@@ -10507,7 +10234,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 453 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10535,7 +10262,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 454 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10547,11 +10274,11 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 455 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(17);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(values, compare) {
@@ -10575,7 +10302,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 456 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10596,7 +10323,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 457 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10623,11 +10350,11 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 458 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transpose__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transpose__ = __webpack_require__(102);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -10636,11 +10363,11 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 459 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_axis__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_axis__ = __webpack_require__(191);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_axis__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_axis__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_axis__["a"]; });
@@ -10649,7 +10376,7 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 
 
 /***/ }),
-/* 460 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10657,8 +10384,8 @@ var dependencies = {"d3-array":"1.2.1","d3-axis":"1.0.8","d3-brush":"1.0.4","d3-
 /* harmony export (immutable) */ __webpack_exports__["c"] = axisRight;
 /* harmony export (immutable) */ __webpack_exports__["a"] = axisBottom;
 /* harmony export (immutable) */ __webpack_exports__["b"] = axisLeft;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(461);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(193);
 
 
 
@@ -10836,7 +10563,7 @@ function axisLeft(scale) {
 
 
 /***/ }),
-/* 461 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10845,7 +10572,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 462 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10855,11 +10582,11 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 463 */
+/* 194 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_brush__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_brush__ = __webpack_require__(195);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_brush__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_brush__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_brush__["c"]; });
@@ -10868,21 +10595,21 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 464 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = brushSelection;
 /* harmony export (immutable) */ __webpack_exports__["b"] = brushX;
 /* harmony export (immutable) */ __webpack_exports__["c"] = brushY;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_transition__ = __webpack_require__(164);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(546);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(547);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__noevent__ = __webpack_require__(548);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_transition__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__noevent__ = __webpack_require__(279);
 
 
 
@@ -11425,7 +11152,7 @@ function brush(dim) {
 
 
 /***/ }),
-/* 465 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11516,16 +11243,16 @@ function set(type, name, callback) {
 
 
 /***/ }),
-/* 466 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nodrag__ = __webpack_require__(258);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__noevent__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__constant__ = __webpack_require__(500);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__event__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nodrag__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__noevent__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__constant__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__event__ = __webpack_require__(232);
 
 
 
@@ -11696,7 +11423,7 @@ function defaultTouchable() {
 
 
 /***/ }),
-/* 467 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11731,12 +11458,12 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 468 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(56);
 
 
 
@@ -11748,11 +11475,11 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 469 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_index__ = __webpack_require__(4);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(selector) {
@@ -11763,12 +11490,12 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 470 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(57);
 
 
 
@@ -11789,12 +11516,12 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 471 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selectorAll__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selectorAll__ = __webpack_require__(104);
 
 
 
@@ -11815,12 +11542,12 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 472 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__matcher__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__matcher__ = __webpack_require__(103);
 
 
 
@@ -11840,13 +11567,13 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 473 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__enter__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__enter__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(205);
 
 
 
@@ -11968,7 +11695,7 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 474 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11980,12 +11707,12 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 475 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(256);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(4);
 
 
 
@@ -11995,11 +11722,11 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 476 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(4);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(selection) {
@@ -12021,7 +11748,7 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 477 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12041,11 +11768,11 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 478 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(4);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(compare) {
@@ -12073,7 +11800,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 479 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12086,7 +11813,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 480 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12098,7 +11825,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 481 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12116,7 +11843,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 482 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12128,7 +11855,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 483 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12138,7 +11865,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 484 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12155,11 +11882,11 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 485 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespace__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespace__ = __webpack_require__(52);
 
 
 function attrRemove(name) {
@@ -12220,7 +11947,7 @@ function attrFunctionNS(fullname, value) {
 
 
 /***/ }),
-/* 486 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12255,7 +11982,7 @@ function propertyFunction(name, value) {
 
 
 /***/ }),
-/* 487 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12337,7 +12064,7 @@ function classedFunction(names, value) {
 
 
 /***/ }),
-/* 488 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12369,7 +12096,7 @@ function textFunction(value) {
 
 
 /***/ }),
-/* 489 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12401,7 +12128,7 @@ function htmlFunction(value) {
 
 
 /***/ }),
-/* 490 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12415,7 +12142,7 @@ function raise() {
 
 
 /***/ }),
-/* 491 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12429,11 +12156,11 @@ function lower() {
 
 
 /***/ }),
-/* 492 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(51);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(name) {
@@ -12445,12 +12172,12 @@ function lower() {
 
 
 /***/ }),
-/* 493 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(57);
 
 
 
@@ -12468,7 +12195,7 @@ function constantNull() {
 
 
 /***/ }),
-/* 494 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12483,7 +12210,7 @@ function remove() {
 
 
 /***/ }),
-/* 495 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12495,11 +12222,11 @@ function remove() {
 
 
 /***/ }),
-/* 496 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(58);
 
 
 function dispatchEvent(node, type, params) {
@@ -12537,11 +12264,11 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 497 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_index__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_index__ = __webpack_require__(4);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(selector) {
@@ -12552,12 +12279,12 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 498 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(56);
 
 
 
@@ -12575,12 +12302,12 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 499 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(56);
 
 
 
@@ -12596,7 +12323,7 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 500 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12608,7 +12335,7 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 501 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12633,7 +12360,7 @@ DragEvent.prototype.on = function() {
 
 
 /***/ }),
-/* 502 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12641,9 +12368,9 @@ DragEvent.prototype.on = function() {
 /* unused harmony export Lab */
 /* harmony export (immutable) */ __webpack_exports__["b"] = hcl;
 /* unused harmony export Hcl */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(110);
 
 
 
@@ -12755,15 +12482,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Hcl, hcl, Objec
 
 
 /***/ }),
-/* 503 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = cubehelix;
 /* unused harmony export Cubehelix */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(110);
 
 
 
@@ -12828,7 +12555,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Cubehelix, cube
 
 
 /***/ }),
-/* 504 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12840,14 +12567,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Cubehelix, cube
 
 
 /***/ }),
-/* 505 */
+/* 236 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return interpolateTransformCss; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return interpolateTransformSvg; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(237);
 
 
 
@@ -12914,13 +12641,13 @@ var interpolateTransformSvg = interpolateTransform(__WEBPACK_IMPORTED_MODULE_1__
 
 
 /***/ }),
-/* 506 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = parseCss;
 /* harmony export (immutable) */ __webpack_exports__["b"] = parseSvg;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(238);
 
 
 var cssNode,
@@ -12949,7 +12676,7 @@ function parseSvg(value) {
 
 
 /***/ }),
-/* 507 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12983,7 +12710,7 @@ var identity = {
 
 
 /***/ }),
-/* 508 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13054,13 +12781,13 @@ function tanh(x) {
 
 
 /***/ }),
-/* 509 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return hslLong; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(23);
 
 
 
@@ -13085,13 +12812,13 @@ var hslLong = hsl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 510 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = lab;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(23);
 
 
 
@@ -13111,13 +12838,13 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 511 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return hclLong; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(23);
 
 
 
@@ -13142,13 +12869,13 @@ var hclLong = hcl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 512 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cubehelixLong; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(23);
 
 
 
@@ -13181,7 +12908,7 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 513 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13193,13 +12920,13 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 514 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__interrupt__ = __webpack_require__(515);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transition__ = __webpack_require__(518);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__interrupt__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transition__ = __webpack_require__(249);
 
 
 
@@ -13209,11 +12936,11 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 515 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interrupt__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interrupt__ = __webpack_require__(118);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(name) {
@@ -13224,11 +12951,11 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 516 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__timer__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__timer__ = __webpack_require__(64);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(callback, delay, time) {
@@ -13243,11 +12970,11 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 517 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__timer__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__timer__ = __webpack_require__(64);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(callback, delay, time) {
@@ -13264,14 +12991,14 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 518 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_index__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__transition_schedule__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_ease__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_timer__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_index__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__transition_schedule__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_ease__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_timer__ = __webpack_require__(35);
 
 
 
@@ -13317,14 +13044,14 @@ function inherit(node, id) {
 
 
 /***/ }),
-/* 519 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(119);
 
 
 
@@ -13402,11 +13129,11 @@ function attrFunctionNS(fullname, interpolate, value) {
 
 
 /***/ }),
-/* 520 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
 
 
 function attrTweenNS(fullname, value) {
@@ -13442,11 +13169,11 @@ function attrTween(name, value) {
 
 
 /***/ }),
-/* 521 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(6);
 
 
 function delayFunction(id, value) {
@@ -13473,11 +13200,11 @@ function delayConstant(id, value) {
 
 
 /***/ }),
-/* 522 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(6);
 
 
 function durationFunction(id, value) {
@@ -13504,11 +13231,11 @@ function durationConstant(id, value) {
 
 
 /***/ }),
-/* 523 */
+/* 254 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(6);
 
 
 function easeConstant(id, value) {
@@ -13528,12 +13255,12 @@ function easeConstant(id, value) {
 
 
 /***/ }),
-/* 524 */
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(10);
 
 
 
@@ -13553,11 +13280,11 @@ function easeConstant(id, value) {
 
 
 /***/ }),
-/* 525 */
+/* 256 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(10);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(transition) {
@@ -13580,11 +13307,11 @@ function easeConstant(id, value) {
 
 
 /***/ }),
-/* 526 */
+/* 257 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__schedule__ = __webpack_require__(6);
 
 
 function start(name) {
@@ -13620,7 +13347,7 @@ function onFunction(id, name, listener) {
 
 
 /***/ }),
-/* 527 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13638,13 +13365,13 @@ function removeFunction(id) {
 
 
 /***/ }),
-/* 528 */
+/* 259 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__schedule__ = __webpack_require__(6);
 
 
 
@@ -13670,13 +13397,13 @@ function removeFunction(id) {
 
 
 /***/ }),
-/* 529 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__schedule__ = __webpack_require__(6);
 
 
 
@@ -13706,11 +13433,11 @@ function removeFunction(id) {
 
 
 /***/ }),
-/* 530 */
+/* 261 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
 
 
 var Selection = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* selection */].prototype.constructor;
@@ -13721,14 +13448,14 @@ var Selection = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* selection */].
 
 
 /***/ }),
-/* 531 */
+/* 262 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(119);
 
 
 
@@ -13790,7 +13517,7 @@ function styleFunction(name, interpolate, value) {
 
 
 /***/ }),
-/* 532 */
+/* 263 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13815,11 +13542,11 @@ function styleTween(name, value, priority) {
 
 
 /***/ }),
-/* 533 */
+/* 264 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tween__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tween__ = __webpack_require__(36);
 
 
 function textConstant(value) {
@@ -13843,12 +13570,12 @@ function textFunction(value) {
 
 
 /***/ }),
-/* 534 */
+/* 265 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__schedule__ = __webpack_require__(6);
 
 
 
@@ -13876,7 +13603,7 @@ function textFunction(value) {
 
 
 /***/ }),
-/* 535 */
+/* 266 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13887,7 +13614,7 @@ function linear(t) {
 
 
 /***/ }),
-/* 536 */
+/* 267 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13908,7 +13635,7 @@ function quadInOut(t) {
 
 
 /***/ }),
-/* 537 */
+/* 268 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13929,7 +13656,7 @@ function cubicInOut(t) {
 
 
 /***/ }),
-/* 538 */
+/* 269 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13976,7 +13703,7 @@ var polyInOut = (function custom(e) {
 
 
 /***/ }),
-/* 539 */
+/* 270 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14000,7 +13727,7 @@ function sinInOut(t) {
 
 
 /***/ }),
-/* 540 */
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14021,7 +13748,7 @@ function expInOut(t) {
 
 
 /***/ }),
-/* 541 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14042,7 +13769,7 @@ function circleInOut(t) {
 
 
 /***/ }),
-/* 542 */
+/* 273 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14074,7 +13801,7 @@ function bounceInOut(t) {
 
 
 /***/ }),
-/* 543 */
+/* 274 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14121,7 +13848,7 @@ var backInOut = (function custom(s) {
 
 
 /***/ }),
-/* 544 */
+/* 275 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14175,12 +13902,12 @@ var elasticInOut = (function custom(a, p) {
 
 
 /***/ }),
-/* 545 */
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_index__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__transition_schedule__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_index__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__transition_schedule__ = __webpack_require__(6);
 
 
 
@@ -14205,7 +13932,7 @@ var root = [null];
 
 
 /***/ }),
-/* 546 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14217,7 +13944,7 @@ var root = [null];
 
 
 /***/ }),
-/* 547 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14229,12 +13956,12 @@ var root = [null];
 
 
 /***/ }),
-/* 548 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = nopropagation;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
 
 
 function nopropagation() {
@@ -14248,25 +13975,25 @@ function nopropagation() {
 
 
 /***/ }),
-/* 549 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_chord__ = __webpack_require__(550);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_chord__ = __webpack_require__(281);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_chord__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ribbon__ = __webpack_require__(551);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ribbon__ = __webpack_require__(282);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ribbon__["a"]; });
 
 
 
 
 /***/ }),
-/* 550 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(121);
 
 
 
@@ -14391,14 +14118,14 @@ function compareValue(compare) {
 
 
 /***/ }),
-/* 551 */
+/* 282 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(552);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(553);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_path__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_path__ = __webpack_require__(13);
 
 
 
@@ -14489,7 +14216,7 @@ function defaultEndAngle(d) {
 
 
 /***/ }),
-/* 552 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14498,7 +14225,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 553 */
+/* 284 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14510,7 +14237,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 554 */
+/* 285 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14647,11 +14374,11 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 555 */
+/* 286 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(65);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -14728,11 +14455,11 @@ function setMap(map, key, value) {
 
 
 /***/ }),
-/* 556 */
+/* 287 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__map__ = __webpack_require__(65);
 
 
 function Set() {}
@@ -14775,7 +14502,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 557 */
+/* 288 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14787,7 +14514,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 558 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14799,7 +14526,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 559 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14811,7 +14538,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 560 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14819,7 +14546,7 @@ function set(object, f) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return csvParseRows; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return csvFormat; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return csvFormatRows; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dsv__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dsv__ = __webpack_require__(67);
 
 
 var csv = Object(__WEBPACK_IMPORTED_MODULE_0__dsv__["a" /* default */])(",");
@@ -14831,7 +14558,7 @@ var csvFormatRows = csv.formatRows;
 
 
 /***/ }),
-/* 561 */
+/* 292 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14839,7 +14566,7 @@ var csvFormatRows = csv.formatRows;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return tsvParseRows; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return tsvFormat; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return tsvFormatRows; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dsv__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dsv__ = __webpack_require__(67);
 
 
 var tsv = Object(__WEBPACK_IMPORTED_MODULE_0__dsv__["a" /* default */])("\t");
@@ -14851,25 +14578,25 @@ var tsvFormatRows = tsv.formatRows;
 
 
 /***/ }),
-/* 562 */
+/* 293 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_center__ = __webpack_require__(563);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_center__ = __webpack_require__(294);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_center__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_collide__ = __webpack_require__(564);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_collide__ = __webpack_require__(295);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_collide__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_link__ = __webpack_require__(578);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_link__ = __webpack_require__(309);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_manyBody__ = __webpack_require__(579);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_manyBody__ = __webpack_require__(310);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__src_manyBody__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_radial__ = __webpack_require__(580);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_radial__ = __webpack_require__(311);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_radial__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_simulation__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_simulation__ = __webpack_require__(122);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__src_simulation__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_x__ = __webpack_require__(581);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_x__ = __webpack_require__(312);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__src_x__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_y__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_y__ = __webpack_require__(313);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__src_y__["a"]; });
 
 
@@ -14882,7 +14609,7 @@ var tsvFormatRows = tsv.formatRows;
 
 
 /***/ }),
-/* 563 */
+/* 294 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14925,13 +14652,13 @@ var tsvFormatRows = tsv.formatRows;
 
 
 /***/ }),
-/* 564 */
+/* 295 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_quadtree__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_quadtree__ = __webpack_require__(69);
 
 
 
@@ -15033,23 +14760,23 @@ function y(d) {
 
 
 /***/ }),
-/* 565 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = quadtree;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__add__ = __webpack_require__(566);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cover__ = __webpack_require__(567);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(568);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(569);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find__ = __webpack_require__(570);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__remove__ = __webpack_require__(571);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__root__ = __webpack_require__(572);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__size__ = __webpack_require__(573);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__visit__ = __webpack_require__(574);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__visitAfter__ = __webpack_require__(575);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__x__ = __webpack_require__(576);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__y__ = __webpack_require__(577);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__add__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cover__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__remove__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__root__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__size__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__visit__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__visitAfter__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__x__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__y__ = __webpack_require__(308);
 
 
 
@@ -15126,7 +14853,7 @@ treeProto.y = __WEBPACK_IMPORTED_MODULE_11__y__["a" /* default */];
 
 
 /***/ }),
-/* 566 */
+/* 297 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15219,7 +14946,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 567 */
+/* 298 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15284,7 +15011,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 568 */
+/* 299 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15298,7 +15025,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 569 */
+/* 300 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15310,11 +15037,11 @@ function addAll(data) {
 
 
 /***/ }),
-/* 570 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quad__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quad__ = __webpack_require__(70);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x, y, radius) {
@@ -15388,7 +15115,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 571 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15458,7 +15185,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 572 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15468,7 +15195,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 573 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15482,11 +15209,11 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 574 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quad__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quad__ = __webpack_require__(70);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(callback) {
@@ -15506,11 +15233,11 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 575 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quad__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quad__ = __webpack_require__(70);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(callback) {
@@ -15535,7 +15262,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 576 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15550,7 +15277,7 @@ function defaultX(d) {
 
 
 /***/ }),
-/* 577 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15565,13 +15292,13 @@ function defaultY(d) {
 
 
 /***/ }),
-/* 578 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_collection__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_collection__ = __webpack_require__(24);
 
 
 
@@ -15691,14 +15418,14 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 579 */
+/* 310 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_quadtree__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__simulation__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_quadtree__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__simulation__ = __webpack_require__(122);
 
 
 
@@ -15816,11 +15543,11 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 580 */
+/* 311 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(18);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(radius, x, y) {
@@ -15881,11 +15608,11 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 581 */
+/* 312 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(18);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x) {
@@ -15930,11 +15657,11 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 582 */
+/* 313 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(18);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(y) {
@@ -15979,14 +15706,14 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 583 */
+/* 314 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return format; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return formatPrefix; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = defaultLocale;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(123);
 
 
 var locale;
@@ -16009,7 +15736,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 584 */
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16034,7 +15761,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 585 */
+/* 316 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16048,7 +15775,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 586 */
+/* 317 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16069,11 +15796,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 587 */
+/* 318 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDecimal__ = __webpack_require__(72);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(x, p) {
@@ -16088,7 +15815,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 588 */
+/* 319 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16098,11 +15825,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 589 */
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(37);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step) {
@@ -16111,11 +15838,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 590 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(37);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step, value) {
@@ -16124,11 +15851,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 591 */
+/* 322 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(37);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step, max) {
@@ -16138,89 +15865,89 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 592 */
+/* 323 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(127);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_area__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_bounds__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_bounds__ = __webpack_require__(324);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__src_bounds__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_centroid__ = __webpack_require__(594);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_centroid__ = __webpack_require__(325);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_2__src_centroid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_circle__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_circle__ = __webpack_require__(128);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_3__src_circle__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_clip_antimeridian__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_clip_antimeridian__ = __webpack_require__(130);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_4__src_clip_antimeridian__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__ = __webpack_require__(136);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__ = __webpack_require__(596);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__ = __webpack_require__(327);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__ = __webpack_require__(39);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_contains__ = __webpack_require__(598);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_contains__ = __webpack_require__(329);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_8__src_contains__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_distance__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_distance__ = __webpack_require__(137);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_9__src_distance__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_graticule__ = __webpack_require__(599);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_graticule__ = __webpack_require__(330);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_10__src_graticule__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_10__src_graticule__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_interpolate__ = __webpack_require__(600);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_interpolate__ = __webpack_require__(331);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_11__src_interpolate__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_length__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_length__ = __webpack_require__(138);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_12__src_length__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_path_index__ = __webpack_require__(601);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_path_index__ = __webpack_require__(332);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_13__src_path_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__ = __webpack_require__(140);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__ = __webpack_require__(340);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__ = __webpack_require__(341);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__ = __webpack_require__(611);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__ = __webpack_require__(342);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__ = __webpack_require__(612);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__ = __webpack_require__(343);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__ = __webpack_require__(74);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__ = __webpack_require__(344);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__ = __webpack_require__(141);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__ = __webpack_require__(614);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__ = __webpack_require__(345);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__ = __webpack_require__(615);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__ = __webpack_require__(346);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_projection_index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_projection_index__ = __webpack_require__(8);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_24__src_projection_index__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_24__src_projection_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__ = __webpack_require__(77);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__ = __webpack_require__(616);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__ = __webpack_require__(347);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__ = __webpack_require__(617);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__ = __webpack_require__(348);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__ = __webpack_require__(618);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__ = __webpack_require__(349);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__ = __webpack_require__(619);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__ = __webpack_require__(350);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_rotation__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_rotation__ = __webpack_require__(38);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_30__src_rotation__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stream__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stream__ = __webpack_require__(14);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_31__src_stream__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_transform__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_transform__ = __webpack_require__(40);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_32__src_transform__["a"]; });
 
 
@@ -16258,15 +15985,15 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 593 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cartesian__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stream__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cartesian__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stream__ = __webpack_require__(14);
 
 
 
@@ -16446,13 +16173,13 @@ function rangeContains(range, x) {
 
 
 /***/ }),
-/* 594 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stream__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stream__ = __webpack_require__(14);
 
 
 
@@ -16596,7 +16323,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 595 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16608,11 +16335,11 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 596 */
+/* 327 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rectangle__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rectangle__ = __webpack_require__(39);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -16636,7 +16363,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 597 */
+/* 328 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16702,13 +16429,13 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 598 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polygonContains__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__distance__ = __webpack_require__(287);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polygonContains__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__distance__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
 
 
 
@@ -16796,14 +16523,14 @@ function pointRadians(point) {
 
 
 /***/ }),
-/* 599 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = graticule;
 /* harmony export (immutable) */ __webpack_exports__["b"] = graticule10;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
 
 
 
@@ -16912,11 +16639,11 @@ function graticule10() {
 
 
 /***/ }),
-/* 600 */
+/* 331 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(a, b) {
@@ -16956,18 +16683,18 @@ function graticule10() {
 
 
 /***/ }),
-/* 601 */
+/* 332 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__identity__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stream__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__area__ = __webpack_require__(602);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bounds__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centroid__ = __webpack_require__(603);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__context__ = __webpack_require__(604);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__measure__ = __webpack_require__(605);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__string__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__identity__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stream__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__area__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bounds__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centroid__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__context__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__measure__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__string__ = __webpack_require__(337);
 
 
 
@@ -17032,13 +16759,13 @@ function graticule10() {
 
 
 /***/ }),
-/* 602 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(11);
 
 
 
@@ -17092,11 +16819,11 @@ function areaRingEnd() {
 
 
 /***/ }),
-/* 603 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 
 
 // TODO Enforce positive area for exterior, negative area for interior?
@@ -17200,13 +16927,13 @@ function centroidPointRing(x, y) {
 
 
 /***/ }),
-/* 604 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = PathContext;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(11);
 
 
 
@@ -17255,13 +16982,13 @@ PathContext.prototype = {
 
 
 /***/ }),
-/* 605 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__adder__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noop__ = __webpack_require__(11);
 
 
 
@@ -17310,7 +17037,7 @@ function lengthPoint(x, y) {
 
 
 /***/ }),
-/* 606 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17377,13 +17104,13 @@ function circle(radius) {
 
 
 /***/ }),
-/* 607 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(40);
 
 
 
@@ -17489,12 +17216,12 @@ function resample(project, delta2) {
 
 
 /***/ }),
-/* 608 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = cylindricalEqualAreaRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 
 
 function cylindricalEqualAreaRaw(phi0) {
@@ -17513,14 +17240,14 @@ function cylindricalEqualAreaRaw(phi0) {
 
 
 /***/ }),
-/* 609 */
+/* 340 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__albers__ = __webpack_require__(290);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conicEqualArea__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__albers__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conicEqualArea__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(76);
 
 
 
@@ -17627,14 +17354,14 @@ function multiplex(streams) {
 
 
 /***/ }),
-/* 610 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return azimuthalEqualAreaRaw; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(8);
 
 
 
@@ -17655,14 +17382,14 @@ azimuthalEqualAreaRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["
 
 
 /***/ }),
-/* 611 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return azimuthalEquidistantRaw; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(8);
 
 
 
@@ -17683,14 +17410,14 @@ azimuthalEquidistantRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__
 
 
 /***/ }),
-/* 612 */
+/* 343 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = conicConformalRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mercator__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mercator__ = __webpack_require__(77);
 
 
 
@@ -17729,14 +17456,14 @@ function conicConformalRaw(y0, y1) {
 
 
 /***/ }),
-/* 613 */
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = conicEquidistantRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equirectangular__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equirectangular__ = __webpack_require__(141);
 
 
 
@@ -17769,14 +17496,14 @@ function conicEquidistantRaw(y0, y1) {
 
 
 /***/ }),
-/* 614 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = gnomonicRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(8);
 
 
 
@@ -17796,14 +17523,14 @@ gnomonicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /* azim
 
 
 /***/ }),
-/* 615 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_rectangle__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_rectangle__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(76);
 
 
 
@@ -17863,13 +17590,13 @@ function scaleTranslate(kx, ky, tx, ty) {
 
 
 /***/ }),
-/* 616 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = naturalEarth1Raw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
 
 
 
@@ -17901,14 +17628,14 @@ naturalEarth1Raw.invert = function(x, y) {
 
 
 /***/ }),
-/* 617 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = orthographicRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(8);
 
 
 
@@ -17927,14 +17654,14 @@ orthographicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /* 
 
 
 /***/ }),
-/* 618 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = stereographicRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__azimuthal__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(8);
 
 
 
@@ -17956,13 +17683,13 @@ stereographicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /*
 
 
 /***/ }),
-/* 619 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = transverseMercatorRaw;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mercator__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mercator__ = __webpack_require__(77);
 
 
 
@@ -17993,39 +17720,39 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 620 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_cluster__ = __webpack_require__(621);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_cluster__ = __webpack_require__(352);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_cluster__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_hierarchy_index__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_hierarchy_index__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_hierarchy_index__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_pack_index__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_pack_index__ = __webpack_require__(364);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_pack_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pack_siblings__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pack_siblings__ = __webpack_require__(142);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__src_pack_siblings__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_pack_enclose__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_pack_enclose__ = __webpack_require__(143);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pack_enclose__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_partition__ = __webpack_require__(635);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_partition__ = __webpack_require__(366);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__src_partition__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_stratify__ = __webpack_require__(636);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_stratify__ = __webpack_require__(367);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__src_stratify__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_tree__ = __webpack_require__(637);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_tree__ = __webpack_require__(368);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__src_tree__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_treemap_index__ = __webpack_require__(638);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_treemap_index__ = __webpack_require__(369);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_8__src_treemap_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_treemap_binary__ = __webpack_require__(639);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_treemap_binary__ = __webpack_require__(370);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_9__src_treemap_binary__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_treemap_dice__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_treemap_dice__ = __webpack_require__(27);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_10__src_treemap_dice__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_treemap_slice__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_treemap_slice__ = __webpack_require__(41);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_11__src_treemap_slice__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_treemap_sliceDice__ = __webpack_require__(640);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_treemap_sliceDice__ = __webpack_require__(371);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_12__src_treemap_sliceDice__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_treemap_squarify__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_treemap_squarify__ = __webpack_require__(80);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_13__src_treemap_squarify__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_treemap_resquarify__ = __webpack_require__(641);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_treemap_resquarify__ = __webpack_require__(372);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_14__src_treemap_resquarify__["a"]; });
 
 
@@ -18045,7 +17772,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 621 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18136,7 +17863,7 @@ function leafRight(node) {
 
 
 /***/ }),
-/* 622 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18155,7 +17882,7 @@ function count(node) {
 
 
 /***/ }),
-/* 623 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18175,7 +17902,7 @@ function count(node) {
 
 
 /***/ }),
-/* 624 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18192,7 +17919,7 @@ function count(node) {
 
 
 /***/ }),
-/* 625 */
+/* 356 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18212,7 +17939,7 @@ function count(node) {
 
 
 /***/ }),
-/* 626 */
+/* 357 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18228,7 +17955,7 @@ function count(node) {
 
 
 /***/ }),
-/* 627 */
+/* 358 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18242,7 +17969,7 @@ function count(node) {
 
 
 /***/ }),
-/* 628 */
+/* 359 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18279,7 +18006,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 629 */
+/* 360 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18293,7 +18020,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 630 */
+/* 361 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18307,7 +18034,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 631 */
+/* 362 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18323,7 +18050,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 632 */
+/* 363 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18339,13 +18066,13 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 633 */
+/* 364 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__siblings__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accessors__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__siblings__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__accessors__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(144);
 
 
 
@@ -18428,7 +18155,7 @@ function translateChild(k) {
 
 
 /***/ }),
-/* 634 */
+/* 365 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18453,12 +18180,12 @@ function shuffle(array) {
 
 
 /***/ }),
-/* 635 */
+/* 366 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__treemap_round__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__treemap_dice__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__treemap_round__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__treemap_dice__ = __webpack_require__(27);
 
 
 
@@ -18514,12 +18241,12 @@ function shuffle(array) {
 
 
 /***/ }),
-/* 636 */
+/* 367 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__accessors__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hierarchy_index__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__accessors__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hierarchy_index__ = __webpack_require__(78);
 
 
 
@@ -18596,11 +18323,11 @@ function defaultParentId(d) {
 
 
 /***/ }),
-/* 637 */
+/* 368 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hierarchy_index__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hierarchy_index__ = __webpack_require__(78);
 
 
 function defaultSeparation(a, b) {
@@ -18841,14 +18568,14 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 638 */
+/* 369 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__round__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__squarify__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__accessors__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__round__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__squarify__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__accessors__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(144);
 
 
 
@@ -18946,7 +18673,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 639 */
+/* 370 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18999,12 +18726,12 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 640 */
+/* 371 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(41);
 
 
 
@@ -19014,13 +18741,13 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 641 */
+/* 372 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__squarify__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__squarify__ = __webpack_require__(80);
 
 
 
@@ -19060,19 +18787,19 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 642 */
+/* 373 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(643);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(374);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_area__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_centroid__ = __webpack_require__(644);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_centroid__ = __webpack_require__(375);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_centroid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_hull__ = __webpack_require__(645);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_hull__ = __webpack_require__(376);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_hull__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_contains__ = __webpack_require__(647);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_contains__ = __webpack_require__(378);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__src_contains__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_length__ = __webpack_require__(648);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_length__ = __webpack_require__(379);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_length__["a"]; });
 
 
@@ -19082,7 +18809,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 643 */
+/* 374 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19104,7 +18831,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 644 */
+/* 375 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19131,11 +18858,11 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 645 */
+/* 376 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cross__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cross__ = __webpack_require__(377);
 
 
 function lexicographicOrder(a, b) {
@@ -19188,7 +18915,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 646 */
+/* 377 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19202,7 +18929,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 647 */
+/* 378 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19225,7 +18952,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 648 */
+/* 379 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19255,22 +18982,22 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 649 */
+/* 380 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_queue__ = __webpack_require__(650);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_queue__ = __webpack_require__(381);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_queue__["a"]; });
 
 
 
 /***/ }),
-/* 650 */
+/* 381 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = queue;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(651);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(382);
 
 
 var noabort = {};
@@ -19395,7 +19122,7 @@ function queue(concurrency) {
 
 
 /***/ }),
-/* 651 */
+/* 382 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19404,21 +19131,21 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 652 */
+/* 383 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_uniform__ = __webpack_require__(653);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_uniform__ = __webpack_require__(384);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_uniform__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_normal__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_normal__ = __webpack_require__(146);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_normal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_logNormal__ = __webpack_require__(654);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_logNormal__ = __webpack_require__(385);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_logNormal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_bates__ = __webpack_require__(655);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_bates__ = __webpack_require__(386);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__src_bates__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_irwinHall__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_irwinHall__ = __webpack_require__(147);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__src_irwinHall__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exponential__ = __webpack_require__(656);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exponential__ = __webpack_require__(387);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exponential__["a"]; });
 
 
@@ -19429,11 +19156,11 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 653 */
+/* 384 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(20);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ((function sourceRandomUniform(source) {
@@ -19454,12 +19181,12 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 654 */
+/* 385 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__normal__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__normal__ = __webpack_require__(146);
 
 
 
@@ -19478,12 +19205,12 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 655 */
+/* 386 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__irwinHall__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__irwinHall__ = __webpack_require__(147);
 
 
 
@@ -19502,11 +19229,11 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 656 */
+/* 387 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__defaultSource__ = __webpack_require__(20);
 
 
 /* harmony default export */ __webpack_exports__["a"] = ((function sourceRandomExponential(source) {
@@ -19523,23 +19250,23 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 657 */
+/* 388 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_request__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_request__ = __webpack_require__(81);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_request__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_html__ = __webpack_require__(658);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_html__ = __webpack_require__(389);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_html__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_json__ = __webpack_require__(659);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_json__ = __webpack_require__(390);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_json__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_text__ = __webpack_require__(660);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_text__ = __webpack_require__(391);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__src_text__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_xml__ = __webpack_require__(661);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_xml__ = __webpack_require__(392);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_xml__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_csv__ = __webpack_require__(662);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_csv__ = __webpack_require__(393);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_csv__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_tsv__ = __webpack_require__(663);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_tsv__ = __webpack_require__(394);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_6__src_tsv__["a"]; });
 
 
@@ -19551,11 +19278,11 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 658 */
+/* 389 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__type__["a" /* default */])("text/html", function(xhr) {
@@ -19564,11 +19291,11 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 659 */
+/* 390 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__type__["a" /* default */])("application/json", function(xhr) {
@@ -19577,11 +19304,11 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 660 */
+/* 391 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__type__["a" /* default */])("text/plain", function(xhr) {
@@ -19590,11 +19317,11 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 661 */
+/* 392 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__type__ = __webpack_require__(42);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__type__["a" /* default */])("application/xml", function(xhr) {
@@ -19605,12 +19332,12 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 662 */
+/* 393 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(148);
 
 
 
@@ -19618,12 +19345,12 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 663 */
+/* 394 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dsv__ = __webpack_require__(148);
 
 
 
@@ -19631,55 +19358,55 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 664 */
+/* 395 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(665);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(396);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(666);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(397);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_1__src_identity__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(28);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_2__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(399);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_3__src_log__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(149);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(400);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(670);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(401);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_6__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(402);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_7__src_quantize__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(672);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(403);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(152);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_9__src_time__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(688);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(419);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcTime__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(689);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(420);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_11__src_category10__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(690);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(421);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_12__src_category20b__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(691);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(422);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_13__src_category20c__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(692);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(423);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_14__src_category20__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(693);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(424);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(694);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(425);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(695);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(426);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(696);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(427);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential__["a"]; });
 
 
@@ -19721,14 +19448,14 @@ var slice = [].slice;
 
 
 /***/ }),
-/* 665 */
+/* 396 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = band;
 /* harmony export (immutable) */ __webpack_exports__["b"] = point;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ordinal__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ordinal__ = __webpack_require__(149);
 
 
 
@@ -19833,14 +19560,14 @@ function point() {
 
 
 /***/ }),
-/* 666 */
+/* 397 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = identity;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(150);
 
 
 
@@ -19867,12 +19594,12 @@ function identity() {
 
 
 /***/ }),
-/* 667 */
+/* 398 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(71);
 
 
 
@@ -19907,16 +19634,16 @@ function identity() {
 
 
 /***/ }),
-/* 668 */
+/* 399 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = log;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(43);
 
 
 
@@ -20048,15 +19775,15 @@ function log() {
 
 
 /***/ }),
-/* 669 */
+/* 400 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = pow;
 /* harmony export (immutable) */ __webpack_exports__["b"] = sqrt;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(43);
 
 
 
@@ -20098,13 +19825,13 @@ function sqrt() {
 
 
 /***/ }),
-/* 670 */
+/* 401 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = quantile;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(15);
 
 
 
@@ -20159,14 +19886,14 @@ function quantile() {
 
 
 /***/ }),
-/* 671 */
+/* 402 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = quantize;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__linear__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__linear__ = __webpack_require__(28);
 
 
 
@@ -20216,13 +19943,13 @@ function quantize() {
 
 
 /***/ }),
-/* 672 */
+/* 403 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = threshold;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(15);
 
 
 
@@ -20259,12 +19986,12 @@ function threshold() {
 
 
 /***/ }),
-/* 673 */
+/* 404 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return milliseconds; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
 
 
 var millisecond = Object(__WEBPACK_IMPORTED_MODULE_0__interval__["a" /* default */])(function() {
@@ -20294,13 +20021,13 @@ var milliseconds = millisecond.range;
 
 
 /***/ }),
-/* 674 */
+/* 405 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return seconds; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20319,13 +20046,13 @@ var seconds = second.range;
 
 
 /***/ }),
-/* 675 */
+/* 406 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return minutes; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20344,13 +20071,13 @@ var minutes = minute.range;
 
 
 /***/ }),
-/* 676 */
+/* 407 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return hours; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20371,13 +20098,13 @@ var hours = hour.range;
 
 
 /***/ }),
-/* 677 */
+/* 408 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return days; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20396,7 +20123,7 @@ var days = day.range;
 
 
 /***/ }),
-/* 678 */
+/* 409 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20414,8 +20141,8 @@ var days = day.range;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return thursdays; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return fridays; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return saturdays; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20448,12 +20175,12 @@ var saturdays = saturday.range;
 
 
 /***/ }),
-/* 679 */
+/* 410 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return months; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
 
 
 var month = Object(__WEBPACK_IMPORTED_MODULE_0__interval__["a" /* default */])(function(date) {
@@ -20472,12 +20199,12 @@ var months = month.range;
 
 
 /***/ }),
-/* 680 */
+/* 411 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return years; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
 
 
 var year = Object(__WEBPACK_IMPORTED_MODULE_0__interval__["a" /* default */])(function(date) {
@@ -20507,13 +20234,13 @@ var years = year.range;
 
 
 /***/ }),
-/* 681 */
+/* 412 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcMinutes; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20532,13 +20259,13 @@ var utcMinutes = utcMinute.range;
 
 
 /***/ }),
-/* 682 */
+/* 413 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcHours; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20557,13 +20284,13 @@ var utcHours = utcHour.range;
 
 
 /***/ }),
-/* 683 */
+/* 414 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcDays; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20582,7 +20309,7 @@ var utcDays = utcDay.range;
 
 
 /***/ }),
-/* 684 */
+/* 415 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20600,8 +20327,8 @@ var utcDays = utcDay.range;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return utcThursdays; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcFridays; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return utcSaturdays; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__duration__ = __webpack_require__(9);
 
 
 
@@ -20634,12 +20361,12 @@ var utcSaturdays = utcSaturday.range;
 
 
 /***/ }),
-/* 685 */
+/* 416 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcMonths; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
 
 
 var utcMonth = Object(__WEBPACK_IMPORTED_MODULE_0__interval__["a" /* default */])(function(date) {
@@ -20658,12 +20385,12 @@ var utcMonths = utcMonth.range;
 
 
 /***/ }),
-/* 686 */
+/* 417 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return utcYears; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interval__ = __webpack_require__(2);
 
 
 var utcYear = Object(__WEBPACK_IMPORTED_MODULE_0__interval__["a" /* default */])(function(date) {
@@ -20693,12 +20420,12 @@ var utcYears = utcYear.range;
 
 
 /***/ }),
-/* 687 */
+/* 418 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isoFormat__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultLocale__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isoFormat__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__defaultLocale__ = __webpack_require__(84);
 
 
 
@@ -20715,13 +20442,13 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 688 */
+/* 419 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(44);
 
 
 
@@ -20732,56 +20459,56 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 689 */
+/* 420 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(29);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("1f77b4ff7f0e2ca02cd627289467bd8c564be377c27f7f7fbcbd2217becf"));
 
 
 /***/ }),
-/* 690 */
+/* 421 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(29);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("393b795254a36b6ecf9c9ede6379398ca252b5cf6bcedb9c8c6d31bd9e39e7ba52e7cb94843c39ad494ad6616be7969c7b4173a55194ce6dbdde9ed6"));
 
 
 /***/ }),
-/* 691 */
+/* 422 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(29);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("3182bd6baed69ecae1c6dbefe6550dfd8d3cfdae6bfdd0a231a35474c476a1d99bc7e9c0756bb19e9ac8bcbddcdadaeb636363969696bdbdbdd9d9d9"));
 
 
 /***/ }),
-/* 692 */
+/* 423 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(29);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */])("1f77b4aec7e8ff7f0effbb782ca02c98df8ad62728ff98969467bdc5b0d58c564bc49c94e377c2f7b6d27f7f7fc7c7c7bcbd22dbdb8d17becf9edae5"));
 
 
 /***/ }),
-/* 693 */
+/* 424 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(5);
 
 
 
@@ -20789,14 +20516,14 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 694 */
+/* 425 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return warm; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return cool; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(5);
 
 
 
@@ -20817,14 +20544,14 @@ var rainbow = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["b" /* cubehelix */]
 
 
 /***/ }),
-/* 695 */
+/* 426 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return magma; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return inferno; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return plasma; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__colors__ = __webpack_require__(29);
 
 
 function ramp(range) {
@@ -20844,12 +20571,12 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 
 
 /***/ }),
-/* 696 */
+/* 427 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = sequential;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(28);
 
 
 function sequential(interpolator) {
@@ -20883,101 +20610,101 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 697 */
+/* 428 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(698);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(429);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_arc__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_area__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_area__ = __webpack_require__(155);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_area__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_line__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_line__ = __webpack_require__(85);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_2__src_line__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(699);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(430);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_3__src_pie__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__ = __webpack_require__(702);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__ = __webpack_require__(433);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__ = __webpack_require__(157);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__ = __webpack_require__(158);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_link_index__ = __webpack_require__(703);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_link_index__ = __webpack_require__(434);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_7__src_link_index__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_7__src_link_index__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_7__src_link_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol__ = __webpack_require__(704);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol__ = __webpack_require__(435);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_8__src_symbol__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_8__src_symbol__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_symbol_circle__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_symbol_circle__ = __webpack_require__(160);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_9__src_symbol_circle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_symbol_cross__ = __webpack_require__(311);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_symbol_cross__ = __webpack_require__(161);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_10__src_symbol_cross__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_symbol_diamond__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_symbol_diamond__ = __webpack_require__(162);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_11__src_symbol_diamond__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_symbol_square__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_symbol_square__ = __webpack_require__(164);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_12__src_symbol_square__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_symbol_star__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_symbol_star__ = __webpack_require__(163);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_13__src_symbol_star__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_symbol_triangle__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_symbol_triangle__ = __webpack_require__(165);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_14__src_symbol_triangle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__ = __webpack_require__(316);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__ = __webpack_require__(166);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__ = __webpack_require__(705);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__ = __webpack_require__(436);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__ = __webpack_require__(706);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__ = __webpack_require__(437);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__ = __webpack_require__(47);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__ = __webpack_require__(707);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__ = __webpack_require__(438);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__ = __webpack_require__(167);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__ = __webpack_require__(168);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__ = __webpack_require__(48);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__ = __webpack_require__(708);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__ = __webpack_require__(439);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__ = __webpack_require__(709);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__ = __webpack_require__(440);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__ = __webpack_require__(87);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__ = __webpack_require__(710);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__ = __webpack_require__(441);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__ = __webpack_require__(45);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__ = __webpack_require__(711);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__ = __webpack_require__(442);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__ = __webpack_require__(712);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__ = __webpack_require__(443);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_curve_step__ = __webpack_require__(713);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_curve_step__ = __webpack_require__(444);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_30__src_curve_step__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_30__src_curve_step__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_30__src_curve_step__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stack__ = __webpack_require__(714);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stack__ = __webpack_require__(445);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_31__src_stack__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__ = __webpack_require__(715);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__ = __webpack_require__(446);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__ = __webpack_require__(716);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__ = __webpack_require__(447);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_offset_none__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_offset_none__ = __webpack_require__(31);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_34__src_offset_none__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__ = __webpack_require__(717);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__ = __webpack_require__(448);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__ = __webpack_require__(718);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__ = __webpack_require__(449);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__ = __webpack_require__(88);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_order_descending__ = __webpack_require__(719);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_order_descending__ = __webpack_require__(450);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_38__src_order_descending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__ = __webpack_require__(720);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__ = __webpack_require__(451);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__src_order_none__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__src_order_none__ = __webpack_require__(32);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_40__src_order_none__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__ = __webpack_require__(721);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__ = __webpack_require__(452);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__["a"]; });
 
 
@@ -21027,13 +20754,13 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 698 */
+/* 429 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(30);
 
 
 
@@ -21296,14 +21023,14 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 699 */
+/* 430 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__descending__ = __webpack_require__(700);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(701);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__descending__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(30);
 
 
 
@@ -21386,7 +21113,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 700 */
+/* 431 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21396,7 +21123,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 701 */
+/* 432 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21406,13 +21133,13 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 702 */
+/* 433 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(305);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lineRadial__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__curve_radial__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__area__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lineRadial__ = __webpack_require__(157);
 
 
 
@@ -21445,18 +21172,18 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 703 */
+/* 434 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = linkHorizontal;
 /* harmony export (immutable) */ __webpack_exports__["c"] = linkVertical;
 /* harmony export (immutable) */ __webpack_exports__["b"] = linkRadial;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(309);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pointRadial__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pointRadial__ = __webpack_require__(158);
 
 
 
@@ -21544,20 +21271,20 @@ function linkRadial() {
 
 
 /***/ }),
-/* 704 */
+/* 435 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return symbols; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__symbol_circle__ = __webpack_require__(310);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__symbol_cross__ = __webpack_require__(311);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__symbol_diamond__ = __webpack_require__(312);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__symbol_star__ = __webpack_require__(313);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__symbol_square__ = __webpack_require__(314);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__symbol_triangle__ = __webpack_require__(315);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__symbol_wye__ = __webpack_require__(316);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__constant__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__symbol_circle__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__symbol_cross__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__symbol_diamond__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__symbol_star__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__symbol_square__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__symbol_triangle__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__symbol_wye__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__constant__ = __webpack_require__(16);
 
 
 
@@ -21607,12 +21334,12 @@ var symbols = [
 
 
 /***/ }),
-/* 705 */
+/* 436 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(47);
 
 
 
@@ -21668,11 +21395,11 @@ BasisClosed.prototype = {
 
 
 /***/ }),
-/* 706 */
+/* 437 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(47);
 
 
 function BasisOpen(context) {
@@ -21715,11 +21442,11 @@ BasisOpen.prototype = {
 
 
 /***/ }),
-/* 707 */
+/* 438 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(47);
 
 
 function Bundle(context, beta) {
@@ -21779,13 +21506,13 @@ Bundle.prototype = {
 
 
 /***/ }),
-/* 708 */
+/* 439 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalClosed__ = __webpack_require__(317);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catmullRom__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalClosed__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catmullRom__ = __webpack_require__(87);
 
 
 
@@ -21863,12 +21590,12 @@ CatmullRomClosed.prototype = {
 
 
 /***/ }),
-/* 709 */
+/* 440 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalOpen__ = __webpack_require__(318);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catmullRom__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalOpen__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catmullRom__ = __webpack_require__(87);
 
 
 
@@ -21934,11 +21661,11 @@ CatmullRomOpen.prototype = {
 
 
 /***/ }),
-/* 710 */
+/* 441 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(46);
 
 
 function LinearClosed(context) {
@@ -21967,7 +21694,7 @@ LinearClosed.prototype = {
 
 
 /***/ }),
-/* 711 */
+/* 442 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22080,7 +21807,7 @@ function monotoneY(context) {
 
 
 /***/ }),
-/* 712 */
+/* 443 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22152,7 +21879,7 @@ function controlPoints(x) {
 
 
 /***/ }),
-/* 713 */
+/* 444 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22214,14 +21941,14 @@ function stepAfter(context) {
 
 
 /***/ }),
-/* 714 */
+/* 445 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(309);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__offset_none__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__order_none__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__offset_none__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__order_none__ = __webpack_require__(32);
 
 
 
@@ -22282,11 +22009,11 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 715 */
+/* 446 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(31);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(series, order) {
@@ -22300,7 +22027,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 716 */
+/* 447 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22321,11 +22048,11 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 717 */
+/* 448 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(31);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(series, order) {
@@ -22339,11 +22066,11 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 718 */
+/* 449 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(31);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(series, order) {
@@ -22371,11 +22098,11 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 719 */
+/* 450 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(88);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(series) {
@@ -22384,12 +22111,12 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 720 */
+/* 451 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(88);
 
 
 
@@ -22420,11 +22147,11 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 721 */
+/* 452 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__none__ = __webpack_require__(32);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(series) {
@@ -22433,23 +22160,23 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 722 */
+/* 453 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_voronoi__ = __webpack_require__(723);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_voronoi__ = __webpack_require__(454);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_voronoi__["a"]; });
 
 
 
 /***/ }),
-/* 723 */
+/* 454 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(724);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(725);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Diagram__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Diagram__ = __webpack_require__(33);
 
 
 
@@ -22501,7 +22228,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 724 */
+/* 455 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22513,7 +22240,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 725 */
+/* 456 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22529,17 +22256,17 @@ function y(d) {
 
 
 /***/ }),
-/* 726 */
+/* 457 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = removeBeach;
 /* harmony export (immutable) */ __webpack_exports__["a"] = addBeach;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__RedBlackTree__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Cell__ = __webpack_require__(319);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Circle__ = __webpack_require__(320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Edge__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Diagram__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__RedBlackTree__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Cell__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Circle__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Edge__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Diagram__ = __webpack_require__(33);
 
 
 
@@ -22736,13 +22463,13 @@ function rightBreakPoint(arc, directrix) {
 
 
 /***/ }),
-/* 727 */
+/* 458 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_zoom__ = __webpack_require__(728);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_zoom__ = __webpack_require__(459);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_zoom__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_transform__ = __webpack_require__(321);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_transform__ = __webpack_require__(171);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_transform__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_transform__["c"]; });
 
@@ -22750,19 +22477,19 @@ function rightBreakPoint(arc, directrix) {
 
 
 /***/ }),
-/* 728 */
+/* 459 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_interpolate__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_selection__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_transition__ = __webpack_require__(164);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(729);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(730);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(321);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__noevent__ = __webpack_require__(731);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_interpolate__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_selection__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_transition__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__noevent__ = __webpack_require__(462);
 
 
 
@@ -23190,7 +22917,7 @@ function defaultTouchable() {
 
 
 /***/ }),
-/* 729 */
+/* 460 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23202,7 +22929,7 @@ function defaultTouchable() {
 
 
 /***/ }),
-/* 730 */
+/* 461 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23215,12 +22942,12 @@ function ZoomEvent(target, type, transform) {
 
 
 /***/ }),
-/* 731 */
+/* 462 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = nopropagation;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(1);
 
 
 function nopropagation() {
@@ -23234,14 +22961,14 @@ function nopropagation() {
 
 
 /***/ }),
-/* 732 */
+/* 463 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__parametrize_js__ = __webpack_require__(733);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_data_PG2016_json__ = __webpack_require__(734);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__parametrize_js__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_data_PG2016_json__ = __webpack_require__(465);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_data_PG2016_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_data_PG2016_json__);
-const d3 = __webpack_require__(67);
+const d3 = __webpack_require__(21);
 
 
 
@@ -23366,11 +23093,11 @@ const makePlot = (Params) => {
 
 
 /***/ }),
-/* 733 */
+/* 464 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const d3 = __webpack_require__(67);
+const d3 = __webpack_require__(21);
 
 const parametrize = (data, params) => {
   let refinedData = [];
@@ -23405,17 +23132,17 @@ const parametrize = (data, params) => {
 
 
 /***/ }),
-/* 734 */
+/* 465 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"Lebron James","team":"CLE","position":"SF","PTS":26.4,"AST":8.7,"STL":1.2,"TRB":8.6},{"name":"Kristaps Porzingis","position":"PF","team":"NYK","PTS":18.1,"AST":1.5,"STL":0.7,"TRB":7.2},{"name":"Russel Westbrook","position":"PG","team":"OKC","PTS":31.6,"AST":10.4,"STL":1.6,"TRB":10.7},{"name":"James Harden","position":"SG","team":"HOU","PTS":29.1,"AST":11.2,"STL":1.5,"TRB":8.1},{"name":"Stephen Curry","position":"PG","team":"GSW","PTS":25.3,"AST":6.6,"STL":1.8,"TRB":4.5},{"name":"Anthony Davis","position":"C","team":"NOP","PTS":28,"AST":2.1,"STL":1.3,"TRB":11.8},{"name":"Kevin Durant","position":"SF","team":"GSW","PTS":25.1,"AST":4.8,"STL":1.1,"TRB":8.3},{"name":"John Wall","position":"PG","team":"WAS","PTS":23.1,"AST":10.7,"STL":2,"TRB":4.2},{"name":"Isaiah Thomas","position":"PG","team":"BOS","PTS":28.9,"AST":5.9,"STL":0.9,"TRB":2.7},{"name":"Carmelo Anthony","position":"SF","team":"NYK","PTS":22.4,"AST":2.9,"STL":0.8,"TRB":5.9},{"name":"Giannis Antetokounmpo","position":"SF","team":"MIL","PTS":22.9,"AST":5.4,"STL":1.6,"TRB":8.8}]
+module.exports = [{"Player":"Acy,Quincy","Pos":"PF","Age":"25","Tm":"SAC","G":"59","GS":"29","MP":"14.8","FG":"2.0","FGA":"3.6","FG%":".556","3P":"0.3","3PA":"0.8","3P%":".388","2P":"1.7","2PA":"2.8","2P%":".606","eFG%":".600","FT":"0.8","FTA":"1.2","FT%":".735","ORB":"1.1","DRB":"2.1","TRB":"3.2","AST":"0.5","STL":"0.5","BLK":"0.4","TOV":"0.5","PF":"1.7","PS/G":"5.2"},{"Player":"Adams,Jordan","Pos":"SG","Age":"21","Tm":"MEM","G":"2","GS":"0","MP":"7.5","FG":"1.0","FGA":"3.0","FG%":".333","3P":"0.0","3PA":"0.5","3P%":".000","2P":"1.0","2PA":"2.5","2P%":".400","eFG%":".333","FT":"1.5","FTA":"2.5","FT%":".600","ORB":"0.0","DRB":"1.0","TRB":"1.0","AST":"1.5","STL":"1.5","BLK":"0.0","TOV":"1.0","PF":"1.0","PS/G":"3.5"},{"Player":"Adams,Steven","Pos":"C","Age":"22","Tm":"OKC","G":"80","GS":"80","MP":"25.2","FG":"3.3","FGA":"5.3","FG%":".613","3P":"0.0","3PA":"0.0","3P%":null,"2P":"3.3","2PA":"5.3","2P%":".613","eFG%":".613","FT":"1.4","FTA":"2.5","FT%":".582","ORB":"2.7","DRB":"3.9","TRB":"6.7","AST":"0.8","STL":"0.5","BLK":"1.1","TOV":"1.1","PF":"2.8","PS/G":"8.0"},{"Player":"Afflalo,Arron","Pos":"SG","Age":"30","Tm":"NYK","G":"71","GS":"57","MP":"33.4","FG":"5.0","FGA":"11.3","FG%":".443","3P":"1.3","3PA":"3.4","3P%":".382","2P":"3.7","2PA":"7.9","2P%":".469","eFG%":".500","FT":"1.5","FTA":"1.8","FT%":".840","ORB":"0.3","DRB":"3.4","TRB":"3.7","AST":"2.0","STL":"0.4","BLK":"0.1","TOV":"1.2","PF":"2.0","PS/G":"12.8"},{"Player":"Ajinca,Alexis","Pos":"C","Age":"27","Tm":"NOP","G":"59","GS":"17","MP":"14.6","FG":"2.5","FGA":"5.3","FG%":".476","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.5","2PA":"5.3","2P%":".478","eFG%":".476","FT":"0.9","FTA":"1.1","FT%":".839","ORB":"1.3","DRB":"3.3","TRB":"4.6","AST":"0.5","STL":"0.3","BLK":"0.6","TOV":"0.9","PF":"2.3","PS/G":"6.0"},{"Player":"Aldrich,Cole","Pos":"C","Age":"27","Tm":"LAC","G":"60","GS":"5","MP":"13.3","FG":"2.2","FGA":"3.8","FG%":".596","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.2","2PA":"3.8","2P%":".596","eFG%":".596","FT":"1.0","FTA":"1.4","FT%":".714","ORB":"1.4","DRB":"3.4","TRB":"4.8","AST":"0.8","STL":"0.8","BLK":"1.1","TOV":"1.1","PF":"2.3","PS/G":"5.5"},{"Player":"Aldridge,LaMarcus","Pos":"PF","Age":"30","Tm":"SAS","G":"74","GS":"74","MP":"30.6","FG":"7.2","FGA":"14.1","FG%":".513","3P":"0.0","3PA":"0.2","3P%":".000","2P":"7.2","2PA":"13.9","2P%":".521","eFG%":".513","FT":"3.5","FTA":"4.1","FT%":".858","ORB":"2.4","DRB":"6.2","TRB":"8.5","AST":"1.5","STL":"0.5","BLK":"1.1","TOV":"1.3","PF":"2.0","PS/G":"18.0"},{"Player":"Alexander,Cliff","Pos":"PF","Age":"20","Tm":"POR","G":"8","GS":"0","MP":"4.5","FG":"0.6","FGA":"1.3","FG%":".500","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.6","2PA":"1.3","2P%":".500","eFG%":".500","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.3","DRB":"0.5","TRB":"0.8","AST":"0.0","STL":"0.1","BLK":"0.3","TOV":"0.1","PF":"0.1","PS/G":"1.3"},{"Player":"Allen,Lavoy","Pos":"PF","Age":"26","Tm":"IND","G":"79","GS":"28","MP":"20.2","FG":"2.4","FGA":"4.7","FG%":".516","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.4","2PA":"4.7","2P%":".516","eFG%":".516","FT":"0.6","FTA":"0.9","FT%":".630","ORB":"2.1","DRB":"3.3","TRB":"5.4","AST":"1.0","STL":"0.3","BLK":"0.5","TOV":"0.9","PF":"1.9","PS/G":"5.4"},{"Player":"Allen,Tony","Pos":"SG","Age":"34","Tm":"MEM","G":"64","GS":"57","MP":"25.3","FG":"3.4","FGA":"7.3","FG%":".458","3P":"0.2","3PA":"0.7","3P%":".357","2P":"3.1","2PA":"6.7","2P%":".468","eFG%":".474","FT":"1.4","FTA":"2.2","FT%":".652","ORB":"1.6","DRB":"3.0","TRB":"4.6","AST":"1.1","STL":"1.7","BLK":"0.3","TOV":"1.2","PF":"2.7","PS/G":"8.4"},{"Player":"Aminu,Al-Farouq","Pos":"SF","Age":"25","Tm":"POR","G":"82","GS":"82","MP":"28.5","FG":"3.6","FGA":"8.8","FG%":".416","3P":"1.5","3PA":"4.3","3P%":".361","2P":"2.1","2PA":"4.5","2P%":".468","eFG%":".503","FT":"1.4","FTA":"1.9","FT%":".737","ORB":"1.2","DRB":"4.9","TRB":"6.1","AST":"1.7","STL":"0.9","BLK":"0.6","TOV":"1.5","PF":"2.1","PS/G":"10.2"},{"Player":"Amundson,Lou","Pos":"PF","Age":"33","Tm":"NYK","G":"29","GS":"0","MP":"7.0","FG":"0.7","FGA":"1.8","FG%":".358","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.7","2PA":"1.8","2P%":".358","eFG%":".358","FT":"0.5","FTA":"0.9","FT%":".519","ORB":"0.8","DRB":"0.9","TRB":"1.7","AST":"0.4","STL":"0.2","BLK":"0.2","TOV":"0.5","PF":"1.5","PS/G":"1.8"},{"Player":"Andersen,Chris","Pos":"C","Age":"37","Tm":null,"G":"27","GS":"15","MP":"14.9","FG":"1.4","FGA":"2.7","FG%":".528","3P":"0.1","3PA":"0.5","3P%":".286","2P":"1.3","2PA":"2.1","2P%":".586","eFG%":".556","FT":"0.9","FTA":"1.3","FT%":".694","ORB":"1.3","DRB":"2.3","TRB":"3.6","AST":"0.4","STL":"0.6","BLK":"0.5","TOV":"0.3","PF":"1.1","PS/G":"3.9"},{"Player":"Anderson,Alan","Pos":"SG","Age":"33","Tm":"WAS","G":"13","GS":"0","MP":"14.8","FG":"1.6","FGA":"4.5","FG%":".356","3P":"0.9","3PA":"2.8","3P%":".324","2P":"0.7","2PA":"1.7","2P%":".409","eFG%":".458","FT":"0.8","FTA":"1.2","FT%":".733","ORB":"0.1","DRB":"2.0","TRB":"2.1","AST":"1.1","STL":"0.3","BLK":"0.1","TOV":"0.2","PF":"1.9","PS/G":"5.0"},{"Player":"Anderson,James","Pos":"SG","Age":"26","Tm":"SAC","G":"51","GS":"15","MP":"14.1","FG":"1.3","FGA":"3.5","FG%":".376","3P":"0.5","3PA":"1.7","3P%":".267","2P":"0.9","2PA":"1.8","2P%":".478","eFG%":".441","FT":"0.4","FTA":"0.6","FT%":".759","ORB":"0.3","DRB":"1.4","TRB":"1.7","AST":"0.8","STL":"0.4","BLK":"0.3","TOV":"0.8","PF":"1.1","PS/G":"3.5"},{"Player":"Anderson,Justin","Pos":"SF","Age":"22","Tm":"DAL","G":"55","GS":"9","MP":"11.8","FG":"1.3","FGA":"3.2","FG%":".406","3P":"0.4","3PA":"1.5","3P%":".265","2P":"0.9","2PA":"1.7","2P%":".533","eFG%":".469","FT":"0.8","FTA":"1.0","FT%":".800","ORB":"0.3","DRB":"2.1","TRB":"2.4","AST":"0.5","STL":"0.3","BLK":"0.5","TOV":"0.4","PF":"0.8","PS/G":"3.8"},{"Player":"Anderson,Kyle","Pos":"SF","Age":"22","Tm":"SAS","G":"78","GS":"11","MP":"16.0","FG":"1.8","FGA":"3.8","FG%":".468","3P":"0.2","3PA":"0.5","3P%":".324","2P":"1.6","2PA":"3.3","2P%":".488","eFG%":".488","FT":"0.8","FTA":"1.1","FT%":".747","ORB":"0.3","DRB":"2.8","TRB":"3.1","AST":"1.6","STL":"0.8","BLK":"0.4","TOV":"0.8","PF":"1.2","PS/G":"4.5"},{"Player":"Anderson,Ryan","Pos":"PF","Age":"27","Tm":"NOP","G":"66","GS":"7","MP":"30.4","FG":"6.0","FGA":"14.1","FG%":".427","3P":"2.0","3PA":"5.4","3P%":".366","2P":"4.0","2PA":"8.7","2P%":".466","eFG%":".498","FT":"3.0","FTA":"3.5","FT%":".873","ORB":"2.0","DRB":"4.0","TRB":"6.0","AST":"1.1","STL":"0.6","BLK":"0.4","TOV":"1.4","PF":"1.7","PS/G":"17.0"},{"Player":"Antetokounmpo,Giannis","Pos":"PG","Age":"21","Tm":"MIL","G":"80","GS":"79","MP":"35.3","FG":"6.4","FGA":"12.7","FG%":".506","3P":"0.4","3PA":"1.4","3P%":".257","2P":"6.1","2PA":"11.3","2P%":".537","eFG%":".520","FT":"3.7","FTA":"5.1","FT%":".724","ORB":"1.4","DRB":"6.2","TRB":"7.7","AST":"4.3","STL":"1.2","BLK":"1.4","TOV":"2.6","PF":"3.2","PS/G":"16.9"},{"Player":"Antetokounmpo,Thanasis","Pos":"SF","Age":"23","Tm":"NYK","G":"2","GS":"0","MP":"3.0","FG":"1.5","FGA":"2.0","FG%":".750","3P":"0.0","3PA":"0.5","3P%":".000","2P":"1.5","2PA":"1.5","2P%":"1.000","eFG%":".750","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.5","TRB":"0.5","AST":"0.0","STL":"0.0","BLK":"0.0","TOV":"0.0","PF":"1.0","PS/G":"3.0"},{"Player":"Anthony,Carmelo","Pos":"SF","Age":"31","Tm":"NYK","G":"72","GS":"72","MP":"35.1","FG":"7.9","FGA":"18.2","FG%":".434","3P":"1.5","3PA":"4.3","3P%":".339","2P":"6.4","2PA":"13.8","2P%":".463","eFG%":".474","FT":"4.6","FTA":"5.6","FT%":".829","ORB":"1.4","DRB":"6.4","TRB":"7.7","AST":"4.2","STL":"0.9","BLK":"0.5","TOV":"2.4","PF":"2.5","PS/G":"21.8"},{"Player":"Anthony,Joel","Pos":"C","Age":"33","Tm":"DET","G":"19","GS":"0","MP":"5.1","FG":"0.3","FGA":"0.5","FG%":".600","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.3","2PA":"0.5","2P%":".600","eFG%":".600","FT":"0.3","FTA":"0.4","FT%":".750","ORB":"0.4","DRB":"0.7","TRB":"1.1","AST":"0.1","STL":"0.1","BLK":"0.6","TOV":"0.1","PF":"0.8","PS/G":"0.9"},{"Player":"Appling,Keith","Pos":"PG","Age":"23","Tm":"ORL","G":"5","GS":"0","MP":"5.4","FG":"0.4","FGA":"1.6","FG%":".250","3P":"0.0","3PA":"0.6","3P%":".000","2P":"0.4","2PA":"1.0","2P%":".400","eFG%":".250","FT":"0.4","FTA":"0.4","FT%":"1.000","ORB":"0.0","DRB":"0.2","TRB":"0.2","AST":"0.2","STL":"0.2","BLK":"0.0","TOV":"0.6","PF":"1.0","PS/G":"1.2"},{"Player":"Ariza,Trevor","Pos":"SF","Age":"30","Tm":"HOU","G":"81","GS":"81","MP":"35.3","FG":"4.4","FGA":"10.6","FG%":".416","3P":"2.3","3PA":"6.2","3P%":".371","2P":"2.1","2PA":"4.4","2P%":".478","eFG%":".523","FT":"1.6","FTA":"2.0","FT%":".783","ORB":"0.8","DRB":"3.7","TRB":"4.5","AST":"2.3","STL":"2.0","BLK":"0.3","TOV":"1.4","PF":"2.2","PS/G":"12.7"},{"Player":"Arthur,Darrell","Pos":"PF","Age":"27","Tm":"DEN","G":"70","GS":"16","MP":"21.7","FG":"3.2","FGA":"7.0","FG%":".452","3P":"0.6","3PA":"1.7","3P%":".385","2P":"2.5","2PA":"5.3","2P%":".473","eFG%":".498","FT":"0.6","FTA":"0.8","FT%":".755","ORB":"1.2","DRB":"3.0","TRB":"4.2","AST":"1.4","STL":"0.8","BLK":"0.7","TOV":"0.9","PF":"2.6","PS/G":"7.5"},{"Player":"Asik,Omer","Pos":"C","Age":"29","Tm":"NOP","G":"68","GS":"64","MP":"17.3","FG":"1.5","FGA":"2.9","FG%":".533","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.5","2PA":"2.9","2P%":".533","eFG%":".533","FT":"0.9","FTA":"1.6","FT%":".545","ORB":"1.8","DRB":"4.3","TRB":"6.1","AST":"0.4","STL":"0.3","BLK":"0.3","TOV":"0.9","PF":"1.8","PS/G":"4.0"},{"Player":"Augustin,D.J.","Pos":"PG","Age":"28","Tm":null,"G":"62","GS":"0","MP":"19.0","FG":"2.4","FGA":"5.6","FG%":".423","3P":"1.1","3PA":"2.7","3P%":".405","2P":"1.3","2PA":"2.9","2P%":".440","eFG%":".520","FT":"1.7","FTA":"2.1","FT%":".805","ORB":"0.1","DRB":"1.4","TRB":"1.5","AST":"3.2","STL":"0.6","BLK":"0.1","TOV":"1.4","PF":"1.4","PS/G":"7.5"},{"Player":"Ayres,Jeff","Pos":"C","Age":"28","Tm":"LAC","G":"17","GS":"0","MP":"6.3","FG":"0.7","FGA":"1.4","FG%":".522","3P":"0.0","3PA":"0.1","3P%":".000","2P":"0.7","2PA":"1.3","2P%":".545","eFG%":".522","FT":"0.4","FTA":"0.4","FT%":"1.000","ORB":"0.2","DRB":"1.1","TRB":"1.3","AST":"0.3","STL":"0.0","BLK":"0.2","TOV":"0.4","PF":"1.1","PS/G":"1.8"},{"Player":"Babbitt,Luke","Pos":"SF","Age":"26","Tm":"NOP","G":"47","GS":"13","MP":"18.0","FG":"2.6","FGA":"6.1","FG%":".422","3P":"0.9","3PA":"2.3","3P%":".404","2P":"1.7","2PA":"3.8","2P%":".433","eFG%":".498","FT":"0.8","FTA":"1.1","FT%":".780","ORB":"0.5","DRB":"2.6","TRB":"3.1","AST":"1.1","STL":"0.2","BLK":"0.1","TOV":"0.5","PF":"1.9","PS/G":"7.0"},{"Player":"Bairstow,Cameron","Pos":"C","Age":"25","Tm":"CHI","G":"18","GS":"2","MP":"5.7","FG":"0.7","FGA":"2.2","FG%":".325","3P":"0.1","3PA":"0.3","3P%":".200","2P":"0.7","2PA":"1.9","2P%":".343","eFG%":".338","FT":"0.4","FTA":"0.4","FT%":".875","ORB":"0.2","DRB":"1.3","TRB":"1.6","AST":"0.3","STL":"0.1","BLK":"0.2","TOV":"0.2","PF":"1.1","PS/G":"1.9"},{"Player":"Barbosa,Leandro","Pos":"SG","Age":"33","Tm":"GSW","G":"68","GS":"0","MP":"15.9","FG":"2.5","FGA":"5.4","FG%":".462","3P":"0.6","3PA":"1.6","3P%":".355","2P":"1.9","2PA":"3.8","2P%":".508","eFG%":".515","FT":"0.8","FTA":"0.9","FT%":".839","ORB":"0.4","DRB":"1.3","TRB":"1.7","AST":"1.2","STL":"0.6","BLK":"0.1","TOV":"0.8","PF":"1.6","PS/G":"6.4"},{"Player":"Barea,J.J.","Pos":"PG","Age":"31","Tm":"DAL","G":"74","GS":"16","MP":"22.5","FG":"4.3","FGA":"9.6","FG%":".446","3P":"1.4","3PA":"3.5","3P%":".385","2P":"2.9","2PA":"6.1","2P%":".481","eFG%":".516","FT":"1.0","FTA":"1.3","FT%":".771","ORB":"0.4","DRB":"1.7","TRB":"2.1","AST":"4.1","STL":"0.4","BLK":"0.0","TOV":"1.5","PF":"1.5","PS/G":"10.9"},{"Player":"Bargnani,Andrea","Pos":"C","Age":"30","Tm":"BRK","G":"46","GS":"0","MP":"13.8","FG":"2.8","FGA":"6.1","FG%":".455","3P":"0.1","3PA":"0.3","3P%":".188","2P":"2.7","2PA":"5.7","2P%":".471","eFG%":".461","FT":"1.0","FTA":"1.2","FT%":".825","ORB":"0.6","DRB":"1.5","TRB":"2.1","AST":"0.4","STL":"0.1","BLK":"0.2","TOV":"0.6","PF":"1.3","PS/G":"6.6"},{"Player":"Barnes,Harrison","Pos":"SF","Age":"23","Tm":"GSW","G":"66","GS":"59","MP":"30.9","FG":"4.5","FGA":"9.6","FG%":".466","3P":"1.2","3PA":"3.2","3P%":".383","2P":"3.2","2PA":"6.3","2P%":".508","eFG%":".531","FT":"1.5","FTA":"2.0","FT%":".761","ORB":"1.2","DRB":"3.8","TRB":"4.9","AST":"1.8","STL":"0.6","BLK":"0.2","TOV":"0.9","PF":"2.1","PS/G":"11.7"},{"Player":"Barnes,Matt","Pos":"SF","Age":"35","Tm":"MEM","G":"76","GS":"45","MP":"28.8","FG":"3.5","FGA":"9.1","FG%":".381","3P":"1.6","3PA":"4.9","3P%":".322","2P":"1.9","2PA":"4.3","2P%":".449","eFG%":".467","FT":"1.5","FTA":"1.8","FT%":".804","ORB":"1.1","DRB":"4.4","TRB":"5.5","AST":"2.1","STL":"1.0","BLK":"0.8","TOV":"1.6","PF":"3.1","PS/G":"10.0"},{"Player":"Barton,Will","Pos":"SG","Age":"25","Tm":"DEN","G":"82","GS":"1","MP":"28.7","FG":"5.2","FGA":"12.0","FG%":".432","3P":"1.4","3PA":"4.0","3P%":".345","2P":"3.8","2PA":"8.0","2P%":".476","eFG%":".489","FT":"2.6","FTA":"3.3","FT%":".806","ORB":"0.7","DRB":"5.1","TRB":"5.8","AST":"2.5","STL":"0.9","BLK":"0.5","TOV":"1.7","PF":"1.8","PS/G":"14.4"},{"Player":"Bass,Brandon","Pos":"PF","Age":"30","Tm":"LAL","G":"66","GS":"0","MP":"20.3","FG":"2.6","FGA":"4.8","FG%":".549","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.6","2PA":"4.8","2P%":".552","eFG%":".549","FT":"1.9","FTA":"2.2","FT%":".845","ORB":"1.6","DRB":"2.7","TRB":"4.3","AST":"1.1","STL":"0.5","BLK":"0.8","TOV":"0.6","PF":"1.9","PS/G":"7.2"},{"Player":"Batum,Nicolas","Pos":"SF","Age":"27","Tm":"CHO","G":"70","GS":"70","MP":"35.0","FG":"5.3","FGA":"12.5","FG%":".426","3P":"2.0","3PA":"5.7","3P%":".348","2P":"3.3","2PA":"6.8","2P%":".492","eFG%":".506","FT":"2.3","FTA":"2.7","FT%":".849","ORB":"0.8","DRB":"5.3","TRB":"6.1","AST":"5.8","STL":"0.9","BLK":"0.6","TOV":"2.9","PF":"1.6","PS/G":"14.9"},{"Player":"Bayless,Jerryd","Pos":"SG","Age":"27","Tm":"MIL","G":"52","GS":"18","MP":"28.9","FG":"3.6","FGA":"8.4","FG%":".423","3P":"1.9","3PA":"4.4","3P%":".437","2P":"1.6","2PA":"4.0","2P%":".408","eFG%":".539","FT":"1.3","FTA":"1.7","FT%":".778","ORB":"0.4","DRB":"2.3","TRB":"2.7","AST":"3.1","STL":"0.9","BLK":"0.2","TOV":"1.4","PF":"2.1","PS/G":"10.4"},{"Player":"Baynes,Aron","Pos":"C","Age":"29","Tm":"DET","G":"81","GS":"1","MP":"15.2","FG":"2.4","FGA":"4.7","FG%":".505","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.4","2PA":"4.7","2P%":".508","eFG%":".505","FT":"1.6","FTA":"2.0","FT%":".764","ORB":"1.7","DRB":"3.0","TRB":"4.7","AST":"0.6","STL":"0.3","BLK":"0.6","TOV":"0.8","PF":"1.9","PS/G":"6.3"},{"Player":"Bazemore,Kent","Pos":"SF","Age":"26","Tm":"ATL","G":"75","GS":"68","MP":"27.8","FG":"4.3","FGA":"9.7","FG%":".441","3P":"1.5","3PA":"4.1","3P%":".357","2P":"2.8","2PA":"5.6","2P%":".502","eFG%":".517","FT":"1.6","FTA":"2.0","FT%":".815","ORB":"0.4","DRB":"4.7","TRB":"5.1","AST":"2.3","STL":"1.3","BLK":"0.5","TOV":"1.8","PF":"2.3","PS/G":"11.6"},{"Player":"Beal,Bradley","Pos":"SG","Age":"22","Tm":"WAS","G":"55","GS":"35","MP":"31.1","FG":"6.5","FGA":"14.5","FG%":".449","3P":"1.9","3PA":"4.9","3P%":".387","2P":"4.6","2PA":"9.6","2P%":".481","eFG%":".515","FT":"2.5","FTA":"3.2","FT%":".767","ORB":"0.7","DRB":"2.7","TRB":"3.4","AST":"2.9","STL":"1.0","BLK":"0.2","TOV":"2.0","PF":"2.1","PS/G":"17.4"},{"Player":"Beasley,Michael","Pos":"PF","Age":"27","Tm":"HOU","G":"20","GS":"0","MP":"18.2","FG":"5.4","FGA":"10.3","FG%":".522","3P":"0.2","3PA":"0.5","3P%":".333","2P":"5.2","2PA":"9.8","2P%":".531","eFG%":".529","FT":"1.9","FTA":"2.5","FT%":".776","ORB":"1.5","DRB":"3.5","TRB":"4.9","AST":"0.8","STL":"0.6","BLK":"0.5","TOV":"1.2","PF":"2.0","PS/G":"12.8"},{"Player":"Belinelli,Marco","Pos":"SG","Age":"29","Tm":"SAC","G":"68","GS":"7","MP":"24.6","FG":"3.6","FGA":"9.3","FG%":".386","3P":"1.3","3PA":"4.4","3P%":".306","2P":"2.3","2PA":"5.0","2P%":".456","eFG%":".457","FT":"1.7","FTA":"2.0","FT%":".833","ORB":"0.1","DRB":"1.6","TRB":"1.7","AST":"1.9","STL":"0.5","BLK":"0.0","TOV":"1.2","PF":"1.3","PS/G":"10.2"},{"Player":"Bennett,Anthony","Pos":"PF","Age":"22","Tm":"TOR","G":"19","GS":"0","MP":"4.4","FG":"0.4","FGA":"1.4","FG%":".296","3P":"0.2","3PA":"0.7","3P%":".214","2P":"0.3","2PA":"0.7","2P%":".385","eFG%":".352","FT":"0.5","FTA":"0.5","FT%":".900","ORB":"0.3","DRB":"0.9","TRB":"1.2","AST":"0.0","STL":"0.3","BLK":"0.0","TOV":"0.2","PF":"0.4","PS/G":"1.5"},{"Player":"Beverley,Patrick","Pos":"PG","Age":"27","Tm":"HOU","G":"71","GS":"63","MP":"28.7","FG":"3.6","FGA":"8.4","FG%":".434","3P":"1.7","3PA":"4.4","3P%":".400","2P":"1.9","2PA":"4.0","2P%":".472","eFG%":".539","FT":"0.8","FTA":"1.2","FT%":".682","ORB":"1.0","DRB":"2.5","TRB":"3.5","AST":"3.4","STL":"1.3","BLK":"0.4","TOV":"1.3","PF":"3.3","PS/G":"9.9"},{"Player":"Biyombo,Bismack","Pos":"C","Age":"23","Tm":"TOR","G":"82","GS":"22","MP":"22.0","FG":"1.9","FGA":"3.5","FG%":".542","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.9","2PA":"3.5","2P%":".544","eFG%":".542","FT":"1.7","FTA":"2.8","FT%":".628","ORB":"2.2","DRB":"5.8","TRB":"8.0","AST":"0.4","STL":"0.2","BLK":"1.6","TOV":"0.9","PF":"2.7","PS/G":"5.5"},{"Player":"Bjelica,Nemanja","Pos":"PF","Age":"27","Tm":"MIN","G":"60","GS":"0","MP":"17.9","FG":"1.8","FGA":"3.9","FG%":".468","3P":"0.8","3PA":"2.1","3P%":".384","2P":"1.0","2PA":"1.8","2P%":".564","eFG%":".570","FT":"0.7","FTA":"0.9","FT%":".727","ORB":"0.8","DRB":"2.7","TRB":"3.5","AST":"1.4","STL":"0.4","BLK":"0.4","TOV":"0.8","PF":"2.6","PS/G":"5.1"},{"Player":"Black,Tarik","Pos":"C","Age":"24","Tm":"LAL","G":"39","GS":"0","MP":"12.7","FG":"1.5","FGA":"2.7","FG%":".548","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.5","2PA":"2.7","2P%":".548","eFG%":".548","FT":"0.5","FTA":"1.2","FT%":".422","ORB":"1.1","DRB":"2.9","TRB":"4.0","AST":"0.4","STL":"0.4","BLK":"0.5","TOV":"0.6","PF":"2.0","PS/G":"3.4"},{"Player":"Blair,DeJuan","Pos":"C","Age":"26","Tm":"WAS","G":"29","GS":"0","MP":"7.5","FG":"1.0","FGA":"2.3","FG%":".412","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.0","2PA":"2.3","2P%":".418","eFG%":".412","FT":"0.2","FTA":"0.4","FT%":".385","ORB":"0.7","DRB":"1.3","TRB":"2.0","AST":"0.4","STL":"0.3","BLK":"0.1","TOV":"0.5","PF":"1.8","PS/G":"2.1"},{"Player":"Blake,Steve","Pos":"PG","Age":"35","Tm":"DET","G":"58","GS":"2","MP":"17.0","FG":"1.6","FGA":"4.1","FG%":".388","3P":"0.9","3PA":"2.6","3P%":".344","2P":"0.7","2PA":"1.5","2P%":".461","eFG%":".496","FT":"0.3","FTA":"0.3","FT%":".800","ORB":"0.2","DRB":"1.4","TRB":"1.5","AST":"3.4","STL":"0.4","BLK":"0.1","TOV":"1.4","PF":"1.2","PS/G":"4.4"},{"Player":"Bledsoe,Eric","Pos":"PG","Age":"26","Tm":"PHO","G":"31","GS":"31","MP":"34.2","FG":"7.2","FGA":"15.9","FG%":".453","3P":"1.5","3PA":"4.2","3P%":".372","2P":"5.6","2PA":"11.7","2P%":".482","eFG%":".502","FT":"4.5","FTA":"5.5","FT%":".802","ORB":"0.6","DRB":"3.5","TRB":"4.0","AST":"6.1","STL":"2.0","BLK":"0.6","TOV":"3.5","PF":"2.4","PS/G":"20.4"},{"Player":"Bogdanovic,Bojan","Pos":"SF","Age":"26","Tm":"BRK","G":"79","GS":"39","MP":"26.8","FG":"4.1","FGA":"9.5","FG%":".433","3P":"1.6","3PA":"4.3","3P%":".382","2P":"2.5","2PA":"5.2","2P%":".474","eFG%":".519","FT":"1.4","FTA":"1.7","FT%":".833","ORB":"0.5","DRB":"2.8","TRB":"3.2","AST":"1.3","STL":"0.4","BLK":"0.1","TOV":"1.5","PF":"1.5","PS/G":"11.2"},{"Player":"Bogut,Andrew","Pos":"C","Age":"31","Tm":"GSW","G":"70","GS":"66","MP":"20.7","FG":"2.5","FGA":"4.0","FG%":".627","3P":"0.0","3PA":"0.0","3P%":"1.000","2P":"2.5","2PA":"4.0","2P%":".626","eFG%":".629","FT":"0.3","FTA":"0.7","FT%":".480","ORB":"1.7","DRB":"5.3","TRB":"7.0","AST":"2.3","STL":"0.5","BLK":"1.6","TOV":"1.2","PF":"3.2","PS/G":"5.4"},{"Player":"Bonner,Matt","Pos":"C","Age":"35","Tm":"SAS","G":"30","GS":"2","MP":"6.9","FG":"1.0","FGA":"1.9","FG%":".509","3P":"0.5","3PA":"1.1","3P%":".441","2P":"0.5","2PA":"0.8","2P%":".609","eFG%":".640","FT":"0.1","FTA":"0.1","FT%":".750","ORB":"0.1","DRB":"0.8","TRB":"0.9","AST":"0.3","STL":"0.2","BLK":"0.0","TOV":"0.1","PF":"0.5","PS/G":"2.5"},{"Player":"Booker,Devin","Pos":"SG","Age":"19","Tm":"PHO","G":"76","GS":"51","MP":"27.7","FG":"4.8","FGA":"11.4","FG%":".423","3P":"1.3","3PA":"3.8","3P%":".343","2P":"3.5","2PA":"7.6","2P%":".464","eFG%":".480","FT":"2.8","FTA":"3.4","FT%":".840","ORB":"0.4","DRB":"2.1","TRB":"2.5","AST":"2.6","STL":"0.6","BLK":"0.3","TOV":"2.1","PF":"3.0","PS/G":"13.8"},{"Player":"Booker,Trevor","Pos":"PF","Age":"28","Tm":"UTA","G":"79","GS":"2","MP":"20.7","FG":"2.4","FGA":"4.9","FG%":".490","3P":"0.2","3PA":"0.5","3P%":".293","2P":"2.3","2PA":"4.4","2P%":".513","eFG%":".505","FT":"0.9","FTA":"1.3","FT%":".670","ORB":"2.1","DRB":"3.6","TRB":"5.7","AST":"1.1","STL":"0.7","BLK":"0.5","TOV":"1.0","PF":"2.1","PS/G":"5.9"},{"Player":"Bosh,Chris","Pos":"PF","Age":"31","Tm":"MIA","G":"53","GS":"53","MP":"33.5","FG":"6.8","FGA":"14.5","FG%":".467","3P":"1.5","3PA":"4.2","3P%":".365","2P":"5.2","2PA":"10.3","2P%":".508","eFG%":".520","FT":"4.0","FTA":"5.1","FT%":".795","ORB":"0.9","DRB":"6.5","TRB":"7.4","AST":"2.4","STL":"0.7","BLK":"0.6","TOV":"1.5","PF":"1.9","PS/G":"19.1"},{"Player":"Bradley,Avery","Pos":"SG","Age":"25","Tm":"BOS","G":"76","GS":"72","MP":"33.4","FG":"6.0","FGA":"13.4","FG%":".447","3P":"1.9","3PA":"5.4","3P%":".361","2P":"4.1","2PA":"8.1","2P%":".505","eFG%":".520","FT":"1.3","FTA":"1.6","FT%":".780","ORB":"0.6","DRB":"2.3","TRB":"2.9","AST":"2.1","STL":"1.5","BLK":"0.3","TOV":"1.4","PF":"2.2","PS/G":"15.2"},{"Player":"Brand,Elton","Pos":"C","Age":"36","Tm":"PHI","G":"17","GS":"1","MP":"13.2","FG":"1.8","FGA":"4.2","FG%":".431","3P":"0.0","3PA":"0.1","3P%":".000","2P":"1.8","2PA":"4.2","2P%":".437","eFG%":".431","FT":"0.5","FTA":"0.5","FT%":".889","ORB":"0.5","DRB":"3.2","TRB":"3.7","AST":"1.1","STL":"0.5","BLK":"0.5","TOV":"0.6","PF":"1.9","PS/G":"4.1"},{"Player":"Brewer,Corey","Pos":"SF","Age":"29","Tm":"HOU","G":"82","GS":"12","MP":"20.4","FG":"2.6","FGA":"6.7","FG%":".384","3P":"0.7","3PA":"2.7","3P%":".272","2P":"1.8","2PA":"4.0","2P%":".460","eFG%":".439","FT":"1.3","FTA":"1.7","FT%":".750","ORB":"0.5","DRB":"1.9","TRB":"2.4","AST":"1.3","STL":"1.0","BLK":"0.2","TOV":"1.0","PF":"2.0","PS/G":"7.2"},{"Player":"Brooks,Aaron","Pos":"PG","Age":"31","Tm":"CHI","G":"69","GS":"0","MP":"16.1","FG":"2.7","FGA":"6.8","FG%":".401","3P":"1.0","3PA":"2.7","3P%":".357","2P":"1.8","2PA":"4.1","2P%":".430","eFG%":".471","FT":"0.7","FTA":"0.9","FT%":".766","ORB":"0.3","DRB":"1.2","TRB":"1.5","AST":"2.6","STL":"0.4","BLK":"0.1","TOV":"1.2","PF":"1.9","PS/G":"7.1"},{"Player":"Brown,Anthony","Pos":"SF","Age":"23","Tm":"LAL","G":"29","GS":"11","MP":"20.7","FG":"1.3","FGA":"4.3","FG%":".310","3P":"0.7","3PA":"2.4","3P%":".286","2P":"0.7","2PA":"1.9","2P%":".339","eFG%":".389","FT":"0.6","FTA":"0.7","FT%":".850","ORB":"0.3","DRB":"2.1","TRB":"2.4","AST":"0.7","STL":"0.5","BLK":"0.2","TOV":"0.5","PF":"1.2","PS/G":"4.0"},{"Player":"Brown,Lorenzo","Pos":"PG","Age":"25","Tm":"PHO","G":"8","GS":"0","MP":"7.6","FG":"1.0","FGA":"3.1","FG%":".320","3P":"0.1","3PA":"1.0","3P%":".125","2P":"0.9","2PA":"2.1","2P%":".412","eFG%":".340","FT":"0.4","FTA":"0.5","FT%":".750","ORB":"0.0","DRB":"0.9","TRB":"0.9","AST":"1.4","STL":"0.4","BLK":"0.1","TOV":"1.1","PF":"0.5","PS/G":"2.5"},{"Player":"Brown,Markel","Pos":"SG","Age":"24","Tm":"BRK","G":"62","GS":"6","MP":"15.8","FG":"2.0","FGA":"5.2","FG%":".394","3P":"0.6","3PA":"2.0","3P%":".314","2P":"1.4","2PA":"3.2","2P%":".443","eFG%":".453","FT":"1.1","FTA":"1.5","FT%":".755","ORB":"0.4","DRB":"1.6","TRB":"2.0","AST":"1.5","STL":"0.6","BLK":"0.2","TOV":"0.9","PF":"1.5","PS/G":"5.9"},{"Player":"Bryant,Kobe","Pos":"SF","Age":"37","Tm":"LAL","G":"66","GS":"66","MP":"28.2","FG":"6.0","FGA":"16.9","FG%":".358","3P":"2.0","3PA":"7.1","3P%":".285","2P":"4.0","2PA":"9.8","2P%":".410","eFG%":".417","FT":"3.5","FTA":"4.3","FT%":".826","ORB":"0.6","DRB":"3.1","TRB":"3.7","AST":"2.8","STL":"0.9","BLK":"0.2","TOV":"2.0","PF":"1.7","PS/G":"17.6"},{"Player":"Budinger,Chase","Pos":"SF","Age":"27","Tm":null,"G":"66","GS":"2","MP":"14.1","FG":"1.6","FGA":"3.6","FG%":".435","3P":"0.4","3PA":"1.3","3P%":".279","2P":"1.2","2PA":"2.3","2P%":".523","eFG%":".485","FT":"0.6","FTA":"0.8","FT%":".696","ORB":"0.7","DRB":"1.6","TRB":"2.3","AST":"1.0","STL":"0.5","BLK":"0.2","TOV":"0.7","PF":"0.9","PS/G":"4.1"},{"Player":"Bullock,Reggie","Pos":"SF","Age":"24","Tm":"DET","G":"37","GS":"0","MP":"11.6","FG":"1.2","FGA":"2.6","FG%":".439","3P":"0.6","3PA":"1.4","3P%":".415","2P":"0.6","2PA":"1.2","2P%":".467","eFG%":".551","FT":"0.4","FTA":"0.4","FT%":".933","ORB":"0.4","DRB":"1.5","TRB":"1.8","AST":"0.7","STL":"0.3","BLK":"0.1","TOV":"0.2","PF":"0.8","PS/G":"3.3"},{"Player":"Burke,Trey","Pos":"PG","Age":"23","Tm":"UTA","G":"64","GS":"0","MP":"21.3","FG":"4.1","FGA":"9.9","FG%":".413","3P":"1.4","3PA":"4.0","3P%":".344","2P":"2.7","2PA":"5.9","2P%":".460","eFG%":".483","FT":"1.0","FTA":"1.3","FT%":".817","ORB":"0.3","DRB":"1.5","TRB":"1.8","AST":"2.3","STL":"0.5","BLK":"0.1","TOV":"1.3","PF":"1.3","PS/G":"10.6"},{"Player":"Burks,Alec","Pos":"SG","Age":"24","Tm":"UTA","G":"31","GS":"3","MP":"25.7","FG":"4.4","FGA":"10.8","FG%":".410","3P":"1.0","3PA":"2.5","3P%":".405","2P":"3.4","2PA":"8.2","2P%":".412","eFG%":".458","FT":"3.4","FTA":"4.5","FT%":".752","ORB":"0.5","DRB":"3.0","TRB":"3.5","AST":"2.0","STL":"0.6","BLK":"0.1","TOV":"1.6","PF":"2.3","PS/G":"13.3"},{"Player":"Butler,Caron","Pos":"SF","Age":"35","Tm":"SAC","G":"17","GS":"1","MP":"10.4","FG":"1.5","FGA":"3.5","FG%":".424","3P":"0.2","3PA":"1.1","3P%":".167","2P":"1.3","2PA":"2.4","2P%":".537","eFG%":".449","FT":"0.6","FTA":"0.7","FT%":".833","ORB":"0.3","DRB":"1.0","TRB":"1.3","AST":"0.6","STL":"0.5","BLK":"0.1","TOV":"0.2","PF":"1.1","PS/G":"3.7"},{"Player":"Butler,Jimmy","Pos":"SG","Age":"26","Tm":"CHI","G":"67","GS":"67","MP":"36.9","FG":"7.0","FGA":"15.4","FG%":".454","3P":"1.0","3PA":"3.1","3P%":".312","2P":"6.1","2PA":"12.4","2P%":".489","eFG%":".485","FT":"5.9","FTA":"7.1","FT%":".832","ORB":"1.2","DRB":"4.2","TRB":"5.3","AST":"4.8","STL":"1.6","BLK":"0.6","TOV":"2.0","PF":"1.9","PS/G":"20.9"},{"Player":"Butler,Rasual","Pos":"SF","Age":"36","Tm":"SAS","G":"46","GS":"0","MP":"9.4","FG":"1.1","FGA":"2.3","FG%":".471","3P":"0.3","3PA":"1.1","3P%":".306","2P":"0.7","2PA":"1.2","2P%":".618","eFG%":".543","FT":"0.2","FTA":"0.3","FT%":".688","ORB":"0.1","DRB":"1.2","TRB":"1.2","AST":"0.5","STL":"0.3","BLK":"0.5","TOV":"0.2","PF":"0.2","PS/G":"2.7"},{"Player":"Caboclo,Bruno","Pos":"SF","Age":"20","Tm":"TOR","G":"6","GS":"1","MP":"7.2","FG":"0.2","FGA":"2.0","FG%":".083","3P":"0.2","3PA":"1.2","3P%":".143","2P":"0.0","2PA":"0.8","2P%":".000","eFG%":".125","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.2","DRB":"0.2","TRB":"0.3","AST":"0.2","STL":"0.3","BLK":"0.2","TOV":"0.7","PF":"0.3","PS/G":"0.5"},{"Player":"Calderon,Jose","Pos":"PG","Age":"34","Tm":"NYK","G":"72","GS":"72","MP":"28.1","FG":"2.9","FGA":"6.3","FG%":".459","3P":"1.2","3PA":"2.8","3P%":".414","2P":"1.7","2PA":"3.5","2P%":".496","eFG%":".552","FT":"0.6","FTA":"0.7","FT%":".875","ORB":"0.3","DRB":"2.9","TRB":"3.2","AST":"4.1","STL":"0.9","BLK":"0.1","TOV":"1.2","PF":"1.9","PS/G":"7.6"},{"Player":"Caldwell-Pope,Kentavious","Pos":"SG","Age":"22","Tm":"DET","G":"76","GS":"76","MP":"36.7","FG":"5.3","FGA":"12.6","FG%":".420","3P":"1.5","3PA":"4.9","3P%":".309","2P":"3.8","2PA":"7.8","2P%":".489","eFG%":".479","FT":"2.4","FTA":"3.0","FT%":".811","ORB":"0.9","DRB":"2.8","TRB":"3.7","AST":"1.8","STL":"1.4","BLK":"0.2","TOV":"1.4","PF":"2.2","PS/G":"14.5"},{"Player":"Canaan,Isaiah","Pos":"SG","Age":"24","Tm":"PHI","G":"77","GS":"39","MP":"25.5","FG":"3.4","FGA":"9.4","FG%":".360","3P":"2.3","3PA":"6.3","3P%":".363","2P":"1.1","2PA":"3.1","2P%":".354","eFG%":".482","FT":"1.9","FTA":"2.3","FT%":".833","ORB":"0.3","DRB":"2.0","TRB":"2.3","AST":"1.8","STL":"0.7","BLK":"0.2","TOV":"1.2","PF":"1.7","PS/G":"11.0"},{"Player":"Capela,Clint","Pos":"C","Age":"21","Tm":"HOU","G":"77","GS":"35","MP":"19.1","FG":"3.0","FGA":"5.2","FG%":".582","3P":"0.0","3PA":"0.0","3P%":".000","2P":"3.0","2PA":"5.1","2P%":".583","eFG%":".582","FT":"1.0","FTA":"2.7","FT%":".379","ORB":"2.5","DRB":"3.9","TRB":"6.4","AST":"0.6","STL":"0.8","BLK":"1.2","TOV":"0.8","PF":"2.5","PS/G":"7.0"},{"Player":"Carroll,DeMarre","Pos":"SF","Age":"29","Tm":"TOR","G":"26","GS":"22","MP":"30.2","FG":"4.0","FGA":"10.4","FG%":".389","3P":"1.8","3PA":"4.5","3P%":".390","2P":"2.3","2PA":"5.8","2P%":".388","eFG%":".474","FT":"1.2","FTA":"1.9","FT%":".600","ORB":"1.2","DRB":"3.5","TRB":"4.7","AST":"1.0","STL":"1.7","BLK":"0.2","TOV":"1.1","PF":"2.4","PS/G":"11.0"},{"Player":"Carter,Vince","Pos":"SG","Age":"39","Tm":"MEM","G":"60","GS":"3","MP":"16.8","FG":"2.2","FGA":"5.7","FG%":".388","3P":"1.0","3PA":"2.8","3P%":".349","2P":"1.2","2PA":"2.9","2P%":".425","eFG%":".474","FT":"1.2","FTA":"1.4","FT%":".833","ORB":"0.5","DRB":"1.9","TRB":"2.4","AST":"0.9","STL":"0.6","BLK":"0.3","TOV":"0.6","PF":"1.7","PS/G":"6.6"},{"Player":"Carter-Williams,Michael","Pos":"PG","Age":"24","Tm":"MIL","G":"54","GS":"37","MP":"30.5","FG":"4.6","FGA":"10.3","FG%":".452","3P":"0.3","3PA":"1.0","3P%":".273","2P":"4.4","2PA":"9.3","2P%":".472","eFG%":".466","FT":"2.0","FTA":"3.0","FT%":".654","ORB":"0.9","DRB":"4.2","TRB":"5.1","AST":"5.2","STL":"1.5","BLK":"0.8","TOV":"2.8","PF":"3.0","PS/G":"11.5"},{"Player":"Casspi,Omri","Pos":"SF","Age":"27","Tm":"SAC","G":"69","GS":"21","MP":"27.2","FG":"4.3","FGA":"9.0","FG%":".481","3P":"1.6","3PA":"4.0","3P%":".409","2P":"2.7","2PA":"5.0","2P%":".537","eFG%":".571","FT":"1.5","FTA":"2.3","FT%":".648","ORB":"0.8","DRB":"5.1","TRB":"5.9","AST":"1.4","STL":"0.8","BLK":"0.2","TOV":"1.4","PF":"2.2","PS/G":"11.8"},{"Player":"Cauley-Stein,Willie","Pos":"C","Age":"22","Tm":"SAC","G":"66","GS":"39","MP":"21.4","FG":"2.9","FGA":"5.1","FG%":".563","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.9","2PA":"5.1","2P%":".567","eFG%":".563","FT":"1.2","FTA":"1.9","FT%":".648","ORB":"2.0","DRB":"3.3","TRB":"5.3","AST":"0.6","STL":"0.7","BLK":"1.0","TOV":"0.7","PF":"2.2","PS/G":"7.0"},{"Player":"Chalmers,Mario","Pos":"PG","Age":"29","Tm":null,"G":"61","GS":"7","MP":"22.5","FG":"3.0","FGA":"7.3","FG%":".410","3P":"0.8","3PA":"2.4","3P%":".309","2P":"2.2","2PA":"4.8","2P%":".461","eFG%":".462","FT":"3.6","FTA":"4.3","FT%":".832","ORB":"0.4","DRB":"2.2","TRB":"2.6","AST":"3.8","STL":"1.4","BLK":"0.2","TOV":"1.8","PF":"3.0","PS/G":"10.3"},{"Player":"Chandler,Tyson","Pos":"C","Age":"33","Tm":"PHO","G":"66","GS":"60","MP":"24.5","FG":"2.8","FGA":"4.8","FG%":".583","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.8","2PA":"4.7","2P%":".585","eFG%":".583","FT":"1.6","FTA":"2.6","FT%":".620","ORB":"2.7","DRB":"6.1","TRB":"8.7","AST":"1.0","STL":"0.5","BLK":"0.7","TOV":"1.4","PF":"2.2","PS/G":"7.2"},{"Player":"Christmas,Rakeem","Pos":"PF","Age":"24","Tm":"IND","G":"1","GS":"0","MP":"6.0","FG":"2.0","FGA":"2.0","FG%":"1.000","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.0","2PA":"2.0","2P%":"1.000","eFG%":"1.000","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"1.0","DRB":"0.0","TRB":"1.0","AST":"0.0","STL":"0.0","BLK":"0.0","TOV":"0.0","PF":"1.0","PS/G":"4.0"},{"Player":"Clark,Ian","Pos":"SG","Age":"24","Tm":"GSW","G":"66","GS":"1","MP":"8.8","FG":"1.3","FGA":"3.1","FG%":".441","3P":"0.5","3PA":"1.3","3P%":".357","2P":"0.9","2PA":"1.8","2P%":".500","eFG%":".515","FT":"0.4","FTA":"0.5","FT%":".824","ORB":"0.2","DRB":"0.8","TRB":"1.0","AST":"1.0","STL":"0.3","BLK":"0.2","TOV":"0.7","PF":"0.9","PS/G":"3.6"},{"Player":"Clarke,Coty","Pos":"SF","Age":"23","Tm":"BOS","G":"3","GS":"0","MP":"2.0","FG":"0.7","FGA":"1.3","FG%":".500","3P":"0.7","3PA":"0.7","3P%":"1.000","2P":"0.0","2PA":"0.7","2P%":".000","eFG%":".750","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.3","TRB":"0.3","AST":"0.0","STL":"0.0","BLK":"0.0","TOV":"0.3","PF":"0.0","PS/G":"2.0"},{"Player":"Clarkson,Jordan","Pos":"SG","Age":"23","Tm":"LAL","G":"79","GS":"79","MP":"32.3","FG":"6.0","FGA":"13.9","FG%":".433","3P":"1.4","3PA":"4.1","3P%":".347","2P":"4.6","2PA":"9.8","2P%":".468","eFG%":".483","FT":"2.1","FTA":"2.6","FT%":".804","ORB":"1.2","DRB":"2.8","TRB":"4.0","AST":"2.4","STL":"1.1","BLK":"0.1","TOV":"1.7","PF":"2.1","PS/G":"15.5"},{"Player":"Cole,Norris","Pos":"PG","Age":"27","Tm":"NOP","G":"45","GS":"23","MP":"26.6","FG":"4.4","FGA":"10.8","FG%":".405","3P":"0.7","3PA":"2.3","3P%":".324","2P":"3.6","2PA":"8.5","2P%":".427","eFG%":".439","FT":"1.2","FTA":"1.4","FT%":".800","ORB":"0.2","DRB":"3.1","TRB":"3.4","AST":"3.7","STL":"0.8","BLK":"0.1","TOV":"1.7","PF":"2.3","PS/G":"10.6"},{"Player":"Collison,Darren","Pos":"PG","Age":"28","Tm":"SAC","G":"74","GS":"15","MP":"30.0","FG":"5.1","FGA":"10.5","FG%":".486","3P":"1.2","3PA":"2.9","3P%":".401","2P":"3.9","2PA":"7.6","2P%":".519","eFG%":".542","FT":"2.6","FTA":"3.1","FT%":".858","ORB":"0.4","DRB":"1.9","TRB":"2.3","AST":"4.3","STL":"1.0","BLK":"0.1","TOV":"1.8","PF":"1.9","PS/G":"14.0"},{"Player":"Collison,Nick","Pos":"PF","Age":"35","Tm":"OKC","G":"59","GS":"4","MP":"11.8","FG":"0.8","FGA":"1.8","FG%":".459","3P":"0.0","3PA":"0.0","3P%":".000","2P":"0.8","2PA":"1.8","2P%":".467","eFG%":".459","FT":"0.4","FTA":"0.6","FT%":".697","ORB":"1.2","DRB":"1.7","TRB":"2.9","AST":"0.9","STL":"0.3","BLK":"0.3","TOV":"0.8","PF":"1.8","PS/G":"2.1"},{"Player":"Conley,Mike","Pos":"PG","Age":"28","Tm":"MEM","G":"56","GS":"56","MP":"31.4","FG":"5.3","FGA":"12.4","FG%":".422","3P":"1.4","3PA":"3.8","3P%":".363","2P":"3.9","2PA":"8.6","2P%":".449","eFG%":".478","FT":"3.4","FTA":"4.1","FT%":".834","ORB":"0.5","DRB":"2.5","TRB":"2.9","AST":"6.1","STL":"1.2","BLK":"0.3","TOV":"1.5","PF":"1.8","PS/G":"15.3"},{"Player":"Connaughton,Pat","Pos":"SG","Age":"23","Tm":"POR","G":"34","GS":"0","MP":"4.2","FG":"0.4","FGA":"1.4","FG%":".265","3P":"0.1","3PA":"0.6","3P%":".238","2P":"0.2","2PA":"0.8","2P%":".286","eFG%":".316","FT":"0.1","FTA":"0.1","FT%":"1.000","ORB":"0.3","DRB":"0.6","TRB":"0.9","AST":"0.3","STL":"0.1","BLK":"0.0","TOV":"0.3","PF":"0.2","PS/G":"1.1"},{"Player":"Copeland,Chris","Pos":"PF","Age":"31","Tm":"MIL","G":"24","GS":"1","MP":"6.5","FG":"0.7","FGA":"2.1","FG%":".333","3P":"0.4","3PA":"1.5","3P%":".278","2P":"0.3","2PA":"0.6","2P%":".467","eFG%":".431","FT":"0.3","FTA":"0.3","FT%":".857","ORB":"0.0","DRB":"0.4","TRB":"0.4","AST":"0.5","STL":"0.1","BLK":"0.0","TOV":"0.3","PF":"0.7","PS/G":"2.1"},{"Player":"Cotton,Bryce","Pos":"PG","Age":"23","Tm":null,"G":"8","GS":"0","MP":"4.9","FG":"0.5","FGA":"1.3","FG%":".400","3P":"0.0","3PA":"0.4","3P%":".000","2P":"0.5","2PA":"0.9","2P%":".571","eFG%":".400","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.0","TRB":"0.0","AST":"0.4","STL":"0.4","BLK":"0.0","TOV":"0.6","PF":"0.3","PS/G":"1.0"},{"Player":"Cousins,DeMarcus","Pos":"C","Age":"25","Tm":"SAC","G":"65","GS":"65","MP":"34.6","FG":"9.2","FGA":"20.5","FG%":".451","3P":"1.1","3PA":"3.2","3P%":".333","2P":"8.2","2PA":"17.3","2P%":".473","eFG%":".477","FT":"7.3","FTA":"10.2","FT%":".718","ORB":"2.4","DRB":"9.1","TRB":"11.5","AST":"3.3","STL":"1.6","BLK":"1.4","TOV":"3.8","PF":"3.6","PS/G":"26.9"},{"Player":"Covington,Robert","Pos":"SF","Age":"25","Tm":"PHI","G":"67","GS":"49","MP":"28.4","FG":"4.1","FGA":"10.6","FG%":".385","3P":"2.5","3PA":"7.2","3P%":".353","2P":"1.6","2PA":"3.4","2P%":".452","eFG%":".504","FT":"2.1","FTA":"2.6","FT%":".791","ORB":"1.0","DRB":"5.3","TRB":"6.3","AST":"1.4","STL":"1.6","BLK":"0.6","TOV":"2.1","PF":"3.5","PS/G":"12.8"},{"Player":"Crabbe,Allen","Pos":"SG","Age":"23","Tm":"POR","G":"81","GS":"8","MP":"26.0","FG":"3.8","FGA":"8.4","FG%":".459","3P":"1.4","3PA":"3.5","3P%":".393","2P":"2.5","2PA":"4.9","2P%":".506","eFG%":".541","FT":"1.2","FTA":"1.4","FT%":".867","ORB":"0.3","DRB":"2.3","TRB":"2.7","AST":"1.2","STL":"0.8","BLK":"0.2","TOV":"0.8","PF":"2.4","PS/G":"10.3"},{"Player":"Crawford,Jamal","Pos":"SG","Age":"35","Tm":"LAC","G":"79","GS":"5","MP":"26.9","FG":"4.8","FGA":"11.9","FG%":".404","3P":"1.5","3PA":"4.4","3P%":".340","2P":"3.3","2PA":"7.5","2P%":".440","eFG%":".466","FT":"3.1","FTA":"3.4","FT%":".904","ORB":"0.3","DRB":"1.6","TRB":"1.8","AST":"2.3","STL":"0.7","BLK":"0.2","TOV":"1.4","PF":"1.5","PS/G":"14.2"},{"Player":"Crowder,Jae","Pos":"SF","Age":"25","Tm":"BOS","G":"73","GS":"73","MP":"31.6","FG":"4.9","FGA":"11.1","FG%":".443","3P":"1.7","3PA":"5.0","3P%":".336","2P":"3.3","2PA":"6.2","2P%":".529","eFG%":".518","FT":"2.7","FTA":"3.3","FT%":".820","ORB":"1.0","DRB":"4.2","TRB":"5.1","AST":"1.8","STL":"1.7","BLK":"0.5","TOV":"1.1","PF":"2.7","PS/G":"14.2"},{"Player":"Cunningham,Dante","Pos":"SF","Age":"28","Tm":"NOP","G":"80","GS":"46","MP":"24.6","FG":"2.3","FGA":"5.2","FG%":".451","3P":"0.7","3PA":"2.2","3P%":".316","2P":"1.6","2PA":"3.0","2P%":".550","eFG%":".518","FT":"0.7","FTA":"1.0","FT%":".695","ORB":"0.7","DRB":"2.2","TRB":"3.0","AST":"1.0","STL":"0.5","BLK":"0.4","TOV":"0.5","PF":"2.2","PS/G":"6.1"},{"Player":"Cunningham,Jared","Pos":"SG","Age":"24","Tm":null,"G":"44","GS":"3","MP":"9.3","FG":"0.8","FGA":"2.4","FG%":".343","3P":"0.3","3PA":"0.9","3P%":".308","2P":"0.5","2PA":"1.5","2P%":".364","eFG%":".400","FT":"0.8","FTA":"1.3","FT%":".655","ORB":"0.1","DRB":"0.8","TRB":"0.9","AST":"0.5","STL":"0.3","BLK":"0.0","TOV":"0.5","PF":"0.9","PS/G":"2.7"},{"Player":"Curry,Seth","Pos":"PG","Age":"25","Tm":"SAC","G":"44","GS":"9","MP":"15.7","FG":"2.3","FGA":"5.1","FG%":".455","3P":"1.1","3PA":"2.5","3P%":".450","2P":"1.2","2PA":"2.6","2P%":".460","eFG%":".567","FT":"1.0","FTA":"1.2","FT%":".833","ORB":"0.2","DRB":"1.2","TRB":"1.4","AST":"1.5","STL":"0.5","BLK":"0.1","TOV":"0.8","PF":"0.9","PS/G":"6.8"},{"Player":"Curry,Stephen","Pos":"PG","Age":"27","Tm":"GSW","G":"79","GS":"79","MP":"34.2","FG":"10.2","FGA":"20.2","FG%":".504","3P":"5.1","3PA":"11.2","3P%":".454","2P":"5.1","2PA":"9.0","2P%":".566","eFG%":".630","FT":"4.6","FTA":"5.1","FT%":".908","ORB":"0.9","DRB":"4.6","TRB":"5.4","AST":"6.7","STL":"2.1","BLK":"0.2","TOV":"3.3","PF":"2.0","PS/G":"30.1"},{"Player":"Daniels,Troy","Pos":"SG","Age":"24","Tm":"CHO","G":"43","GS":"0","MP":"11.1","FG":"2.1","FGA":"4.3","FG%":".476","3P":"1.4","3PA":"2.8","3P%":".484","2P":"0.7","2PA":"1.5","2P%":".462","eFG%":".634","FT":"0.1","FTA":"0.2","FT%":".556","ORB":"0.2","DRB":"1.2","TRB":"1.3","AST":"0.5","STL":"0.3","BLK":"0.1","TOV":"0.6","PF":"0.9","PS/G":"5.6"},{"Player":"Davis,Anthony","Pos":"C","Age":"22","Tm":"NOP","G":"61","GS":"61","MP":"35.5","FG":"9.2","FGA":"18.6","FG%":".493","3P":"0.6","3PA":"1.8","3P%":".324","2P":"8.6","2PA":"16.9","2P%":".511","eFG%":".508","FT":"5.3","FTA":"7.0","FT%":".758","ORB":"2.1","DRB":"8.1","TRB":"10.3","AST":"1.9","STL":"1.3","BLK":"2.0","TOV":"2.0","PF":"2.4","PS/G":"24.3"},{"Player":"Davis,Ed","Pos":"PF","Age":"26","Tm":"POR","G":"81","GS":"0","MP":"20.8","FG":"2.5","FGA":"4.2","FG%":".611","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.5","2PA":"4.2","2P%":".611","eFG%":".611","FT":"1.4","FTA":"2.5","FT%":".559","ORB":"2.8","DRB":"4.6","TRB":"7.4","AST":"1.1","STL":"0.7","BLK":"0.9","TOV":"0.8","PF":"2.5","PS/G":"6.5"},{"Player":"Dawson,Branden","Pos":"PF","Age":"22","Tm":"LAC","G":"6","GS":"0","MP":"4.8","FG":"0.3","FGA":"0.8","FG%":".400","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.3","2PA":"0.8","2P%":".400","eFG%":".400","FT":"0.2","FTA":"0.2","FT%":"1.000","ORB":"0.3","DRB":"0.3","TRB":"0.7","AST":"0.0","STL":"0.0","BLK":"0.2","TOV":"0.0","PF":"0.3","PS/G":"0.8"},{"Player":"Dedmon,Dewayne","Pos":"C","Age":"26","Tm":"ORL","G":"58","GS":"20","MP":"12.2","FG":"1.7","FGA":"3.1","FG%":".559","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.7","2PA":"3.1","2P%":".559","eFG%":".559","FT":"1.0","FTA":"1.3","FT%":".750","ORB":"1.2","DRB":"2.8","TRB":"3.9","AST":"0.2","STL":"0.4","BLK":"0.8","TOV":"0.6","PF":"1.9","PS/G":"4.4"},{"Player":"Dejean-Jones,Bryce","Pos":"SG","Age":"23","Tm":"NOP","G":"14","GS":"11","MP":"19.9","FG":"2.0","FGA":"4.9","FG%":".406","3P":"0.9","3PA":"2.3","3P%":".375","2P":"1.1","2PA":"2.6","2P%":".432","eFG%":".493","FT":"0.8","FTA":"1.5","FT%":".524","ORB":"0.6","DRB":"2.9","TRB":"3.4","AST":"1.1","STL":"0.7","BLK":"0.1","TOV":"0.8","PF":"1.2","PS/G":"5.6"},{"Player":"Dekker,Sam","Pos":"SF","Age":"21","Tm":"HOU","G":"3","GS":"0","MP":"2.0","FG":"0.0","FGA":"0.0","FG%":null,"3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.0","2PA":"0.0","2P%":null,"eFG%":null,"FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.3","TRB":"0.3","AST":"0.0","STL":"0.3","BLK":"0.0","TOV":"0.0","PF":"0.0","PS/G":"0.0"},{"Player":"Dellavedova,Matthew","Pos":"PG","Age":"25","Tm":"CLE","G":"76","GS":"14","MP":"24.6","FG":"2.7","FGA":"6.7","FG%":".405","3P":"1.3","3PA":"3.1","3P%":".410","2P":"1.4","2PA":"3.6","2P%":".401","eFG%":".501","FT":"0.8","FTA":"0.9","FT%":".864","ORB":"0.4","DRB":"1.7","TRB":"2.1","AST":"4.4","STL":"0.6","BLK":"0.1","TOV":"1.5","PF":"2.3","PS/G":"7.5"},{"Player":"Deng,Luol","Pos":"PF","Age":"30","Tm":"MIA","G":"74","GS":"73","MP":"32.4","FG":"4.6","FGA":"10.1","FG%":".455","3P":"1.2","3PA":"3.5","3P%":".344","2P":"3.4","2PA":"6.6","2P%":".513","eFG%":".514","FT":"2.0","FTA":"2.6","FT%":".755","ORB":"1.5","DRB":"4.5","TRB":"6.0","AST":"1.9","STL":"1.0","BLK":"0.4","TOV":"1.1","PF":"1.6","PS/G":"12.3"},{"Player":"DeRozan,DeMar","Pos":"SG","Age":"26","Tm":"TOR","G":"78","GS":"78","MP":"35.9","FG":"7.9","FGA":"17.7","FG%":".446","3P":"0.6","3PA":"1.8","3P%":".338","2P":"7.3","2PA":"15.9","2P%":".458","eFG%":".463","FT":"7.1","FTA":"8.4","FT%":".850","ORB":"0.8","DRB":"3.7","TRB":"4.5","AST":"4.0","STL":"1.0","BLK":"0.3","TOV":"2.2","PF":"2.1","PS/G":"23.5"},{"Player":"Diaw,Boris","Pos":"PF","Age":"33","Tm":"SAS","G":"76","GS":"4","MP":"18.2","FG":"2.7","FGA":"5.0","FG%":".527","3P":"0.3","3PA":"0.9","3P%":".362","2P":"2.3","2PA":"4.1","2P%":".564","eFG%":".560","FT":"0.7","FTA":"1.0","FT%":".737","ORB":"0.8","DRB":"2.3","TRB":"3.1","AST":"2.3","STL":"0.3","BLK":"0.3","TOV":"1.3","PF":"1.3","PS/G":"6.4"},{"Player":"Dieng,Gorgui","Pos":"C","Age":"26","Tm":"MIN","G":"82","GS":"39","MP":"27.1","FG":"3.8","FGA":"7.1","FG%":".532","3P":"0.1","3PA":"0.2","3P%":".300","2P":"3.7","2PA":"6.8","2P%":".540","eFG%":".537","FT":"2.5","FTA":"3.0","FT%":".827","ORB":"1.9","DRB":"5.2","TRB":"7.1","AST":"1.7","STL":"1.1","BLK":"1.2","TOV":"1.7","PF":"2.7","PS/G":"10.1"},{"Player":"Dinwiddie,Spencer","Pos":"PG","Age":"22","Tm":"DET","G":"12","GS":"0","MP":"13.3","FG":"1.6","FGA":"4.5","FG%":".352","3P":"0.1","3PA":"0.8","3P%":".100","2P":"1.5","2PA":"3.7","2P%":".409","eFG%":".361","FT":"1.6","FTA":"2.8","FT%":".576","ORB":"0.3","DRB":"1.1","TRB":"1.4","AST":"1.8","STL":"0.3","BLK":"0.0","TOV":"0.6","PF":"1.7","PS/G":"4.8"},{"Player":"Douglas,Toney","Pos":"PG","Age":"29","Tm":"NOP","G":"61","GS":"18","MP":"20.7","FG":"3.0","FGA":"7.3","FG%":".411","3P":"1.3","3PA":"3.3","3P%":".399","2P":"1.7","2PA":"4.0","2P%":".421","eFG%":".502","FT":"1.4","FTA":"1.6","FT%":".848","ORB":"0.4","DRB":"1.9","TRB":"2.3","AST":"2.6","STL":"1.1","BLK":"0.1","TOV":"1.0","PF":"2.1","PS/G":"8.7"},{"Player":"Dragic,Goran","Pos":"PG","Age":"29","Tm":"MIA","G":"72","GS":"72","MP":"32.8","FG":"5.8","FGA":"12.2","FG%":".477","3P":"0.9","3PA":"2.8","3P%":".312","2P":"4.9","2PA":"9.3","2P%":".527","eFG%":".513","FT":"1.7","FTA":"2.3","FT%":".727","ORB":"0.8","DRB":"3.1","TRB":"3.8","AST":"5.8","STL":"1.0","BLK":"0.2","TOV":"2.6","PF":"2.6","PS/G":"14.1"},{"Player":"Drummond,Andre","Pos":"C","Age":"22","Tm":"DET","G":"81","GS":"81","MP":"32.9","FG":"6.8","FGA":"13.1","FG%":".521","3P":"0.0","3PA":"0.1","3P%":".333","2P":"6.8","2PA":"13.0","2P%":".522","eFG%":".522","FT":"2.6","FTA":"7.2","FT%":".355","ORB":"4.9","DRB":"9.9","TRB":"14.8","AST":"0.8","STL":"1.5","BLK":"1.4","TOV":"1.9","PF":"3.0","PS/G":"16.2"},{"Player":"Dudley,Jared","Pos":"PF","Age":"30","Tm":"WAS","G":"81","GS":"41","MP":"25.9","FG":"2.9","FGA":"6.0","FG%":".478","3P":"1.2","3PA":"2.9","3P%":".420","2P":"1.6","2PA":"3.1","2P%":".534","eFG%":".581","FT":"0.9","FTA":"1.2","FT%":".735","ORB":"0.7","DRB":"2.9","TRB":"3.5","AST":"2.1","STL":"0.9","BLK":"0.2","TOV":"1.0","PF":"2.3","PS/G":"7.9"},{"Player":"Dukan,Duje","Pos":"SF","Age":"24","Tm":"SAC","G":"1","GS":"0","MP":"24.0","FG":"2.0","FGA":"10.0","FG%":".200","3P":"2.0","3PA":"5.0","3P%":".400","2P":"0.0","2PA":"5.0","2P%":".000","eFG%":".300","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"2.0","DRB":"2.0","TRB":"4.0","AST":"1.0","STL":"1.0","BLK":"0.0","TOV":"0.0","PF":"2.0","PS/G":"6.0"},{"Player":"Duncan,Tim","Pos":"C","Age":"39","Tm":"SAS","G":"61","GS":"60","MP":"25.2","FG":"3.5","FGA":"7.2","FG%":".488","3P":"0.0","3PA":"0.0","3P%":".000","2P":"3.5","2PA":"7.2","2P%":".490","eFG%":".488","FT":"1.5","FTA":"2.1","FT%":".702","ORB":"1.9","DRB":"5.4","TRB":"7.3","AST":"2.7","STL":"0.8","BLK":"1.3","TOV":"1.5","PF":"2.0","PS/G":"8.6"},{"Player":"Dunleavy,Mike","Pos":"SF","Age":"35","Tm":"CHI","G":"31","GS":"30","MP":"22.7","FG":"2.5","FGA":"6.1","FG%":".410","3P":"1.3","3PA":"3.2","3P%":".394","2P":"1.2","2PA":"2.9","2P%":".427","eFG%":".513","FT":"0.9","FTA":"1.2","FT%":".784","ORB":"0.3","DRB":"2.4","TRB":"2.7","AST":"1.3","STL":"0.5","BLK":"0.3","TOV":"0.8","PF":"2.1","PS/G":"7.2"},{"Player":"Durant,Kevin","Pos":"SF","Age":"27","Tm":"OKC","G":"72","GS":"72","MP":"35.8","FG":"9.7","FGA":"19.2","FG%":".505","3P":"2.6","3PA":"6.7","3P%":".387","2P":"7.1","2PA":"12.5","2P%":".569","eFG%":".573","FT":"6.2","FTA":"6.9","FT%":".898","ORB":"0.6","DRB":"7.6","TRB":"8.2","AST":"5.0","STL":"1.0","BLK":"1.2","TOV":"3.5","PF":"1.9","PS/G":"28.2"},{"Player":"Early,Cleanthony","Pos":"SF","Age":"24","Tm":"NYK","G":"17","GS":"2","MP":"9.1","FG":"0.7","FGA":"2.4","FG%":".300","3P":"0.2","3PA":"0.9","3P%":".267","2P":"0.5","2PA":"1.5","2P%":".320","eFG%":".350","FT":"0.2","FTA":"0.2","FT%":".750","ORB":"0.2","DRB":"1.3","TRB":"1.5","AST":"0.4","STL":"0.1","BLK":"0.2","TOV":"0.5","PF":"0.9","PS/G":"1.8"},{"Player":"Eddie,Jarell","Pos":"SF","Age":"24","Tm":"WAS","G":"26","GS":"0","MP":"5.7","FG":"0.8","FGA":"2.5","FG%":".308","3P":"0.6","3PA":"1.8","3P%":".319","2P":"0.2","2PA":"0.7","2P%":".278","eFG%":".423","FT":"0.3","FTA":"0.3","FT%":"1.000","ORB":"0.1","DRB":"0.8","TRB":"0.9","AST":"0.2","STL":"0.2","BLK":"0.0","TOV":"0.0","PF":"0.2","PS/G":"2.4"},{"Player":"Ellington,Wayne","Pos":"SG","Age":"28","Tm":"BRK","G":"76","GS":"41","MP":"21.3","FG":"2.9","FGA":"7.4","FG%":".389","3P":"1.3","3PA":"3.5","3P%":".358","2P":"1.6","2PA":"3.9","2P%":".416","eFG%":".474","FT":"0.7","FTA":"0.8","FT%":".857","ORB":"0.3","DRB":"2.0","TRB":"2.3","AST":"1.1","STL":"0.6","BLK":"0.1","TOV":"0.6","PF":"1.1","PS/G":"7.7"},{"Player":"Ellis,Monta","Pos":"SG","Age":"30","Tm":"IND","G":"81","GS":"81","MP":"33.8","FG":"5.4","FGA":"12.6","FG%":".427","3P":"1.1","3PA":"3.5","3P%":".309","2P":"4.3","2PA":"9.1","2P%":".472","eFG%":".470","FT":"2.0","FTA":"2.5","FT%":".786","ORB":"0.5","DRB":"2.8","TRB":"3.3","AST":"4.7","STL":"1.9","BLK":"0.5","TOV":"2.5","PF":"2.1","PS/G":"13.8"},{"Player":"Ennis,James","Pos":"SF","Age":"25","Tm":null,"G":"22","GS":"5","MP":"15.0","FG":"2.5","FGA":"5.1","FG%":".478","3P":"1.2","3PA":"2.6","3P%":".448","2P":"1.3","2PA":"2.5","2P%":".509","eFG%":".593","FT":"1.1","FTA":"1.5","FT%":".735","ORB":"1.0","DRB":"1.0","TRB":"1.9","AST":"1.0","STL":"0.7","BLK":"0.2","TOV":"0.9","PF":"1.3","PS/G":"7.2"},{"Player":"Ennis,Tyler","Pos":"PG","Age":"21","Tm":"MIL","G":"46","GS":"7","MP":"14.2","FG":"1.8","FGA":"4.1","FG%":".449","3P":"0.3","3PA":"0.8","3P%":".333","2P":"1.5","2PA":"3.2","2P%":".480","eFG%":".484","FT":"0.5","FTA":"0.7","FT%":".735","ORB":"0.3","DRB":"1.3","TRB":"1.6","AST":"2.1","STL":"0.5","BLK":"0.0","TOV":"1.0","PF":"1.4","PS/G":"4.5"},{"Player":"Evans,Jeremy","Pos":"SF","Age":"28","Tm":"DAL","G":"30","GS":"2","MP":"8.4","FG":"0.9","FGA":"1.6","FG%":".542","3P":"0.1","3PA":"0.5","3P%":".250","2P":"0.7","2PA":"1.1","2P%":".688","eFG%":".583","FT":"0.5","FTA":"0.7","FT%":".714","ORB":"0.4","DRB":"1.4","TRB":"1.8","AST":"0.1","STL":"0.2","BLK":"0.3","TOV":"0.2","PF":"0.6","PS/G":"2.4"},{"Player":"Evans,Tyreke","Pos":"SG","Age":"26","Tm":"NOP","G":"25","GS":"25","MP":"30.6","FG":"5.4","FGA":"12.6","FG%":".433","3P":"1.3","3PA":"3.4","3P%":".388","2P":"4.1","2PA":"9.2","2P%":".450","eFG%":".486","FT":"3.0","FTA":"3.7","FT%":".796","ORB":"0.8","DRB":"4.4","TRB":"5.2","AST":"6.6","STL":"1.3","BLK":"0.3","TOV":"2.9","PF":"2.6","PS/G":"15.2"},{"Player":"Ezeli,Festus","Pos":"C","Age":"26","Tm":"GSW","G":"46","GS":"13","MP":"16.7","FG":"2.7","FGA":"5.0","FG%":".548","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.7","2PA":"5.0","2P%":".548","eFG%":".548","FT":"1.5","FTA":"2.9","FT%":".530","ORB":"2.0","DRB":"3.6","TRB":"5.6","AST":"0.7","STL":"0.4","BLK":"1.1","TOV":"0.8","PF":"2.0","PS/G":"7.0"},{"Player":"Faried,Kenneth","Pos":"PF","Age":"26","Tm":"DEN","G":"67","GS":"64","MP":"25.3","FG":"5.2","FGA":"9.3","FG%":".558","3P":"0.0","3PA":"0.0","3P%":".500","2P":"5.2","2PA":"9.3","2P%":".558","eFG%":".558","FT":"2.0","FTA":"3.3","FT%":".613","ORB":"3.5","DRB":"5.2","TRB":"8.7","AST":"1.2","STL":"0.5","BLK":"0.9","TOV":"1.4","PF":"2.5","PS/G":"12.5"},{"Player":"Farmar,Jordan","Pos":"PG","Age":"29","Tm":"MEM","G":"12","GS":"10","MP":"24.3","FG":"3.5","FGA":"8.3","FG%":".420","3P":"1.3","3PA":"3.8","3P%":".356","2P":"2.2","2PA":"4.6","2P%":".473","eFG%":".500","FT":"0.8","FTA":"0.8","FT%":"1.000","ORB":"0.3","DRB":"1.8","TRB":"2.1","AST":"3.1","STL":"1.3","BLK":"0.2","TOV":"1.5","PF":"1.8","PS/G":"9.2"},{"Player":"Favors,Derrick","Pos":"PF","Age":"24","Tm":"UTA","G":"62","GS":"59","MP":"32.0","FG":"6.7","FGA":"13.1","FG%":".515","3P":"0.0","3PA":"0.1","3P%":".000","2P":"6.7","2PA":"13.0","2P%":".518","eFG%":".515","FT":"2.9","FTA":"4.1","FT%":".709","ORB":"2.7","DRB":"5.4","TRB":"8.1","AST":"1.5","STL":"1.2","BLK":"1.5","TOV":"1.7","PF":"2.4","PS/G":"16.4"},{"Player":"Felicio,Cristiano","Pos":"C","Age":"23","Tm":"CHI","G":"31","GS":"4","MP":"10.4","FG":"1.3","FGA":"2.3","FG%":".556","3P":"0.0","3PA":"0.1","3P%":".000","2P":"1.3","2PA":"2.2","2P%":".588","eFG%":".556","FT":"0.8","FTA":"1.1","FT%":".714","ORB":"1.0","DRB":"2.3","TRB":"3.3","AST":"0.8","STL":"0.2","BLK":"0.4","TOV":"0.4","PF":"1.0","PS/G":"3.4"},{"Player":"Felton,Raymond","Pos":"PG","Age":"31","Tm":"DAL","G":"80","GS":"31","MP":"27.4","FG":"3.5","FGA":"8.5","FG%":".406","3P":"0.8","3PA":"2.7","3P%":".282","2P":"2.7","2PA":"5.9","2P%":".463","eFG%":".450","FT":"1.9","FTA":"2.2","FT%":".847","ORB":"0.5","DRB":"2.8","TRB":"3.2","AST":"3.6","STL":"0.9","BLK":"0.2","TOV":"1.5","PF":"1.8","PS/G":"9.5"},{"Player":"Fournier,Evan","Pos":"SF","Age":"23","Tm":"ORL","G":"79","GS":"71","MP":"32.5","FG":"5.4","FGA":"11.8","FG%":".462","3P":"2.0","3PA":"4.9","3P%":".400","2P":"3.5","2PA":"6.8","2P%":".506","eFG%":".546","FT":"2.5","FTA":"3.0","FT%":".836","ORB":"0.4","DRB":"2.4","TRB":"2.8","AST":"2.7","STL":"1.2","BLK":"0.0","TOV":"1.7","PF":"2.7","PS/G":"15.4"},{"Player":"Foye,Randy","Pos":"SG","Age":"32","Tm":null,"G":"81","GS":"8","MP":"20.3","FG":"2.1","FGA":"6.0","FG%":".351","3P":"0.9","3PA":"3.1","3P%":".300","2P":"1.2","2PA":"2.9","2P%":".405","eFG%":".428","FT":"0.8","FTA":"0.9","FT%":".824","ORB":"0.3","DRB":"1.6","TRB":"1.9","AST":"2.0","STL":"0.5","BLK":"0.4","TOV":"1.1","PF":"1.6","PS/G":"5.9"},{"Player":"Frazier,Tim","Pos":"PG","Age":"25","Tm":null,"G":"51","GS":"2","MP":"14.5","FG":"1.9","FGA":"4.5","FG%":".419","3P":"0.3","3PA":"0.9","3P%":".333","2P":"1.6","2PA":"3.5","2P%":".442","eFG%":".454","FT":"1.0","FTA":"1.5","FT%":".716","ORB":"0.5","DRB":"1.6","TRB":"2.2","AST":"3.2","STL":"0.6","BLK":"0.0","TOV":"1.3","PF":"1.4","PS/G":"5.1"},{"Player":"Fredette,Jimmer","Pos":"SG","Age":"26","Tm":null,"G":"6","GS":"0","MP":"3.0","FG":"0.3","FGA":"0.8","FG%":".400","3P":"0.2","3PA":"0.3","3P%":".500","2P":"0.2","2PA":"0.5","2P%":".333","eFG%":".500","FT":"0.7","FTA":"0.8","FT%":".800","ORB":"0.0","DRB":"0.0","TRB":"0.0","AST":"0.2","STL":"0.2","BLK":"0.0","TOV":"0.3","PF":"0.3","PS/G":"1.5"},{"Player":"Frye,Channing","Pos":"PF-C","Age":"32","Tm":null,"G":"70","GS":"32","MP":"17.1","FG":"2.2","FGA":"5.0","FG%":".438","3P":"1.3","3PA":"3.4","3P%":".387","2P":"0.9","2PA":"1.6","2P%":".545","eFG%":".569","FT":"0.4","FTA":"0.5","FT%":".857","ORB":"0.5","DRB":"2.8","TRB":"3.3","AST":"1.0","STL":"0.4","BLK":"0.4","TOV":"0.6","PF":"1.8","PS/G":"6.1"},{"Player":"Gallinari,Danilo","Pos":"SF","Age":"27","Tm":"DEN","G":"53","GS":"53","MP":"34.7","FG":"5.4","FGA":"13.2","FG%":".410","3P":"1.6","3PA":"4.5","3P%":".364","2P":"3.8","2PA":"8.7","2P%":".434","eFG%":".472","FT":"7.1","FTA":"8.2","FT%":".868","ORB":"1.0","DRB":"4.3","TRB":"5.3","AST":"2.5","STL":"0.8","BLK":"0.4","TOV":"1.5","PF":"1.6","PS/G":"19.5"},{"Player":"Galloway,Langston","Pos":"PG","Age":"24","Tm":"NYK","G":"82","GS":"7","MP":"24.8","FG":"2.8","FGA":"7.2","FG%":".393","3P":"0.9","3PA":"2.7","3P%":".344","2P":"1.9","2PA":"4.4","2P%":".423","eFG%":".458","FT":"1.0","FTA":"1.4","FT%":".754","ORB":"0.5","DRB":"3.0","TRB":"3.5","AST":"2.5","STL":"0.9","BLK":"0.3","TOV":"0.7","PF":"2.2","PS/G":"7.6"},{"Player":"Garnett,Kevin","Pos":"PF","Age":"39","Tm":"MIN","G":"38","GS":"38","MP":"14.6","FG":"1.4","FGA":"3.0","FG%":".470","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.4","2PA":"3.0","2P%":".474","eFG%":".470","FT":"0.4","FTA":"0.6","FT%":".667","ORB":"0.4","DRB":"3.6","TRB":"3.9","AST":"1.6","STL":"0.7","BLK":"0.3","TOV":"0.4","PF":"1.8","PS/G":"3.2"},{"Player":"Gasol,Marc","Pos":"C","Age":"31","Tm":"MEM","G":"52","GS":"52","MP":"34.4","FG":"6.3","FGA":"13.6","FG%":".464","3P":"0.0","3PA":"0.1","3P%":".667","2P":"6.3","2PA":"13.5","2P%":".463","eFG%":".465","FT":"3.9","FTA":"4.7","FT%":".829","ORB":"1.1","DRB":"5.8","TRB":"7.0","AST":"3.8","STL":"1.0","BLK":"1.3","TOV":"2.3","PF":"2.7","PS/G":"16.6"},{"Player":"Gasol,Pau","Pos":"C","Age":"35","Tm":"CHI","G":"72","GS":"72","MP":"31.8","FG":"6.5","FGA":"13.8","FG%":".469","3P":"0.3","3PA":"1.0","3P%":".348","2P":"6.2","2PA":"12.9","2P%":".478","eFG%":".481","FT":"3.2","FTA":"4.0","FT%":".792","ORB":"2.2","DRB":"8.9","TRB":"11.0","AST":"4.1","STL":"0.6","BLK":"2.0","TOV":"2.3","PF":"2.1","PS/G":"16.5"},{"Player":"Gay,Rudy","Pos":"SF","Age":"29","Tm":"SAC","G":"70","GS":"70","MP":"34.0","FG":"6.7","FGA":"14.4","FG%":".463","3P":"1.1","3PA":"3.1","3P%":".344","2P":"5.6","2PA":"11.3","2P%":".495","eFG%":".500","FT":"2.8","FTA":"3.6","FT%":".780","ORB":"1.5","DRB":"5.0","TRB":"6.5","AST":"1.7","STL":"1.4","BLK":"0.7","TOV":"2.0","PF":"2.6","PS/G":"17.2"},{"Player":"Gee,Alonzo","Pos":"SF","Age":"28","Tm":"NOP","G":"73","GS":"38","MP":"22.4","FG":"1.8","FGA":"3.5","FG%":".518","3P":"0.2","3PA":"0.8","3P%":".283","2P":"1.6","2PA":"2.7","2P%":".590","eFG%":".551","FT":"0.6","FTA":"0.9","FT%":".667","ORB":"0.8","DRB":"2.5","TRB":"3.4","AST":"1.0","STL":"0.9","BLK":"0.2","TOV":"0.8","PF":"2.3","PS/G":"4.5"},{"Player":"George,Paul","Pos":"SF","Age":"25","Tm":"IND","G":"81","GS":"81","MP":"34.8","FG":"7.5","FGA":"17.9","FG%":".418","3P":"2.6","3PA":"7.0","3P%":".371","2P":"4.9","2PA":"10.9","2P%":".447","eFG%":".490","FT":"5.6","FTA":"6.5","FT%":".860","ORB":"1.0","DRB":"6.0","TRB":"7.0","AST":"4.1","STL":"1.9","BLK":"0.4","TOV":"3.3","PF":"2.8","PS/G":"23.1"},{"Player":"Gibson,Taj","Pos":"PF","Age":"30","Tm":"CHI","G":"73","GS":"55","MP":"26.5","FG":"3.6","FGA":"6.8","FG%":".526","3P":"0.0","3PA":"0.0","3P%":".000","2P":"3.6","2PA":"6.8","2P%":".529","eFG%":".526","FT":"1.4","FTA":"2.0","FT%":".692","ORB":"2.8","DRB":"4.1","TRB":"6.9","AST":"1.5","STL":"0.6","BLK":"1.1","TOV":"1.1","PF":"2.5","PS/G":"8.6"},{"Player":"Ginobili,Manu","Pos":"SG","Age":"38","Tm":"SAS","G":"58","GS":"0","MP":"19.6","FG":"3.4","FGA":"7.5","FG%":".453","3P":"1.2","3PA":"3.1","3P%":".391","2P":"2.2","2PA":"4.4","2P%":".496","eFG%":".533","FT":"1.6","FTA":"1.9","FT%":".813","ORB":"0.4","DRB":"2.1","TRB":"2.5","AST":"3.1","STL":"1.1","BLK":"0.2","TOV":"1.7","PF":"1.7","PS/G":"9.6"},{"Player":"Gobert,Rudy","Pos":"C","Age":"23","Tm":"UTA","G":"61","GS":"60","MP":"31.7","FG":"3.2","FGA":"5.8","FG%":".559","3P":"0.0","3PA":"0.0","3P%":null,"2P":"3.2","2PA":"5.8","2P%":".559","eFG%":".559","FT":"2.6","FTA":"4.6","FT%":".569","ORB":"3.4","DRB":"7.5","TRB":"11.0","AST":"1.5","STL":"0.7","BLK":"2.2","TOV":"1.9","PF":"2.7","PS/G":"9.1"},{"Player":"Gooden,Drew","Pos":"PF","Age":"34","Tm":"WAS","G":"30","GS":"0","MP":"10.2","FG":"1.1","FGA":"3.4","FG%":".320","3P":"0.2","3PA":"1.4","3P%":".171","2P":"0.9","2PA":"2.1","2P%":".419","eFG%":".354","FT":"0.3","FTA":"0.5","FT%":".643","ORB":"0.9","DRB":"1.9","TRB":"2.8","AST":"0.4","STL":"0.3","BLK":"0.4","TOV":"0.4","PF":"1.3","PS/G":"2.7"},{"Player":"Goodwin,Archie","Pos":"PG","Age":"21","Tm":"PHO","G":"57","GS":"13","MP":"19.5","FG":"3.1","FGA":"7.4","FG%":".417","3P":"0.4","3PA":"1.7","3P%":".232","2P":"2.7","2PA":"5.7","2P%":".474","eFG%":".444","FT":"2.3","FTA":"3.4","FT%":".674","ORB":"0.5","DRB":"2.0","TRB":"2.5","AST":"2.1","STL":"0.5","BLK":"0.2","TOV":"1.8","PF":"1.5","PS/G":"8.9"},{"Player":"Gordon,Aaron","Pos":"PF","Age":"20","Tm":"ORL","G":"78","GS":"37","MP":"23.9","FG":"3.5","FGA":"7.4","FG%":".473","3P":"0.5","3PA":"1.8","3P%":".296","2P":"3.0","2PA":"5.6","2P%":".531","eFG%":".509","FT":"1.7","FTA":"2.5","FT%":".668","ORB":"2.0","DRB":"4.5","TRB":"6.5","AST":"1.6","STL":"0.8","BLK":"0.7","TOV":"0.8","PF":"2.0","PS/G":"9.2"},{"Player":"Gordon,Eric","Pos":"SG","Age":"27","Tm":"NOP","G":"45","GS":"44","MP":"32.9","FG":"5.1","FGA":"12.3","FG%":".418","3P":"2.5","3PA":"6.5","3P%":".384","2P":"2.6","2PA":"5.7","2P%":".457","eFG%":".521","FT":"2.5","FTA":"2.8","FT%":".888","ORB":"0.2","DRB":"2.0","TRB":"2.2","AST":"2.7","STL":"1.0","BLK":"0.3","TOV":"1.6","PF":"2.2","PS/G":"15.2"},{"Player":"Gortat,Marcin","Pos":"C","Age":"31","Tm":"WAS","G":"75","GS":"74","MP":"30.1","FG":"5.8","FGA":"10.2","FG%":".567","3P":"0.0","3PA":"0.0","3P%":".000","2P":"5.8","2PA":"10.2","2P%":".567","eFG%":".567","FT":"1.9","FTA":"2.8","FT%":".705","ORB":"3.0","DRB":"6.9","TRB":"9.9","AST":"1.4","STL":"0.6","BLK":"1.3","TOV":"1.6","PF":"2.6","PS/G":"13.5"},{"Player":"Goudelock,Andrew","Pos":"PG","Age":"27","Tm":"HOU","G":"8","GS":"0","MP":"6.3","FG":"1.1","FGA":"2.5","FG%":".450","3P":"0.1","3PA":"1.1","3P%":".111","2P":"1.0","2PA":"1.4","2P%":".727","eFG%":".475","FT":"0.4","FTA":"0.5","FT%":".750","ORB":"0.1","DRB":"0.1","TRB":"0.3","AST":"0.5","STL":"0.8","BLK":"0.3","TOV":"0.9","PF":"0.5","PS/G":"2.8"},{"Player":"Grant,Jerami","Pos":"SF","Age":"21","Tm":"PHI","G":"77","GS":"52","MP":"26.8","FG":"3.3","FGA":"7.8","FG%":".419","3P":"0.5","3PA":"1.9","3P%":".240","2P":"2.8","2PA":"5.9","2P%":".477","eFG%":".448","FT":"2.8","FTA":"4.2","FT%":".658","ORB":"1.3","DRB":"3.4","TRB":"4.7","AST":"1.8","STL":"0.7","BLK":"1.6","TOV":"1.4","PF":"2.8","PS/G":"9.7"},{"Player":"Grant,Jerian","Pos":"PG","Age":"23","Tm":"NYK","G":"76","GS":"6","MP":"16.6","FG":"2.0","FGA":"5.1","FG%":".394","3P":"0.3","3PA":"1.3","3P%":".220","2P":"1.7","2PA":"3.8","2P%":".454","eFG%":".422","FT":"1.3","FTA":"1.6","FT%":".780","ORB":"0.3","DRB":"1.6","TRB":"1.9","AST":"2.3","STL":"0.7","BLK":"0.1","TOV":"1.1","PF":"1.3","PS/G":"5.6"},{"Player":"Green,Danny","Pos":"SG","Age":"28","Tm":"SAS","G":"79","GS":"79","MP":"26.1","FG":"2.7","FGA":"7.1","FG%":".376","3P":"1.5","3PA":"4.4","3P%":".332","2P":"1.2","2PA":"2.7","2P%":".448","eFG%":".480","FT":"0.4","FTA":"0.6","FT%":".739","ORB":"0.6","DRB":"3.2","TRB":"3.8","AST":"1.8","STL":"1.0","BLK":"0.8","TOV":"0.9","PF":"1.8","PS/G":"7.2"},{"Player":"Green,Draymond","Pos":"PF","Age":"25","Tm":"GSW","G":"81","GS":"81","MP":"34.7","FG":"5.0","FGA":"10.1","FG%":".490","3P":"1.2","3PA":"3.2","3P%":".388","2P":"3.7","2PA":"6.9","2P%":".537","eFG%":".551","FT":"2.8","FTA":"4.1","FT%":".696","ORB":"1.7","DRB":"7.8","TRB":"9.5","AST":"7.4","STL":"1.5","BLK":"1.4","TOV":"3.2","PF":"3.0","PS/G":"14.0"},{"Player":"Green,Erick","Pos":"PG","Age":"24","Tm":null,"G":"9","GS":"0","MP":"4.7","FG":"0.6","FGA":"1.4","FG%":".385","3P":"0.1","3PA":"0.6","3P%":".200","2P":"0.4","2PA":"0.9","2P%":".500","eFG%":".423","FT":"0.2","FTA":"0.2","FT%":"1.000","ORB":"0.3","DRB":"0.3","TRB":"0.7","AST":"0.3","STL":"0.1","BLK":"0.0","TOV":"0.0","PF":"0.4","PS/G":"1.4"},{"Player":"Green,Gerald","Pos":"SG","Age":"30","Tm":"MIA","G":"69","GS":"14","MP":"22.6","FG":"3.3","FGA":"8.5","FG%":".392","3P":"1.2","3PA":"3.8","3P%":".323","2P":"2.1","2PA":"4.7","2P%":".446","eFG%":".463","FT":"1.0","FTA":"1.3","FT%":".783","ORB":"0.4","DRB":"2.0","TRB":"2.4","AST":"0.8","STL":"0.6","BLK":"0.3","TOV":"0.7","PF":"1.8","PS/G":"8.9"},{"Player":"Green,JaMychal","Pos":"PF","Age":"25","Tm":"MEM","G":"78","GS":"15","MP":"18.5","FG":"2.9","FGA":"6.3","FG%":".465","3P":"0.2","3PA":"0.6","3P%":".333","2P":"2.8","2PA":"5.8","2P%":".478","eFG%":".480","FT":"1.3","FTA":"1.8","FT%":".752","ORB":"1.8","DRB":"3.0","TRB":"4.8","AST":"0.9","STL":"0.6","BLK":"0.4","TOV":"1.1","PF":"2.4","PS/G":"7.4"},{"Player":"Green,Jeff","Pos":"SF","Age":"29","Tm":null,"G":"80","GS":"41","MP":"28.2","FG":"4.4","FGA":"10.3","FG%":".430","3P":"0.8","3PA":"2.7","3P%":".315","2P":"3.6","2PA":"7.6","2P%":".470","eFG%":".470","FT":"2.1","FTA":"2.8","FT%":".745","ORB":"0.9","DRB":"3.2","TRB":"4.2","AST":"1.7","STL":"0.7","BLK":"0.5","TOV":"1.2","PF":"2.1","PS/G":"11.7"},{"Player":"Griffin,Blake","Pos":"PF","Age":"26","Tm":"LAC","G":"35","GS":"35","MP":"33.4","FG":"8.6","FGA":"17.2","FG%":".499","3P":"0.2","3PA":"0.5","3P%":".333","2P":"8.4","2PA":"16.7","2P%":".504","eFG%":".504","FT":"4.0","FTA":"5.5","FT%":".727","ORB":"1.5","DRB":"6.9","TRB":"8.4","AST":"4.9","STL":"0.8","BLK":"0.5","TOV":"2.4","PF":"2.7","PS/G":"21.4"},{"Player":"Gutierrez,Jorge","Pos":"PG","Age":"27","Tm":"CHO","G":"12","GS":"0","MP":"5.3","FG":"0.5","FGA":"0.9","FG%":".545","3P":"0.0","3PA":"0.2","3P%":".000","2P":"0.5","2PA":"0.8","2P%":".667","eFG%":".545","FT":"0.8","FTA":"0.9","FT%":".909","ORB":"0.0","DRB":"0.6","TRB":"0.6","AST":"1.4","STL":"0.3","BLK":"0.0","TOV":"0.5","PF":"0.3","PS/G":"1.8"},{"Player":"Hairston,P.J.","Pos":"SF","Age":"23","Tm":null,"G":"66","GS":"52","MP":"19.9","FG":"2.2","FGA":"6.2","FG%":".355","3P":"1.1","3PA":"3.7","3P%":".290","2P":"1.1","2PA":"2.5","2P%":".449","eFG%":".441","FT":"0.8","FTA":"1.0","FT%":".781","ORB":"0.4","DRB":"2.3","TRB":"2.6","AST":"0.6","STL":"0.5","BLK":"0.2","TOV":"0.6","PF":"2.1","PS/G":"6.2"},{"Player":"Hamilton,Jordan","Pos":"SF","Age":"25","Tm":"NOP","G":"11","GS":"4","MP":"27.6","FG":"4.5","FGA":"10.5","FG%":".422","3P":"1.2","3PA":"4.1","3P%":".289","2P":"3.3","2PA":"6.5","2P%":".507","eFG%":".478","FT":"1.3","FTA":"1.9","FT%":".667","ORB":"1.1","DRB":"4.5","TRB":"5.6","AST":"2.3","STL":"0.7","BLK":"0.3","TOV":"1.5","PF":"2.2","PS/G":"11.4"},{"Player":"Hansbrough,Tyler","Pos":"PF","Age":"30","Tm":"CHO","G":"44","GS":"0","MP":"7.8","FG":"0.7","FGA":"1.6","FG%":".451","3P":"0.0","3PA":"0.1","3P%":".667","2P":"0.7","2PA":"1.5","2P%":".441","eFG%":".465","FT":"0.9","FTA":"1.5","FT%":".585","ORB":"0.9","DRB":"1.1","TRB":"2.0","AST":"0.2","STL":"0.3","BLK":"0.2","TOV":"0.3","PF":"1.3","PS/G":"2.4"},{"Player":"Hardaway,Tim","Pos":"SG","Age":"23","Tm":"ATL","G":"51","GS":"1","MP":"16.9","FG":"2.2","FGA":"5.2","FG%":".430","3P":"0.9","3PA":"2.8","3P%":".338","2P":"1.3","2PA":"2.4","2P%":".537","eFG%":".521","FT":"1.0","FTA":"1.1","FT%":".893","ORB":"0.1","DRB":"1.5","TRB":"1.7","AST":"1.0","STL":"0.4","BLK":"0.1","TOV":"0.5","PF":"0.9","PS/G":"6.4"},{"Player":"Harden,James","Pos":"SG","Age":"26","Tm":"HOU","G":"82","GS":"82","MP":"38.1","FG":"8.7","FGA":"19.7","FG%":".439","3P":"2.9","3PA":"8.0","3P%":".359","2P":"5.8","2PA":"11.7","2P%":".494","eFG%":".512","FT":"8.8","FTA":"10.2","FT%":".860","ORB":"0.8","DRB":"5.3","TRB":"6.1","AST":"7.5","STL":"1.7","BLK":"0.6","TOV":"4.6","PF":"2.8","PS/G":"29.0"},{"Player":"Harkless,Maurice","Pos":"SF","Age":"22","Tm":"POR","G":"78","GS":"14","MP":"18.7","FG":"2.5","FGA":"5.3","FG%":".474","3P":"0.5","3PA":"1.8","3P%":".279","2P":"2.0","2PA":"3.5","2P%":".576","eFG%":".522","FT":"0.9","FTA":"1.4","FT%":".622","ORB":"1.3","DRB":"2.3","TRB":"3.6","AST":"0.9","STL":"0.6","BLK":"0.4","TOV":"0.8","PF":"1.6","PS/G":"6.4"},{"Player":"Harper,Justin","Pos":"PF","Age":"26","Tm":"DET","G":"5","GS":"0","MP":"7.0","FG":"0.8","FGA":"2.0","FG%":".400","3P":"0.8","3PA":"1.8","3P%":".444","2P":"0.0","2PA":"0.2","2P%":".000","eFG%":".600","FT":"0.2","FTA":"0.4","FT%":".500","ORB":"0.0","DRB":"0.2","TRB":"0.2","AST":"0.0","STL":"0.2","BLK":"0.0","TOV":"0.4","PF":"0.6","PS/G":"2.6"},{"Player":"Harrell,Montrezl","Pos":"PF","Age":"22","Tm":"HOU","G":"39","GS":"1","MP":"9.7","FG":"1.5","FGA":"2.3","FG%":".644","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.5","2PA":"2.3","2P%":".652","eFG%":".644","FT":"0.6","FTA":"1.2","FT%":".522","ORB":"0.6","DRB":"1.0","TRB":"1.7","AST":"0.4","STL":"0.3","BLK":"0.3","TOV":"0.4","PF":"1.2","PS/G":"3.6"},{"Player":"Harris,Devin","Pos":"PG","Age":"32","Tm":"DAL","G":"64","GS":"0","MP":"20.0","FG":"2.6","FGA":"5.8","FG%":".447","3P":"0.8","3PA":"2.5","3P%":".329","2P":"1.8","2PA":"3.4","2P%":".532","eFG%":".516","FT":"1.6","FTA":"2.2","FT%":".721","ORB":"0.3","DRB":"1.9","TRB":"2.2","AST":"1.8","STL":"0.9","BLK":"0.2","TOV":"1.0","PF":"1.9","PS/G":"7.6"},{"Player":"Harris,Gary","Pos":"SG","Age":"21","Tm":"DEN","G":"76","GS":"76","MP":"32.1","FG":"4.7","FGA":"10.1","FG%":".469","3P":"1.4","3PA":"3.9","3P%":".354","2P":"3.3","2PA":"6.2","2P%":".543","eFG%":".538","FT":"1.4","FTA":"1.8","FT%":".820","ORB":"0.7","DRB":"2.2","TRB":"2.9","AST":"1.9","STL":"1.3","BLK":"0.2","TOV":"1.3","PF":"1.9","PS/G":"12.3"},{"Player":"Harris,Joe","Pos":"SG","Age":"24","Tm":"CLE","G":"5","GS":"0","MP":"3.0","FG":"0.2","FGA":"0.8","FG%":".250","3P":"0.2","3PA":"0.8","3P%":".250","2P":"0.0","2PA":"0.0","2P%":null,"eFG%":".375","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.6","TRB":"0.6","AST":"0.4","STL":"0.0","BLK":"0.0","TOV":"0.2","PF":"0.2","PS/G":"0.6"},{"Player":"Harris,Tobias","Pos":"PF","Age":"23","Tm":null,"G":"76","GS":"74","MP":"33.1","FG":"5.5","FGA":"11.7","FG%":".469","3P":"1.1","3PA":"3.1","3P%":".335","2P":"4.4","2PA":"8.6","2P%":".518","eFG%":".514","FT":"2.7","FTA":"3.2","FT%":".831","ORB":"1.3","DRB":"5.4","TRB":"6.7","AST":"2.2","STL":"0.9","BLK":"0.5","TOV":"1.4","PF":"2.0","PS/G":"14.7"},{"Player":"Harrison,Aaron","Pos":"SG","Age":"21","Tm":"CHO","G":"21","GS":"0","MP":"4.4","FG":"0.2","FGA":"0.9","FG%":".263","3P":"0.1","3PA":"0.5","3P%":".300","2P":"0.1","2PA":"0.4","2P%":".222","eFG%":".342","FT":"0.2","FTA":"0.6","FT%":".417","ORB":"0.2","DRB":"0.5","TRB":"0.7","AST":"0.1","STL":"0.3","BLK":"0.0","TOV":"0.2","PF":"0.5","PS/G":"0.9"},{"Player":"Haslem,Udonis","Pos":"PF","Age":"35","Tm":"MIA","G":"37","GS":"0","MP":"7.0","FG":"0.6","FGA":"1.6","FG%":".377","3P":"0.0","3PA":"0.2","3P%":".111","2P":"0.6","2PA":"1.4","2P%":".423","eFG%":".385","FT":"0.3","FTA":"0.4","FT%":".750","ORB":"0.3","DRB":"1.8","TRB":"2.0","AST":"0.4","STL":"0.1","BLK":"0.1","TOV":"0.1","PF":"0.7","PS/G":"1.6"},{"Player":"Hawes,Spencer","Pos":"PF","Age":"27","Tm":"CHO","G":"57","GS":"6","MP":"18.2","FG":"2.2","FGA":"5.4","FG%":".405","3P":"0.7","3PA":"1.8","3P%":".373","2P":"1.5","2PA":"3.6","2P%":".422","eFG%":".467","FT":"0.9","FTA":"1.1","FT%":".831","ORB":"0.9","DRB":"3.4","TRB":"4.3","AST":"1.9","STL":"0.4","BLK":"0.5","TOV":"1.0","PF":"1.9","PS/G":"6.0"},{"Player":"Hayes,Chuck","Pos":"C","Age":"32","Tm":"HOU","G":"2","GS":"0","MP":"12.0","FG":"0.5","FGA":"1.0","FG%":".500","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.5","2PA":"1.0","2P%":".500","eFG%":".500","FT":"1.0","FTA":"1.0","FT%":"1.000","ORB":"0.0","DRB":"4.0","TRB":"4.0","AST":"1.0","STL":"0.0","BLK":"0.0","TOV":"1.5","PF":"3.0","PS/G":"2.0"},{"Player":"Hayward,Gordon","Pos":"SF","Age":"25","Tm":"UTA","G":"80","GS":"80","MP":"36.2","FG":"6.5","FGA":"15.0","FG%":".433","3P":"1.8","3PA":"5.1","3P%":".349","2P":"4.7","2PA":"9.9","2P%":".477","eFG%":".493","FT":"4.9","FTA":"6.0","FT%":".824","ORB":"0.8","DRB":"4.2","TRB":"5.0","AST":"3.7","STL":"1.2","BLK":"0.3","TOV":"2.5","PF":"2.3","PS/G":"19.7"},{"Player":"Henderson,Gerald","Pos":"SG","Age":"28","Tm":"POR","G":"72","GS":"0","MP":"19.9","FG":"3.2","FGA":"7.3","FG%":".439","3P":"0.7","3PA":"1.9","3P%":".353","2P":"2.6","2PA":"5.5","2P%":".468","eFG%":".484","FT":"1.6","FTA":"2.0","FT%":".767","ORB":"0.4","DRB":"2.5","TRB":"2.9","AST":"1.0","STL":"0.5","BLK":"0.3","TOV":"0.9","PF":"1.2","PS/G":"8.7"},{"Player":"Henson,John","Pos":"C","Age":"25","Tm":"MIL","G":"57","GS":"1","MP":"16.8","FG":"2.9","FGA":"5.1","FG%":".564","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.9","2PA":"5.1","2P%":".566","eFG%":".564","FT":"1.2","FTA":"2.1","FT%":".590","ORB":"1.5","DRB":"2.4","TRB":"3.9","AST":"0.9","STL":"0.3","BLK":"1.9","TOV":"1.1","PF":"2.3","PS/G":"7.0"},{"Player":"Hezonja,Mario","Pos":"SF","Age":"20","Tm":"ORL","G":"79","GS":"9","MP":"17.9","FG":"2.3","FGA":"5.3","FG%":".433","3P":"0.8","3PA":"2.4","3P%":".349","2P":"1.4","2PA":"2.9","2P%":".504","eFG%":".513","FT":"0.6","FTA":"0.7","FT%":".907","ORB":"0.4","DRB":"1.9","TRB":"2.2","AST":"1.4","STL":"0.5","BLK":"0.2","TOV":"1.2","PF":"1.6","PS/G":"6.1"},{"Player":"Hibbert,Roy","Pos":"C","Age":"29","Tm":"LAL","G":"81","GS":"81","MP":"23.2","FG":"2.2","FGA":"5.1","FG%":".443","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.2","2PA":"5.0","2P%":".445","eFG%":".443","FT":"1.4","FTA":"1.8","FT%":".807","ORB":"1.6","DRB":"3.3","TRB":"4.9","AST":"1.2","STL":"0.4","BLK":"1.4","TOV":"0.9","PF":"3.1","PS/G":"5.9"},{"Player":"Hickson,J.J.","Pos":"C","Age":"27","Tm":null,"G":"35","GS":"9","MP":"12.5","FG":"2.3","FGA":"4.4","FG%":".516","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.3","2PA":"4.4","2P%":".519","eFG%":".516","FT":"1.3","FTA":"2.9","FT%":".447","ORB":"1.1","DRB":"2.7","TRB":"3.8","AST":"0.7","STL":"0.4","BLK":"0.4","TOV":"0.7","PF":"1.3","PS/G":"5.9"},{"Player":"Hilario,Nene","Pos":"PF","Age":"33","Tm":"WAS","G":"57","GS":"11","MP":"19.2","FG":"3.7","FGA":"6.7","FG%":".544","3P":"0.0","3PA":"0.1","3P%":".000","2P":"3.7","2PA":"6.7","2P%":".549","eFG%":".544","FT":"1.9","FTA":"3.2","FT%":".578","ORB":"0.9","DRB":"3.6","TRB":"4.5","AST":"1.7","STL":"0.9","BLK":"0.5","TOV":"1.3","PF":"2.7","PS/G":"9.2"},{"Player":"Hill,George","Pos":"PG","Age":"29","Tm":"IND","G":"74","GS":"73","MP":"34.1","FG":"4.4","FGA":"10.0","FG%":".441","3P":"1.7","3PA":"4.2","3P%":".408","2P":"2.7","2PA":"5.7","2P%":".466","eFG%":".528","FT":"1.5","FTA":"2.0","FT%":".760","ORB":"0.8","DRB":"3.2","TRB":"4.0","AST":"3.5","STL":"1.1","BLK":"0.2","TOV":"1.4","PF":"2.0","PS/G":"12.1"},{"Player":"Hill,Jordan","Pos":"C","Age":"28","Tm":"IND","G":"73","GS":"11","MP":"20.7","FG":"3.8","FGA":"7.5","FG%":".506","3P":"0.0","3PA":"0.0","3P%":".000","2P":"3.8","2PA":"7.5","2P%":".507","eFG%":".506","FT":"1.2","FTA":"1.7","FT%":".712","ORB":"2.1","DRB":"4.0","TRB":"6.2","AST":"1.2","STL":"0.5","BLK":"0.5","TOV":"1.3","PF":"2.1","PS/G":"8.8"},{"Player":"Hill,Solomon","Pos":"SF","Age":"24","Tm":"IND","G":"59","GS":"3","MP":"14.7","FG":"1.6","FGA":"3.5","FG%":".447","3P":"0.4","3PA":"1.3","3P%":".324","2P":"1.2","2PA":"2.3","2P%":".515","eFG%":".505","FT":"0.6","FTA":"0.7","FT%":".857","ORB":"0.7","DRB":"2.2","TRB":"2.8","AST":"1.0","STL":"0.6","BLK":"0.2","TOV":"0.6","PF":"1.2","PS/G":"4.2"},{"Player":"Hilliard,Darrun","Pos":"SG","Age":"22","Tm":"DET","G":"38","GS":"2","MP":"10.1","FG":"1.4","FGA":"3.4","FG%":".397","3P":"0.5","3PA":"1.3","3P%":".380","2P":"0.9","2PA":"2.1","2P%":".407","eFG%":".469","FT":"0.8","FTA":"1.1","FT%":".725","ORB":"0.1","DRB":"1.1","TRB":"1.2","AST":"0.7","STL":"0.2","BLK":"0.0","TOV":"0.5","PF":"0.7","PS/G":"4.0"},{"Player":"Hinrich,Kirk","Pos":"PG","Age":"35","Tm":null,"G":"46","GS":"7","MP":"13.7","FG":"1.1","FGA":"2.8","FG%":".380","3P":"0.5","3PA":"1.3","3P%":".387","2P":"0.5","2PA":"1.5","2P%":".373","eFG%":".473","FT":"0.3","FTA":"0.3","FT%":".938","ORB":"0.2","DRB":"1.3","TRB":"1.5","AST":"1.6","STL":"0.3","BLK":"0.0","TOV":"0.7","PF":"1.4","PS/G":"3.0"},{"Player":"Holiday,Jrue","Pos":"PG","Age":"25","Tm":"NOP","G":"65","GS":"23","MP":"28.2","FG":"6.3","FGA":"14.4","FG%":".439","3P":"1.3","3PA":"4.0","3P%":".336","2P":"5.0","2PA":"10.4","2P%":".478","eFG%":".485","FT":"2.8","FTA":"3.3","FT%":".843","ORB":"0.4","DRB":"2.6","TRB":"3.0","AST":"6.0","STL":"1.4","BLK":"0.3","TOV":"2.6","PF":"2.3","PS/G":"16.8"},{"Player":"Holiday,Justin","Pos":"SG","Age":"26","Tm":null,"G":"53","GS":"5","MP":"14.6","FG":"1.7","FGA":"4.3","FG%":".386","3P":"0.7","3PA":"2.0","3P%":".343","2P":"1.0","2PA":"2.3","2P%":".423","eFG%":".465","FT":"0.5","FTA":"0.7","FT%":".730","ORB":"0.2","DRB":"1.5","TRB":"1.7","AST":"1.1","STL":"0.6","BLK":"0.4","TOV":"0.7","PF":"1.2","PS/G":"4.5"},{"Player":"Hollins,Ryan","Pos":"C","Age":"31","Tm":null,"G":"37","GS":"12","MP":"12.4","FG":"1.3","FGA":"2.1","FG%":".620","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.3","2PA":"2.1","2P%":".620","eFG%":".620","FT":"0.7","FTA":"1.1","FT%":".619","ORB":"1.3","DRB":"1.4","TRB":"2.6","AST":"0.3","STL":"0.2","BLK":"0.6","TOV":"0.6","PF":"1.7","PS/G":"3.4"},{"Player":"Hollis-Jefferson,Rondae","Pos":"SF","Age":"21","Tm":"BRK","G":"29","GS":"17","MP":"21.2","FG":"2.2","FGA":"4.8","FG%":".457","3P":"0.1","3PA":"0.5","3P%":".286","2P":"2.0","2PA":"4.3","2P%":".476","eFG%":".471","FT":"1.3","FTA":"1.8","FT%":".712","ORB":"1.3","DRB":"4.0","TRB":"5.3","AST":"1.5","STL":"1.3","BLK":"0.6","TOV":"0.9","PF":"2.1","PS/G":"5.8"},{"Player":"Holmes,Richaun","Pos":"PF","Age":"22","Tm":"PHI","G":"51","GS":"1","MP":"13.8","FG":"2.2","FGA":"4.4","FG%":".514","3P":"0.2","3PA":"0.9","3P%":".182","2P":"2.1","2PA":"3.5","2P%":".596","eFG%":".532","FT":"1.0","FTA":"1.5","FT%":".689","ORB":"1.2","DRB":"1.4","TRB":"2.6","AST":"0.6","STL":"0.4","BLK":"0.8","TOV":"0.6","PF":"1.8","PS/G":"5.6"},{"Player":"Hood,Rodney","Pos":"SG","Age":"23","Tm":"UTA","G":"79","GS":"79","MP":"32.2","FG":"5.2","FGA":"12.3","FG%":".420","3P":"2.0","3PA":"5.7","3P%":".359","2P":"3.1","2PA":"6.6","2P%":".472","eFG%":".503","FT":"2.2","FTA":"2.5","FT%":".860","ORB":"0.5","DRB":"2.9","TRB":"3.4","AST":"2.7","STL":"0.9","BLK":"0.2","TOV":"1.6","PF":"2.6","PS/G":"14.5"},{"Player":"Horford,Al","Pos":"C","Age":"29","Tm":"ATL","G":"82","GS":"82","MP":"32.1","FG":"6.5","FGA":"12.8","FG%":".505","3P":"1.1","3PA":"3.1","3P%":".344","2P":"5.4","2PA":"9.7","2P%":".557","eFG%":".547","FT":"1.3","FTA":"1.6","FT%":".798","ORB":"1.8","DRB":"5.5","TRB":"7.3","AST":"3.2","STL":"0.8","BLK":"1.5","TOV":"1.3","PF":"2.0","PS/G":"15.2"},{"Player":"Howard,Dwight","Pos":"C","Age":"30","Tm":"HOU","G":"71","GS":"71","MP":"32.1","FG":"5.2","FGA":"8.5","FG%":".620","3P":"0.0","3PA":"0.1","3P%":".000","2P":"5.2","2PA":"8.4","2P%":".626","eFG%":".620","FT":"3.3","FTA":"6.7","FT%":".489","ORB":"3.4","DRB":"8.4","TRB":"11.8","AST":"1.4","STL":"1.0","BLK":"1.6","TOV":"2.3","PF":"3.1","PS/G":"13.7"},{"Player":"Huertas,Marcelo","Pos":"PG","Age":"32","Tm":"LAL","G":"53","GS":"0","MP":"16.4","FG":"1.8","FGA":"4.3","FG%":".422","3P":"0.3","3PA":"1.2","3P%":".262","2P":"1.5","2PA":"3.2","2P%":".479","eFG%":".457","FT":"0.5","FTA":"0.5","FT%":".931","ORB":"0.3","DRB":"1.4","TRB":"1.7","AST":"3.4","STL":"0.5","BLK":"0.1","TOV":"1.5","PF":"1.4","PS/G":"4.5"},{"Player":"Huestis,Josh","Pos":"PF","Age":"24","Tm":"OKC","G":"5","GS":"0","MP":"11.0","FG":"1.0","FGA":"2.4","FG%":".417","3P":"0.8","3PA":"1.2","3P%":".667","2P":"0.2","2PA":"1.2","2P%":".167","eFG%":".583","FT":"0.0","FTA":"0.8","FT%":".000","ORB":"0.4","DRB":"1.6","TRB":"2.0","AST":"0.0","STL":"0.2","BLK":"0.4","TOV":"0.6","PF":"0.6","PS/G":"2.8"},{"Player":"Humphries,Kris","Pos":"PF","Age":"30","Tm":null,"G":"53","GS":"17","MP":"15.8","FG":"2.3","FGA":"5.6","FG%":".410","3P":"0.6","3PA":"2.0","3P%":".315","2P":"1.6","2PA":"3.5","2P%":".465","eFG%":".468","FT":"1.3","FTA":"1.6","FT%":".798","ORB":"1.1","DRB":"3.0","TRB":"4.1","AST":"0.7","STL":"0.3","BLK":"0.4","TOV":"0.7","PF":"1.8","PS/G":"6.5"},{"Player":"Hunter,R.J.","Pos":"SG","Age":"22","Tm":"BOS","G":"36","GS":"0","MP":"8.8","FG":"1.0","FGA":"2.7","FG%":".367","3P":"0.5","3PA":"1.8","3P%":".302","2P":"0.5","2PA":"1.0","2P%":".486","eFG%":".464","FT":"0.2","FTA":"0.2","FT%":".857","ORB":"0.1","DRB":"1.0","TRB":"1.0","AST":"0.4","STL":"0.4","BLK":"0.1","TOV":"0.3","PF":"0.8","PS/G":"2.7"},{"Player":"Ibaka,Serge","Pos":"PF","Age":"26","Tm":"OKC","G":"78","GS":"78","MP":"32.1","FG":"5.3","FGA":"11.1","FG%":".479","3P":"0.8","3PA":"2.4","3P%":".326","2P":"4.6","2PA":"8.8","2P%":".520","eFG%":".513","FT":"1.2","FTA":"1.6","FT%":".752","ORB":"1.8","DRB":"5.0","TRB":"6.8","AST":"0.8","STL":"0.5","BLK":"1.9","TOV":"1.4","PF":"2.7","PS/G":"12.6"},{"Player":"Iguodala,Andre","Pos":"SF","Age":"32","Tm":"GSW","G":"65","GS":"1","MP":"26.6","FG":"2.7","FGA":"5.7","FG%":".478","3P":"0.8","3PA":"2.4","3P%":".351","2P":"1.9","2PA":"3.3","2P%":".570","eFG%":".552","FT":"0.8","FTA":"1.3","FT%":".614","ORB":"0.8","DRB":"3.2","TRB":"4.0","AST":"3.4","STL":"1.1","BLK":"0.3","TOV":"1.2","PF":"1.6","PS/G":"7.0"},{"Player":"Ilyasova,Ersan","Pos":"PF","Age":"28","Tm":null,"G":"74","GS":"56","MP":"25.4","FG":"3.8","FGA":"8.9","FG%":".424","3P":"1.3","3PA":"3.5","3P%":".371","2P":"2.5","2PA":"5.4","2P%":".458","eFG%":".496","FT":"1.5","FTA":"2.1","FT%":".721","ORB":"1.9","DRB":"3.5","TRB":"5.4","AST":"0.9","STL":"0.7","BLK":"0.4","TOV":"1.0","PF":"2.3","PS/G":"10.4"},{"Player":"Ingles,Joe","Pos":"SF","Age":"28","Tm":"UTA","G":"81","GS":"2","MP":"15.3","FG":"1.5","FGA":"3.6","FG%":".426","3P":"1.0","3PA":"2.6","3P%":".386","2P":"0.5","2PA":"1.0","2P%":".531","eFG%":".565","FT":"0.2","FTA":"0.2","FT%":".722","ORB":"0.2","DRB":"1.6","TRB":"1.9","AST":"1.2","STL":"0.7","BLK":"0.0","TOV":"0.8","PF":"1.2","PS/G":"4.2"},{"Player":"Inglis,Damien","Pos":"SF","Age":"20","Tm":"MIL","G":"20","GS":"1","MP":"7.8","FG":"0.7","FGA":"1.9","FG%":".351","3P":"0.2","3PA":"0.7","3P%":".231","2P":"0.5","2PA":"1.2","2P%":".417","eFG%":".392","FT":"0.4","FTA":"0.4","FT%":".875","ORB":"0.1","DRB":"1.5","TRB":"1.6","AST":"0.5","STL":"0.3","BLK":"0.2","TOV":"0.6","PF":"0.6","PS/G":"1.8"},{"Player":"Irving,Kyrie","Pos":"PG","Age":"23","Tm":"CLE","G":"53","GS":"53","MP":"31.5","FG":"7.4","FGA":"16.6","FG%":".448","3P":"1.6","3PA":"4.9","3P%":".321","2P":"5.8","2PA":"11.6","2P%":".502","eFG%":".496","FT":"3.2","FTA":"3.6","FT%":".885","ORB":"0.8","DRB":"2.1","TRB":"3.0","AST":"4.7","STL":"1.1","BLK":"0.3","TOV":"2.3","PF":"2.0","PS/G":"19.6"},{"Player":"Jack,Jarrett","Pos":"PG","Age":"32","Tm":"BRK","G":"32","GS":"32","MP":"32.1","FG":"4.4","FGA":"11.2","FG%":".391","3P":"1.0","3PA":"3.2","3P%":".304","2P":"3.4","2PA":"8.0","2P%":".426","eFG%":".434","FT":"3.1","FTA":"3.5","FT%":".893","ORB":"0.3","DRB":"4.0","TRB":"4.3","AST":"7.4","STL":"1.1","BLK":"0.2","TOV":"2.9","PF":"2.4","PS/G":"12.8"},{"Player":"Jackson,Reggie","Pos":"PG","Age":"25","Tm":"DET","G":"79","GS":"79","MP":"30.7","FG":"6.8","FGA":"15.7","FG%":".434","3P":"1.5","3PA":"4.2","3P%":".353","2P":"5.3","2PA":"11.5","2P%":".464","eFG%":".482","FT":"3.7","FTA":"4.3","FT%":".864","ORB":"0.7","DRB":"2.5","TRB":"3.2","AST":"6.2","STL":"0.7","BLK":"0.1","TOV":"2.8","PF":"2.4","PS/G":"18.8"},{"Player":"James,LeBron","Pos":"SF","Age":"31","Tm":"CLE","G":"76","GS":"76","MP":"35.6","FG":"9.7","FGA":"18.6","FG%":".520","3P":"1.1","3PA":"3.7","3P%":".309","2P":"8.6","2PA":"14.9","2P%":".573","eFG%":".551","FT":"4.7","FTA":"6.5","FT%":".731","ORB":"1.5","DRB":"6.0","TRB":"7.4","AST":"6.8","STL":"1.4","BLK":"0.6","TOV":"3.3","PF":"1.9","PS/G":"25.3"},{"Player":"Jefferson,Al","Pos":"C","Age":"31","Tm":"CHO","G":"47","GS":"18","MP":"23.3","FG":"5.2","FGA":"10.7","FG%":".485","3P":"0.0","3PA":"0.0","3P%":null,"2P":"5.2","2PA":"10.7","2P%":".485","eFG%":".485","FT":"1.5","FTA":"2.4","FT%":".649","ORB":"1.2","DRB":"5.2","TRB":"6.4","AST":"1.5","STL":"0.6","BLK":"0.9","TOV":"0.7","PF":"2.5","PS/G":"12.0"},{"Player":"Jefferson,Cory","Pos":"PF","Age":"25","Tm":"PHO","G":"8","GS":"0","MP":"6.3","FG":"1.1","FGA":"2.8","FG%":".409","3P":"0.0","3PA":"0.1","3P%":".000","2P":"1.1","2PA":"2.6","2P%":".429","eFG%":".409","FT":"0.5","FTA":"0.8","FT%":".667","ORB":"0.8","DRB":"1.3","TRB":"2.0","AST":"0.0","STL":"0.0","BLK":"0.1","TOV":"0.0","PF":"1.0","PS/G":"2.8"},{"Player":"Jefferson,Richard","Pos":"SF","Age":"35","Tm":"CLE","G":"74","GS":"5","MP":"17.9","FG":"1.9","FGA":"4.2","FG%":".458","3P":"0.9","3PA":"2.3","3P%":".382","2P":"1.0","2PA":"1.9","2P%":".554","eFG%":".564","FT":"0.8","FTA":"1.2","FT%":".667","ORB":"0.2","DRB":"1.5","TRB":"1.7","AST":"0.8","STL":"0.4","BLK":"0.2","TOV":"0.6","PF":"1.7","PS/G":"5.5"},{"Player":"Jenkins,John","Pos":"SG","Age":"24","Tm":null,"G":"43","GS":"3","MP":"11.2","FG":"1.7","FGA":"3.7","FG%":".444","3P":"0.4","3PA":"1.2","3P%":".314","2P":"1.3","2PA":"2.5","2P%":".505","eFG%":".494","FT":"0.5","FTA":"0.6","FT%":".833","ORB":"0.2","DRB":"1.1","TRB":"1.3","AST":"0.8","STL":"0.2","BLK":"0.0","TOV":"0.6","PF":"0.5","PS/G":"4.1"},{"Player":"Jennings,Brandon","Pos":"PG","Age":"26","Tm":null,"G":"48","GS":"7","MP":"18.1","FG":"2.3","FGA":"6.3","FG%":".368","3P":"1.1","3PA":"3.2","3P%":".329","2P":"1.3","2PA":"3.1","2P%":".409","eFG%":".452","FT":"1.2","FTA":"1.6","FT%":".731","ORB":"0.3","DRB":"1.7","TRB":"2.0","AST":"3.5","STL":"0.6","BLK":"0.1","TOV":"1.2","PF":"1.2","PS/G":"6.9"},{"Player":"Jerebko,Jonas","Pos":"PF","Age":"28","Tm":"BOS","G":"78","GS":"0","MP":"15.1","FG":"1.5","FGA":"3.7","FG%":".413","3P":"0.6","3PA":"1.4","3P%":".398","2P":"1.0","2PA":"2.3","2P%":".421","eFG%":".488","FT":"0.8","FTA":"1.0","FT%":".782","ORB":"1.0","DRB":"2.7","TRB":"3.7","AST":"0.8","STL":"0.3","BLK":"0.3","TOV":"0.7","PF":"1.8","PS/G":"4.4"},{"Player":"Johnson,Amir","Pos":"PF","Age":"28","Tm":"BOS","G":"79","GS":"76","MP":"22.8","FG":"3.2","FGA":"5.4","FG%":".585","3P":"0.1","3PA":"0.5","3P%":".233","2P":"3.0","2PA":"4.8","2P%":".624","eFG%":".596","FT":"0.9","FTA":"1.5","FT%":".570","ORB":"2.3","DRB":"4.1","TRB":"6.4","AST":"1.7","STL":"0.7","BLK":"1.1","TOV":"1.2","PF":"2.7","PS/G":"7.3"},{"Player":"Johnson,Chris","Pos":"SF","Age":"25","Tm":"UTA","G":"70","GS":"2","MP":"12.2","FG":"1.0","FGA":"2.8","FG%":".371","3P":"0.4","3PA":"1.4","3P%":".273","2P":"0.6","2PA":"1.4","2P%":".474","eFG%":".441","FT":"0.5","FTA":"0.6","FT%":".810","ORB":"0.4","DRB":"1.5","TRB":"1.9","AST":"0.6","STL":"0.5","BLK":"0.3","TOV":"0.6","PF":"1.4","PS/G":"2.9"},{"Player":"Johnson,James","Pos":"PF","Age":"28","Tm":"TOR","G":"57","GS":"32","MP":"16.2","FG":"2.0","FGA":"4.2","FG%":".475","3P":"0.4","3PA":"1.2","3P%":".303","2P":"1.6","2PA":"3.1","2P%":".540","eFG%":".517","FT":"0.7","FTA":"1.2","FT%":".574","ORB":"0.5","DRB":"1.7","TRB":"2.2","AST":"1.2","STL":"0.5","BLK":"0.6","TOV":"0.9","PF":"1.5","PS/G":"5.0"},{"Player":"Johnson,Joe","Pos":"SF","Age":"34","Tm":null,"G":"81","GS":"81","MP":"33.4","FG":"4.7","FGA":"10.6","FG%":".439","3P":"1.5","3PA":"3.9","3P%":".383","2P":"3.2","2PA":"6.7","2P%":".471","eFG%":".509","FT":"1.5","FTA":"1.8","FT%":".831","ORB":"0.6","DRB":"3.0","TRB":"3.6","AST":"3.9","STL":"0.8","BLK":"0.0","TOV":"2.0","PF":"1.8","PS/G":"12.2"},{"Player":"Johnson,Orlando","Pos":"SG","Age":"26","Tm":null,"G":"7","GS":"1","MP":"14.4","FG":"1.3","FGA":"4.9","FG%":".265","3P":"0.3","3PA":"1.4","3P%":".200","2P":"1.0","2PA":"3.4","2P%":".292","eFG%":".294","FT":"0.9","FTA":"1.1","FT%":".750","ORB":"0.6","DRB":"1.6","TRB":"2.1","AST":"0.3","STL":"0.4","BLK":"0.4","TOV":"0.6","PF":"1.3","PS/G":"3.7"},{"Player":"Johnson,Stanley","Pos":"SF","Age":"19","Tm":"DET","G":"73","GS":"6","MP":"23.1","FG":"3.1","FGA":"8.2","FG%":".375","3P":"0.9","3PA":"2.8","3P%":".307","2P":"2.2","2PA":"5.4","2P%":".410","eFG%":".428","FT":"1.1","FTA":"1.4","FT%":".784","ORB":"0.8","DRB":"3.4","TRB":"4.2","AST":"1.6","STL":"0.8","BLK":"0.2","TOV":"1.6","PF":"2.4","PS/G":"8.1"},{"Player":"Johnson,Tyler","Pos":"SG","Age":"23","Tm":"MIA","G":"36","GS":"5","MP":"24.0","FG":"3.3","FGA":"6.8","FG%":".486","3P":"0.8","3PA":"2.0","3P%":".380","2P":"2.5","2PA":"4.8","2P%":".529","eFG%":".541","FT":"1.4","FTA":"1.8","FT%":".797","ORB":"0.8","DRB":"2.3","TRB":"3.0","AST":"2.2","STL":"0.7","BLK":"0.4","TOV":"1.3","PF":"1.8","PS/G":"8.7"},{"Player":"Johnson,Wesley","Pos":"SF","Age":"28","Tm":"LAC","G":"80","GS":"9","MP":"20.8","FG":"2.6","FGA":"6.4","FG%":".404","3P":"1.3","3PA":"3.9","3P%":".333","2P":"1.3","2PA":"2.6","2P%":".510","eFG%":".504","FT":"0.4","FTA":"0.6","FT%":".652","ORB":"0.5","DRB":"2.6","TRB":"3.1","AST":"0.6","STL":"1.1","BLK":"0.7","TOV":"0.7","PF":"2.2","PS/G":"6.9"},{"Player":"Jokic,Nikola","Pos":"C","Age":"20","Tm":"DEN","G":"80","GS":"55","MP":"21.7","FG":"3.8","FGA":"7.5","FG%":".512","3P":"0.4","3PA":"1.1","3P%":".333","2P":"3.5","2PA":"6.5","2P%":".541","eFG%":".535","FT":"1.9","FTA":"2.4","FT%":".811","ORB":"2.3","DRB":"4.7","TRB":"7.0","AST":"2.4","STL":"1.0","BLK":"0.6","TOV":"1.3","PF":"2.6","PS/G":"10.0"},{"Player":"Jones,Dahntay","Pos":"SF","Age":"35","Tm":"CLE","G":"1","GS":"0","MP":"42.0","FG":"6.0","FGA":"14.0","FG%":".429","3P":"1.0","3PA":"2.0","3P%":".500","2P":"5.0","2PA":"12.0","2P%":".417","eFG%":".464","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"1.0","DRB":"4.0","TRB":"5.0","AST":"2.0","STL":"1.0","BLK":"2.0","TOV":"0.0","PF":"6.0","PS/G":"13.0"},{"Player":"Jones,James","Pos":"SF","Age":"35","Tm":"CLE","G":"48","GS":"0","MP":"9.6","FG":"1.2","FGA":"3.0","FG%":".408","3P":"0.9","3PA":"2.2","3P%":".394","2P":"0.4","2PA":"0.8","2P%":".447","eFG%":".553","FT":"0.4","FTA":"0.5","FT%":".808","ORB":"0.2","DRB":"0.9","TRB":"1.0","AST":"0.3","STL":"0.2","BLK":"0.2","TOV":"0.3","PF":"1.0","PS/G":"3.7"},{"Player":"Jones,Terrence","Pos":"PF","Age":"24","Tm":"HOU","G":"50","GS":"11","MP":"20.9","FG":"3.3","FGA":"7.3","FG%":".452","3P":"0.5","3PA":"1.6","3P%":".316","2P":"2.8","2PA":"5.8","2P%":".490","eFG%":".486","FT":"1.5","FTA":"2.3","FT%":".664","ORB":"1.2","DRB":"3.0","TRB":"4.2","AST":"0.8","STL":"0.5","BLK":"0.8","TOV":"1.0","PF":"1.7","PS/G":"8.7"},{"Player":"Jones,Tyus","Pos":"PG","Age":"19","Tm":"MIN","G":"37","GS":"0","MP":"15.5","FG":"1.5","FGA":"4.2","FG%":".359","3P":"0.4","3PA":"1.4","3P%":".302","2P":"1.1","2PA":"2.8","2P%":".388","eFG%":".410","FT":"0.8","FTA":"1.1","FT%":".718","ORB":"0.2","DRB":"1.1","TRB":"1.3","AST":"2.9","STL":"0.8","BLK":"0.1","TOV":"0.9","PF":"0.9","PS/G":"4.2"},{"Player":"Jordan,DeAndre","Pos":"C","Age":"27","Tm":"LAC","G":"77","GS":"77","MP":"33.7","FG":"4.6","FGA":"6.6","FG%":".703","3P":"0.0","3PA":"0.0","3P%":".000","2P":"4.6","2PA":"6.6","2P%":".704","eFG%":".703","FT":"3.5","FTA":"8.0","FT%":".430","ORB":"3.5","DRB":"10.3","TRB":"13.8","AST":"1.2","STL":"0.7","BLK":"2.3","TOV":"1.4","PF":"2.7","PS/G":"12.7"},{"Player":"Joseph,Cory","Pos":"SG","Age":"24","Tm":"TOR","G":"80","GS":"4","MP":"25.6","FG":"3.2","FGA":"7.3","FG%":".439","3P":"0.4","3PA":"1.4","3P%":".273","2P":"2.8","2PA":"5.9","2P%":".478","eFG%":".465","FT":"1.7","FTA":"2.2","FT%":".764","ORB":"0.5","DRB":"2.1","TRB":"2.6","AST":"3.1","STL":"0.8","BLK":"0.3","TOV":"1.3","PF":"1.6","PS/G":"8.5"},{"Player":"Kaman,Chris","Pos":"C","Age":"33","Tm":"POR","G":"16","GS":"2","MP":"7.0","FG":"1.3","FGA":"2.7","FG%":".465","3P":"0.1","3PA":"0.3","3P%":".250","2P":"1.2","2PA":"2.4","2P%":".487","eFG%":".477","FT":"0.2","FTA":"0.2","FT%":"1.000","ORB":"0.4","DRB":"1.1","TRB":"1.5","AST":"0.7","STL":"0.1","BLK":"0.1","TOV":"0.5","PF":"0.9","PS/G":"2.8"},{"Player":"Kaminsky,Frank","Pos":"C","Age":"22","Tm":"CHO","G":"81","GS":"3","MP":"21.1","FG":"2.7","FGA":"6.5","FG%":".410","3P":"0.8","3PA":"2.5","3P%":".337","2P":"1.8","2PA":"4.0","2P%":".455","eFG%":".474","FT":"1.3","FTA":"1.8","FT%":".730","ORB":"0.9","DRB":"3.3","TRB":"4.1","AST":"1.2","STL":"0.5","BLK":"0.5","TOV":"0.7","PF":"1.6","PS/G":"7.5"},{"Player":"Kanter,Enes","Pos":"C","Age":"23","Tm":"OKC","G":"82","GS":"1","MP":"21.0","FG":"5.0","FGA":"8.8","FG%":".576","3P":"0.1","3PA":"0.3","3P%":".476","2P":"4.9","2PA":"8.5","2P%":".579","eFG%":".583","FT":"2.4","FTA":"3.1","FT%":".797","ORB":"3.0","DRB":"5.1","TRB":"8.1","AST":"0.4","STL":"0.3","BLK":"0.4","TOV":"1.4","PF":"2.0","PS/G":"12.7"},{"Player":"Karasev,Sergey","Pos":"SF","Age":"22","Tm":"BRK","G":"40","GS":"5","MP":"10.0","FG":"0.8","FGA":"1.9","FG%":".405","3P":"0.3","3PA":"0.9","3P%":".297","2P":"0.5","2PA":"0.9","2P%":".514","eFG%":".480","FT":"0.7","FTA":"0.7","FT%":".929","ORB":"0.2","DRB":"1.3","TRB":"1.5","AST":"0.9","STL":"0.2","BLK":"0.1","TOV":"0.6","PF":"0.7","PS/G":"2.4"},{"Player":"Kaun,Sasha","Pos":"C","Age":"30","Tm":"CLE","G":"25","GS":"0","MP":"3.8","FG":"0.4","FGA":"0.7","FG%":".529","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.4","2PA":"0.7","2P%":".529","eFG%":".529","FT":"0.2","FTA":"0.4","FT%":".455","ORB":"0.5","DRB":"0.6","TRB":"1.0","AST":"0.1","STL":"0.2","BLK":"0.2","TOV":"0.3","PF":"0.4","PS/G":"0.9"},{"Player":"Kelly,Ryan","Pos":"PF","Age":"24","Tm":"LAL","G":"36","GS":"0","MP":"13.1","FG":"1.5","FGA":"4.1","FG%":".369","3P":"0.1","3PA":"1.0","3P%":".135","2P":"1.4","2PA":"3.1","2P%":".446","eFG%":".386","FT":"1.0","FTA":"1.5","FT%":".685","ORB":"0.6","DRB":"2.8","TRB":"3.4","AST":"0.6","STL":"0.4","BLK":"0.3","TOV":"0.5","PF":"1.1","PS/G":"4.2"},{"Player":"Kidd-Gilchrist,Michael","Pos":"SF","Age":"22","Tm":"CHO","G":"7","GS":"7","MP":"29.3","FG":"4.7","FGA":"8.7","FG%":".541","3P":"0.4","3PA":"1.0","3P%":".429","2P":"4.3","2PA":"7.7","2P%":".556","eFG%":".566","FT":"2.9","FTA":"4.1","FT%":".690","ORB":"1.7","DRB":"4.7","TRB":"6.4","AST":"1.3","STL":"0.4","BLK":"0.4","TOV":"1.1","PF":"1.3","PS/G":"12.7"},{"Player":"Kilpatrick,Sean","Pos":"SG","Age":"26","Tm":null,"G":"31","GS":"0","MP":"19.9","FG":"4.0","FGA":"8.7","FG%":".456","3P":"1.3","3PA":"3.7","3P%":".342","2P":"2.7","2PA":"5.0","2P%":".538","eFG%":".528","FT":"1.9","FTA":"2.2","FT%":".896","ORB":"0.4","DRB":"1.4","TRB":"1.8","AST":"0.9","STL":"0.4","BLK":"0.1","TOV":"1.0","PF":"1.2","PS/G":"11.1"},{"Player":"Knight,Brandon","Pos":"SG","Age":"24","Tm":"PHO","G":"52","GS":"50","MP":"36.0","FG":"7.1","FGA":"17.2","FG%":".415","3P":"2.3","3PA":"6.8","3P%":".342","2P":"4.8","2PA":"10.5","2P%":".461","eFG%":".482","FT":"3.0","FTA":"3.5","FT%":".852","ORB":"0.7","DRB":"3.2","TRB":"3.9","AST":"5.1","STL":"1.2","BLK":"0.4","TOV":"3.4","PF":"2.4","PS/G":"19.6"},{"Player":"Korver,Kyle","Pos":"SG","Age":"34","Tm":"ATL","G":"80","GS":"80","MP":"30.0","FG":"3.4","FGA":"7.7","FG%":".435","3P":"2.0","3PA":"5.0","3P%":".398","2P":"1.4","2PA":"2.7","2P%":".502","eFG%":".563","FT":"0.6","FTA":"0.7","FT%":".833","ORB":"0.2","DRB":"3.1","TRB":"3.3","AST":"2.1","STL":"0.8","BLK":"0.4","TOV":"1.2","PF":"2.0","PS/G":"9.2"},{"Player":"Koufos,Kosta","Pos":"C","Age":"26","Tm":"SAC","G":"78","GS":"14","MP":"19.0","FG":"3.0","FGA":"5.7","FG%":".532","3P":"0.0","3PA":"0.0","3P%":null,"2P":"3.0","2PA":"5.7","2P%":".532","eFG%":".532","FT":"0.7","FTA":"1.3","FT%":".548","ORB":"2.2","DRB":"3.3","TRB":"5.4","AST":"0.4","STL":"0.5","BLK":"0.9","TOV":"0.6","PF":"2.4","PS/G":"6.8"},{"Player":"Lamb,Jeremy","Pos":"SG","Age":"23","Tm":"CHO","G":"66","GS":"0","MP":"18.6","FG":"3.5","FGA":"7.7","FG%":".451","3P":"0.8","3PA":"2.7","3P%":".309","2P":"2.6","2PA":"5.0","2P%":".529","eFG%":".506","FT":"1.0","FTA":"1.3","FT%":".727","ORB":"0.7","DRB":"3.2","TRB":"3.8","AST":"1.2","STL":"0.6","BLK":"0.5","TOV":"0.8","PF":"1.6","PS/G":"8.8"},{"Player":"Landry,Carl","Pos":"PF","Age":"32","Tm":"PHI","G":"36","GS":"12","MP":"15.8","FG":"3.9","FGA":"6.9","FG%":".556","3P":"0.2","3PA":"0.4","3P%":".462","2P":"3.7","2PA":"6.6","2P%":".561","eFG%":".568","FT":"1.9","FTA":"2.5","FT%":".736","ORB":"1.4","DRB":"2.7","TRB":"4.1","AST":"0.9","STL":"0.3","BLK":"0.3","TOV":"0.6","PF":"1.9","PS/G":"9.8"},{"Player":"Larkin,Shane","Pos":"PG","Age":"23","Tm":"BRK","G":"78","GS":"17","MP":"22.4","FG":"2.8","FGA":"6.4","FG%":".442","3P":"0.5","3PA":"1.4","3P%":".361","2P":"2.3","2PA":"5.1","2P%":".464","eFG%":".481","FT":"1.1","FTA":"1.4","FT%":".776","ORB":"0.4","DRB":"1.9","TRB":"2.3","AST":"4.4","STL":"1.2","BLK":"0.2","TOV":"1.9","PF":"1.6","PS/G":"7.3"},{"Player":"Lauvergne,Joffrey","Pos":"C","Age":"24","Tm":"DEN","G":"59","GS":"15","MP":"17.6","FG":"3.3","FGA":"6.4","FG%":".513","3P":"0.2","3PA":"0.9","3P%":".245","2P":"3.1","2PA":"5.5","2P%":".557","eFG%":".530","FT":"1.1","FTA":"1.2","FT%":".899","ORB":"1.3","DRB":"3.6","TRB":"4.9","AST":"0.9","STL":"0.2","BLK":"0.3","TOV":"0.9","PF":"1.9","PS/G":"7.9"},{"Player":"LaVine,Zach","Pos":"SG","Age":"20","Tm":"MIN","G":"82","GS":"33","MP":"28.0","FG":"5.3","FGA":"11.7","FG%":".452","3P":"1.5","3PA":"3.9","3P%":".389","2P":"3.8","2PA":"7.8","2P%":".482","eFG%":".516","FT":"2.0","FTA":"2.5","FT%":".793","ORB":"0.3","DRB":"2.5","TRB":"2.8","AST":"3.1","STL":"0.8","BLK":"0.2","TOV":"1.9","PF":"2.4","PS/G":"14.0"},{"Player":"Lawson,Ty","Pos":"PG","Age":"28","Tm":null,"G":"66","GS":"13","MP":"21.4","FG":"2.1","FGA":"5.4","FG%":".393","3P":"0.5","3PA":"1.6","3P%":".333","2P":"1.6","2PA":"3.7","2P%":".419","eFG%":".444","FT":"0.9","FTA":"1.3","FT%":".686","ORB":"0.4","DRB":"1.4","TRB":"1.8","AST":"3.6","STL":"0.8","BLK":"0.1","TOV":"1.4","PF":"1.3","PS/G":"5.7"},{"Player":"Lee,Courtney","Pos":"SG","Age":"30","Tm":null,"G":"79","GS":"65","MP":"29.5","FG":"3.7","FGA":"8.1","FG%":".454","3P":"1.0","3PA":"2.7","3P%":".378","2P":"2.6","2PA":"5.3","2P%":".493","eFG%":".518","FT":"1.3","FTA":"1.5","FT%":".839","ORB":"0.4","DRB":"2.2","TRB":"2.6","AST":"1.7","STL":"1.1","BLK":"0.4","TOV":"0.9","PF":"1.7","PS/G":"9.6"},{"Player":"Lee,David","Pos":"PF","Age":"32","Tm":null,"G":"55","GS":"5","MP":"16.4","FG":"3.2","FGA":"6.1","FG%":".531","3P":"0.0","3PA":"0.0","3P%":".000","2P":"3.2","2PA":"6.1","2P%":".533","eFG%":".531","FT":"1.3","FTA":"1.7","FT%":".763","ORB":"1.8","DRB":"3.7","TRB":"5.5","AST":"1.5","STL":"0.4","BLK":"0.5","TOV":"1.2","PF":"2.1","PS/G":"7.8"},{"Player":"Len,Alex","Pos":"C","Age":"22","Tm":"PHO","G":"78","GS":"46","MP":"23.3","FG":"3.4","FGA":"8.0","FG%":".423","3P":"0.0","3PA":"0.1","3P%":".143","2P":"3.4","2PA":"7.9","2P%":".426","eFG%":".424","FT":"2.2","FTA":"3.1","FT%":".728","ORB":"2.3","DRB":"5.3","TRB":"7.6","AST":"1.2","STL":"0.5","BLK":"0.8","TOV":"1.9","PF":"2.9","PS/G":"9.0"},{"Player":"Leonard,Kawhi","Pos":"SF","Age":"24","Tm":"SAS","G":"72","GS":"72","MP":"33.1","FG":"7.7","FGA":"15.1","FG%":".506","3P":"1.8","3PA":"4.0","3P%":".443","2P":"5.9","2PA":"11.1","2P%":".528","eFG%":".565","FT":"4.1","FTA":"4.6","FT%":".874","ORB":"1.3","DRB":"5.5","TRB":"6.8","AST":"2.6","STL":"1.8","BLK":"1.0","TOV":"1.5","PF":"1.8","PS/G":"21.2"},{"Player":"Leonard,Meyers","Pos":"PF","Age":"23","Tm":"POR","G":"61","GS":"10","MP":"21.9","FG":"3.2","FGA":"7.1","FG%":".448","3P":"1.4","3PA":"3.7","3P%":".377","2P":"1.8","2PA":"3.4","2P%":".527","eFG%":".547","FT":"0.6","FTA":"0.8","FT%":".761","ORB":"0.8","DRB":"4.3","TRB":"5.1","AST":"1.5","STL":"0.1","BLK":"0.3","TOV":"1.3","PF":"3.0","PS/G":"8.4"},{"Player":"Leuer,Jon","Pos":"PF","Age":"26","Tm":"PHO","G":"67","GS":"27","MP":"18.7","FG":"3.3","FGA":"7.0","FG%":".481","3P":"0.6","3PA":"1.6","3P%":".382","2P":"2.7","2PA":"5.3","2P%":".511","eFG%":".526","FT":"1.1","FTA":"1.5","FT%":".762","ORB":"1.1","DRB":"4.4","TRB":"5.6","AST":"1.1","STL":"0.6","BLK":"0.4","TOV":"1.1","PF":"1.9","PS/G":"8.5"},{"Player":"Lillard,Damian","Pos":"PG","Age":"25","Tm":"POR","G":"75","GS":"75","MP":"35.7","FG":"8.2","FGA":"19.7","FG%":".419","3P":"3.1","3PA":"8.1","3P%":".375","2P":"5.2","2PA":"11.5","2P%":".450","eFG%":".497","FT":"5.5","FTA":"6.2","FT%":".892","ORB":"0.6","DRB":"3.4","TRB":"4.0","AST":"6.8","STL":"0.9","BLK":"0.4","TOV":"3.2","PF":"2.2","PS/G":"25.1"},{"Player":"Lin,Jeremy","Pos":"SG","Age":"27","Tm":"CHO","G":"78","GS":"13","MP":"26.3","FG":"3.8","FGA":"9.3","FG%":".412","3P":"1.0","3PA":"2.9","3P%":".336","2P":"2.9","2PA":"6.4","2P%":".446","eFG%":".464","FT":"3.1","FTA":"3.7","FT%":".815","ORB":"0.5","DRB":"2.7","TRB":"3.2","AST":"3.0","STL":"0.7","BLK":"0.5","TOV":"1.9","PF":"2.1","PS/G":"11.7"},{"Player":"Livingston,Shaun","Pos":"PG","Age":"30","Tm":"GSW","G":"78","GS":"3","MP":"19.5","FG":"2.6","FGA":"4.9","FG%":".536","3P":"0.0","3PA":"0.2","3P%":".167","2P":"2.6","2PA":"4.7","2P%":".548","eFG%":".538","FT":"1.0","FTA":"1.2","FT%":".860","ORB":"0.5","DRB":"1.6","TRB":"2.2","AST":"3.0","STL":"0.7","BLK":"0.3","TOV":"1.0","PF":"1.8","PS/G":"6.3"},{"Player":"Looney,Kevon","Pos":"PF","Age":"19","Tm":"GSW","G":"5","GS":"0","MP":"4.2","FG":"0.8","FGA":"1.4","FG%":".571","3P":"0.2","3PA":"0.4","3P%":".500","2P":"0.6","2PA":"1.0","2P%":".600","eFG%":".643","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.8","DRB":"1.2","TRB":"2.0","AST":"0.0","STL":"0.0","BLK":"0.0","TOV":"0.2","PF":"0.4","PS/G":"1.8"},{"Player":"Lopez,Brook","Pos":"C","Age":"27","Tm":"BRK","G":"73","GS":"73","MP":"33.7","FG":"8.1","FGA":"15.8","FG%":".511","3P":"0.0","3PA":"0.2","3P%":".143","2P":"8.1","2PA":"15.7","2P%":".515","eFG%":".512","FT":"4.3","FTA":"5.5","FT%":".787","ORB":"2.8","DRB":"5.1","TRB":"7.8","AST":"2.0","STL":"0.8","BLK":"1.7","TOV":"2.4","PF":"2.9","PS/G":"20.6"},{"Player":"Lopez,Robin","Pos":"C","Age":"27","Tm":"NYK","G":"82","GS":"82","MP":"27.1","FG":"4.4","FGA":"8.1","FG%":".539","3P":"0.0","3PA":"0.0","3P%":".000","2P":"4.4","2PA":"8.1","2P%":".540","eFG%":".539","FT":"1.6","FTA":"2.0","FT%":".795","ORB":"3.3","DRB":"4.1","TRB":"7.3","AST":"1.4","STL":"0.2","BLK":"1.6","TOV":"1.6","PF":"2.2","PS/G":"10.3"},{"Player":"Love,Kevin","Pos":"PF","Age":"27","Tm":"CLE","G":"77","GS":"77","MP":"31.5","FG":"5.3","FGA":"12.7","FG%":".419","3P":"2.1","3PA":"5.7","3P%":".360","2P":"3.3","2PA":"7.0","2P%":".467","eFG%":".499","FT":"3.4","FTA":"4.1","FT%":".822","ORB":"1.9","DRB":"8.0","TRB":"9.9","AST":"2.4","STL":"0.8","BLK":"0.5","TOV":"1.8","PF":"2.1","PS/G":"16.0"},{"Player":"Lowry,Kyle","Pos":"PG","Age":"29","Tm":"TOR","G":"77","GS":"77","MP":"37.0","FG":"6.6","FGA":"15.6","FG%":".427","3P":"2.8","3PA":"7.1","3P%":".388","2P":"3.9","2PA":"8.5","2P%":".461","eFG%":".516","FT":"5.2","FTA":"6.4","FT%":".811","ORB":"0.7","DRB":"4.0","TRB":"4.7","AST":"6.4","STL":"2.1","BLK":"0.4","TOV":"2.9","PF":"2.7","PS/G":"21.2"},{"Player":"Lyles,Trey","Pos":"PF","Age":"20","Tm":"UTA","G":"80","GS":"33","MP":"17.3","FG":"2.4","FGA":"5.5","FG%":".438","3P":"0.6","3PA":"1.6","3P%":".383","2P":"1.8","2PA":"3.9","2P%":".461","eFG%":".494","FT":"0.7","FTA":"1.0","FT%":".695","ORB":"0.7","DRB":"3.0","TRB":"3.7","AST":"0.7","STL":"0.3","BLK":"0.2","TOV":"0.8","PF":"1.4","PS/G":"6.1"},{"Player":"Mack,Shelvin","Pos":"PG","Age":"25","Tm":null,"G":"52","GS":"27","MP":"20.3","FG":"3.5","FGA":"8.0","FG%":".439","3P":"0.8","3PA":"2.4","3P%":".312","2P":"2.8","2PA":"5.6","2P%":".493","eFG%":".486","FT":"0.9","FTA":"1.2","FT%":".738","ORB":"0.3","DRB":"2.2","TRB":"2.5","AST":"3.6","STL":"0.7","BLK":"0.1","TOV":"1.8","PF":"1.4","PS/G":"8.6"},{"Player":"Mahinmi,Ian","Pos":"C","Age":"29","Tm":"IND","G":"71","GS":"71","MP":"25.6","FG":"3.7","FGA":"6.3","FG%":".589","3P":"0.0","3PA":"0.0","3P%":null,"2P":"3.7","2PA":"6.3","2P%":".589","eFG%":".589","FT":"1.9","FTA":"3.2","FT%":".587","ORB":"1.9","DRB":"5.2","TRB":"7.1","AST":"1.5","STL":"0.9","BLK":"1.1","TOV":"1.4","PF":"3.1","PS/G":"9.3"},{"Player":"Marble,Devyn","Pos":"SG","Age":"23","Tm":"ORL","G":"28","GS":"0","MP":"8.9","FG":"0.8","FGA":"2.5","FG%":".296","3P":"0.3","3PA":"1.1","3P%":".250","2P":"0.5","2PA":"1.4","2P%":".333","eFG%":".352","FT":"0.4","FTA":"0.9","FT%":".417","ORB":"0.2","DRB":"1.1","TRB":"1.4","AST":"0.4","STL":"0.5","BLK":"0.0","TOV":"0.3","PF":"0.9","PS/G":"2.1"},{"Player":"Marjanovic,Boban","Pos":"C","Age":"27","Tm":"SAS","G":"54","GS":"4","MP":"9.4","FG":"1.9","FGA":"3.2","FG%":".603","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.9","2PA":"3.2","2P%":".603","eFG%":".603","FT":"1.6","FTA":"2.1","FT%":".763","ORB":"1.4","DRB":"2.2","TRB":"3.6","AST":"0.4","STL":"0.2","BLK":"0.4","TOV":"0.5","PF":"1.0","PS/G":"5.5"},{"Player":"Marshall,Kendall","Pos":"PG","Age":"24","Tm":"PHI","G":"30","GS":"6","MP":"13.3","FG":"1.4","FGA":"3.9","FG%":".364","3P":"0.5","3PA":"1.6","3P%":".327","2P":"0.9","2PA":"2.3","2P%":".391","eFG%":".432","FT":"0.3","FTA":"0.4","FT%":".692","ORB":"0.1","DRB":"0.9","TRB":"0.9","AST":"2.4","STL":"0.5","BLK":"0.1","TOV":"1.4","PF":"1.0","PS/G":"3.7"},{"Player":"Martin,Jarell","Pos":"PF","Age":"21","Tm":"MEM","G":"27","GS":"0","MP":"14.1","FG":"2.0","FGA":"4.3","FG%":".466","3P":"0.0","3PA":"0.1","3P%":".000","2P":"2.0","2PA":"4.2","2P%":".474","eFG%":".466","FT":"1.7","FTA":"2.3","FT%":".726","ORB":"1.4","DRB":"1.7","TRB":"3.2","AST":"0.6","STL":"0.3","BLK":"0.3","TOV":"0.7","PF":"2.1","PS/G":"5.7"},{"Player":"Martin,Kevin","Pos":"SG","Age":"32","Tm":null,"G":"55","GS":"13","MP":"19.9","FG":"2.8","FGA":"7.6","FG%":".372","3P":"0.9","3PA":"2.5","3P%":".360","2P":"1.9","2PA":"5.1","2P%":".378","eFG%":".431","FT":"2.8","FTA":"3.1","FT%":".890","ORB":"0.3","DRB":"1.7","TRB":"2.0","AST":"1.1","STL":"0.5","BLK":"0.1","TOV":"1.0","PF":"1.5","PS/G":"9.3"},{"Player":"Matthews,Wesley","Pos":"SF","Age":"29","Tm":"DAL","G":"78","GS":"78","MP":"33.9","FG":"4.2","FGA":"10.9","FG%":".388","3P":"2.4","3PA":"6.7","3P%":".360","2P":"1.8","2PA":"4.2","2P%":".432","eFG%":".498","FT":"1.6","FTA":"1.9","FT%":".863","ORB":"0.3","DRB":"2.7","TRB":"3.1","AST":"1.9","STL":"1.0","BLK":"0.2","TOV":"1.0","PF":"2.3","PS/G":"12.5"},{"Player":"Mayo,O.J.","Pos":"SG","Age":"28","Tm":"MIL","G":"41","GS":"24","MP":"26.6","FG":"2.9","FGA":"7.8","FG%":".371","3P":"1.3","3PA":"4.0","3P%":".321","2P":"1.6","2PA":"3.9","2P%":".421","eFG%":".452","FT":"0.8","FTA":"1.0","FT%":".775","ORB":"0.3","DRB":"2.2","TRB":"2.6","AST":"2.9","STL":"1.2","BLK":"0.2","TOV":"1.8","PF":"3.1","PS/G":"7.8"},{"Player":"Mbah a Moute,Luc","Pos":"PF","Age":"29","Tm":"LAC","G":"75","GS":"61","MP":"17.0","FG":"1.3","FGA":"2.8","FG%":".454","3P":"0.2","3PA":"0.5","3P%":".325","2P":"1.1","2PA":"2.2","2P%":".485","eFG%":".486","FT":"0.4","FTA":"0.8","FT%":".526","ORB":"0.8","DRB":"1.5","TRB":"2.3","AST":"0.4","STL":"0.6","BLK":"0.3","TOV":"0.5","PF":"1.3","PS/G":"3.1"},{"Player":"McAdoo,James Michael","Pos":"PF","Age":"23","Tm":"GSW","G":"41","GS":"1","MP":"6.4","FG":"1.1","FGA":"2.0","FG%":".536","3P":"0.0","3PA":"0.0","3P%":".500","2P":"1.1","2PA":"2.0","2P%":".537","eFG%":".542","FT":"0.6","FTA":"1.2","FT%":".531","ORB":"0.7","DRB":"0.7","TRB":"1.4","AST":"0.4","STL":"0.2","BLK":"0.2","TOV":"0.4","PF":"1.0","PS/G":"2.9"},{"Player":"McCallum,Ray","Pos":"PG","Age":"24","Tm":null,"G":"41","GS":"6","MP":"11.6","FG":"1.3","FGA":"3.6","FG%":".377","3P":"0.4","3PA":"1.0","3P%":".357","2P":"1.0","2PA":"2.5","2P%":".385","eFG%":".428","FT":"0.3","FTA":"0.4","FT%":".800","ORB":"0.2","DRB":"1.0","TRB":"1.1","AST":"1.5","STL":"0.3","BLK":"0.2","TOV":"0.6","PF":"0.7","PS/G":"3.3"},{"Player":"McCollum,C.J.","Pos":"SG","Age":"24","Tm":"POR","G":"80","GS":"80","MP":"34.8","FG":"8.0","FGA":"17.9","FG%":".448","3P":"2.5","3PA":"5.9","3P%":".417","2P":"5.6","2PA":"12.0","2P%":".463","eFG%":".517","FT":"2.3","FTA":"2.8","FT%":".827","ORB":"0.6","DRB":"2.7","TRB":"3.2","AST":"4.3","STL":"1.2","BLK":"0.3","TOV":"2.5","PF":"2.3","PS/G":"20.8"},{"Player":"McConnell,T.J.","Pos":"PG","Age":"23","Tm":"PHI","G":"81","GS":"17","MP":"19.8","FG":"2.7","FGA":"5.7","FG%":".470","3P":"0.4","3PA":"1.1","3P%":".348","2P":"2.3","2PA":"4.6","2P%":".499","eFG%":".503","FT":"0.3","FTA":"0.5","FT%":".634","ORB":"0.5","DRB":"2.6","TRB":"3.1","AST":"4.5","STL":"1.2","BLK":"0.1","TOV":"1.7","PF":"1.4","PS/G":"6.1"},{"Player":"McCullough,Chris","Pos":"PF","Age":"20","Tm":"BRK","G":"24","GS":"4","MP":"15.1","FG":"1.8","FGA":"4.5","FG%":".404","3P":"0.5","3PA":"1.4","3P%":".382","2P":"1.3","2PA":"3.1","2P%":".413","eFG%":".463","FT":"0.5","FTA":"1.0","FT%":".478","ORB":"1.0","DRB":"1.8","TRB":"2.8","AST":"0.4","STL":"1.2","BLK":"0.5","TOV":"0.6","PF":"1.6","PS/G":"4.7"},{"Player":"McDaniels,K.J.","Pos":"SF","Age":"22","Tm":"HOU","G":"37","GS":"1","MP":"6.4","FG":"0.8","FGA":"1.9","FG%":".403","3P":"0.2","3PA":"0.7","3P%":".280","2P":"0.6","2PA":"1.3","2P%":".468","eFG%":".451","FT":"0.6","FTA":"0.8","FT%":".800","ORB":"0.4","DRB":"0.7","TRB":"1.1","AST":"0.3","STL":"0.2","BLK":"0.2","TOV":"0.5","PF":"0.8","PS/G":"2.4"},{"Player":"McDermott,Doug","Pos":"SF","Age":"24","Tm":"CHI","G":"81","GS":"4","MP":"23.0","FG":"3.6","FGA":"8.0","FG%":".452","3P":"1.4","3PA":"3.2","3P%":".425","2P":"2.2","2PA":"4.8","2P%":".470","eFG%":".537","FT":"0.9","FTA":"1.0","FT%":".857","ORB":"0.5","DRB":"2.0","TRB":"2.4","AST":"0.7","STL":"0.2","BLK":"0.1","TOV":"0.7","PF":"1.6","PS/G":"9.4"},{"Player":"McGary,Mitch","Pos":"PF","Age":"23","Tm":"OKC","G":"20","GS":"0","MP":"3.6","FG":"0.6","FGA":"1.2","FG%":".478","3P":"0.0","3PA":"0.2","3P%":".000","2P":"0.6","2PA":"1.0","2P%":".579","eFG%":".478","FT":"0.2","FTA":"0.5","FT%":".400","ORB":"0.2","DRB":"0.7","TRB":"0.9","AST":"0.2","STL":"0.1","BLK":"0.1","TOV":"0.4","PF":"0.5","PS/G":"1.3"},{"Player":"McGee,JaVale","Pos":"C","Age":"28","Tm":"DAL","G":"34","GS":"2","MP":"10.9","FG":"2.3","FGA":"3.9","FG%":".575","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.3","2PA":"3.9","2P%":".579","eFG%":".575","FT":"0.5","FTA":"1.1","FT%":".500","ORB":"1.6","DRB":"2.4","TRB":"3.9","AST":"0.1","STL":"0.1","BLK":"0.8","TOV":"0.6","PF":"1.4","PS/G":"5.1"},{"Player":"McLemore,Ben","Pos":"SG","Age":"22","Tm":"SAC","G":"68","GS":"53","MP":"21.2","FG":"2.9","FGA":"6.7","FG%":".429","3P":"1.0","3PA":"2.7","3P%":".362","2P":"1.9","2PA":"4.0","2P%":".474","eFG%":".502","FT":"1.1","FTA":"1.5","FT%":".718","ORB":"0.5","DRB":"1.7","TRB":"2.2","AST":"1.2","STL":"0.8","BLK":"0.1","TOV":"1.5","PF":"2.1","PS/G":"7.8"},{"Player":"McRae,Jordan","Pos":"PG","Age":"24","Tm":null,"G":"22","GS":"1","MP":"8.9","FG":"1.5","FGA":"3.5","FG%":".436","3P":"0.5","3PA":"1.0","3P%":".455","2P":"1.1","2PA":"2.5","2P%":".429","eFG%":".500","FT":"1.0","FTA":"1.3","FT%":".750","ORB":"0.2","DRB":"0.7","TRB":"0.9","AST":"1.1","STL":"0.1","BLK":"0.0","TOV":"0.7","PF":"0.8","PS/G":"4.5"},{"Player":"McRoberts,Josh","Pos":"PF","Age":"28","Tm":"MIA","G":"42","GS":"1","MP":"14.2","FG":"1.3","FGA":"3.5","FG%":".372","3P":"0.3","3PA":"1.2","3P%":".245","2P":"1.0","2PA":"2.4","2P%":".434","eFG%":".412","FT":"0.7","FTA":"1.0","FT%":".700","ORB":"0.5","DRB":"2.0","TRB":"2.5","AST":"1.9","STL":"0.4","BLK":"0.2","TOV":"0.7","PF":"1.6","PS/G":"3.6"},{"Player":"Meeks,Jodie","Pos":"SG","Age":"28","Tm":"DET","G":"3","GS":"0","MP":"14.3","FG":"2.3","FGA":"6.7","FG%":".350","3P":"1.3","3PA":"3.0","3P%":".444","2P":"1.0","2PA":"3.7","2P%":".273","eFG%":".450","FT":"1.3","FTA":"1.3","FT%":"1.000","ORB":"0.3","DRB":"1.3","TRB":"1.7","AST":"1.0","STL":"0.0","BLK":"0.0","TOV":"0.3","PF":"0.7","PS/G":"7.3"},{"Player":"Mejri,Salah","Pos":"C","Age":"29","Tm":"DAL","G":"34","GS":"6","MP":"11.7","FG":"1.4","FGA":"2.3","FG%":".628","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.4","2PA":"2.3","2P%":".636","eFG%":".628","FT":"0.8","FTA":"1.4","FT%":".587","ORB":"1.2","DRB":"2.4","TRB":"3.6","AST":"0.3","STL":"0.2","BLK":"1.1","TOV":"0.7","PF":"1.6","PS/G":"3.7"},{"Player":"Mickey,Jordan","Pos":"PF","Age":"21","Tm":"BOS","G":"16","GS":"0","MP":"3.6","FG":"0.5","FGA":"1.4","FG%":".364","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.5","2PA":"1.4","2P%":".364","eFG%":".364","FT":"0.3","FTA":"0.6","FT%":".500","ORB":"0.4","DRB":"0.4","TRB":"0.8","AST":"0.1","STL":"0.0","BLK":"0.7","TOV":"0.1","PF":"0.3","PS/G":"1.3"},{"Player":"Middleton,Khris","Pos":"SG","Age":"24","Tm":"MIL","G":"79","GS":"79","MP":"36.1","FG":"6.4","FGA":"14.5","FG%":".444","3P":"1.8","3PA":"4.6","3P%":".396","2P":"4.6","2PA":"9.9","2P%":".466","eFG%":".507","FT":"3.5","FTA":"3.9","FT%":".888","ORB":"0.6","DRB":"3.3","TRB":"3.8","AST":"4.2","STL":"1.7","BLK":"0.2","TOV":"2.3","PF":"2.6","PS/G":"18.2"},{"Player":"Miles,C.J.","Pos":"SF","Age":"28","Tm":"IND","G":"64","GS":"24","MP":"22.9","FG":"4.0","FGA":"9.9","FG%":".409","3P":"2.2","3PA":"6.0","3P%":".367","2P":"1.8","2PA":"3.9","2P%":".474","eFG%":".521","FT":"1.5","FTA":"1.9","FT%":".750","ORB":"0.4","DRB":"2.3","TRB":"2.7","AST":"1.0","STL":"0.8","BLK":"0.5","TOV":"1.1","PF":"2.2","PS/G":"11.8"},{"Player":"Miller,Andre","Pos":"PG","Age":"39","Tm":null,"G":"39","GS":"4","MP":"11.8","FG":"1.5","FGA":"2.7","FG%":".557","3P":"0.1","3PA":"0.2","3P%":".250","2P":"1.5","2PA":"2.5","2P%":".582","eFG%":".566","FT":"0.6","FTA":"0.8","FT%":".750","ORB":"0.3","DRB":"1.0","TRB":"1.3","AST":"2.2","STL":"0.4","BLK":"0.0","TOV":"0.9","PF":"1.2","PS/G":"3.7"},{"Player":"Miller,Mike","Pos":"SF","Age":"35","Tm":"DEN","G":"47","GS":"2","MP":"7.9","FG":"0.5","FGA":"1.3","FG%":".355","3P":"0.4","3PA":"1.1","3P%":".365","2P":"0.1","2PA":"0.2","2P%":".300","eFG%":".508","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.1","DRB":"1.0","TRB":"1.1","AST":"0.9","STL":"0.3","BLK":"0.1","TOV":"0.4","PF":"1.1","PS/G":"1.3"},{"Player":"Mills,Patty","Pos":"PG","Age":"27","Tm":"SAS","G":"81","GS":"3","MP":"20.5","FG":"3.2","FGA":"7.6","FG%":".425","3P":"1.5","3PA":"4.0","3P%":".384","2P":"1.7","2PA":"3.6","2P%":".469","eFG%":".525","FT":"0.6","FTA":"0.7","FT%":".810","ORB":"0.3","DRB":"1.6","TRB":"2.0","AST":"2.8","STL":"0.7","BLK":"0.1","TOV":"0.9","PF":"1.3","PS/G":"8.5"},{"Player":"Millsap,Elijah","Pos":"SG","Age":"28","Tm":"UTA","G":"20","GS":"0","MP":"8.7","FG":"0.6","FGA":"2.0","FG%":".282","3P":"0.1","3PA":"0.6","3P%":".083","2P":"0.5","2PA":"1.4","2P%":".370","eFG%":".295","FT":"0.7","FTA":"0.9","FT%":".722","ORB":"0.3","DRB":"1.5","TRB":"1.8","AST":"1.0","STL":"0.4","BLK":"0.2","TOV":"0.5","PF":"1.7","PS/G":"1.8"},{"Player":"Millsap,Paul","Pos":"PF","Age":"30","Tm":"ATL","G":"81","GS":"81","MP":"32.7","FG":"6.2","FGA":"13.2","FG%":".470","3P":"0.9","3PA":"2.9","3P%":".319","2P":"5.3","2PA":"10.3","2P%":".512","eFG%":".505","FT":"3.8","FTA":"5.0","FT%":".757","ORB":"2.4","DRB":"6.6","TRB":"9.0","AST":"3.3","STL":"1.8","BLK":"1.7","TOV":"2.4","PF":"2.9","PS/G":"17.1"},{"Player":"Mirotic,Nikola","Pos":"PF","Age":"24","Tm":"CHI","G":"66","GS":"38","MP":"24.9","FG":"3.8","FGA":"9.2","FG%":".407","3P":"2.0","3PA":"5.2","3P%":".390","2P":"1.7","2PA":"4.0","2P%":".430","eFG%":".518","FT":"2.2","FTA":"2.7","FT%":".807","ORB":"0.9","DRB":"4.6","TRB":"5.5","AST":"1.5","STL":"0.9","BLK":"0.7","TOV":"1.5","PF":"2.3","PS/G":"11.8"},{"Player":"Mohammed,Nazr","Pos":"C","Age":"38","Tm":"OKC","G":"5","GS":"0","MP":"3.8","FG":"0.6","FGA":"1.0","FG%":".600","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.6","2PA":"1.0","2P%":".600","eFG%":".600","FT":"0.4","FTA":"0.4","FT%":"1.000","ORB":"0.2","DRB":"0.6","TRB":"0.8","AST":"0.0","STL":"0.0","BLK":"0.0","TOV":"0.6","PF":"0.8","PS/G":"1.6"},{"Player":"Monroe,Greg","Pos":"C","Age":"25","Tm":"MIL","G":"79","GS":"67","MP":"29.3","FG":"6.2","FGA":"11.9","FG%":".522","3P":"0.0","3PA":"0.0","3P%":".000","2P":"6.2","2PA":"11.9","2P%":".522","eFG%":".522","FT":"2.9","FTA":"3.9","FT%":".740","ORB":"2.8","DRB":"6.1","TRB":"8.8","AST":"2.3","STL":"0.9","BLK":"0.8","TOV":"1.6","PF":"2.1","PS/G":"15.3"},{"Player":"Montero,Luis","Pos":"SG","Age":"22","Tm":"POR","G":"12","GS":"0","MP":"3.5","FG":"0.4","FGA":"1.6","FG%":".263","3P":"0.1","3PA":"0.8","3P%":".111","2P":"0.3","2PA":"0.8","2P%":".400","eFG%":".289","FT":"0.3","FTA":"0.3","FT%":".750","ORB":"0.0","DRB":"0.3","TRB":"0.3","AST":"0.1","STL":"0.0","BLK":"0.0","TOV":"0.3","PF":"0.1","PS/G":"1.2"},{"Player":"Moore,E'Twaun","Pos":"SG","Age":"26","Tm":"CHI","G":"59","GS":"22","MP":"21.4","FG":"3.2","FGA":"6.6","FG%":".481","3P":"0.8","3PA":"1.8","3P%":".452","2P":"2.4","2PA":"4.8","2P%":".491","eFG%":".541","FT":"0.4","FTA":"0.6","FT%":".629","ORB":"0.3","DRB":"1.9","TRB":"2.3","AST":"1.7","STL":"0.6","BLK":"0.3","TOV":"0.9","PF":"1.7","PS/G":"7.5"},{"Player":"Moreland,Eric","Pos":"PF","Age":"24","Tm":"SAC","G":"8","GS":"0","MP":"6.0","FG":"0.4","FGA":"0.8","FG%":".500","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.4","2PA":"0.8","2P%":".500","eFG%":".500","FT":"0.3","FTA":"0.5","FT%":".500","ORB":"0.4","DRB":"1.0","TRB":"1.4","AST":"0.1","STL":"0.0","BLK":"0.5","TOV":"0.4","PF":"0.5","PS/G":"1.0"},{"Player":"Morris,Marcus","Pos":"SF","Age":"26","Tm":"DET","G":"80","GS":"80","MP":"35.7","FG":"5.1","FGA":"11.8","FG%":".434","3P":"1.4","3PA":"3.7","3P%":".362","2P":"3.8","2PA":"8.1","2P%":".467","eFG%":".491","FT":"2.5","FTA":"3.4","FT%":".749","ORB":"1.1","DRB":"3.9","TRB":"5.1","AST":"2.5","STL":"0.8","BLK":"0.3","TOV":"1.8","PF":"2.1","PS/G":"14.1"},{"Player":"Morris,Markieff","Pos":"PF","Age":"26","Tm":null,"G":"64","GS":"45","MP":"25.5","FG":"4.8","FGA":"11.2","FG%":".425","3P":"0.7","3PA":"2.4","3P%":".303","2P":"4.0","2PA":"8.8","2P%":".458","eFG%":".458","FT":"1.7","FTA":"2.3","FT%":".735","ORB":"1.1","DRB":"4.4","TRB":"5.5","AST":"1.9","STL":"0.9","BLK":"0.5","TOV":"2.1","PF":"2.9","PS/G":"12.0"},{"Player":"Morrow,Anthony","Pos":"SG","Age":"30","Tm":"OKC","G":"68","GS":"6","MP":"13.6","FG":"2.0","FGA":"4.9","FG%":".408","3P":"1.2","3PA":"3.0","3P%":".387","2P":"0.8","2PA":"1.9","2P%":".442","eFG%":".527","FT":"0.4","FTA":"0.6","FT%":".744","ORB":"0.1","DRB":"0.8","TRB":"0.9","AST":"0.4","STL":"0.3","BLK":"0.1","TOV":"0.3","PF":"0.9","PS/G":"5.6"},{"Player":"Motiejunas,Donatas","Pos":"PF","Age":"25","Tm":"HOU","G":"37","GS":"22","MP":"14.8","FG":"2.4","FGA":"5.5","FG%":".439","3P":"0.4","3PA":"1.5","3P%":".281","2P":"2.0","2PA":"4.0","2P%":".500","eFG%":".478","FT":"0.9","FTA":"1.4","FT%":".642","ORB":"1.0","DRB":"1.9","TRB":"2.9","AST":"1.1","STL":"0.5","BLK":"0.1","TOV":"1.2","PF":"1.9","PS/G":"6.2"},{"Player":"Mozgov,Timofey","Pos":"C","Age":"29","Tm":"CLE","G":"76","GS":"48","MP":"17.4","FG":"2.7","FGA":"4.7","FG%":".565","3P":"0.0","3PA":"0.1","3P%":".143","2P":"2.7","2PA":"4.6","2P%":".574","eFG%":".567","FT":"0.9","FTA":"1.3","FT%":".716","ORB":"1.4","DRB":"3.0","TRB":"4.4","AST":"0.4","STL":"0.3","BLK":"0.8","TOV":"0.9","PF":"2.1","PS/G":"6.3"},{"Player":"Mudiay,Emmanuel","Pos":"PG","Age":"19","Tm":"DEN","G":"68","GS":"66","MP":"30.4","FG":"4.8","FGA":"13.3","FG%":".364","3P":"1.1","3PA":"3.4","3P%":".319","2P":"3.8","2PA":"9.9","2P%":".379","eFG%":".404","FT":"2.1","FTA":"3.1","FT%":".670","ORB":"0.5","DRB":"2.9","TRB":"3.4","AST":"5.5","STL":"1.0","BLK":"0.5","TOV":"3.2","PF":"2.1","PS/G":"12.8"},{"Player":"Muhammad,Shabazz","Pos":"SF","Age":"23","Tm":"MIN","G":"82","GS":"0","MP":"20.5","FG":"3.9","FGA":"8.3","FG%":".465","3P":"0.5","3PA":"1.9","3P%":".289","2P":"3.3","2PA":"6.5","2P%":".516","eFG%":".498","FT":"2.3","FTA":"3.0","FT%":".764","ORB":"1.2","DRB":"2.0","TRB":"3.3","AST":"0.6","STL":"0.3","BLK":"0.1","TOV":"0.9","PF":"1.1","PS/G":"10.5"},{"Player":"Munford,Xavier","Pos":"SG","Age":"23","Tm":"MEM","G":"14","GS":"0","MP":"17.4","FG":"2.3","FGA":"5.5","FG%":".416","3P":"0.6","3PA":"1.6","3P%":".391","2P":"1.6","2PA":"3.9","2P%":".426","eFG%":".474","FT":"0.5","FTA":"1.0","FT%":".500","ORB":"0.2","DRB":"2.0","TRB":"2.2","AST":"1.6","STL":"0.9","BLK":"0.2","TOV":"1.1","PF":"1.8","PS/G":"5.7"},{"Player":"Muscala,Mike","Pos":"C","Age":"24","Tm":"ATL","G":"60","GS":"0","MP":"9.4","FG":"1.3","FGA":"2.5","FG%":".500","3P":"0.2","3PA":"0.7","3P%":".308","2P":"1.1","2PA":"1.9","2P%":".566","eFG%":".539","FT":"0.5","FTA":"0.7","FT%":".795","ORB":"0.6","DRB":"1.3","TRB":"2.0","AST":"0.6","STL":"0.2","BLK":"0.5","TOV":"0.5","PF":"1.2","PS/G":"3.3"},{"Player":"Nance,Larry","Pos":"PF","Age":"23","Tm":"LAL","G":"63","GS":"22","MP":"20.1","FG":"2.5","FGA":"4.8","FG%":".527","3P":"0.0","3PA":"0.2","3P%":".100","2P":"2.5","2PA":"4.6","2P%":".541","eFG%":".528","FT":"0.5","FTA":"0.7","FT%":".681","ORB":"1.6","DRB":"3.3","TRB":"5.0","AST":"0.7","STL":"0.9","BLK":"0.4","TOV":"0.7","PF":"2.0","PS/G":"5.5"},{"Player":"Napier,Shabazz","Pos":"PG","Age":"24","Tm":"ORL","G":"55","GS":"0","MP":"10.9","FG":"1.2","FGA":"3.7","FG%":".338","3P":"0.6","3PA":"1.9","3P%":".327","2P":"0.6","2PA":"1.8","2P%":".351","eFG%":".423","FT":"0.6","FTA":"0.8","FT%":".733","ORB":"0.2","DRB":"0.8","TRB":"1.0","AST":"1.8","STL":"0.4","BLK":"0.0","TOV":"0.8","PF":"0.7","PS/G":"3.7"},{"Player":"Neal,Gary","Pos":"SG","Age":"31","Tm":"WAS","G":"40","GS":"2","MP":"20.2","FG":"3.8","FGA":"8.1","FG%":".465","3P":"1.0","3PA":"2.5","3P%":".410","2P":"2.8","2PA":"5.6","2P%":".489","eFG%":".528","FT":"1.2","FTA":"1.4","FT%":".855","ORB":"0.3","DRB":"1.8","TRB":"2.1","AST":"1.2","STL":"0.5","BLK":"0.0","TOV":"0.7","PF":"1.4","PS/G":"9.8"},{"Player":"Nelson,Jameer","Pos":"PG","Age":"33","Tm":"DEN","G":"39","GS":"15","MP":"26.6","FG":"2.9","FGA":"7.9","FG%":".368","3P":"1.1","3PA":"3.7","3P%":".299","2P":"1.8","2PA":"4.2","2P%":".429","eFG%":".438","FT":"0.8","FTA":"0.9","FT%":".857","ORB":"0.5","DRB":"2.5","TRB":"2.9","AST":"4.9","STL":"0.6","BLK":"0.1","TOV":"1.7","PF":"2.6","PS/G":"7.7"},{"Player":"Neto,Raul","Pos":"PG","Age":"23","Tm":"UTA","G":"81","GS":"53","MP":"18.5","FG":"2.2","FGA":"5.2","FG%":".431","3P":"0.8","3PA":"2.0","3P%":".395","2P":"1.4","2PA":"3.2","2P%":".453","eFG%":".507","FT":"0.6","FTA":"0.9","FT%":".743","ORB":"0.2","DRB":"1.3","TRB":"1.5","AST":"2.1","STL":"0.8","BLK":"0.0","TOV":"1.3","PF":"1.5","PS/G":"5.9"},{"Player":"Nicholson,Andrew","Pos":"PF","Age":"26","Tm":"ORL","G":"56","GS":"0","MP":"14.7","FG":"2.6","FGA":"5.5","FG%":".471","3P":"0.7","3PA":"2.0","3P%":".360","2P":"1.9","2PA":"3.5","2P%":".536","eFG%":".537","FT":"0.9","FTA":"1.2","FT%":".785","ORB":"0.6","DRB":"3.0","TRB":"3.6","AST":"0.4","STL":"0.2","BLK":"0.4","TOV":"0.7","PF":"1.2","PS/G":"6.9"},{"Player":"Noah,Joakim","Pos":"C","Age":"30","Tm":"CHI","G":"29","GS":"2","MP":"21.9","FG":"1.8","FGA":"4.6","FG%":".383","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.8","2PA":"4.6","2P%":".386","eFG%":".383","FT":"0.8","FTA":"1.6","FT%":".489","ORB":"3.0","DRB":"5.8","TRB":"8.8","AST":"3.8","STL":"0.6","BLK":"1.0","TOV":"1.8","PF":"2.7","PS/G":"4.3"},{"Player":"Noel,Nerlens","Pos":"C","Age":"21","Tm":"PHI","G":"67","GS":"62","MP":"29.3","FG":"4.6","FGA":"8.8","FG%":".521","3P":"0.0","3PA":"0.0","3P%":".500","2P":"4.6","2PA":"8.7","2P%":".521","eFG%":".522","FT":"2.0","FTA":"3.4","FT%":".590","ORB":"2.3","DRB":"5.8","TRB":"8.1","AST":"1.8","STL":"1.8","BLK":"1.5","TOV":"2.4","PF":"2.9","PS/G":"11.1"},{"Player":"Nogueira,Lucas","Pos":"C","Age":"23","Tm":"TOR","G":"29","GS":"1","MP":"7.8","FG":"1.0","FGA":"1.5","FG%":".636","3P":"0.0","3PA":"0.1","3P%":".333","2P":"0.9","2PA":"1.4","2P%":".659","eFG%":".648","FT":"0.3","FTA":"0.5","FT%":".533","ORB":"0.6","DRB":"1.0","TRB":"1.6","AST":"0.2","STL":"0.4","BLK":"0.4","TOV":"0.4","PF":"1.0","PS/G":"2.2"},{"Player":"Novak,Steve","Pos":"PF","Age":"32","Tm":null,"G":"10","GS":"0","MP":"4.4","FG":"0.8","FGA":"1.8","FG%":".444","3P":"0.7","3PA":"1.5","3P%":".467","2P":"0.1","2PA":"0.3","2P%":".333","eFG%":".639","FT":"0.1","FTA":"0.1","FT%":"1.000","ORB":"0.0","DRB":"0.5","TRB":"0.5","AST":"0.0","STL":"0.0","BLK":"0.0","TOV":"0.1","PF":"0.3","PS/G":"2.4"},{"Player":"Nowitzki,Dirk","Pos":"PF","Age":"37","Tm":"DAL","G":"75","GS":"75","MP":"31.5","FG":"6.6","FGA":"14.8","FG%":".448","3P":"1.7","3PA":"4.6","3P%":".368","2P":"5.0","2PA":"10.3","2P%":".483","eFG%":".504","FT":"3.3","FTA":"3.7","FT%":".893","ORB":"0.7","DRB":"5.8","TRB":"6.5","AST":"1.8","STL":"0.7","BLK":"0.7","TOV":"1.1","PF":"2.1","PS/G":"18.3"},{"Player":"Nurkic,Jusuf","Pos":"C","Age":"21","Tm":"DEN","G":"32","GS":"3","MP":"17.1","FG":"3.2","FGA":"7.6","FG%":".417","3P":"0.0","3PA":"0.1","3P%":".000","2P":"3.2","2PA":"7.5","2P%":".423","eFG%":".417","FT":"1.9","FTA":"3.1","FT%":".616","ORB":"2.0","DRB":"3.4","TRB":"5.5","AST":"1.3","STL":"0.8","BLK":"1.4","TOV":"1.7","PF":"2.8","PS/G":"8.2"},{"Player":"O'Brien,J.J.","Pos":"SF","Age":"23","Tm":"UTA","G":"2","GS":"0","MP":"3.0","FG":"0.0","FGA":"0.5","FG%":".000","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.0","2PA":"0.5","2P%":".000","eFG%":".000","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.5","TRB":"0.5","AST":"0.0","STL":"0.5","BLK":"0.0","TOV":"0.0","PF":"0.5","PS/G":"0.0"},{"Player":"O'Bryant,Johnny","Pos":"PF","Age":"22","Tm":"MIL","G":"66","GS":"4","MP":"13.0","FG":"1.3","FGA":"3.2","FG%":".411","3P":"0.0","3PA":"0.0","3P%":"1.000","2P":"1.3","2PA":"3.2","2P%":".409","eFG%":".414","FT":"0.4","FTA":"0.6","FT%":".675","ORB":"1.0","DRB":"1.7","TRB":"2.7","AST":"0.5","STL":"0.3","BLK":"0.1","TOV":"0.5","PF":"1.5","PS/G":"3.0"},{"Player":"O'Quinn,Kyle","Pos":"PF","Age":"25","Tm":"NYK","G":"65","GS":"1","MP":"11.8","FG":"2.0","FGA":"4.2","FG%":".476","3P":"0.1","3PA":"0.3","3P%":".227","2P":"1.9","2PA":"3.8","2P%":".498","eFG%":".485","FT":"0.7","FTA":"0.9","FT%":".767","ORB":"1.2","DRB":"2.7","TRB":"3.8","AST":"1.1","STL":"0.3","BLK":"0.8","TOV":"0.9","PF":"1.6","PS/G":"4.8"},{"Player":"Okafor,Jahlil","Pos":"C","Age":"20","Tm":"PHI","G":"53","GS":"48","MP":"30.0","FG":"7.5","FGA":"14.7","FG%":".508","3P":"0.0","3PA":"0.1","3P%":".167","2P":"7.5","2PA":"14.6","2P%":".511","eFG%":".509","FT":"2.5","FTA":"3.7","FT%":".686","ORB":"2.3","DRB":"4.7","TRB":"7.0","AST":"1.2","STL":"0.4","BLK":"1.2","TOV":"2.3","PF":"2.6","PS/G":"17.5"},{"Player":"Oladipo,Victor","Pos":"SG","Age":"23","Tm":"ORL","G":"72","GS":"52","MP":"33.0","FG":"5.9","FGA":"13.5","FG%":".438","3P":"1.4","3PA":"3.9","3P%":".348","2P":"4.5","2PA":"9.6","2P%":".475","eFG%":".489","FT":"2.8","FTA":"3.4","FT%":".830","ORB":"0.7","DRB":"4.1","TRB":"4.8","AST":"3.9","STL":"1.6","BLK":"0.8","TOV":"2.1","PF":"2.4","PS/G":"16.0"},{"Player":"Olynyk,Kelly","Pos":"C","Age":"24","Tm":"BOS","G":"69","GS":"8","MP":"20.2","FG":"3.7","FGA":"8.1","FG%":".455","3P":"1.2","3PA":"3.0","3P%":".405","2P":"2.4","2PA":"5.0","2P%":".486","eFG%":".531","FT":"1.4","FTA":"1.9","FT%":".750","ORB":"1.0","DRB":"3.0","TRB":"4.1","AST":"1.5","STL":"0.8","BLK":"0.5","TOV":"1.1","PF":"2.4","PS/G":"10.0"},{"Player":"Oubre,Kelly","Pos":"SF","Age":"20","Tm":"WAS","G":"63","GS":"9","MP":"10.7","FG":"1.4","FGA":"3.3","FG%":".427","3P":"0.4","3PA":"1.3","3P%":".316","2P":"1.0","2PA":"2.1","2P%":".492","eFG%":".486","FT":"0.5","FTA":"0.8","FT%":".633","ORB":"0.4","DRB":"1.7","TRB":"2.1","AST":"0.2","STL":"0.3","BLK":"0.1","TOV":"0.5","PF":"1.6","PS/G":"3.7"},{"Player":"Pachulia,Zaza","Pos":"C","Age":"31","Tm":"DAL","G":"76","GS":"69","MP":"26.4","FG":"2.9","FGA":"6.2","FG%":".466","3P":"0.0","3PA":"0.0","3P%":".000","2P":"2.9","2PA":"6.1","2P%":".469","eFG%":".466","FT":"2.8","FTA":"3.6","FT%":".768","ORB":"3.3","DRB":"6.2","TRB":"9.4","AST":"1.7","STL":"0.8","BLK":"0.3","TOV":"1.6","PF":"2.4","PS/G":"8.6"},{"Player":"Papanikolaou,Kostas","Pos":"SF","Age":"25","Tm":"DEN","G":"26","GS":"6","MP":"11.3","FG":"0.9","FGA":"2.5","FG%":".364","3P":"0.4","3PA":"1.2","3P%":".313","2P":"0.5","2PA":"1.3","2P%":".412","eFG%":".439","FT":"0.3","FTA":"0.5","FT%":".643","ORB":"0.3","DRB":"1.2","TRB":"1.5","AST":"0.6","STL":"0.5","BLK":"0.2","TOV":"0.8","PF":"0.9","PS/G":"2.6"},{"Player":"Parker,Jabari","Pos":"PF","Age":"20","Tm":"MIL","G":"76","GS":"72","MP":"31.7","FG":"5.8","FGA":"11.8","FG%":".493","3P":"0.1","3PA":"0.5","3P%":".257","2P":"5.7","2PA":"11.4","2P%":".502","eFG%":".498","FT":"2.3","FTA":"3.0","FT%":".768","ORB":"1.6","DRB":"3.6","TRB":"5.2","AST":"1.7","STL":"0.9","BLK":"0.4","TOV":"1.5","PF":"2.0","PS/G":"14.1"},{"Player":"Parker,Tony","Pos":"PG","Age":"33","Tm":"SAS","G":"72","GS":"72","MP":"27.5","FG":"4.9","FGA":"9.9","FG%":".493","3P":"0.4","3PA":"0.9","3P%":".415","2P":"4.5","2PA":"9.0","2P%":".501","eFG%":".512","FT":"1.8","FTA":"2.4","FT%":".760","ORB":"0.2","DRB":"2.2","TRB":"2.4","AST":"5.3","STL":"0.8","BLK":"0.2","TOV":"1.8","PF":"1.6","PS/G":"11.9"},{"Player":"Parsons,Chandler","Pos":"SF","Age":"27","Tm":"DAL","G":"61","GS":"51","MP":"29.5","FG":"5.2","FGA":"10.7","FG%":".492","3P":"1.7","3PA":"4.1","3P%":".414","2P":"3.5","2PA":"6.6","2P%":".540","eFG%":".571","FT":"1.5","FTA":"2.2","FT%":".684","ORB":"0.5","DRB":"4.2","TRB":"4.7","AST":"2.8","STL":"0.8","BLK":"0.3","TOV":"1.6","PF":"1.9","PS/G":"13.7"},{"Player":"Patterson,Lamar","Pos":"SG","Age":"24","Tm":"ATL","G":"35","GS":"0","MP":"11.3","FG":"0.8","FGA":"2.3","FG%":".350","3P":"0.3","3PA":"1.4","3P%":".245","2P":"0.5","2PA":"0.9","2P%":".516","eFG%":".425","FT":"0.5","FTA":"0.6","FT%":".727","ORB":"0.1","DRB":"1.3","TRB":"1.4","AST":"1.1","STL":"0.3","BLK":"0.1","TOV":"0.7","PF":"1.3","PS/G":"2.4"},{"Player":"Patterson,Patrick","Pos":"PF","Age":"26","Tm":"TOR","G":"79","GS":"0","MP":"25.6","FG":"2.6","FGA":"6.2","FG%":".414","3P":"1.3","3PA":"3.7","3P%":".362","2P":"1.2","2PA":"2.5","2P%":".490","eFG%":".521","FT":"0.4","FTA":"0.4","FT%":".853","ORB":"1.0","DRB":"3.4","TRB":"4.3","AST":"1.2","STL":"0.7","BLK":"0.4","TOV":"0.8","PF":"1.6","PS/G":"6.9"},{"Player":"Paul,Chris","Pos":"PG","Age":"30","Tm":"LAC","G":"74","GS":"74","MP":"32.7","FG":"7.0","FGA":"15.1","FG%":".462","3P":"1.6","3PA":"4.4","3P%":".371","2P":"5.3","2PA":"10.6","2P%":".501","eFG%":".517","FT":"4.0","FTA":"4.4","FT%":".896","ORB":"0.5","DRB":"3.7","TRB":"4.2","AST":"10.0","STL":"2.1","BLK":"0.2","TOV":"2.6","PF":"2.5","PS/G":"19.5"},{"Player":"Payne,Adreian","Pos":"PF","Age":"24","Tm":"MIN","G":"52","GS":"2","MP":"9.3","FG":"1.0","FGA":"2.8","FG%":".366","3P":"0.2","3PA":"0.6","3P%":".281","2P":"0.8","2PA":"2.2","2P%":".389","eFG%":".397","FT":"0.3","FTA":"0.5","FT%":".654","ORB":"0.4","DRB":"1.8","TRB":"2.1","AST":"0.6","STL":"0.3","BLK":"0.2","TOV":"0.7","PF":"1.5","PS/G":"2.5"},{"Player":"Payne,Cameron","Pos":"PG","Age":"21","Tm":"OKC","G":"57","GS":"1","MP":"12.2","FG":"2.0","FGA":"4.9","FG%":".410","3P":"0.6","3PA":"1.9","3P%":".324","2P":"1.4","2PA":"2.9","2P%":".467","eFG%":".475","FT":"0.3","FTA":"0.4","FT%":".792","ORB":"0.2","DRB":"1.3","TRB":"1.5","AST":"1.9","STL":"0.6","BLK":"0.1","TOV":"0.8","PF":"1.4","PS/G":"5.0"},{"Player":"Payton,Elfrid","Pos":"PG","Age":"21","Tm":"ORL","G":"73","GS":"69","MP":"29.4","FG":"4.4","FGA":"10.0","FG%":".436","3P":"0.4","3PA":"1.3","3P%":".326","2P":"3.9","2PA":"8.7","2P%":".451","eFG%":".456","FT":"1.5","FTA":"2.6","FT%":".589","ORB":"1.1","DRB":"2.5","TRB":"3.6","AST":"6.4","STL":"1.2","BLK":"0.3","TOV":"2.4","PF":"2.2","PS/G":"10.7"},{"Player":"Pekovic,Nikola","Pos":"C","Age":"30","Tm":"MIN","G":"12","GS":"3","MP":"13.0","FG":"1.6","FGA":"4.2","FG%":".380","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.6","2PA":"4.2","2P%":".380","eFG%":".380","FT":"1.3","FTA":"1.7","FT%":".800","ORB":"0.6","DRB":"1.2","TRB":"1.8","AST":"0.9","STL":"0.1","BLK":"0.0","TOV":"0.8","PF":"1.8","PS/G":"4.5"},{"Player":"Perkins,Kendrick","Pos":"C","Age":"31","Tm":"NOP","G":"37","GS":"5","MP":"14.6","FG":"1.1","FGA":"2.0","FG%":".533","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.1","2PA":"2.0","2P%":".533","eFG%":".533","FT":"0.3","FTA":"0.7","FT%":".440","ORB":"0.7","DRB":"2.8","TRB":"3.5","AST":"0.8","STL":"0.3","BLK":"0.3","TOV":"1.1","PF":"1.7","PS/G":"2.5"},{"Player":"Pierce,Paul","Pos":"SF","Age":"38","Tm":"LAC","G":"68","GS":"38","MP":"18.1","FG":"2.1","FGA":"5.8","FG%":".363","3P":"1.1","3PA":"3.6","3P%":".310","2P":"1.0","2PA":"2.3","2P%":".445","eFG%":".457","FT":"0.8","FTA":"1.0","FT%":".818","ORB":"0.2","DRB":"2.6","TRB":"2.7","AST":"1.0","STL":"0.5","BLK":"0.3","TOV":"0.9","PF":"1.9","PS/G":"6.1"},{"Player":"Pleiss,Tibor","Pos":"C","Age":"26","Tm":"UTA","G":"12","GS":"0","MP":"6.8","FG":"0.9","FGA":"2.1","FG%":".440","3P":"0.0","3PA":"0.2","3P%":".000","2P":"0.9","2PA":"1.9","2P%":".478","eFG%":".440","FT":"0.2","FTA":"0.2","FT%":"1.000","ORB":"0.5","DRB":"0.8","TRB":"1.3","AST":"0.2","STL":"0.1","BLK":"0.2","TOV":"0.7","PF":"1.6","PS/G":"2.0"},{"Player":"Plumlee,Mason","Pos":"C","Age":"25","Tm":"POR","G":"82","GS":"82","MP":"25.4","FG":"3.3","FGA":"6.3","FG%":".516","3P":"0.0","3PA":"0.0","3P%":".000","2P":"3.3","2PA":"6.3","2P%":".520","eFG%":".516","FT":"2.6","FTA":"4.1","FT%":".642","ORB":"2.5","DRB":"5.2","TRB":"7.7","AST":"2.8","STL":"0.8","BLK":"1.0","TOV":"1.9","PF":"3.1","PS/G":"9.1"},{"Player":"Plumlee,Miles","Pos":"C","Age":"27","Tm":"MIL","G":"61","GS":"14","MP":"14.3","FG":"2.3","FGA":"3.8","FG%":".601","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.3","2PA":"3.8","2P%":".601","eFG%":".601","FT":"0.6","FTA":"1.0","FT%":".576","ORB":"1.5","DRB":"2.3","TRB":"3.8","AST":"0.3","STL":"0.3","BLK":"0.8","TOV":"0.7","PF":"1.2","PS/G":"5.1"},{"Player":"Porter,Otto","Pos":"SF","Age":"22","Tm":"WAS","G":"75","GS":"73","MP":"30.3","FG":"4.5","FGA":"9.6","FG%":".473","3P":"1.3","3PA":"3.6","3P%":".367","2P":"3.2","2PA":"6.0","2P%":".536","eFG%":".541","FT":"1.3","FTA":"1.7","FT%":".754","ORB":"1.3","DRB":"3.9","TRB":"5.2","AST":"1.6","STL":"1.4","BLK":"0.4","TOV":"0.9","PF":"2.2","PS/G":"11.6"},{"Player":"Portis,Bobby","Pos":"PF","Age":"20","Tm":"CHI","G":"62","GS":"4","MP":"17.8","FG":"3.0","FGA":"7.0","FG%":".427","3P":"0.3","3PA":"0.8","3P%":".308","2P":"2.7","2PA":"6.2","2P%":".443","eFG%":".445","FT":"0.8","FTA":"1.1","FT%":".727","ORB":"2.0","DRB":"3.5","TRB":"5.4","AST":"0.8","STL":"0.4","BLK":"0.4","TOV":"0.9","PF":"1.6","PS/G":"7.0"},{"Player":"Porzingis,Kristaps","Pos":"PF","Age":"20","Tm":"NYK","G":"72","GS":"72","MP":"28.4","FG":"5.2","FGA":"12.3","FG%":".421","3P":"1.1","3PA":"3.4","3P%":".333","2P":"4.1","2PA":"8.9","2P%":".454","eFG%":".467","FT":"2.8","FTA":"3.3","FT%":".838","ORB":"1.8","DRB":"5.5","TRB":"7.3","AST":"1.3","STL":"0.7","BLK":"1.9","TOV":"1.7","PF":"2.8","PS/G":"14.3"},{"Player":"Powell,Dwight","Pos":"PF","Age":"24","Tm":"DAL","G":"69","GS":"2","MP":"14.4","FG":"2.1","FGA":"4.3","FG%":".493","3P":"0.0","3PA":"0.2","3P%":".125","2P":"2.1","2PA":"4.1","2P%":".514","eFG%":".497","FT":"1.5","FTA":"2.1","FT%":".739","ORB":"1.2","DRB":"2.7","TRB":"4.0","AST":"0.6","STL":"0.5","BLK":"0.3","TOV":"0.6","PF":"1.7","PS/G":"5.8"},{"Player":"Powell,Norman","Pos":"SG","Age":"22","Tm":"TOR","G":"49","GS":"24","MP":"14.8","FG":"2.0","FGA":"4.7","FG%":".424","3P":"0.7","3PA":"1.8","3P%":".404","2P":"1.2","2PA":"2.9","2P%":".436","eFG%":".502","FT":"0.9","FTA":"1.1","FT%":".811","ORB":"0.3","DRB":"1.9","TRB":"2.3","AST":"1.0","STL":"0.6","BLK":"0.2","TOV":"0.7","PF":"1.2","PS/G":"5.6"},{"Player":"Pressey,Phil","Pos":"PG","Age":"24","Tm":null,"G":"23","GS":"0","MP":"12.3","FG":"1.3","FGA":"3.4","FG%":".385","3P":"0.2","3PA":"0.8","3P%":".222","2P":"1.1","2PA":"2.6","2P%":".433","eFG%":".410","FT":"0.6","FTA":"1.1","FT%":".520","ORB":"0.1","DRB":"1.2","TRB":"1.3","AST":"3.3","STL":"0.8","BLK":"0.2","TOV":"1.4","PF":"1.2","PS/G":"3.3"},{"Player":"Price,Ronnie","Pos":"PG","Age":"32","Tm":"PHO","G":"62","GS":"18","MP":"19.5","FG":"1.9","FGA":"4.9","FG%":".384","3P":"1.1","3PA":"3.2","3P%":".347","2P":"0.8","2PA":"1.7","2P%":".453","eFG%":".497","FT":"0.5","FTA":"0.7","FT%":".756","ORB":"0.4","DRB":"1.2","TRB":"1.6","AST":"2.4","STL":"1.2","BLK":"0.2","TOV":"1.1","PF":"2.6","PS/G":"5.3"},{"Player":"Prigioni,Pablo","Pos":"PG","Age":"38","Tm":"LAC","G":"59","GS":"3","MP":"13.9","FG":"0.9","FGA":"2.5","FG%":".374","3P":"0.5","3PA":"1.6","3P%":".295","2P":"0.5","2PA":"0.9","2P%":".519","eFG%":".469","FT":"0.1","FTA":"0.1","FT%":".875","ORB":"0.6","DRB":"1.3","TRB":"1.9","AST":"2.2","STL":"0.9","BLK":"0.0","TOV":"0.8","PF":"1.4","PS/G":"2.5"},{"Player":"Prince,Tayshaun","Pos":"SF","Age":"35","Tm":"MIN","G":"77","GS":"44","MP":"19.0","FG":"1.3","FGA":"3.0","FG%":".445","3P":"0.1","3PA":"0.3","3P%":".174","2P":"1.3","2PA":"2.7","2P%":".476","eFG%":".454","FT":"0.2","FTA":"0.2","FT%":".684","ORB":"0.4","DRB":"1.5","TRB":"1.9","AST":"0.9","STL":"0.5","BLK":"0.2","TOV":"0.4","PF":"0.8","PS/G":"2.9"},{"Player":"Randle,Julius","Pos":"PF","Age":"21","Tm":"LAL","G":"81","GS":"60","MP":"28.2","FG":"4.4","FGA":"10.3","FG%":".429","3P":"0.1","3PA":"0.4","3P%":".278","2P":"4.3","2PA":"9.9","2P%":".436","eFG%":".435","FT":"2.4","FTA":"3.3","FT%":".715","ORB":"2.1","DRB":"8.1","TRB":"10.2","AST":"1.8","STL":"0.7","BLK":"0.4","TOV":"1.8","PF":"3.0","PS/G":"11.3"},{"Player":"Randolph,Zach","Pos":"PF","Age":"34","Tm":"MEM","G":"68","GS":"53","MP":"29.6","FG":"6.3","FGA":"13.3","FG%":".475","3P":"0.1","3PA":"0.4","3P%":".231","2P":"6.3","2PA":"13.0","2P%":".482","eFG%":".479","FT":"2.5","FTA":"3.2","FT%":".796","ORB":"2.6","DRB":"5.1","TRB":"7.8","AST":"2.1","STL":"0.6","BLK":"0.2","TOV":"1.5","PF":"2.1","PS/G":"15.3"},{"Player":"Redick,J.J.","Pos":"SG","Age":"31","Tm":"LAC","G":"75","GS":"75","MP":"28.0","FG":"5.6","FGA":"11.7","FG%":".480","3P":"2.7","3PA":"5.6","3P%":".475","2P":"3.0","2PA":"6.1","2P%":".484","eFG%":".593","FT":"2.4","FTA":"2.7","FT%":".888","ORB":"0.1","DRB":"1.7","TRB":"1.9","AST":"1.4","STL":"0.6","BLK":"0.1","TOV":"1.0","PF":"1.8","PS/G":"16.3"},{"Player":"Reed,Willie","Pos":"C","Age":"25","Tm":"BRK","G":"39","GS":"2","MP":"10.9","FG":"1.9","FGA":"3.4","FG%":".571","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.9","2PA":"3.4","2P%":".571","eFG%":".571","FT":"0.8","FTA":"1.4","FT%":".545","ORB":"1.3","DRB":"1.9","TRB":"3.1","AST":"0.3","STL":"0.2","BLK":"0.8","TOV":"0.4","PF":"1.2","PS/G":"4.7"},{"Player":"Richardson,Josh","Pos":"SG","Age":"22","Tm":"MIA","G":"52","GS":"2","MP":"21.3","FG":"2.4","FGA":"5.2","FG%":".452","3P":"1.0","3PA":"2.2","3P%":".461","2P":"1.3","2PA":"3.0","2P%":".446","eFG%":".550","FT":"0.8","FTA":"1.2","FT%":".667","ORB":"0.4","DRB":"1.7","TRB":"2.1","AST":"1.4","STL":"0.7","BLK":"0.5","TOV":"0.7","PF":"2.1","PS/G":"6.6"},{"Player":"Rivers,Austin","Pos":"SG","Age":"23","Tm":"LAC","G":"67","GS":"7","MP":"21.9","FG":"3.4","FGA":"7.7","FG%":".438","3P":"0.9","3PA":"2.8","3P%":".335","2P":"2.4","2PA":"4.9","2P%":".495","eFG%":".498","FT":"1.2","FTA":"1.7","FT%":".681","ORB":"0.3","DRB":"1.6","TRB":"1.9","AST":"1.5","STL":"0.7","BLK":"0.1","TOV":"0.9","PF":"2.0","PS/G":"8.9"},{"Player":"Roberson,Andre","Pos":"SG","Age":"24","Tm":"OKC","G":"70","GS":"70","MP":"22.2","FG":"1.9","FGA":"3.9","FG%":".496","3P":"0.5","3PA":"1.5","3P%":".311","2P":"1.5","2PA":"2.4","2P%":".608","eFG%":".555","FT":"0.5","FTA":"0.8","FT%":".611","ORB":"1.1","DRB":"2.5","TRB":"3.6","AST":"0.7","STL":"0.8","BLK":"0.6","TOV":"0.5","PF":"1.9","PS/G":"4.8"},{"Player":"Roberts,Brian","Pos":"PG","Age":"30","Tm":null,"G":"51","GS":"0","MP":"9.2","FG":"1.5","FGA":"3.2","FG%":".448","3P":"0.3","3PA":"0.8","3P%":".357","2P":"1.2","2PA":"2.4","2P%":".480","eFG%":".494","FT":"0.8","FTA":"0.9","FT%":".894","ORB":"0.1","DRB":"0.7","TRB":"0.8","AST":"1.1","STL":"0.2","BLK":"0.0","TOV":"0.5","PF":"0.7","PS/G":"4.0"},{"Player":"Robinson,Glenn","Pos":"SF","Age":"22","Tm":"IND","G":"45","GS":"4","MP":"11.3","FG":"1.4","FGA":"3.4","FG%":".430","3P":"0.3","3PA":"0.8","3P%":".378","2P":"1.1","2PA":"2.5","2P%":".447","eFG%":".477","FT":"0.6","FTA":"0.9","FT%":".692","ORB":"0.3","DRB":"1.2","TRB":"1.5","AST":"0.6","STL":"0.4","BLK":"0.2","TOV":"0.4","PF":"0.5","PS/G":"3.8"},{"Player":"Robinson,Nate","Pos":"PG","Age":"31","Tm":"NOP","G":"2","GS":"1","MP":"11.5","FG":"0.0","FGA":"0.5","FG%":".000","3P":"0.0","3PA":"0.5","3P%":".000","2P":"0.0","2PA":"0.0","2P%":null,"eFG%":".000","FT":"0.0","FTA":"0.0","FT%":null,"ORB":"0.0","DRB":"0.0","TRB":"0.0","AST":"2.0","STL":"0.5","BLK":"0.0","TOV":"0.0","PF":"2.5","PS/G":"0.0"},{"Player":"Robinson,Thomas","Pos":"PF","Age":"24","Tm":"BRK","G":"71","GS":"7","MP":"12.9","FG":"1.8","FGA":"4.1","FG%":".447","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.8","2PA":"4.1","2P%":".448","eFG%":".447","FT":"0.7","FTA":"1.5","FT%":".431","ORB":"1.9","DRB":"3.1","TRB":"5.1","AST":"0.6","STL":"0.5","BLK":"0.5","TOV":"1.0","PF":"1.6","PS/G":"4.3"},{"Player":"Rondo,Rajon","Pos":"PG","Age":"29","Tm":"SAC","G":"72","GS":"72","MP":"35.2","FG":"4.9","FGA":"10.9","FG%":".454","3P":"0.9","3PA":"2.4","3P%":".365","2P":"4.1","2PA":"8.5","2P%":".479","eFG%":".494","FT":"1.2","FTA":"2.1","FT%":".580","ORB":"1.1","DRB":"5.0","TRB":"6.0","AST":"11.7","STL":"2.0","BLK":"0.1","TOV":"3.9","PF":"2.4","PS/G":"11.9"},{"Player":"Rose,Derrick","Pos":"PG","Age":"27","Tm":"CHI","G":"66","GS":"66","MP":"31.8","FG":"6.8","FGA":"15.9","FG%":".427","3P":"0.7","3PA":"2.3","3P%":".293","2P":"6.1","2PA":"13.6","2P%":".449","eFG%":".448","FT":"2.2","FTA":"2.7","FT%":".793","ORB":"0.7","DRB":"2.7","TRB":"3.4","AST":"4.7","STL":"0.7","BLK":"0.2","TOV":"2.7","PF":"1.3","PS/G":"16.4"},{"Player":"Ross,Terrence","Pos":"SF","Age":"24","Tm":"TOR","G":"73","GS":"7","MP":"23.9","FG":"3.7","FGA":"8.6","FG%":".431","3P":"1.8","3PA":"4.6","3P%":".386","2P":"1.9","2PA":"3.9","2P%":".484","eFG%":".536","FT":"0.7","FTA":"0.8","FT%":".790","ORB":"0.3","DRB":"2.2","TRB":"2.5","AST":"0.8","STL":"0.7","BLK":"0.3","TOV":"0.6","PF":"1.6","PS/G":"9.9"},{"Player":"Rozier,Terry","Pos":"PG","Age":"21","Tm":"BOS","G":"39","GS":"0","MP":"8.0","FG":"0.7","FGA":"2.7","FG%":".274","3P":"0.2","3PA":"0.7","3P%":".222","2P":"0.6","2PA":"2.0","2P%":".291","eFG%":".302","FT":"0.2","FTA":"0.3","FT%":".800","ORB":"0.6","DRB":"1.0","TRB":"1.6","AST":"0.9","STL":"0.2","BLK":"0.0","TOV":"0.5","PF":"0.6","PS/G":"1.8"},{"Player":"Rubio,Ricky","Pos":"PG","Age":"25","Tm":"MIN","G":"76","GS":"76","MP":"30.6","FG":"2.9","FGA":"7.7","FG%":".374","3P":"0.8","3PA":"2.5","3P%":".326","2P":"2.1","2PA":"5.2","2P%":".396","eFG%":".427","FT":"3.5","FTA":"4.1","FT%":".847","ORB":"0.5","DRB":"3.8","TRB":"4.3","AST":"8.7","STL":"2.1","BLK":"0.1","TOV":"2.5","PF":"2.6","PS/G":"10.1"},{"Player":"Rudez,Damjan","Pos":"SF","Age":"29","Tm":"MIN","G":"33","GS":"0","MP":"8.4","FG":"0.8","FGA":"1.9","FG%":".403","3P":"0.5","3PA":"1.5","3P%":".340","2P":"0.2","2PA":"0.4","2P%":".667","eFG%":".540","FT":"0.2","FTA":"0.2","FT%":"1.000","ORB":"0.2","DRB":"0.5","TRB":"0.6","AST":"0.3","STL":"0.1","BLK":"0.0","TOV":"0.4","PF":"1.0","PS/G":"2.3"},{"Player":"Rush,Brandon","Pos":"SG","Age":"30","Tm":"GSW","G":"72","GS":"25","MP":"14.7","FG":"1.5","FGA":"3.6","FG%":".427","3P":"0.9","3PA":"2.2","3P%":".414","2P":"0.6","2PA":"1.4","2P%":".447","eFG%":".552","FT":"0.3","FTA":"0.4","FT%":".643","ORB":"0.3","DRB":"2.2","TRB":"2.5","AST":"0.8","STL":"0.3","BLK":"0.3","TOV":"0.5","PF":"0.8","PS/G":"4.2"},{"Player":"Russell,D'Angelo","Pos":"PG","Age":"19","Tm":"LAL","G":"80","GS":"48","MP":"28.2","FG":"4.9","FGA":"12.0","FG%":".410","3P":"1.6","3PA":"4.6","3P%":".351","2P":"3.3","2PA":"7.3","2P%":".447","eFG%":".478","FT":"1.8","FTA":"2.4","FT%":".737","ORB":"0.6","DRB":"2.8","TRB":"3.4","AST":"3.3","STL":"1.2","BLK":"0.2","TOV":"2.5","PF":"1.8","PS/G":"13.2"},{"Player":"Sacre,Robert","Pos":"C","Age":"26","Tm":"LAL","G":"25","GS":"1","MP":"12.8","FG":"1.2","FGA":"3.0","FG%":".413","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.2","2PA":"3.0","2P%":".413","eFG%":".413","FT":"1.0","FTA":"1.5","FT%":".658","ORB":"1.3","DRB":"1.6","TRB":"2.9","AST":"0.6","STL":"0.2","BLK":"0.4","TOV":"0.5","PF":"1.7","PS/G":"3.5"},{"Player":"Sampson,JaKarr","Pos":"SF","Age":"22","Tm":null,"G":"73","GS":"40","MP":"15.9","FG":"1.9","FGA":"4.3","FG%":".442","3P":"0.2","3PA":"0.9","3P%":".222","2P":"1.7","2PA":"3.5","2P%":".496","eFG%":".464","FT":"1.1","FTA":"1.7","FT%":".656","ORB":"0.6","DRB":"2.0","TRB":"2.6","AST":"0.6","STL":"0.3","BLK":"0.5","TOV":"1.0","PF":"1.9","PS/G":"5.1"},{"Player":"Schroder,Dennis","Pos":"PG","Age":"22","Tm":"ATL","G":"80","GS":"6","MP":"20.3","FG":"4.1","FGA":"9.8","FG%":".421","3P":"1.0","3PA":"3.0","3P%":".322","2P":"3.2","2PA":"6.8","2P%":".465","eFG%":".471","FT":"1.8","FTA":"2.3","FT%":".791","ORB":"0.3","DRB":"2.2","TRB":"2.6","AST":"4.4","STL":"0.9","BLK":"0.1","TOV":"2.3","PF":"1.7","PS/G":"11.0"},{"Player":"Scola,Luis","Pos":"PF","Age":"35","Tm":"TOR","G":"76","GS":"76","MP":"21.5","FG":"3.5","FGA":"7.9","FG%":".450","3P":"0.9","3PA":"2.1","3P%":".404","2P":"2.7","2PA":"5.8","2P%":".467","eFG%":".504","FT":"0.8","FTA":"1.1","FT%":".726","ORB":"1.1","DRB":"3.6","TRB":"4.7","AST":"0.9","STL":"0.6","BLK":"0.4","TOV":"0.9","PF":"2.3","PS/G":"8.7"},{"Player":"Scott,Mike","Pos":"PF","Age":"27","Tm":"ATL","G":"75","GS":"0","MP":"15.3","FG":"2.3","FGA":"5.0","FG%":".468","3P":"0.8","3PA":"2.1","3P%":".392","2P":"1.5","2PA":"2.9","2P%":".523","eFG%":".551","FT":"0.7","FTA":"0.8","FT%":".794","ORB":"0.7","DRB":"2.0","TRB":"2.7","AST":"1.0","STL":"0.3","BLK":"0.2","TOV":"0.6","PF":"1.4","PS/G":"6.2"},{"Player":"Sefolosha,Thabo","Pos":"SF","Age":"31","Tm":"ATL","G":"75","GS":"11","MP":"23.4","FG":"2.5","FGA":"5.0","FG%":".505","3P":"0.6","3PA":"1.7","3P%":".339","2P":"1.9","2PA":"3.3","2P%":".589","eFG%":".562","FT":"0.8","FTA":"1.3","FT%":".626","ORB":"0.7","DRB":"3.8","TRB":"4.5","AST":"1.4","STL":"1.1","BLK":"0.5","TOV":"0.9","PF":"1.5","PS/G":"6.4"},{"Player":"Seraphin,Kevin","Pos":"C","Age":"26","Tm":"NYK","G":"48","GS":"0","MP":"11.0","FG":"1.8","FGA":"4.3","FG%":".410","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.8","2PA":"4.2","2P%":".414","eFG%":".410","FT":"0.4","FTA":"0.5","FT%":".826","ORB":"0.6","DRB":"2.0","TRB":"2.6","AST":"1.0","STL":"0.2","BLK":"0.8","TOV":"0.9","PF":"1.4","PS/G":"3.9"},{"Player":"Sessions,Ramon","Pos":"PG","Age":"29","Tm":"WAS","G":"82","GS":"5","MP":"20.3","FG":"3.4","FGA":"7.2","FG%":".473","3P":"0.4","3PA":"1.4","3P%":".324","2P":"3.0","2PA":"5.9","2P%":".507","eFG%":".503","FT":"2.6","FTA":"3.5","FT%":".756","ORB":"0.3","DRB":"2.2","TRB":"2.5","AST":"2.9","STL":"0.6","BLK":"0.1","TOV":"1.4","PF":"1.2","PS/G":"9.9"},{"Player":"Shumpert,Iman","Pos":"SG","Age":"25","Tm":"CLE","G":"54","GS":"5","MP":"24.4","FG":"2.1","FGA":"5.6","FG%":".374","3P":"0.8","3PA":"2.7","3P%":".295","2P":"1.3","2PA":"2.9","2P%":".447","eFG%":".444","FT":"0.7","FTA":"0.9","FT%":".784","ORB":"0.6","DRB":"3.2","TRB":"3.8","AST":"1.7","STL":"1.0","BLK":"0.4","TOV":"1.1","PF":"2.2","PS/G":"5.8"},{"Player":"Simmons,Jonathon","Pos":"SG","Age":"26","Tm":"SAS","G":"55","GS":"2","MP":"14.8","FG":"2.2","FGA":"4.4","FG%":".504","3P":"0.3","3PA":"0.9","3P%":".383","2P":"1.9","2PA":"3.5","2P%":".533","eFG%":".541","FT":"1.3","FTA":"1.7","FT%":".750","ORB":"0.3","DRB":"1.5","TRB":"1.7","AST":"1.1","STL":"0.4","BLK":"0.1","TOV":"1.0","PF":"1.9","PS/G":"6.0"},{"Player":"Sims,Henry","Pos":"C","Age":"25","Tm":"BRK","G":"14","GS":"4","MP":"18.8","FG":"2.4","FGA":"5.5","FG%":".429","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.4","2PA":"5.5","2P%":".429","eFG%":".429","FT":"1.8","FTA":"2.1","FT%":".833","ORB":"1.5","DRB":"3.6","TRB":"5.1","AST":"0.6","STL":"0.6","BLK":"1.0","TOV":"0.9","PF":"2.6","PS/G":"6.5"},{"Player":"Singler,Kyle","Pos":"SF","Age":"27","Tm":"OKC","G":"68","GS":"2","MP":"14.4","FG":"1.3","FGA":"3.3","FG%":".389","3P":"0.4","3PA":"1.4","3P%":".309","2P":"0.8","2PA":"1.8","2P%":".452","eFG%":".457","FT":"0.4","FTA":"0.6","FT%":".659","ORB":"0.7","DRB":"1.3","TRB":"2.1","AST":"0.4","STL":"0.4","BLK":"0.1","TOV":"0.5","PF":"1.8","PS/G":"3.4"},{"Player":"Sloan,Donald","Pos":"PG","Age":"28","Tm":"BRK","G":"61","GS":"33","MP":"21.6","FG":"2.5","FGA":"5.7","FG%":".440","3P":"0.6","3PA":"1.6","3P%":".384","2P":"1.9","2PA":"4.1","2P%":".462","eFG%":".494","FT":"1.3","FTA":"1.7","FT%":".750","ORB":"0.3","DRB":"2.6","TRB":"2.8","AST":"4.4","STL":"0.5","BLK":"0.1","TOV":"1.3","PF":"1.2","PS/G":"7.0"},{"Player":"Smart,Marcus","Pos":"PG","Age":"21","Tm":"BOS","G":"61","GS":"10","MP":"27.3","FG":"3.0","FGA":"8.7","FG%":".348","3P":"1.0","3PA":"4.0","3P%":".253","2P":"2.0","2PA":"4.7","2P%":".427","eFG%":".405","FT":"2.1","FTA":"2.7","FT%":".777","ORB":"1.2","DRB":"2.9","TRB":"4.2","AST":"3.0","STL":"1.5","BLK":"0.3","TOV":"1.3","PF":"3.0","PS/G":"9.1"},{"Player":"Smith,Greg","Pos":"PF","Age":"25","Tm":"MIN","G":"18","GS":"0","MP":"10.7","FG":"1.0","FGA":"1.8","FG%":".563","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.0","2PA":"1.8","2P%":".563","eFG%":".563","FT":"0.4","FTA":"0.9","FT%":".412","ORB":"0.7","DRB":"1.7","TRB":"2.3","AST":"0.3","STL":"0.2","BLK":"0.1","TOV":"0.4","PF":"1.6","PS/G":"2.4"},{"Player":"Smith,Ish","Pos":"PG","Age":"27","Tm":null,"G":"77","GS":"53","MP":"29.1","FG":"5.2","FGA":"12.6","FG%":".411","3P":"0.7","3PA":"2.2","3P%":".329","2P":"4.4","2PA":"10.4","2P%":".428","eFG%":".440","FT":"1.6","FTA":"2.3","FT%":".693","ORB":"0.6","DRB":"3.4","TRB":"4.0","AST":"6.5","STL":"1.1","BLK":"0.3","TOV":"2.3","PF":"1.7","PS/G":"12.6"},{"Player":"Smith,J.R.","Pos":"SG","Age":"30","Tm":"CLE","G":"77","GS":"77","MP":"30.7","FG":"4.6","FGA":"11.0","FG%":".415","3P":"2.6","3PA":"6.6","3P%":".400","2P":"1.9","2PA":"4.4","2P%":".438","eFG%":".535","FT":"0.6","FTA":"0.9","FT%":".634","ORB":"0.6","DRB":"2.3","TRB":"2.8","AST":"1.7","STL":"1.1","BLK":"0.3","TOV":"0.8","PF":"2.6","PS/G":"12.4"},{"Player":"Smith,Jason","Pos":"C","Age":"29","Tm":"ORL","G":"76","GS":"2","MP":"15.5","FG":"3.2","FGA":"6.6","FG%":".485","3P":"0.1","3PA":"0.2","3P%":".250","2P":"3.2","2PA":"6.4","2P%":".493","eFG%":".489","FT":"0.7","FTA":"0.9","FT%":".806","ORB":"0.7","DRB":"2.2","TRB":"2.9","AST":"0.8","STL":"0.4","BLK":"0.9","TOV":"0.8","PF":"2.1","PS/G":"7.2"},{"Player":"Smith,Josh","Pos":"PF","Age":"30","Tm":null,"G":"55","GS":"7","MP":"16.0","FG":"2.3","FGA":"6.3","FG%":".364","3P":"0.7","3PA":"2.6","3P%":".287","2P":"1.6","2PA":"3.7","2P%":".417","eFG%":".423","FT":"0.7","FTA":"1.2","FT%":".552","ORB":"0.9","DRB":"2.6","TRB":"3.5","AST":"1.6","STL":"0.6","BLK":"0.9","TOV":"1.4","PF":"2.1","PS/G":"6.0"},{"Player":"Smith,Russ","Pos":"PG","Age":"24","Tm":"MEM","G":"15","GS":"0","MP":"4.4","FG":"0.5","FGA":"1.5","FG%":".318","3P":"0.1","3PA":"0.3","3P%":".200","2P":"0.4","2PA":"1.1","2P%":".353","eFG%":".341","FT":"0.5","FTA":"0.9","FT%":".615","ORB":"0.1","DRB":"0.5","TRB":"0.6","AST":"0.7","STL":"0.3","BLK":"0.1","TOV":"0.5","PF":"0.3","PS/G":"1.5"},{"Player":"Snell,Tony","Pos":"SF","Age":"24","Tm":"CHI","G":"64","GS":"33","MP":"20.3","FG":"2.0","FGA":"5.3","FG%":".372","3P":"0.9","3PA":"2.4","3P%":".361","2P":"1.1","2PA":"2.9","2P%":".380","eFG%":".454","FT":"0.5","FTA":"0.5","FT%":".909","ORB":"0.3","DRB":"2.8","TRB":"3.1","AST":"1.0","STL":"0.3","BLK":"0.3","TOV":"0.8","PF":"1.6","PS/G":"5.3"},{"Player":"Speights,Marreese","Pos":"C","Age":"28","Tm":"GSW","G":"72","GS":"0","MP":"11.6","FG":"2.7","FGA":"6.3","FG%":".432","3P":"0.3","3PA":"0.9","3P%":".387","2P":"2.4","2PA":"5.5","2P%":".439","eFG%":".458","FT":"1.3","FTA":"1.6","FT%":".825","ORB":"1.1","DRB":"2.3","TRB":"3.3","AST":"0.8","STL":"0.3","BLK":"0.5","TOV":"0.9","PF":"1.6","PS/G":"7.1"},{"Player":"Splitter,Tiago","Pos":"C","Age":"31","Tm":"ATL","G":"36","GS":"2","MP":"16.1","FG":"2.3","FGA":"4.3","FG%":".523","3P":"0.0","3PA":"0.1","3P%":".000","2P":"2.3","2PA":"4.3","2P%":".529","eFG%":".523","FT":"1.1","FTA":"1.3","FT%":".813","ORB":"1.3","DRB":"2.1","TRB":"3.3","AST":"0.8","STL":"0.6","BLK":"0.3","TOV":"0.7","PF":"2.0","PS/G":"5.6"},{"Player":"Stauskas,Nik","Pos":"SG","Age":"22","Tm":"PHI","G":"73","GS":"35","MP":"24.8","FG":"2.9","FGA":"7.5","FG%":".385","3P":"1.5","3PA":"4.5","3P%":".326","2P":"1.4","2PA":"3.0","2P%":".473","eFG%":".483","FT":"1.2","FTA":"1.6","FT%":".771","ORB":"0.3","DRB":"2.2","TRB":"2.5","AST":"1.9","STL":"0.6","BLK":"0.3","TOV":"1.3","PF":"1.6","PS/G":"8.5"},{"Player":"Stephenson,Lance","Pos":"SF","Age":"25","Tm":null,"G":"69","GS":"13","MP":"19.9","FG":"3.3","FGA":"6.9","FG%":".481","3P":"0.4","3PA":"1.1","3P%":".385","2P":"2.9","2PA":"5.7","2P%":".500","eFG%":".513","FT":"1.3","FTA":"1.6","FT%":".784","ORB":"0.6","DRB":"2.7","TRB":"3.2","AST":"1.9","STL":"0.6","BLK":"0.1","TOV":"1.4","PF":"2.0","PS/G":"8.3"},{"Player":"Stepheson,Alex","Pos":"PF","Age":"28","Tm":null,"G":"8","GS":"0","MP":"9.1","FG":"1.1","FGA":"3.4","FG%":".333","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.1","2PA":"3.4","2P%":".333","eFG%":".333","FT":"0.5","FTA":"1.5","FT%":".333","ORB":"2.4","DRB":"1.1","TRB":"3.5","AST":"0.3","STL":"0.1","BLK":"0.6","TOV":"0.0","PF":"1.5","PS/G":"2.8"},{"Player":"Stokes,Jarnell","Pos":"C","Age":"22","Tm":null,"G":"7","GS":"0","MP":"2.6","FG":"0.4","FGA":"0.7","FG%":".600","3P":"0.0","3PA":"0.0","3P%":null,"2P":"0.4","2PA":"0.7","2P%":".600","eFG%":".600","FT":"0.1","FTA":"0.3","FT%":".500","ORB":"0.1","DRB":"0.4","TRB":"0.6","AST":"0.1","STL":"0.1","BLK":"0.0","TOV":"0.0","PF":"0.1","PS/G":"1.0"},{"Player":"Stoudemire,Amar'e","Pos":"C","Age":"33","Tm":"MIA","G":"52","GS":"36","MP":"14.7","FG":"2.4","FGA":"4.3","FG%":".566","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.4","2PA":"4.3","2P%":".566","eFG%":".566","FT":"1.0","FTA":"1.3","FT%":".746","ORB":"1.3","DRB":"3.0","TRB":"4.3","AST":"0.5","STL":"0.3","BLK":"0.8","TOV":"0.9","PF":"1.8","PS/G":"5.8"},{"Player":"Stuckey,Rodney","Pos":"PG","Age":"29","Tm":"IND","G":"58","GS":"1","MP":"22.0","FG":"3.2","FGA":"7.6","FG%":".413","3P":"0.3","3PA":"1.4","3P%":".241","2P":"2.8","2PA":"6.2","2P%":".453","eFG%":".436","FT":"2.3","FTA":"2.7","FT%":".829","ORB":"0.3","DRB":"2.4","TRB":"2.7","AST":"2.4","STL":"0.7","BLK":"0.1","TOV":"1.3","PF":"1.3","PS/G":"8.9"},{"Player":"Sullinger,Jared","Pos":"PF","Age":"23","Tm":"BOS","G":"81","GS":"73","MP":"23.6","FG":"4.3","FGA":"10.0","FG%":".435","3P":"0.4","3PA":"1.3","3P%":".282","2P":"4.0","2PA":"8.7","2P%":".458","eFG%":".453","FT":"1.3","FTA":"2.0","FT%":".640","ORB":"2.4","DRB":"5.9","TRB":"8.3","AST":"2.3","STL":"0.9","BLK":"0.6","TOV":"1.3","PF":"2.6","PS/G":"10.3"},{"Player":"Tavares,Edy","Pos":"C","Age":"23","Tm":"ATL","G":"11","GS":"0","MP":"6.6","FG":"1.0","FGA":"1.7","FG%":".579","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.0","2PA":"1.7","2P%":".579","eFG%":".579","FT":"0.3","FTA":"0.7","FT%":".375","ORB":"0.6","DRB":"1.3","TRB":"1.9","AST":"0.3","STL":"0.1","BLK":"0.5","TOV":"0.5","PF":"0.7","PS/G":"2.3"},{"Player":"Teague,Jeff","Pos":"PG","Age":"27","Tm":"ATL","G":"79","GS":"78","MP":"28.5","FG":"5.5","FGA":"12.5","FG%":".439","3P":"1.4","3PA":"3.5","3P%":".400","2P":"4.1","2PA":"9.0","2P%":".454","eFG%":".495","FT":"3.3","FTA":"3.9","FT%":".837","ORB":"0.4","DRB":"2.3","TRB":"2.7","AST":"5.9","STL":"1.2","BLK":"0.3","TOV":"2.8","PF":"2.1","PS/G":"15.7"},{"Player":"Teletovic,Mirza","Pos":"PF","Age":"30","Tm":"PHO","G":"79","GS":"1","MP":"21.3","FG":"4.2","FGA":"9.8","FG%":".427","3P":"2.3","3PA":"5.8","3P%":".393","2P":"1.9","2PA":"4.0","2P%":".476","eFG%":".544","FT":"1.5","FTA":"2.0","FT%":".774","ORB":"0.7","DRB":"3.1","TRB":"3.8","AST":"1.1","STL":"0.4","BLK":"0.3","TOV":"1.1","PF":"2.0","PS/G":"12.2"},{"Player":"Temple,Garrett","Pos":"SF","Age":"29","Tm":"WAS","G":"80","GS":"43","MP":"24.4","FG":"2.5","FGA":"6.3","FG%":".398","3P":"1.1","3PA":"3.2","3P%":".345","2P":"1.4","2PA":"3.1","2P%":".453","eFG%":".486","FT":"1.1","FTA":"1.6","FT%":".728","ORB":"0.5","DRB":"2.2","TRB":"2.7","AST":"1.8","STL":"0.9","BLK":"0.2","TOV":"0.8","PF":"2.4","PS/G":"7.3"},{"Player":"Terry,Jason","Pos":"SG","Age":"38","Tm":"HOU","G":"72","GS":"7","MP":"17.5","FG":"2.1","FGA":"5.2","FG%":".402","3P":"1.3","3PA":"3.6","3P%":".356","2P":"0.8","2PA":"1.6","2P%":".504","eFG%":".525","FT":"0.4","FTA":"0.5","FT%":".818","ORB":"0.2","DRB":"0.9","TRB":"1.1","AST":"1.4","STL":"0.7","BLK":"0.1","TOV":"0.7","PF":"1.3","PS/G":"5.9"},{"Player":"Thomas,Isaiah","Pos":"PG","Age":"26","Tm":"BOS","G":"82","GS":"79","MP":"32.2","FG":"7.2","FGA":"16.9","FG%":".428","3P":"2.0","3PA":"5.7","3P%":".359","2P":"5.2","2PA":"11.2","2P%":".462","eFG%":".488","FT":"5.8","FTA":"6.6","FT%":".871","ORB":"0.6","DRB":"2.4","TRB":"3.0","AST":"6.2","STL":"1.1","BLK":"0.1","TOV":"2.7","PF":"2.0","PS/G":"22.2"},{"Player":"Thomas,Lance","Pos":"PF","Age":"27","Tm":"NYK","G":"59","GS":"5","MP":"22.3","FG":"2.9","FGA":"6.5","FG%":".442","3P":"0.7","3PA":"1.8","3P%":".404","2P":"2.1","2PA":"4.6","2P%":".458","eFG%":".500","FT":"1.7","FTA":"2.0","FT%":".857","ORB":"0.6","DRB":"1.6","TRB":"2.2","AST":"0.9","STL":"0.4","BLK":"0.1","TOV":"1.0","PF":"1.8","PS/G":"8.2"},{"Player":"Thompson,Hollis","Pos":"SG","Age":"24","Tm":"PHI","G":"77","GS":"17","MP":"28.0","FG":"3.5","FGA":"8.8","FG%":".397","3P":"1.9","3PA":"5.1","3P%":".380","2P":"1.6","2PA":"3.7","2P%":".420","eFG%":".507","FT":"0.9","FTA":"1.2","FT%":".719","ORB":"0.7","DRB":"2.8","TRB":"3.5","AST":"1.3","STL":"0.5","BLK":"0.3","TOV":"1.0","PF":"2.4","PS/G":"9.8"},{"Player":"Thompson,Jason","Pos":"C","Age":"29","Tm":null,"G":"47","GS":"7","MP":"10.0","FG":"1.1","FGA":"2.3","FG%":".481","3P":"0.1","3PA":"0.3","3P%":".333","2P":"1.0","2PA":"2.0","2P%":".505","eFG%":".505","FT":"0.8","FTA":"1.1","FT%":".704","ORB":"0.7","DRB":"2.2","TRB":"2.9","AST":"0.6","STL":"0.3","BLK":"0.4","TOV":"0.3","PF":"1.7","PS/G":"3.1"},{"Player":"Thompson,Klay","Pos":"SG","Age":"25","Tm":"GSW","G":"80","GS":"80","MP":"33.3","FG":"8.1","FGA":"17.3","FG%":".470","3P":"3.5","3PA":"8.1","3P%":".425","2P":"4.7","2PA":"9.2","2P%":".510","eFG%":".569","FT":"2.4","FTA":"2.8","FT%":".873","ORB":"0.4","DRB":"3.4","TRB":"3.8","AST":"2.1","STL":"0.8","BLK":"0.6","TOV":"1.7","PF":"1.9","PS/G":"22.1"},{"Player":"Thompson,Tristan","Pos":"PF","Age":"24","Tm":"CLE","G":"82","GS":"34","MP":"27.7","FG":"3.0","FGA":"5.1","FG%":".588","3P":"0.0","3PA":"0.0","3P%":null,"2P":"3.0","2PA":"5.1","2P%":".588","eFG%":".588","FT":"1.8","FTA":"3.0","FT%":".616","ORB":"3.3","DRB":"5.7","TRB":"9.0","AST":"0.8","STL":"0.5","BLK":"0.6","TOV":"0.7","PF":"2.5","PS/G":"7.8"},{"Player":"Thornton,Marcus","Pos":"SG","Age":"28","Tm":null,"G":"61","GS":"8","MP":"18.2","FG":"3.5","FGA":"8.9","FG%":".399","3P":"1.5","3PA":"4.4","3P%":".337","2P":"2.0","2PA":"4.5","2P%":".460","eFG%":".482","FT":"1.1","FTA":"1.3","FT%":".848","ORB":"0.6","DRB":"1.8","TRB":"2.5","AST":"1.4","STL":"0.8","BLK":"0.1","TOV":"0.8","PF":"1.5","PS/G":"9.7"},{"Player":"Tolliver,Anthony","Pos":"PF","Age":"30","Tm":"DET","G":"72","GS":"5","MP":"18.6","FG":"1.8","FGA":"4.6","FG%":".386","3P":"1.4","3PA":"3.8","3P%":".360","2P":"0.4","2PA":"0.8","2P%":".500","eFG%":".533","FT":"0.4","FTA":"0.7","FT%":".617","ORB":"0.5","DRB":"2.6","TRB":"3.2","AST":"0.7","STL":"0.4","BLK":"0.2","TOV":"0.4","PF":"1.2","PS/G":"5.3"},{"Player":"Toupane,Axel","Pos":"SF","Age":"23","Tm":"DEN","G":"21","GS":"0","MP":"14.5","FG":"1.2","FGA":"3.3","FG%":".357","3P":"0.6","3PA":"1.9","3P%":".325","2P":"0.6","2PA":"1.4","2P%":".400","eFG%":".450","FT":"0.6","FTA":"0.8","FT%":".765","ORB":"0.4","DRB":"1.1","TRB":"1.5","AST":"0.7","STL":"0.3","BLK":"0.3","TOV":"0.3","PF":"1.9","PS/G":"3.6"},{"Player":"Towns,Karl-Anthony","Pos":"C","Age":"20","Tm":"MIN","G":"82","GS":"82","MP":"32.0","FG":"7.6","FGA":"14.1","FG%":".542","3P":"0.4","3PA":"1.1","3P%":".341","2P":"7.3","2PA":"13.0","2P%":".559","eFG%":".555","FT":"2.7","FTA":"3.4","FT%":".811","ORB":"2.8","DRB":"7.7","TRB":"10.5","AST":"2.0","STL":"0.7","BLK":"1.7","TOV":"2.2","PF":"3.0","PS/G":"18.3"},{"Player":"Tucker,P.J.","Pos":"SF","Age":"30","Tm":"PHO","G":"82","GS":"80","MP":"31.0","FG":"2.9","FGA":"7.1","FG%":".411","3P":"0.8","3PA":"2.5","3P%":".330","2P":"2.1","2PA":"4.6","2P%":".455","eFG%":".469","FT":"1.3","FTA":"1.7","FT%":".746","ORB":"2.0","DRB":"4.2","TRB":"6.2","AST":"2.2","STL":"1.3","BLK":"0.2","TOV":"1.4","PF":"2.5","PS/G":"8.0"},{"Player":"Turner,Evan","Pos":"SG","Age":"27","Tm":"BOS","G":"81","GS":"12","MP":"28.0","FG":"4.2","FGA":"9.3","FG%":".456","3P":"0.2","3PA":"1.0","3P%":".241","2P":"4.0","2PA":"8.3","2P%":".482","eFG%":".469","FT":"1.8","FTA":"2.2","FT%":".827","ORB":"0.6","DRB":"4.3","TRB":"4.9","AST":"4.4","STL":"1.0","BLK":"0.3","TOV":"2.1","PF":"1.7","PS/G":"10.5"},{"Player":"Turner,Myles","Pos":"C","Age":"19","Tm":"IND","G":"60","GS":"30","MP":"22.8","FG":"4.4","FGA":"8.8","FG%":".498","3P":"0.1","3PA":"0.2","3P%":".214","2P":"4.4","2PA":"8.6","2P%":".506","eFG%":".501","FT":"1.5","FTA":"2.0","FT%":".727","ORB":"1.1","DRB":"4.4","TRB":"5.5","AST":"0.7","STL":"0.4","BLK":"1.4","TOV":"1.1","PF":"2.6","PS/G":"10.3"},{"Player":"Udrih,Beno","Pos":"PG","Age":"33","Tm":null,"G":"44","GS":"5","MP":"16.1","FG":"2.0","FGA":"4.5","FG%":".434","3P":"0.3","3PA":"1.0","3P%":".341","2P":"1.6","2PA":"3.5","2P%":".461","eFG%":".472","FT":"0.4","FTA":"0.5","FT%":".900","ORB":"0.2","DRB":"1.5","TRB":"1.6","AST":"2.6","STL":"0.3","BLK":"0.0","TOV":"1.2","PF":"1.2","PS/G":"4.7"},{"Player":"Valanciunas,Jonas","Pos":"C","Age":"23","Tm":"TOR","G":"60","GS":"59","MP":"26.0","FG":"5.1","FGA":"8.9","FG%":".565","3P":"0.0","3PA":"0.0","3P%":null,"2P":"5.1","2PA":"8.9","2P%":".565","eFG%":".565","FT":"2.7","FTA":"3.6","FT%":".761","ORB":"3.1","DRB":"6.1","TRB":"9.1","AST":"0.7","STL":"0.4","BLK":"1.3","TOV":"1.4","PF":"2.6","PS/G":"12.8"},{"Player":"Varejao,Anderson","Pos":"C","Age":"33","Tm":null,"G":"53","GS":"0","MP":"9.4","FG":"1.0","FGA":"2.3","FG%":".427","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.0","2PA":"2.3","2P%":".431","eFG%":".427","FT":"0.6","FTA":"0.9","FT%":".640","ORB":"0.7","DRB":"2.0","TRB":"2.7","AST":"0.7","STL":"0.3","BLK":"0.2","TOV":"0.4","PF":"1.3","PS/G":"2.6"},{"Player":"Vasquez,Greivis","Pos":"PG","Age":"29","Tm":"MIL","G":"23","GS":"0","MP":"20.0","FG":"2.0","FGA":"6.0","FG%":".326","3P":"0.8","3PA":"3.2","3P%":".247","2P":"1.2","2PA":"2.8","2P%":".415","eFG%":".391","FT":"1.0","FTA":"1.1","FT%":".846","ORB":"0.2","DRB":"1.8","TRB":"2.0","AST":"4.0","STL":"0.4","BLK":"0.0","TOV":"1.7","PF":"1.8","PS/G":"5.7"},{"Player":"Vaughn,Rashad","Pos":"SG","Age":"19","Tm":"MIL","G":"70","GS":"6","MP":"14.3","FG":"1.2","FGA":"3.8","FG%":".305","3P":"0.6","3PA":"2.1","3P%":".293","2P":"0.5","2PA":"1.7","2P%":".319","eFG%":".385","FT":"0.2","FTA":"0.2","FT%":".800","ORB":"0.2","DRB":"1.1","TRB":"1.3","AST":"0.6","STL":"0.4","BLK":"0.2","TOV":"0.4","PF":"1.0","PS/G":"3.1"},{"Player":"Villanueva,Charlie","Pos":"PF","Age":"31","Tm":"DAL","G":"62","GS":"4","MP":"10.7","FG":"2.0","FGA":"5.3","FG%":".382","3P":"0.8","3PA":"2.8","3P%":".273","2P":"1.3","2PA":"2.5","2P%":".503","eFG%":".454","FT":"0.4","FTA":"0.4","FT%":".917","ORB":"0.4","DRB":"2.1","TRB":"2.5","AST":"0.4","STL":"0.3","BLK":"0.2","TOV":"0.5","PF":"1.1","PS/G":"5.1"},{"Player":"Vonleh,Noah","Pos":"PF","Age":"20","Tm":"POR","G":"78","GS":"56","MP":"15.1","FG":"1.5","FGA":"3.6","FG%":".421","3P":"0.1","3PA":"0.6","3P%":".239","2P":"1.4","2PA":"3.0","2P%":".457","eFG%":".441","FT":"0.5","FTA":"0.7","FT%":".745","ORB":"1.2","DRB":"2.7","TRB":"3.9","AST":"0.4","STL":"0.3","BLK":"0.3","TOV":"0.6","PF":"1.9","PS/G":"3.6"},{"Player":"Vucevic,Nikola","Pos":"C","Age":"25","Tm":"ORL","G":"65","GS":"60","MP":"31.3","FG":"8.2","FGA":"16.1","FG%":".510","3P":"0.0","3PA":"0.1","3P%":".222","2P":"8.2","2PA":"16.0","2P%":".512","eFG%":".511","FT":"1.7","FTA":"2.3","FT%":".753","ORB":"2.7","DRB":"6.2","TRB":"8.9","AST":"2.8","STL":"0.8","BLK":"1.1","TOV":"1.9","PF":"2.7","PS/G":"18.2"},{"Player":"Vujacic,Sasha","Pos":"SG","Age":"31","Tm":"NYK","G":"61","GS":"25","MP":"14.9","FG":"1.7","FGA":"4.5","FG%":".383","3P":"0.9","3PA":"2.3","3P%":".364","2P":"0.9","2PA":"2.2","2P%":".403","eFG%":".477","FT":"0.5","FTA":"0.6","FT%":".821","ORB":"0.4","DRB":"2.0","TRB":"2.4","AST":"1.4","STL":"0.6","BLK":"0.1","TOV":"0.7","PF":"1.4","PS/G":"4.9"},{"Player":"Wade,Dwyane","Pos":"SG","Age":"34","Tm":"MIA","G":"74","GS":"73","MP":"30.5","FG":"7.3","FGA":"16.0","FG%":".456","3P":"0.1","3PA":"0.6","3P%":".159","2P":"7.2","2PA":"15.4","2P%":".468","eFG%":".459","FT":"4.4","FTA":"5.5","FT%":".793","ORB":"1.1","DRB":"3.0","TRB":"4.1","AST":"4.6","STL":"1.1","BLK":"0.6","TOV":"2.7","PF":"1.6","PS/G":"19.0"},{"Player":"Waiters,Dion","Pos":"SG","Age":"24","Tm":"OKC","G":"78","GS":"15","MP":"27.6","FG":"3.6","FGA":"9.1","FG%":".399","3P":"1.1","3PA":"3.1","3P%":".358","2P":"2.5","2PA":"6.0","2P%":".421","eFG%":".460","FT":"1.4","FTA":"2.0","FT%":".713","ORB":"0.5","DRB":"2.1","TRB":"2.6","AST":"2.0","STL":"1.0","BLK":"0.2","TOV":"1.5","PF":"1.8","PS/G":"9.8"},{"Player":"Walker,Kemba","Pos":"PG","Age":"25","Tm":"CHO","G":"81","GS":"81","MP":"35.6","FG":"7.0","FGA":"16.4","FG%":".427","3P":"2.2","3PA":"6.0","3P%":".371","2P":"4.8","2PA":"10.4","2P%":".459","eFG%":".495","FT":"4.6","FTA":"5.4","FT%":".847","ORB":"0.7","DRB":"3.7","TRB":"4.4","AST":"5.2","STL":"1.6","BLK":"0.5","TOV":"2.1","PF":"1.4","PS/G":"20.9"},{"Player":"Wall,John","Pos":"PG","Age":"25","Tm":"WAS","G":"77","GS":"77","MP":"36.2","FG":"7.4","FGA":"17.5","FG%":".424","3P":"1.5","3PA":"4.3","3P%":".351","2P":"5.9","2PA":"13.3","2P%":".448","eFG%":".467","FT":"3.5","FTA":"4.5","FT%":".791","ORB":"0.5","DRB":"4.4","TRB":"4.9","AST":"10.2","STL":"1.9","BLK":"0.8","TOV":"4.1","PF":"2.1","PS/G":"19.9"},{"Player":"Warren,T.J.","Pos":"SF","Age":"22","Tm":"PHO","G":"47","GS":"4","MP":"22.8","FG":"4.7","FGA":"9.4","FG%":".501","3P":"0.6","3PA":"1.5","3P%":".400","2P":"4.1","2PA":"7.9","2P%":".520","eFG%":".533","FT":"1.0","FTA":"1.4","FT%":".703","ORB":"1.2","DRB":"1.9","TRB":"3.1","AST":"0.9","STL":"0.8","BLK":"0.3","TOV":"0.7","PF":"2.0","PS/G":"11.0"},{"Player":"Watson,C.J.","Pos":"PG","Age":"31","Tm":"ORL","G":"33","GS":"2","MP":"19.9","FG":"1.4","FGA":"4.2","FG%":".343","3P":"0.4","3PA":"1.5","3P%":".292","2P":"1.0","2PA":"2.7","2P%":".371","eFG%":".394","FT":"1.0","FTA":"1.2","FT%":".872","ORB":"0.3","DRB":"1.7","TRB":"2.0","AST":"2.7","STL":"0.6","BLK":"0.2","TOV":"0.8","PF":"1.5","PS/G":"4.3"},{"Player":"Weber,Briante","Pos":"PG","Age":"23","Tm":null,"G":"7","GS":"4","MP":"24.1","FG":"2.0","FGA":"5.6","FG%":".359","3P":"0.0","3PA":"0.7","3P%":".000","2P":"2.0","2PA":"4.9","2P%":".412","eFG%":".359","FT":"0.4","FTA":"0.6","FT%":".750","ORB":"1.1","DRB":"2.4","TRB":"3.6","AST":"3.0","STL":"1.3","BLK":"0.4","TOV":"1.3","PF":"1.7","PS/G":"4.4"},{"Player":"Weems,Sonny","Pos":"SG-SF","Age":"29","Tm":null,"G":"43","GS":"0","MP":"11.6","FG":"1.0","FGA":"2.6","FG%":".382","3P":"0.3","3PA":"1.0","3P%":".366","2P":"0.6","2PA":"1.6","2P%":".391","eFG%":".450","FT":"0.2","FTA":"0.3","FT%":".533","ORB":"0.2","DRB":"1.1","TRB":"1.2","AST":"1.1","STL":"0.2","BLK":"0.0","TOV":"1.0","PF":"1.1","PS/G":"2.5"},{"Player":"West,David","Pos":"PF","Age":"35","Tm":"SAS","G":"78","GS":"19","MP":"18.0","FG":"3.1","FGA":"5.7","FG%":".545","3P":"0.0","3PA":"0.1","3P%":".429","2P":"3.1","2PA":"5.7","2P%":".546","eFG%":".548","FT":"0.8","FTA":"1.0","FT%":".788","ORB":"0.9","DRB":"3.0","TRB":"4.0","AST":"1.8","STL":"0.6","BLK":"0.7","TOV":"0.9","PF":"1.8","PS/G":"7.1"},{"Player":"Westbrook,Russell","Pos":"PG","Age":"27","Tm":"OKC","G":"80","GS":"80","MP":"34.4","FG":"8.2","FGA":"18.1","FG%":".454","3P":"1.3","3PA":"4.3","3P%":".296","2P":"6.9","2PA":"13.8","2P%":".503","eFG%":".489","FT":"5.8","FTA":"7.2","FT%":".812","ORB":"1.8","DRB":"6.0","TRB":"7.8","AST":"10.4","STL":"2.0","BLK":"0.3","TOV":"4.3","PF":"2.5","PS/G":"23.5"},{"Player":"Whiteside,Hassan","Pos":"C","Age":"26","Tm":"MIA","G":"73","GS":"43","MP":"29.1","FG":"5.7","FGA":"9.3","FG%":".606","3P":"0.0","3PA":"0.0","3P%":null,"2P":"5.7","2PA":"9.3","2P%":".606","eFG%":".606","FT":"2.9","FTA":"4.5","FT%":".650","ORB":"3.3","DRB":"8.6","TRB":"11.8","AST":"0.4","STL":"0.6","BLK":"3.7","TOV":"1.9","PF":"2.8","PS/G":"14.2"},{"Player":"Whittington,Shayne","Pos":"PF","Age":"24","Tm":"IND","G":"7","GS":"0","MP":"5.9","FG":"0.7","FGA":"1.6","FG%":".455","3P":"0.0","3PA":"0.3","3P%":".000","2P":"0.7","2PA":"1.3","2P%":".556","eFG%":".455","FT":"0.1","FTA":"0.3","FT%":".500","ORB":"0.7","DRB":"1.0","TRB":"1.7","AST":"0.4","STL":"0.1","BLK":"0.1","TOV":"0.7","PF":"1.0","PS/G":"1.6"},{"Player":"Wiggins,Andrew","Pos":"SF","Age":"20","Tm":"MIN","G":"81","GS":"81","MP":"35.1","FG":"7.3","FGA":"16.0","FG%":".459","3P":"0.7","3PA":"2.3","3P%":".300","2P":"6.6","2PA":"13.6","2P%":".486","eFG%":".481","FT":"5.3","FTA":"7.0","FT%":".761","ORB":"1.3","DRB":"2.3","TRB":"3.6","AST":"2.0","STL":"1.0","BLK":"0.6","TOV":"2.2","PF":"2.0","PS/G":"20.7"},{"Player":"Wilcox,C.J.","Pos":"SG","Age":"25","Tm":"LAC","G":"23","GS":"0","MP":"7.3","FG":"1.1","FGA":"2.9","FG%":".394","3P":"0.4","3PA":"1.0","3P%":".391","2P":"0.7","2PA":"1.9","2P%":".395","eFG%":".462","FT":"0.4","FTA":"0.5","FT%":".750","ORB":"0.0","DRB":"0.5","TRB":"0.5","AST":"0.4","STL":"0.4","BLK":"0.1","TOV":"0.1","PF":"0.7","PS/G":"3.0"},{"Player":"Williams,Alan","Pos":"PF","Age":"23","Tm":"PHO","G":"10","GS":"0","MP":"6.8","FG":"1.0","FGA":"2.4","FG%":".417","3P":"0.0","3PA":"0.0","3P%":null,"2P":"1.0","2PA":"2.4","2P%":".417","eFG%":".417","FT":"0.9","FTA":"1.4","FT%":".643","ORB":"1.4","DRB":"2.4","TRB":"3.8","AST":"0.5","STL":"0.4","BLK":"0.5","TOV":"0.6","PF":"1.5","PS/G":"2.9"},{"Player":"Williams,Deron","Pos":"PG","Age":"31","Tm":"DAL","G":"65","GS":"63","MP":"32.4","FG":"4.9","FGA":"11.9","FG%":".414","3P":"1.5","3PA":"4.3","3P%":".344","2P":"3.4","2PA":"7.6","2P%":".454","eFG%":".477","FT":"2.8","FTA":"3.2","FT%":".869","ORB":"0.3","DRB":"2.6","TRB":"2.9","AST":"5.8","STL":"0.9","BLK":"0.2","TOV":"2.3","PF":"2.4","PS/G":"14.1"},{"Player":"Williams,Derrick","Pos":"SF","Age":"24","Tm":"NYK","G":"80","GS":"9","MP":"17.9","FG":"3.2","FGA":"7.1","FG%":".450","3P":"0.6","3PA":"1.9","3P%":".293","2P":"2.6","2PA":"5.2","2P%":".506","eFG%":".488","FT":"2.4","FTA":"3.2","FT%":".758","ORB":"0.6","DRB":"3.1","TRB":"3.7","AST":"0.9","STL":"0.4","BLK":"0.1","TOV":"0.8","PF":"0.9","PS/G":"9.3"},{"Player":"Williams,Elliot","Pos":"PG","Age":"26","Tm":"MEM","G":"5","GS":"0","MP":"9.0","FG":"0.4","FGA":"2.0","FG%":".200","3P":"0.2","3PA":"0.8","3P%":".250","2P":"0.2","2PA":"1.2","2P%":".167","eFG%":".250","FT":"0.6","FTA":"0.8","FT%":".750","ORB":"0.2","DRB":"0.6","TRB":"0.8","AST":"0.8","STL":"0.0","BLK":"0.0","TOV":"0.2","PF":"0.4","PS/G":"1.6"},{"Player":"Williams,Lou","Pos":"SG","Age":"29","Tm":"LAL","G":"67","GS":"35","MP":"28.5","FG":"4.2","FGA":"10.3","FG%":".408","3P":"1.6","3PA":"4.8","3P%":".344","2P":"2.6","2PA":"5.6","2P%":".464","eFG%":".488","FT":"5.3","FTA":"6.3","FT%":".830","ORB":"0.5","DRB":"2.1","TRB":"2.5","AST":"2.5","STL":"0.9","BLK":"0.3","TOV":"1.6","PF":"1.6","PS/G":"15.3"},{"Player":"Williams,Marvin","Pos":"PF","Age":"29","Tm":"CHO","G":"81","GS":"81","MP":"28.9","FG":"4.2","FGA":"9.2","FG%":".452","3P":"1.9","3PA":"4.7","3P%":".402","2P":"2.3","2PA":"4.6","2P%":".504","eFG%":".554","FT":"1.5","FTA":"1.8","FT%":".833","ORB":"1.6","DRB":"4.9","TRB":"6.4","AST":"1.4","STL":"0.7","BLK":"1.0","TOV":"0.8","PF":"1.6","PS/G":"11.7"},{"Player":"Williams,Mo","Pos":"PG","Age":"33","Tm":"CLE","G":"41","GS":"14","MP":"18.2","FG":"3.2","FGA":"7.4","FG%":".437","3P":"0.9","3PA":"2.5","3P%":".353","2P":"2.3","2PA":"4.9","2P%":".480","eFG%":".497","FT":"0.9","FTA":"1.0","FT%":".905","ORB":"0.1","DRB":"1.6","TRB":"1.8","AST":"2.4","STL":"0.3","BLK":"0.1","TOV":"1.4","PF":"1.5","PS/G":"8.2"},{"Player":"Winslow,Justise","Pos":"SF","Age":"19","Tm":"MIA","G":"78","GS":"8","MP":"28.6","FG":"2.5","FGA":"5.9","FG%":".422","3P":"0.4","3PA":"1.5","3P%":".276","2P":"2.1","2PA":"4.4","2P%":".471","eFG%":".457","FT":"1.0","FTA":"1.5","FT%":".684","ORB":"1.0","DRB":"4.1","TRB":"5.2","AST":"1.5","STL":"0.9","BLK":"0.3","TOV":"1.2","PF":"2.4","PS/G":"6.4"},{"Player":"Withey,Jeff","Pos":"C","Age":"25","Tm":"UTA","G":"51","GS":"10","MP":"12.9","FG":"1.7","FGA":"3.2","FG%":".537","3P":"0.0","3PA":"0.0","3P%":".000","2P":"1.7","2PA":"3.1","2P%":".544","eFG%":".537","FT":"0.8","FTA":"1.2","FT%":".729","ORB":"1.1","DRB":"2.3","TRB":"3.4","AST":"0.4","STL":"0.4","BLK":"1.0","TOV":"0.5","PF":"1.5","PS/G":"4.3"},{"Player":"Wood,Christian","Pos":"PF","Age":"20","Tm":"PHI","G":"17","GS":"0","MP":"8.5","FG":"1.3","FGA":"3.1","FG%":".415","3P":"0.2","3PA":"0.6","3P%":".364","2P":"1.1","2PA":"2.5","2P%":".429","eFG%":".453","FT":"0.8","FTA":"1.2","FT%":".619","ORB":"0.8","DRB":"1.5","TRB":"2.2","AST":"0.2","STL":"0.3","BLK":"0.4","TOV":"0.1","PF":"0.6","PS/G":"3.6"},{"Player":"World Peace,Metta","Pos":"SF","Age":"36","Tm":"LAL","G":"35","GS":"5","MP":"16.9","FG":"1.6","FGA":"5.1","FG%":".311","3P":"0.7","3PA":"2.4","3P%":".310","2P":"0.8","2PA":"2.7","2P%":".312","eFG%":".384","FT":"1.1","FTA":"1.6","FT%":".702","ORB":"0.5","DRB":"2.0","TRB":"2.5","AST":"0.8","STL":"0.6","BLK":"0.3","TOV":"0.4","PF":"1.9","PS/G":"5.0"},{"Player":"Wright,Brandan","Pos":"PF","Age":"28","Tm":"MEM","G":"12","GS":"2","MP":"17.7","FG":"2.9","FGA":"4.3","FG%":".673","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.9","2PA":"4.3","2P%":".673","eFG%":".673","FT":"1.1","FTA":"2.0","FT%":".542","ORB":"1.2","DRB":"2.4","TRB":"3.6","AST":"0.5","STL":"0.4","BLK":"1.3","TOV":"0.8","PF":"1.8","PS/G":"6.9"},{"Player":"Wright,Delon","Pos":"PG","Age":"23","Tm":"TOR","G":"27","GS":"1","MP":"8.5","FG":"1.3","FGA":"3.0","FG%":".450","3P":"0.2","3PA":"0.5","3P%":".385","2P":"1.1","2PA":"2.5","2P%":".463","eFG%":".481","FT":"1.0","FTA":"1.3","FT%":".743","ORB":"0.3","DRB":"1.1","TRB":"1.4","AST":"1.1","STL":"0.3","BLK":"0.1","TOV":"0.6","PF":"0.3","PS/G":"3.8"},{"Player":"Wroten,Tony","Pos":"PG","Age":"22","Tm":"PHI","G":"8","GS":"3","MP":"18.0","FG":"2.8","FGA":"8.1","FG%":".338","3P":"0.4","3PA":"2.1","3P%":".176","2P":"2.4","2PA":"6.0","2P%":".396","eFG%":".362","FT":"2.5","FTA":"4.6","FT%":".541","ORB":"0.3","DRB":"2.4","TRB":"2.6","AST":"2.5","STL":"0.4","BLK":"0.0","TOV":"3.6","PF":"1.4","PS/G":"8.4"},{"Player":"Young,James","Pos":"SG","Age":"20","Tm":"BOS","G":"29","GS":"0","MP":"6.9","FG":"0.4","FGA":"1.2","FG%":".306","3P":"0.2","3PA":"0.9","3P%":".231","2P":"0.2","2PA":"0.3","2P%":".500","eFG%":".389","FT":"0.0","FTA":"0.1","FT%":".250","ORB":"0.1","DRB":"0.8","TRB":"0.9","AST":"0.3","STL":"0.2","BLK":"0.0","TOV":"0.2","PF":"0.6","PS/G":"1.0"},{"Player":"Young,Joe","Pos":"PG","Age":"23","Tm":"IND","G":"41","GS":"0","MP":"9.4","FG":"1.5","FGA":"4.1","FG%":".367","3P":"0.2","3PA":"1.1","3P%":".217","2P":"1.3","2PA":"3.0","2P%":".423","eFG%":".396","FT":"0.5","FTA":"0.6","FT%":".800","ORB":"0.1","DRB":"1.1","TRB":"1.2","AST":"1.6","STL":"0.4","BLK":"0.0","TOV":"0.8","PF":"0.7","PS/G":"3.8"},{"Player":"Young,Nick","Pos":"SG","Age":"30","Tm":"LAL","G":"54","GS":"2","MP":"19.1","FG":"2.3","FGA":"6.9","FG%":".339","3P":"1.4","3PA":"4.4","3P%":".325","2P":"0.9","2PA":"2.5","2P%":".363","eFG%":".442","FT":"1.2","FTA":"1.4","FT%":".829","ORB":"0.3","DRB":"1.5","TRB":"1.8","AST":"0.6","STL":"0.4","BLK":"0.1","TOV":"0.6","PF":"0.9","PS/G":"7.3"},{"Player":"Young,Thaddeus","Pos":"PF","Age":"27","Tm":"BRK","G":"73","GS":"73","MP":"33.0","FG":"6.8","FGA":"13.2","FG%":".514","3P":"0.1","3PA":"0.4","3P%":".233","2P":"6.7","2PA":"12.8","2P%":".523","eFG%":".518","FT":"1.4","FTA":"2.2","FT%":".644","ORB":"2.4","DRB":"6.6","TRB":"9.0","AST":"1.8","STL":"1.5","BLK":"0.5","TOV":"1.9","PF":"2.5","PS/G":"15.1"},{"Player":"Zeller,Cody","Pos":"C","Age":"23","Tm":"CHO","G":"73","GS":"60","MP":"24.3","FG":"3.2","FGA":"6.0","FG%":".529","3P":"0.0","3PA":"0.1","3P%":".100","2P":"3.2","2PA":"5.8","2P%":".539","eFG%":".530","FT":"2.4","FTA":"3.2","FT%":".754","ORB":"1.9","DRB":"4.3","TRB":"6.2","AST":"1.0","STL":"0.8","BLK":"0.9","TOV":"0.9","PF":"2.8","PS/G":"8.7"},{"Player":"Zeller,Tyler","Pos":"C","Age":"26","Tm":"BOS","G":"60","GS":"3","MP":"11.8","FG":"2.3","FGA":"4.8","FG%":".476","3P":"0.0","3PA":"0.0","3P%":null,"2P":"2.3","2PA":"4.8","2P%":".476","eFG%":".476","FT":"1.5","FTA":"1.8","FT%":".815","ORB":"1.0","DRB":"1.9","TRB":"3.0","AST":"0.5","STL":"0.2","BLK":"0.4","TOV":"0.8","PF":"1.6","PS/G":"6.1"}]
 
 /***/ }),
-/* 735 */
+/* 466 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const d3 = __webpack_require__(67);
+const d3 = __webpack_require__(21);
 
 const handleExit = (e) => {
   e.preventDefault();
@@ -23444,11 +23171,11 @@ const setupGlossary = () => {
 
 
 /***/ }),
-/* 736 */
+/* 467 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const d3 = __webpack_require__(67);
+const d3 = __webpack_require__(21);
 
 const handleExit = (e) => {
   e.preventDefault();
@@ -23469,13 +23196,6 @@ const setupPlayer = () => {
 /* harmony export (immutable) */ __webpack_exports__["a"] = setupPlayer;
 
 
-
-/***/ }),
-/* 737 */
-/***/ (function(module, __webpack_exports__) {
-
-"use strict";
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/Users/clew/Desktop/Databall/lib/scrape.js'\n    at Error (native)");
 
 /***/ })
 /******/ ]);
