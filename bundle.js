@@ -9792,8 +9792,10 @@ const STATS = ['G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
                '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB',
                'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS'];
 
-
-const TEAMS = ['All', 'CLE', 'NYK', 'HOU', 'OKC', 'GSW', 'NOP', 'WAS', 'MIL'];
+const TEAMS = ['All', 'ATL', 'BOS', 'WAS', 'BKN', 'CHA', 'CHI', 'CLE', 'DAL',
+               'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA',
+               'MIL', 'MIN', 'NOP', 'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR',
+               'SAC', 'SA', 'TOR', 'UTA'];
 
 const POSITIONS = ['All','PG', 'SG', 'SF', 'PF', 'C'];
 
@@ -9825,6 +9827,7 @@ const populateStatsDropdowns = (data) => {
     .append('option')
       .attr('value', function(d) {return d;})
       .text(function(d) {return d;});
+  selects.property("value", 'PTS');
 };
 
 const populateTeamDropdowns = (data) => {
@@ -9884,12 +9887,6 @@ const addEventListeners = () => {
 
 };
 
-const setSelectorsDefault = () => {
-  d3.select('#xSelect')
-    .property("selected", (d) => {return d === "PTS";});
-  d3.select('#ySelect')
-    .property("selected", (d) => {return d === "PTS";});
-};
 
 document.addEventListener("DOMContentLoaded", (e) => {
   populateYearsDropdowns(YEARS);
@@ -9900,7 +9897,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   addEventListeners();
   Object(__WEBPACK_IMPORTED_MODULE_1__glossary_js__["a" /* setupGlossary */])();
   Object(__WEBPACK_IMPORTED_MODULE_2__player_js__["a" /* setupPlayer */])();
-  setSelectorsDefault();
   Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 });
 
