@@ -22985,13 +22985,18 @@ const NBACOLORS = {ATL: '#C8102E', BOS: '#007A33', WAS: '#0C2340', BKN: '#010101
                   PHI:'#006BB6', PHO:'#E56020', POR:'#F0163A;',
                   SAC:'#724C9F', SA:'#B6BFBF', TOR:'#CE1141', UTA:'#002B5C'};
 
+const fixName = (name) => {
+  let split = name.split(",");
+  return `${split[1]} ${split[0]}`;
+};
+
 const handleOpen = (e) => {
   let modal = d3.select('#player-modal')
                 .classed("close", false)
                 .classed("open", true);
   let playerModalStats = d3.select('#player-modal-stats').append("h1")
                               .attr("class", "player-modal-name")
-                              .html(e.name);
+                              .html(fixName(e.name));
   let stats = playerModalStats.append("ul")
                 .attr('class', 'stats-ul');
   Object.keys(e).forEach((stat) => {
@@ -23048,7 +23053,7 @@ const makePlot = (Params) => {
           .style("display", "inline-block")
           .style("left", (d3.event.pageX - 70) + "px")
           .style("top", (d3.event.pageY - 100) + "px");
-        tooltip.html(d.Player + "<br/>" + `<span>${Params.xSelect}: `  + d[Params.xSelect] + "</span><br/>"
+        tooltip.html(fixName(d.Player) + "<br/>" + `<span>${Params.xSelect}: `  + d[Params.xSelect] + "</span><br/>"
                       + (Params.xSelect === Params.ySelect ? '' : `<span>${Params.ySelect}: ` + d[Params.ySelect] + "</span><br/>"))
                       .style("background-color", `${NBACOLORS[d.Tm]}`);
 
