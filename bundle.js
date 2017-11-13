@@ -9788,7 +9788,10 @@ for (let i = 2018; i >= 2010; i--){
   YEARS.push(i);
 }
 
-const STATS = ['PTS', 'TRB', 'STL', 'AST'];
+const STATS = ['G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+               '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB',
+               'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS'];
+
 
 const TEAMS = ['All', 'CLE', 'NYK', 'HOU', 'OKC', 'GSW', 'NOP', 'WAS', 'MIL'];
 
@@ -23018,7 +23021,7 @@ const makePlot = (Params) => {
       .append("g")
         .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json(`../assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
+  d3.json(`../Databall/assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
     if (error) throw error;
     const refinedData = Object(__WEBPACK_IMPORTED_MODULE_0__parametrize_js__["a" /* parametrize */])(data, Params);
     refinedData.forEach((d) => {
