@@ -9802,8 +9802,7 @@ const Parameters = {
   type: 'PG',
   xSelect: 'PTS',
   ySelect: 'PTS',
-  startYear: 2016,
-  endYear: 2016,
+  Year: 2018,
   team: 'All',
   position: 'All',
   player: null
@@ -9871,11 +9870,8 @@ const addEventListeners = () => {
   let yAxisSelector = document.getElementById("ySelect");
   yAxisSelector.addEventListener("change", handleSelectChange);
 
-  let startYearSelector = document.getElementById("startYear");
-  startYearSelector.addEventListener("change", handleSelectChange);
-
-  let endYearSelector = document.getElementById("endYear");
-  endYearSelector.addEventListener("change", handleSelectChange);
+  let YearSelector = document.getElementById("Year");
+  YearSelector.addEventListener("change", handleSelectChange);
 
   let teamSelector = document.getElementById("team");
   teamSelector.addEventListener("change", handleSelectChange);
@@ -23021,7 +23017,7 @@ const makePlot = (Params) => {
       .append("g")
         .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json(`/Databall/assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
+  d3.json(`/Databall/assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
     if (error) throw error;
     const refinedData = Object(__WEBPACK_IMPORTED_MODULE_0__parametrize_js__["a" /* parametrize */])(data, Params);
     refinedData.forEach((d) => {
