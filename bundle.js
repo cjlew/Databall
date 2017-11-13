@@ -9884,6 +9884,12 @@ const addEventListeners = () => {
 
 };
 
+const setSelectorsDefault = () => {
+  d3.select('#xSelect')
+    .property("selected", (d) => {return d === "PTS";});
+  d3.select('#ySelect')
+    .property("selected", (d) => {return d === "PTS";});
+};
 
 document.addEventListener("DOMContentLoaded", (e) => {
   populateYearsDropdowns(YEARS);
@@ -9894,7 +9900,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   addEventListeners();
   Object(__WEBPACK_IMPORTED_MODULE_1__glossary_js__["a" /* setupGlossary */])();
   Object(__WEBPACK_IMPORTED_MODULE_2__player_js__["a" /* setupPlayer */])();
-
+  setSelectorsDefault();
   Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 });
 
