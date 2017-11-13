@@ -9827,7 +9827,6 @@ const populateStatsDropdowns = (data) => {
     .append('option')
       .attr('value', function(d) {return d;})
       .text(function(d) {return d;});
-  selects.property("value", 'PTS');
 };
 
 const populateTeamDropdowns = (data) => {
@@ -9887,6 +9886,13 @@ const addEventListeners = () => {
 
 };
 
+const setSelectorsDefault = () => {
+  d3.select('#xSelect')
+    .property("value", "PTS");
+  d3.select('#ySelect')
+    .property("value", "PTS");
+
+};
 
 document.addEventListener("DOMContentLoaded", (e) => {
   populateYearsDropdowns(YEARS);
@@ -9897,6 +9903,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   addEventListeners();
   Object(__WEBPACK_IMPORTED_MODULE_1__glossary_js__["a" /* setupGlossary */])();
   Object(__WEBPACK_IMPORTED_MODULE_2__player_js__["a" /* setupPlayer */])();
+  setSelectorsDefault();
   Object(__WEBPACK_IMPORTED_MODULE_0__make_plot_js__["a" /* makePlot */])(Parameters);
 });
 
@@ -22990,13 +22997,14 @@ const handleOpen = (e) => {
   let modal = d3.select('#player-modal')
                 .classed("close", false)
                 .classed("open", true);
+
   let playerModalStats = d3.select('#player-modal-stats').append("h1")
                               .attr("class", "player-modal-name")
-                              .html(fixName(e.name));
+                              .html(fixName(e.Player));
   let stats = playerModalStats.append("ul")
                 .attr('class', 'stats-ul');
   Object.keys(e).forEach((stat) => {
-    if (stat !== 'name') {
+    if (stat !== 'Player') {
     stats.append("li")
       .html(`${stat}: ` + `${e[stat]}`);
     }
@@ -23023,8 +23031,10 @@ const makePlot = (Params) => {
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
         .attr("transform","translate(" + margin.left + "," + margin.top + ")");
-
-  d3.json(`/Databall/assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
+  //Local
+  d3.json(`../assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
+  //Production
+  // d3.json(`/Databall/assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
     if (error) throw error;
     const refinedData = Object(__WEBPACK_IMPORTED_MODULE_0__parametrize_js__["a" /* parametrize */])(data, Params);
     refinedData.forEach((d) => {
