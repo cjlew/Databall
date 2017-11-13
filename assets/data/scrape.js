@@ -13,24 +13,24 @@ const TYPE = ['_per_game', "_totals"];
 let DATA = [];
 
 const makeFile = (data) => {
-  console.log(data);
-  jsonfile.writeFile("assets/data/PG2017.json", data);
+  // console.log(data);
+  jsonfile.writeFile("assets/data/TOT2018.json", data);
 };
 
 const fetch = (createFile) => {
-  request('https://www.basketball-reference.com/leagues/NBA_2017_per_game.html',
+  request('https://www.basketball-reference.com/leagues/NBA_2018_totals.html',
             function(err, resp, body) {
           if (!err){
             const $ = cheerio.load(body);
             let headers = $('thead tr th');
             let stats = [];
-            for (let i = 1; i <= 29; i++) {
+            for (let i = 1; i < 30; i++) {
               // each stat is (headers[i].children[0].data);
               stats.push(headers[i].children[0].data);
             }
-
+            stats[28] = 'PTS';
             let table = $('tr.full_table');
-            // console.log(table[3].children[13].children[0].data);
+            // console.log(table[3].children[30].children[0].data);
             // console.log(table[11].children[4].children[0].children[0].data);
             //each stat is table[playernumber].children[statnumbr].children.data
             for (let rk = 0; rk < table.length; rk++) {
@@ -54,7 +54,7 @@ const fetch = (createFile) => {
                   player[stat] = null;
                 }
               });
-              console.log(player);
+              // console.log(player);
               DATA.push(player);
             }
             createFile(DATA);
