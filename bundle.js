@@ -23021,7 +23021,7 @@ const makePlot = (Params) => {
       .append("g")
         .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json(`../Databall/assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
+  d3.json(`Databall/assets/data/${Params.type}${Params.startYear}.json`, (error, data) => {
     if (error) throw error;
     const refinedData = Object(__WEBPACK_IMPORTED_MODULE_0__parametrize_js__["a" /* parametrize */])(data, Params);
     refinedData.forEach((d) => {
