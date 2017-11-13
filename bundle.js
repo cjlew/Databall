@@ -23125,7 +23125,9 @@ const parametrize = (data, params) => {
     refinedData = data;
   }
   let searched = [];
+
   if (params.player !== null){
+
     refinedData.forEach((player) => {
       let playerName = player.Player.toLowerCase();
       let paramsName = params.player.toLowerCase();
@@ -23133,11 +23135,11 @@ const parametrize = (data, params) => {
         searched.push(player);
       }
     });
-    return searched;
-  } else {
-    return refinedData;
-
+    if (searched.length > 1) {
+      return searched;
+    }
   }
+  return refinedData;
 
 };
 /* harmony export (immutable) */ __webpack_exports__["a"] = parametrize;
