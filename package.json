@@ -12,8 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "d3": "^4.11.0",
     "jquery": "^3.2.1",
+    "request": "^2.83.0",
     "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7"
   }
 }

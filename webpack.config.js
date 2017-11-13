@@ -8,5 +8,11 @@ module.exports = {
   devtool: 'source-map',
   resolve: {
     extensions: [".js", "*"]
+  },
+  node: {
+    console: true,
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty'
   }
 };
