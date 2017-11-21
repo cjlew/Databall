@@ -23032,9 +23032,9 @@ const makePlot = (Params) => {
       .append("g")
         .attr("transform","translate(" + margin.left + "," + margin.top + ")");
   //Local
-  // d3.json(`../assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
+  d3.json(`../assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
   //Production
-  d3.json(`/Databall/assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
+  // d3.json(`/Databall/assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
     if (error) throw error;
 
     const refinedData = Object(__WEBPACK_IMPORTED_MODULE_0__parametrize_js__["a" /* parametrize */])(data, Params);
@@ -23144,15 +23144,14 @@ const parametrize = (data, params) => {
   let searched = [];
 
   if (params.player !== null){
-
     refinedData.forEach((player) => {
       let playerName = player.Player.toLowerCase();
       let paramsName = params.player.toLowerCase();
-      if (playerName.match(new RegExp(paramsName +'.*'))) {
+      if (playerName.match(new RegExp(paramsName)) !== null) {
         searched.push(player);
       }
     });
-    if (searched.length > 1) {
+    if (searched.length > 0) {
       return searched;
     }
   }
