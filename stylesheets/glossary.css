@@ -53,9 +53,14 @@ button {
   border: 1px solid #ffffff;
   color: #ffffff;
   width: 60%;
+  font-size: 14px;
+  font-family: 'Abel', sans-serif;
+
 }
 .glossary-terms > *{
   margin-bottom: 10px;
+  font-family: 'Abel', sans-serif;
+
 }
 
 .glossary-terms {
@@ -67,8 +72,12 @@ button {
   align-items: left;
   flex-direction: column;
   overflow: auto;
+  font-family: 'Abel', sans-serif;
+
 }
 
 li {
+  font-family: 'Abel', sans-serif;
+  
   list-style: none;
 }
