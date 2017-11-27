@@ -9792,10 +9792,10 @@ const STATS = ['G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
                '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB',
                'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS'];
 
-const TEAMS = ['All', 'ATL', 'BOS', 'WAS', 'BRK', 'CHO', 'CHI', 'CLE', 'DAL',
+const TEAMS = ['All', 'ATL', 'BOS', 'BRK', 'CHO', 'CHI', 'CLE', 'DAL',
                'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA',
                'MIL', 'MIN', 'NOP', 'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR',
-               'SAC', 'SA', 'TOR', 'UTA'];
+               'SAC', 'SAS', 'TOR', 'UTA', 'WAS'];
 
 const POSITIONS = ['All','PG', 'SG', 'SF', 'PF', 'C'];
 
@@ -22986,7 +22986,7 @@ const NBACOLORS = {ATL: '#C8102E', BOS: '#007A33', WAS: '#0C2340', BRK: '#010101
                   MIA:'#862633', MIL:'#2C5234', MIN:'#002B5C', NOP:'#002B5C',
                   NYK:'#003DA5', OKC:'#007DC3', ORL:'#007DC5',
                   PHI:'#006BB6', PHO:'#E56020', POR:'#F0163A;',
-                  SAC:'#724C9F', SA:'#B6BFBF', TOR:'#CE1141', UTA:'#002B5C'};
+                  SAC:'#724C9F', SAS:'#B6BFBF', TOR:'#CE1141', UTA:'#002B5C'};
 
 const fixName = (name) => {
   let split = name.split(",");
