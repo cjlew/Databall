@@ -9792,7 +9792,7 @@ const STATS = ['G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
                '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB',
                'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS'];
 
-const TEAMS = ['All', 'ATL', 'BOS', 'WAS', 'BKN', 'CHA', 'CHI', 'CLE', 'DAL',
+const TEAMS = ['All', 'ATL', 'BOS', 'WAS', 'BRK', 'CHO', 'CHI', 'CLE', 'DAL',
                'DEN', 'DET', 'GSW', 'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA',
                'MIL', 'MIN', 'NOP', 'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR',
                'SAC', 'SA', 'TOR', 'UTA'];
@@ -22978,8 +22978,8 @@ const d3 = __webpack_require__(21);
 
 
 
-const NBACOLORS = {ATL: '#C8102E', BOS: '#007A33', WAS: '#0C2340', BKN: '#010101',
-                  CHA: '#201747', CHI: '#BA0C2F',
+const NBACOLORS = {ATL: '#C8102E', BOS: '#007A33', WAS: '#0C2340', BRK: '#010101',
+                  CHO: '#201747', CHI: '#BA0C2F',
                   "CLE": '#6F263D', DAL: '#0050B5', DEN: '#418FDE',
                   DET: '#003DA5', GSW: '#003DA5', HOU: '#BA0C2F',
                   IND: '#041E42', LAC: '#D50032', LAL:'#702F8A', MEM:"#23375B;",
