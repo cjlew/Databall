@@ -25,6 +25,13 @@
   margin-left: 20px;
   width: 60px;
   height: 40px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+#glossary-close:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 #glossary-top {
@@ -40,10 +47,18 @@
 #glossary-open {
   width: 60px;
   height: 30px;
-  margin-bottom: 40px;
+  background: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+  width: 60%;
 }
 
-button:hover {
+#glossary-open:hover {
+  background: black;
+  color: #ffffff;
+}
+
+/*button:hover {
   background: #ffffff;
   color: black;
 }
@@ -53,14 +68,10 @@ button {
   border: 1px solid #ffffff;
   color: #ffffff;
   width: 60%;
-  font-size: 14px;
-  font-family: 'Abel', sans-serif;
-
-}
+}*/
 .glossary-terms > *{
   margin-bottom: 10px;
-  font-family: 'Abel', sans-serif;
-
+  color: #ffffff;
 }
 
 .glossary-terms {
@@ -72,12 +83,8 @@ button {
   align-items: left;
   flex-direction: column;
   overflow: auto;
-  font-family: 'Abel', sans-serif;
-
 }
 
 li {
-  font-family: 'Abel', sans-serif;
-  
   list-style: none;
 }
