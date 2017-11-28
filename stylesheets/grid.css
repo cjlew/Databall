@@ -1,6 +1,6 @@
 .index {
   display: grid;
-  grid-template-rows: 125px auto 105px;
+  grid-template-rows: 125px auto 130px;
   grid-template-areas:
   "top"
   "main"
