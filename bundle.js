@@ -23136,6 +23136,9 @@ const rePlot = (Params) => {
         .style("display", "none");
 
   let svg = d3.select('g');
+  let t = d3.transition()
+    .duration(750)
+    .ease(d3.easeLinear);
 
   //Local
   d3.json(`../assets/data/${Params.type}${Params.Year}.json`, (error, data) => {
@@ -23191,32 +23194,34 @@ const rePlot = (Params) => {
       .attr("cy", (d) => yUp((d[Params.ySelect])) );
 
 
-    circle.enter().append("circle")
+    let newCircles = circle.enter().append("circle")
         .attr('id', (d) => `${d.Player}`)
         .style("fill", (d) => `${NBACOLORS[d.Tm]}`)
         .attr("r", 5)
-        .attr("cx", (d) => xUp((d[Params.xSelect])) )
-        .attr("cy", (d) => yUp((d[Params.ySelect])) )
         .on("click", handleOpen)
         .on("mouseover", (d) => {
           tooltip.transition()
-            .style("display", "inline-block")
-            .style("left", (d3.event.pageX - 70) + "px")
-            .style("top", (d3.event.pageY - 100) + "px");
+          .style("display", "inline-block")
+          .style("left", (d3.event.pageX - 70) + "px")
+          .style("top", (d3.event.pageY - 100) + "px");
           tooltip.html(fixName(d.Player) + "<br/>" + `<span>${Params.xSelect}: `  + d[Params.xSelect] + "</span><br/>"
-                        + (Params.xSelect === Params.ySelect ? '' : `<span>${Params.ySelect}: ` + d[Params.ySelect] + "</span><br/>"))
-                        .style("background-color", `${NBACOLORS[d.Tm]}`);
+          + (Params.xSelect === Params.ySelect ? '' : `<span>${Params.ySelect}: ` + d[Params.ySelect] + "</span><br/>"))
+          .style("background-color", `${NBACOLORS[d.Tm]}`);
 
         })
         .on("mouseout", function(d) {
-         tooltip.transition()
-           .duration(400)
-           .style("display", 'none');
-         });
+          tooltip.transition()
+          .duration(400)
+          .style("display", 'none');
+        })
+        .transition(t)
+        .attr("cx", (d) => xUp((d[Params.xSelect])) )
+        .attr("cy", (d) => yUp((d[Params.ySelect])) );
+
 
    });
 
-    
+
 
 };
 /* harmony export (immutable) */ __webpack_exports__["b"] = rePlot;
