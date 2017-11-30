@@ -18,6 +18,7 @@
 }
 
 .stats-ul {
+  columns: 4;
   list-style: none;
   text-align: left;
   margin-left: 0;
